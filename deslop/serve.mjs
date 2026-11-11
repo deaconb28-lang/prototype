@@ -11,7 +11,7 @@ import { serveDir, readBody } from '../scripts/lib.mjs';
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const args = process.argv.slice(2);
 const runArg = args[0];
-const runDir = runArg && fs.existsSync(runArg) ? path.resolve(runArg) : path.join(HERE, '..', '.deslop', runArg || '');
+const runDir = runArg && fs.existsSync(runArg) ? path.resolve(runArg) : path.resolve('.deslop', runArg || '');
 if (!runArg || !fs.existsSync(path.join(runDir, 'review', 'index.html'))) { console.error('Usage: node deslop/serve.mjs <run>   (run deslop/review.mjs first)'); process.exit(1); }
 const port = Number(args.includes('--port') ? args[args.indexOf('--port') + 1] : 4321);
 

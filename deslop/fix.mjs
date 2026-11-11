@@ -13,7 +13,7 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 const args = process.argv.slice(2);
 const [cmd, runArg, id] = args;
 const opt = (n, d) => { const i = args.indexOf(`--${n}`); return i >= 0 ? args[i + 1] : d; };
-const runDir = fs.existsSync(runArg || '') ? path.resolve(runArg) : path.join(HERE, '..', '.deslop', runArg || '');
+const runDir = fs.existsSync(runArg || '') ? path.resolve(runArg) : path.resolve('.deslop', runArg || '');
 if (!cmd || !runArg || !fs.existsSync(path.join(runDir, 'audit.json'))) {
   console.error('Usage:\n  node deslop/fix.mjs new <run> <ID> --title "..." --indicators C01,C03 --page index.html [--selector ".hero"] [--why "..."]\n  node deslop/fix.mjs list <run>');
   process.exit(1);

@@ -10,11 +10,13 @@ Goal: in one pass, a 15-17 page clickable site a business owner would be proud o
 
 Arguments: `$ARGUMENTS`
 
+**Where things are.** The toolkit (engine, styles, trade packs, library, deslop) lives at `KIT/`, where KIT = `${CLAUDE_SKILL_DIR}/../../..`. That's this repo when it's cloned, or the plugin folder when installed as a plugin. Treat KIT as read-only. Your work goes in the **current project**: `sites/<slug>/` and `.deslop/`. Tell the user once that these folders hold client data; if the project is a git repo, suggest adding `sites/` and `.deslop/` to `.gitignore`. If screenshots fail because Playwright is missing, run `node "${CLAUDE_SKILL_DIR}/../../../scripts/setup.mjs"` once.
+
 ## 1. Gather the facts
 
-Make a slug from the business name (`ridgeline-roofing`) and work in `sites/<slug>/` (gitignored, so client work never lands in this public repo).
+Make a slug from the business name (`ridgeline-roofing`) and work in `sites/<slug>/` in the current project.
 
-- **Website URL**: `node scripts/extract.mjs <url> --out sites/<slug>/extract.json`. Add `--render` if the result is thin (JS-heavy sites).
+- **Website URL**: `node "${CLAUDE_SKILL_DIR}/../../../scripts/extract.mjs" <url> --out sites/<slug>/extract.json`. Add `--render` if the result is thin (JS-heavy sites).
 - **Google Maps / Business Profile link**: run the same script. With `GOOGLE_PLACES_API_KEY` set it returns name, phone, address, hours, rating, review count and up to 5 reviews via the official Places API. Without a key it returns `placeName`: search the web for that name plus town to find the website, then extract from the website. Never scrape Google Maps pages.
 - **Plain details**: parse name, trade, town/state and phone from the arguments.
 
@@ -22,13 +24,13 @@ The minimum is **name, trade, town (with state/region) and phone**. If something
 
 ## 2. Pick the trade pack
 
-Map the business to one of `trades/*.json`: roofing, plumbing, hvac, electrical, landscaping, painting, pest-control, cleaning, remodeling, garage-doors. Close matches: gutters→roofing, AC/furnace→hvac, handyman/general contractor/kitchen and bath→remodeling, tree service/lawn care/irrigation/fencing→landscaping, pressure washing/window cleaning/maid service→cleaning, drain/sewer/water heater→plumbing, solar/generator/EV charger→electrical.
+Map the business to one of `KIT/trades/*.json`: roofing, plumbing, hvac, electrical, landscaping, painting, pest-control, cleaning, remodeling, garage-doors. Close matches: gutters→roofing, AC/furnace→hvac, handyman/general contractor/kitchen and bath→remodeling, tree service/lawn care/irrigation/fencing→landscaping, pressure washing/window cleaning/maid service→cleaning, drain/sewer/water heater→plumbing, solar/generator/EV charger→electrical.
 
 If none fits (e.g. a locksmith or an auto shop), copy the closest pack to `sites/<slug>/trade.json` and rewrite services, FAQs, process, quote form and hero for the real trade. Keep the same schema and the copy rules below. The engine prefers `sites/<slug>/trade.json` when it exists.
 
 ## 3. Pick the style
 
-Use the style the user named. Otherwise use the default for the trade and mention the two alternatives. Read `styles/README.md` when the brand calls for something else (premium vs value, existing brand colors, the tone of their current site).
+Use the style the user named. Otherwise use the default for the trade and mention the two alternatives. Read `KIT/styles/README.md` when the brand calls for something else (premium vs value, existing brand colors, the tone of their current site).
 
 | Trade | Default | Also good |
 |---|---|---|
@@ -47,7 +49,7 @@ If the business has a real brand color, override the accent in `site.json` → `
 
 ## 4. Write `sites/<slug>/site.json`
 
-The full field reference is in [site-json.md](site-json.md). Copy `examples/<style>/site.json` as a starting point. Fill in:
+The full field reference is in [site-json.md](site-json.md). Copy `KIT/examples/<style>/site.json` as a starting point. Fill in:
 
 - `business`: real facts only (name, trade, city, region, areas, phone, email, hours, address, license, years, rating, reviews, certifications, guarantees, logo, about). Leave out what you don't know: the engine shows a tagged sample instead of inventing it.
 - `photos`: the business's own photos from extraction (`[{ "url", "alt", "use": "hero" | "work" | "team" }]`). Pick a wide, sharp, well-lit hero that shows the work or a house. With no photos, the engine uses the trade's curated stock set, labeled "Stock photo".
@@ -63,7 +65,7 @@ The full field reference is in [site-json.md](site-json.md). Copy `examples/<sty
 ## 5. Build
 
 ```bash
-node engine/build.mjs sites/<slug>
+node "${CLAUDE_SKILL_DIR}/../../../engine/build.mjs" sites/<slug>
 ```
 
 This writes `sites/<slug>/dist/` as plain HTML, CSS and a tiny JS file, so it can be hosted anywhere. It includes the home page, services index, one page per service, work, reviews, about, service area, contact, thank-you and 404 pages, plus LocalBusiness schema, a sticky mobile call bar and working quote forms (prototype forms go to the thank-you page).
@@ -71,27 +73,45 @@ This writes `sites/<slug>/dist/` as plain HTML, CSS and a tiny JS file, so it ca
 ## 6. Deslopify it (automatic, no review UI)
 
 ```bash
-node deslop/audit.mjs sites/<slug>/dist --prototype --city "<Town>" --run <slug>
+node "${CLAUDE_SKILL_DIR}/../../../deslop/audit.mjs" sites/<slug>/dist --prototype --city "<Town>" --run <slug>
 ```
 
 - Fix every failing automatic check **at the source**: copy in `site.json`, styling in `site.json` → `css`. Then rebuild and re-audit. Stop at an automatic score of 90 or more, or after 3 rounds.
-- Then read `.deslop/<slug>/screens/index-desktop.jpg` and `index-mobile.jpg` and judge the 18 visual indicators (`check: "visual"` in `deslop/indicators.json`). Fix what's in your control, such as a weak hero photo or a vague service list.
+- Then read `.deslop/<slug>/screens/index-desktop.jpg` and `index-mobile.jpg` and judge the 18 visual indicators (`check: "visual"` in `KIT/deslop/indicators.json`). Fix what's in your control, such as a weak hero photo or a vague service list.
 - `--prototype` turns placeholders (sample reviews, stock photos, missing license) into **launch blockers** instead of score penalties. Report them; don't hide them.
 
 ## 7. Preview and share
 
 - Screenshots for the user:
   ```bash
-  node scripts/screenshot.mjs sites/<slug>/dist --pages index.html,contact.html --out sites/<slug>/screens --scale 2
+  node "${CLAUDE_SKILL_DIR}/../../../scripts/screenshot.mjs" sites/<slug>/dist --pages index.html,contact.html --out sites/<slug>/screens --scale 2
   ```
   Then show them.
-- Local preview: run `node scripts/serve.mjs sites/<slug>/dist --port 4173` in the background and give the URL. In a cloud session, also report the port so the app can preview it.
-- Live link: if the user asked for one, or a Vercel or Netlify tool or CLI is connected, offer to deploy `dist/` as a preview deployment. Deploy without asking only if the request already asked for a link. Say that the link is public to anyone who has it.
+- Local preview: run `node "${CLAUDE_SKILL_DIR}/../../../scripts/serve.mjs" sites/<slug>/dist --port 4173` in the background and give the URL. In a cloud session, also report the port so the app can preview it.
+- Live link: see **Deploy to Vercel** below.
+
+## Deploy to Vercel
+
+Deploy when the user asks for a live or shareable link, or says "deploy". Otherwise offer it once in your report. A deployed prototype is public to anyone with the link.
+
+```bash
+node "${CLAUDE_SKILL_DIR}/../../../scripts/deploy.mjs" sites/<slug>
+```
+
+- This creates (or reuses) a Vercel project named `<slug>-preview` and deploys `dist/` to its **production** target, so the link is `https://<slug>-preview.vercel.app`. A production URL opens without a Vercel login. Preview deployments (`--preview`) usually sit behind Vercel Authentication on new projects, so the business owner would hit a login wall. Use `--preview` only for internal checks.
+- The `-preview` suffix keeps the URL from passing as the business's official site. Prototypes also ship with `noindex` and a `robots.txt` that blocks search engines until a `--final` build.
+- Rebuild, then run the same command again to update the link. The Vercel project link is kept in `dist/.vercel`.
+- **Not logged in?** The script exits with code 4 and says so. Ask the user to either run `! npx vercel login` in this session (it opens a browser sign-in), or create a token at https://vercel.com/account/tokens and make it available as `VERCEL_TOKEN`. Never ask them to paste a token into the chat; in a cloud session, request it as a credential for `api.vercel.com` instead. Then run the deploy again.
+- Teams: add `--scope <team-slug>`. Custom project name: `--project <name>`.
+- After deploying, open the URL in a screenshot (`node "${CLAUDE_SKILL_DIR}/../../../scripts/screenshot.mjs" <url>`) to confirm it loads before you share it.
+- No Vercel? `npx netlify-cli deploy --dir sites/<slug>/dist --prod` works the same way after `npx netlify-cli login`. Any static host can serve `dist/` as-is.
+
+When the business signs off and real facts and photos are in, build with `--final` and deploy that build to the business's own Vercel project and domain (`--project <their-project>`). A final build drops `noindex`.
 
 ## 8. Report back (keep it short)
 
 ```
-**<Business> prototype is ready**: <link or local URL>
+**<Business> prototype is ready**: <Vercel link or local URL>
 - Style: <style> (<why, one clause>). Say "try <alt1>" or "try <alt2>" to switch.
 - <N> pages: home, services (+<n> service pages), work, reviews, about, service area, contact.
 - Deslop score: <score>/100; visual checks <passed>/18.
@@ -104,5 +124,5 @@ Then show the screenshots.
 ## Follow-ups
 - **"try <style>"**: change `style` in `site.json`, rebuild, re-screenshot. It takes seconds.
 - **Edits**: change `site.json` and rebuild. Don't hand-edit `dist/`; the next build overwrites it.
-- **Going live**: `node engine/build.mjs sites/<slug> --final` refuses to build while any sample, stock photo or unconfirmed claim remains.
-- **Ideas for new styles or sections**: the reference library is in `library/`. `library/sections/*.json` has Mobbin references with notes, and `library/trade-patterns.json` has what converts on real trade sites.
+- **Going live**: `node "${CLAUDE_SKILL_DIR}/../../../engine/build.mjs" sites/<slug> --final` refuses to build while any sample, stock photo or unconfirmed claim remains.
+- **Ideas for new styles or sections**: the reference library is in `KIT/library/`. `sections/*.json` has Mobbin references with notes, and `trade-patterns.json` has what converts on real trade sites.

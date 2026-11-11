@@ -6,7 +6,7 @@ This repo is a Claude Code toolkit. It turns a few facts about a local trade bus
 - **10 styles × 10 trade packs** (`styles/`, `trades/`): any style works with any trade. Styles set typography, palette, shape and layout variants; trade packs supply services, FAQs, process, quote form, emergency and financing defaults, schema type and placeholder photos.
 - **A static site engine** (`engine/`): `site.json` in, a 15-17 page site out (plain HTML/CSS, about 1 KB of JS), with LocalBusiness schema, tap-to-call everywhere, a sticky mobile call bar and working quote forms.
 - **A deslop system** (`deslop/`): 100 indicators of AI-made or template-made sites (82 automatic, 18 visual), an audit, fix candidates, a before/after review page with accept/reject, and patch application.
-- **Skills**: `/prototype`, `/deslopify`, `/refresh-library` (in `.claude/skills/`).
+- **Skills**: `/prototype`, `/deslopify`, `/refresh-library` (in `.claude/skills/`). The repo is also a Claude Code plugin and marketplace (`.claude-plugin/`), so the same skills install into any project with `/plugin install prototype --marketplace deaconb28-lang/prototype`.
 
 ## Start of every session
 
@@ -20,7 +20,7 @@ Before your first reply in a new session, run `node scripts/status.mjs` (skip it
 
 If the user's first message already asks for something, do that first and keep the update to one line at the end.
 
-If the library is missing (`library/sections/` has fewer than 5 files), say so and start `/refresh-library` when the Mobbin MCP is connected. If it isn't, explain how to connect it (`/mcp` → mobbin → Authenticate; it's declared in `.mcp.json`).
+If the library is missing (`library/sections/` has fewer than 5 files), say so and start `/refresh-library` when the Mobbin MCP is connected. If it isn't, explain how to connect it: `claude mcp add mobbin --scope user --transport http https://api.mobbin.com/mcp`, then `/mcp` → mobbin → Authenticate.
 
 ## Rules that apply to everything here
 
@@ -38,7 +38,8 @@ styles/<id>/        style.json (tokens, fonts, layout variants, Mobbin reference
 trades/<id>.json    trade content packs; trades/photos.json = curated Pexels placeholders
 engine/             build.mjs (site.json → dist), components.mjs (section variants), assets/base.css, assets/site.js
 deslop/             indicators.json (100), audit.mjs, collect.js, fix.mjs, review.mjs, serve.mjs, apply.mjs, fixtures/
-scripts/            status, extract (website or Google listing → facts), screenshot, serve, build-examples
+scripts/            status, setup (Playwright), extract (website or Google listing → facts), screenshot, serve, deploy (Vercel), build-examples
+.claude-plugin/     plugin.json + marketplace.json + icon.png
 examples/<style>/   one fictional demo business per style, built and screenshotted
 sites/              your prototypes (gitignored)
 ```
@@ -52,8 +53,17 @@ node engine/build.mjs sites/<slug> [--style <id>]    # build a site
 node scripts/serve.mjs sites/<slug>/dist             # click through it locally
 node scripts/screenshot.mjs sites/<slug>/dist --pages index.html,contact.html --full
 node deslop/audit.mjs <dir|url> [--prototype]        # 82 automatic checks + screenshots
+node scripts/deploy.mjs sites/<slug>                 # share on Vercel: https://<slug>-preview.vercel.app
 node scripts/build-examples.mjs                      # rebuild all 10 demo sites
+claude plugin validate .                             # check the plugin + marketplace manifests
 ```
+
+## Skills must work in two places
+
+The same `SKILL.md` files run as project skills in this repo and as plugin skills in other people's projects. So:
+- Reference toolkit files through `${CLAUDE_SKILL_DIR}/../../..` (the repo root, or the plugin root when installed). Never use bare relative paths like `engine/build.mjs`, and never `${CLAUDE_PLUGIN_ROOT}` (it isn't substituted in project skills).
+- Write user output to the current project (`sites/`, `.deslop/`), never into the toolkit folder. The plugin's folder is a versioned cache that gets replaced on update.
+- To release, bump `version` in `.claude-plugin/plugin.json` and in the plugin entry of `.claude-plugin/marketplace.json`, run `claude plugin validate .`, then merge to the default branch. Installed users get it with `/plugin update`.
 
 ## Extending
 

@@ -4,6 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { loadPlaywright } from './lib.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const hook = process.argv.includes('--hook');
@@ -20,15 +21,17 @@ const trades = ls('trades').filter((f) => f.endsWith('.json') && f !== 'photos.j
 const photos = Object.values(read('trades/photos.json', { trades: {} }).trades || {}).reduce((a, l) => a + l.length, 0);
 const ind = read('deslop/indicators.json', { indicators: [] }).indicators;
 const examples = ls('examples').filter((d) => fs.existsSync(path.join(ROOT, 'examples', d, 'site.json')));
-const sites = ls('sites').filter((d) => fs.existsSync(path.join(ROOT, 'sites', d, 'site.json')));
-const runs = ls('.deslop');
+const lsAbs = (p) => { try { return fs.readdirSync(p); } catch (_) { return []; } };
+const sitesDir = path.resolve('sites');
+const sites = lsAbs(sitesDir).filter((d) => fs.existsSync(path.join(sitesDir, d, 'site.json')));
+const runs = lsAbs(path.resolve('.deslop'));
 const ageDays = newest ? Math.floor((Date.now() - new Date(newest).getTime()) / 864e5) : null;
 
 const lines = [];
 const missing = sectionFiles.length < 5;
 lines.push(`Prototype toolkit status (${new Date().toISOString().slice(0, 10)})`);
 lines.push(missing
-  ? '- Library: MISSING or incomplete. Run /refresh-library (needs the Mobbin MCP; see .mcp.json).'
+  ? '- Library: MISSING or incomplete. Run /refresh-library (needs the Mobbin MCP; see docs/mobbin-mcp.json).'
   : `- Reference library: ${refs} references across ${sectionFiles.length} section types (Mobbin, collected ${newest}${ageDays != null ? `, ${ageDays} days ago` : ''}), ${directions} style directions${tp ? `, ${tp.sites?.length || 0} real trade sites and ${tp.conversion_patterns?.length || 0} conversion patterns` : ''}.`);
 lines.push(`- Styles (${styles.length}): ${styles.join(', ')}`);
 lines.push(`- Trade packs (${trades.length}): ${trades.join(', ')}; ${photos} placeholder photos`);
@@ -36,7 +39,7 @@ lines.push(`- Deslop checks: ${ind.length} indicators (${ind.filter((i) => i.che
 lines.push(`- Examples: ${examples.length} demo sites in examples/ · Your prototypes in sites/: ${sites.length ? sites.join(', ') : 'none yet'}${runs.length ? ` · ${runs.length} deslop runs in .deslop/` : ''}`);
 lines.push('- Skills: /prototype (build a clickable site from a few details, a website or a Google listing), /deslopify (audit + fix with before/after review), /refresh-library (re-scrape Mobbin)');
 if (ageDays != null && ageDays > 90) lines.push(`- Note: the library is ${ageDays} days old. Offer /refresh-library if the Mobbin MCP is connected.`);
-if (!fs.existsSync(path.join(ROOT, 'node_modules', 'playwright'))) lines.push('- Screenshots and audits need Playwright: run `npm install` (and `npx playwright install chromium` if no browser is installed). Skip if it already works.');
+if (!loadPlaywright({ optional: true })) lines.push(`- Screenshots and audits need Playwright: run \`node ${path.relative(process.cwd(), path.join(ROOT, 'scripts', 'setup.mjs')) || 'scripts/setup.mjs'}\` once.`);
 
 if (hook) {
   console.log('<prototype-status>');

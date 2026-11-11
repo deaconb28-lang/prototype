@@ -12,16 +12,28 @@ Open this repo in [Claude Code](https://claude.com/claude-code) and you get:
 
 When you open the repo, Claude reads `CLAUDE.md`, checks the toolkit (`scripts/status.mjs`) and opens with a status update and examples to try.
 
-## Quick start
+## Install
+
+**As a plugin** (use `/prototype` and `/deslopify` in any project):
+
+```
+/plugin install prototype --marketplace deaconb28-lang/prototype
+```
+
+On older Claude Code versions, use two steps: `/plugin marketplace add deaconb28-lang/prototype`, then `/plugin install prototype@prototype-tools`. Plugin skills are also available under their namespaced names, `/prototype:prototype` and `/prototype:deslopify`. Your prototypes and audit runs are written to the project you're in (`sites/`, `.deslop/`), never to the plugin folder. Run `/plugin update` to get new styles and fixes.
+
+**Or clone the repo** (to work on the toolkit itself, refresh the library, or get the session-start status update):
 
 ```bash
 git clone https://github.com/deaconb28-lang/prototype && cd prototype
-npm install                      # Playwright, for screenshots and audits
-npx playwright install chromium  # only if you don't already have a browser for Playwright
 claude
 ```
 
-Then try:
+Either way, screenshots and audits need Playwright once: Claude runs `scripts/setup.mjs` for you the first time it's missing. It reuses an existing install or puts one in `~/.cache/prototype-toolkit`.
+
+## Quick start
+
+Try:
 
 ```
 /prototype Ridgeline Roofing, roofer in Boise ID, (208) 555-0142
@@ -31,7 +43,17 @@ Then try:
 /deslopify https://any-live-site.com          (audit + mockups: "your site scores 34, here it is at 88")
 ```
 
-Requirements: Node 18+ and Claude Code. Optional: a Mobbin account (to refresh the library), a Google Places API key (to pull ratings and reviews from Google links), and Vercel or Netlify (for live preview links).
+Requirements: Node 18+ and Claude Code. Optional: a Vercel account (for shareable links), a Google Places API key (to pull ratings and reviews from Google links), and a Mobbin account (to refresh the library).
+
+### Share it on Vercel
+
+Ask `/prototype` to deploy, or run it yourself:
+
+```bash
+node scripts/deploy.mjs sites/ridgeline-roofing     # → https://ridgeline-roofing-preview.vercel.app
+```
+
+Each prospect gets its own Vercel project, `<slug>-preview`, deployed to production so the link opens without a Vercel login. The `-preview` suffix keeps it from passing as the business's official site, and prototypes carry `noindex` plus a blocking `robots.txt` until you build with `--final`. You need to be logged in once (`npx vercel login`) or have `VERCEL_TOKEN` set. Rebuild and run it again to update the same link.
 
 ## The 10 styles
 
@@ -71,7 +93,7 @@ The flow is `audit → visual.json → fix candidates → review page → apply`
 
 ## Reference library
 
-[`library/`](library/README.md) holds Mobbin page links plus written observations (layout, approximate sizes and colors, crafted details, how a trade would adapt it). No Mobbin images are stored, since this repo is public. `.mcp.json` declares Mobbin's MCP server (`https://api.mobbin.com/mcp`); connect it with `/mcp` → mobbin → Authenticate, then run `/refresh-library` to re-scrape or extend.
+[`library/`](library/README.md) holds Mobbin page links plus written observations (layout, approximate sizes and colors, crafted details, how a trade would adapt it). No Mobbin images are stored, since this repo is public. To re-scrape or extend it, work in a clone: connect Mobbin's MCP server with `claude mcp add mobbin --scope user --transport http https://api.mobbin.com/mcp` (or copy [`docs/mobbin-mcp.json`](docs/mobbin-mcp.json) to `.mcp.json`), authenticate via `/mcp`, then run `/refresh-library`.
 
 ## Optional: status before the first message
 
@@ -80,13 +102,14 @@ The flow is `audit → visual.json → fix candidates → review page → apply`
 ## Repo map
 
 ```
+.claude-plugin/   plugin.json, marketplace.json, icon.png (the repo is its own plugin marketplace)
 .claude/skills/   prototype, deslopify, refresh-library
 library/          reference library (see library/README.md)
 styles/           10 styles (style.json + style.css)
 trades/           10 trade packs + photos.json (curated Pexels placeholders)
 engine/           build.mjs, components.mjs, icons.mjs, assets/base.css, assets/site.js
 deslop/           indicators.json, audit, collect, fix, review, serve, apply, fixtures/
-scripts/          status, extract, screenshot, serve, build-examples
+scripts/          status, setup, extract, screenshot, serve, deploy (Vercel), build-examples
 examples/         one demo site per style
 sites/            your prototypes (gitignored)
 ```

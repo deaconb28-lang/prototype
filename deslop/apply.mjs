@@ -16,7 +16,7 @@ import { fileURLToPath } from 'node:url';
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const args = process.argv.slice(2);
 const runArg = args[0];
-const runDir = runArg && fs.existsSync(runArg) ? path.resolve(runArg) : path.join(HERE, '..', '.deslop', runArg || '');
+const runDir = runArg && fs.existsSync(runArg) ? path.resolve(runArg) : path.resolve('.deslop', runArg || '');
 if (!runArg || !fs.existsSync(path.join(runDir, 'audit.json'))) { console.error('Usage: node deslop/apply.mjs <run> [--ids F01,F02 | --all] [--mockup]'); process.exit(1); }
 const audit = JSON.parse(fs.readFileSync(path.join(runDir, 'audit.json'), 'utf8'));
 const fixesDir = path.join(runDir, 'fixes');

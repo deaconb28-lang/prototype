@@ -11,7 +11,7 @@ import { loadPlaywright, serveDir } from '../scripts/lib.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const runArg = process.argv[2];
-const runDir = runArg && fs.existsSync(runArg) ? path.resolve(runArg) : path.join(HERE, '..', '.deslop', runArg || '');
+const runDir = runArg && fs.existsSync(runArg) ? path.resolve(runArg) : path.resolve('.deslop', runArg || '');
 if (!runArg || !fs.existsSync(path.join(runDir, 'audit.json'))) { console.error('Usage: node deslop/review.mjs <run>'); process.exit(1); }
 
 const audit = JSON.parse(fs.readFileSync(path.join(runDir, 'audit.json'), 'utf8'));

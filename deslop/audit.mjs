@@ -26,7 +26,7 @@ const city = opt('city', '');
 const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\..+/, '').replace('T', '-');
 const slug = (isUrl ? new URL(target).hostname : path.basename(path.resolve(target)) === 'dist' || path.basename(path.resolve(target)) === 'site' ? path.basename(path.dirname(path.resolve(target))) : path.basename(path.resolve(target))).replace(/[^a-z0-9.-]+/gi, '-');
 const runName = opt('run', `${slug}-${stamp}`);
-const runDir = path.resolve(opt('out', path.join(ROOT, '.deslop')), runName);
+const runDir = path.resolve(opt('out', '.deslop'), runName);  // in the current project, never the toolkit folder
 fs.mkdirSync(path.join(runDir, 'screens'), { recursive: true });
 
 const catalog = JSON.parse(fs.readFileSync(path.join(HERE, 'indicators.json'), 'utf8'));

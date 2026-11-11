@@ -8,12 +8,14 @@ argument-hint: "<site folder | URL> [--auto] [--prototype]"
 
 Arguments: `$ARGUMENTS`
 
-The checklist is `deslop/indicators.json`: 100 indicators, each with id, category, severity, `check: "auto" | "visual"`, why it reads as slop, and the fix. 82 are checked by script; 18 need your eyes on screenshots.
+**Where things are.** The toolkit lives at `KIT/`, where KIT = `${CLAUDE_SKILL_DIR}/../../..` (this repo, or the plugin folder when installed as a plugin). Treat it as read-only. Runs are written to `.deslop/<run>/` in the **current project**. If Playwright is missing, run `node "${CLAUDE_SKILL_DIR}/../../../scripts/setup.mjs"` once.
+
+The checklist is `KIT/deslop/indicators.json`: 100 indicators, each with id, category, severity, `check: "auto" | "visual"`, why it reads as slop, and the fix. 82 are checked by script; 18 need your eyes on screenshots.
 
 ## 0. Pick the target and mode
 
 - **Built site folder** (has `index.html`), such as `sites/<slug>/dist` or any static site: the full flow below.
-- **The demo fixture** `deslop/fixtures/vibecoded-roofer`: copy it to `sites/vibecoded-demo` first and audit the copy, so the fixture stays intact.
+- **The demo fixture** `KIT/deslop/fixtures/vibecoded-roofer`: copy it to `sites/vibecoded-demo` in the current project first and audit the copy, so the fixture stays intact.
 - **A project with source code** (React, Next, Astro...): build it to static output if possible (`npm run build`, then `dist/` or `out/`) and audit that, or run its dev server and audit the URL. The patches then show what to change; implement accepted fixes in the source files.
 - **Sites built by /prototype** (`sites/<slug>/dist`): `dist/` is generated. After acceptance, carry the accepted changes into `sites/<slug>/site.json` (copy, `css`) and rebuild rather than patching `dist/`.
 - **Live URL**: audit plus mockups. The audit snapshots the rendered pages, fixes are mocked up on the snapshots, and "apply" produces a patched mockup copy. It makes a strong sales asset: "your site scores 34; here it is at 88."
@@ -23,7 +25,7 @@ The checklist is `deslop/indicators.json`: 100 indicators, each with id, categor
 ## 1. Audit
 
 ```bash
-node deslop/audit.mjs <folder-or-url> [--prototype] [--city "<Town>"] [--run <name>]
+node "${CLAUDE_SKILL_DIR}/../../../deslop/audit.mjs" <folder-or-url> [--prototype] [--city "<Town>"] [--run <name>]
 ```
 
 This prints the automatic score and the failures, and writes `.deslop/<run>/` containing `audit.json`, `base/` (the snapshot that fixes are made against) and `screens/` (full-page desktop and mobile shots of every audited page).
@@ -56,7 +58,7 @@ Fixes that need facts you don't have (a license number, real reviews) go under "
 For each fix:
 
 ```bash
-node deslop/fix.mjs new <run> F01 --title "Short imperative title" --indicators C03,C12,V01 --page index.html --selector ".hero" --why "One sentence: what changes and why it helps."
+node "${CLAUDE_SKILL_DIR}/../../../deslop/fix.mjs" new <run> F01 --title "Short imperative title" --indicators C03,C12,V01 --page index.html --selector ".hero" --why "One sentence: what changes and why it helps."
 ```
 
 Then edit **only that fix's change** in `.deslop/<run>/fixes/F01/site/`. Keep fixes from overlapping where you can (different sections of a file are fine). Follow the copy rules: plain and specific, none of the C01 words, no em dashes, no exclamation marks, no invented facts. `--selector` sets the area the before/after mockup crops to.
@@ -64,7 +66,7 @@ Then edit **only that fix's change** in `.deslop/<run>/fixes/F01/site/`. Keep fi
 ## 4. Build the review page
 
 ```bash
-node deslop/review.mjs <run>
+node "${CLAUDE_SKILL_DIR}/../../../deslop/review.mjs" <run>
 ```
 
 This writes patches, before/after screenshots (desktop and mobile) and `.deslop/<run>/review/index.html`, plus a shareable `report.md`. Read one or two of the `review/shots/*-after-*.jpg` images to confirm the mockups look right before showing the user.
@@ -74,7 +76,7 @@ This writes patches, before/after screenshots (desktop and mobile) and `.deslop/
 Start the review server in the background:
 
 ```bash
-node deslop/serve.mjs <run> --port 4321
+node "${CLAUDE_SKILL_DIR}/../../../deslop/serve.mjs" <run> --port 4321
 ```
 
 Give the user the URL; in a cloud session, also report the port for preview. Tell them: open it, compare before and after (side by side or slider, desktop or mobile), accept or reject each fix, then press **Apply accepted fixes** and tell you "done".
@@ -84,8 +86,8 @@ If they can't open a browser, show each fix in chat with its before/after images
 ## 6. Apply
 
 ```bash
-node deslop/apply.mjs <run>              # reads decisions.json written by the review page
-node deslop/apply.mjs <run> --ids F01,F03  # or explicit
+node "${CLAUDE_SKILL_DIR}/../../../deslop/apply.mjs" <run>              # reads decisions.json written by the review page
+node "${CLAUDE_SKILL_DIR}/../../../deslop/apply.mjs" <run> --ids F01,F03  # or explicit
 ```
 
 Patches are dry-run first. One that no longer applies cleanly is skipped and reported; merge it by hand from `fixes/<ID>/site/`. Then re-audit and report the new score:

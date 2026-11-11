@@ -1,0 +1,6 @@
+{
+  "_note": "Only needed to refresh the reference library (/refresh-library). Either run: claude mcp add mobbin --scope user --transport http https://api.mobbin.com/mcp  -- or copy this file to .mcp.json in your clone. Requires a Mobbin account; authenticate via /mcp.",
+  "mcpServers": {
+    "mobbin": { "type": "http", "url": "https://api.mobbin.com/mcp" }
+  }
+}

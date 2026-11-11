@@ -2,15 +2,24 @@
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
+import os from 'node:os';
 import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
 
-const require = createRequire(import.meta.url);
+export const KIT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+// Shared install location so the plugin (whose folder is a versioned cache) and
+// any project can use one Playwright. scripts/setup.mjs installs it here.
+export const DEPS_DIR = process.env.PROTOTYPE_DEPS || path.join(os.homedir(), '.cache', 'prototype-toolkit');
 
 export function loadPlaywright({ optional = false } = {}) {
-  try { return require('playwright'); } catch (_) {}
-  try { return require('@playwright/test'); } catch (_) {}
+  const bases = [KIT_ROOT, process.cwd(), DEPS_DIR].map((d) => path.join(d, 'noop.js'));
+  for (const base of bases) {
+    const req = createRequire(base);
+    for (const name of ['playwright', '@playwright/test']) { try { return req(name); } catch (_) {} }
+  }
+  try { return createRequire(import.meta.url)('playwright'); } catch (_) {}
   if (optional) return null;
-  console.error('Playwright is not installed. Run `npm install` in this repo, then `npx playwright install chromium`.');
+  console.error(`Playwright is not installed. Run: node "${path.join(KIT_ROOT, 'scripts', 'setup.mjs')}"`);
   process.exit(3);
 }
 

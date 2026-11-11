@@ -185,6 +185,7 @@ function page({ id, file, title, description, body, base = '', extraSchema }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${e(title)}</title>
 <meta name="description" content="${e(description)}">
+${final ? '' : '<meta name="robots" content="noindex, nofollow">'}
 <meta property="og:type" content="website">
 <meta property="og:title" content="${e(title)}">
 <meta property="og:description" content="${e(description)}">
@@ -218,7 +219,8 @@ ${C.mobileBar(ctx)}
 const loc = `${b.city}${b.region ? `, ${b.region}` : ''}`;
 const metaSub = (s) => (s.length > 155 ? `${s.slice(0, 152).replace(/\s+\S*$/, '')}...` : s);
 
-fs.rmSync(outDir, { recursive: true, force: true });
+// Clear the previous build but keep deploy links (.vercel, .netlify) so redeploys reuse the project.
+if (fs.existsSync(outDir)) for (const f of fs.readdirSync(outDir)) { if (!f.startsWith('.')) fs.rmSync(path.join(outDir, f), { recursive: true, force: true }); }
 fs.mkdirSync(path.join(outDir, 'assets'), { recursive: true });
 
 const homeOrder = style.home || ['hero', 'trust', 'services', 'process', 'offers', 'gallery', 'reviews', 'about', 'areas', 'faq', 'cta'];
@@ -388,6 +390,8 @@ const css = [
 fs.writeFileSync(path.join(outDir, 'assets', 'site.css'), css);
 fs.copyFileSync(path.join(ROOT, 'engine', 'assets', 'site.js'), path.join(outDir, 'assets', 'site.js'));
 copyDir(path.join(siteDir, 'photos'), path.join(outDir, 'photos'));
+// Prototypes are for showing the business, not for Google: block indexing until a --final build.
+fs.writeFileSync(path.join(outDir, 'robots.txt'), final ? 'User-agent: *\nAllow: /\n' : 'User-agent: *\nDisallow: /\n');
 
 // ---------- sample check ----------
 const samples = [];
