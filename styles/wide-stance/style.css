@@ -1,0 +1,17 @@
+/* Wide Stance: extended display, two-tone headline, navy blocks */
+.style-wide-stance h1, .style-wide-stance h2, .style-wide-stance h3, .style-wide-stance .svc-name, .style-wide-stance .logo-name, .style-wide-stance .facts strong, .style-wide-stance .footer-phone, .style-wide-stance .form-title, .style-wide-stance .contact-phone { font-stretch: 125%; }
+.style-wide-stance h3 { font-weight: 700; letter-spacing: -0.02em; }
+.style-wide-stance .eyebrow { display: inline-flex; align-items: center; gap: 6px; padding: 7px 13px; border: 1px solid var(--line); border-radius: 999px; }
+.style-wide-stance .tone-dark .eyebrow { border-color: rgba(255,255,255,.3); }
+.style-wide-stance .btn-primary::after, .style-wide-stance .btn-inverse::after { content: "\2197"; font-family: system-ui, sans-serif; }
+.style-wide-stance .hero-split .hero-photo { aspect-ratio: 4 / 5; }
+.style-wide-stance .hero-card { border-radius: 16px; background: var(--ink); color: #fff; border: 0; }
+.style-wide-stance .hero-card span { color: #b8c2d6; }
+.style-wide-stance .hero-card .icon { color: #e8b04a; }
+.style-wide-stance .svc-tiles .ph { aspect-ratio: 1 / 1.1; }
+.style-wide-stance .trust { background: var(--surface-2); border: 0; }
+.style-wide-stance .trust strong { font-stretch: 125%; }
+.style-wide-stance .site-footer { background: #0a1630; }
+.style-wide-stance .footer-phone { color: #e8b04a; }
+.style-wide-stance .review-cards .card { background: var(--surface-2); border: 0; }
+.style-wide-stance .gallery-grid .g-list { grid-auto-rows: clamp(170px, 19vw, 260px); }

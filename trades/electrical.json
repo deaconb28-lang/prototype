@@ -1,0 +1,247 @@
+{
+  "id": "electrical",
+  "name": "Electrical",
+  "noun": "electrician",
+  "schema_type": "Electrician",
+  "emergency": {
+    "enabled": true,
+    "label": "Sparks, a burning smell or part of the house dead?",
+    "detail": "If you see smoke or flame, call 911 first. For everything else, call us and we'll get an electrician out the same day across {{area}}."
+  },
+  "financing": true,
+  "maintenance_plan": { "enabled": false, "name": null, "pitch": null },
+  "hero": {
+    "headlines": [
+      "Licensed electricians in {{city}}, on time and up to code.",
+      "Panel upgrades, EV chargers and repairs, with the permit pulled.",
+      "We fix the outlet, then find out why it failed.",
+      "Electrical work priced before we start and inspected when we're done."
+    ],
+    "subheads": [
+      "From a dead outlet to a 200-amp panel, we quote a flat price before any work starts.",
+      "Every job is done by a licensed electrician, with permits pulled when the code calls for them.",
+      "We show up in the window we give you, protect your floors and clean up before we leave."
+    ],
+    "primary_cta": "Get a free estimate",
+    "secondary_cta": "Call {{phone}}"
+  },
+  "services": [
+    {
+      "slug": "electrical-repair",
+      "name": "Electrical repairs and troubleshooting",
+      "short": "Dead outlets, tripping breakers, flickering lights and warm switch plates.",
+      "long": "Electrical problems rarely start where you notice them. We trace the circuit back to the cause, whether that's a loose connection, a failing breaker or an overloaded circuit, and fix it so it doesn't come back.",
+      "bullets": [
+        "Circuit tracing and fault finding",
+        "Breaker and GFCI troubleshooting",
+        "Loose and burnt connection repair",
+        "Aluminum wiring repairs"
+      ],
+      "icon": "bolt",
+      "emergency": true
+    },
+    {
+      "slug": "outlets-switches",
+      "name": "Outlets and switches",
+      "short": "New outlets, GFCI protection, dimmers and smart switches installed.",
+      "long": "Older homes often have too few outlets and no ground-fault protection where the code now requires it. We add outlets where you need them, replace two-prong outlets the right way and install GFCI and AFCI protection.",
+      "bullets": [
+        "GFCI outlets for kitchens, baths, garages and outdoors",
+        "Two-prong to grounded outlet upgrades",
+        "Dimmers, smart switches and USB outlets",
+        "Dedicated circuits for appliances and home offices"
+      ],
+      "icon": "outlet",
+      "emergency": false
+    },
+    {
+      "slug": "lighting",
+      "name": "Lighting",
+      "short": "Recessed, fixture, under-cabinet and outdoor lighting installed and wired.",
+      "long": "We install new fixtures, add recessed lights to rooms that only had a lamp and wire outdoor and landscape lighting. We plan the layout with you so the light lands where you need it, not just in a grid.",
+      "bullets": [
+        "Recessed and canless LED lights",
+        "Chandeliers and fixtures, including high ceilings",
+        "Under-cabinet and accent lighting",
+        "Outdoor, security and motion lighting"
+      ],
+      "icon": "light",
+      "emergency": false
+    },
+    {
+      "slug": "ceiling-fans",
+      "name": "Ceiling fans",
+      "short": "Fans hung on a fan-rated box, with new wiring and switches where needed.",
+      "long": "A ceiling fan needs a box rated to hold it, and a lot of old light fixture boxes aren't. We install the right box, run new wiring and switch legs if needed and balance the fan so it doesn't wobble.",
+      "bullets": [
+        "Fan-rated boxes and braces",
+        "Separate fan and light control",
+        "New installs where there's no fixture today",
+        "Balancing and remote setup"
+      ],
+      "icon": "fan",
+      "emergency": false
+    },
+    {
+      "slug": "panel-upgrades",
+      "name": "Panel upgrades",
+      "short": "100 to 200-amp upgrades and replacement of outdated or failing panels.",
+      "long": "If you're adding an EV charger, heat pump or addition, your panel may not have the room or the capacity. We handle the permit and coordinate the shutoff with the utility, and most panel swaps are done in one day.",
+      "bullets": [
+        "100 to 200-amp service upgrades",
+        "Federal Pacific and Zinsco panel replacement",
+        "Permit, utility coordination and inspection",
+        "Whole-home surge protection added at the panel"
+      ],
+      "icon": "panel",
+      "emergency": false
+    },
+    {
+      "slug": "ev-chargers",
+      "name": "EV charger installation",
+      "short": "Level 2 chargers for any EV, on a dedicated circuit with a permit.",
+      "long": "A Level 2 charger usually adds 20 to 40 miles of range per hour, compared with a few miles from a standard outlet. We check your panel capacity first, run a dedicated circuit and mount the charger in the garage or outside.",
+      "bullets": [
+        "Panel load check before we quote",
+        "Hardwired chargers or NEMA 14-50 outlets",
+        "Works with any charger brand you choose",
+        "Permit and inspection included"
+      ],
+      "icon": "plug",
+      "emergency": false
+    },
+    {
+      "slug": "generators",
+      "name": "Generators",
+      "short": "Standby generators and portable hookups that keep the power on in an outage.",
+      "long": "A standby generator starts on its own within seconds of an outage and runs the circuits you choose, or the whole house. For a lower cost, we can install a transfer switch or interlock so a portable generator can safely run key circuits.",
+      "bullets": [
+        "Whole-home standby generators",
+        "Automatic and manual transfer switches",
+        "Portable generator inlets and interlock kits",
+        "Gas line coordination, permit and annual service"
+      ],
+      "icon": "home",
+      "emergency": false
+    },
+    {
+      "slug": "rewiring",
+      "name": "Rewiring older homes",
+      "short": "Knob-and-tube, cloth and worn wiring replaced with as little wall damage as possible.",
+      "long": "Many homes built before the 1950s still have knob-and-tube wiring, and some insurers won't cover it. We rewire room by room, fishing new cable through walls where we can, and keep at least part of the house powered each night.",
+      "bullets": [
+        "Knob-and-tube and cloth wiring replacement",
+        "Aluminum branch wiring remediation",
+        "Grounded circuits and code-required protection",
+        "Small access holes, patched or ready for paint"
+      ],
+      "icon": "tools",
+      "emergency": false
+    }
+  ],
+  "process": [
+    { "title": "Tell us what you need", "detail": "Call or send a few photos, and we'll set a time that works." },
+    { "title": "Look and quote", "detail": "The electrician checks the problem or the space and gives you a flat price before starting." },
+    { "title": "Do the work", "detail": "We pull the permit when one is required and do the work to the current electrical code." },
+    { "title": "Test and inspect", "detail": "Every circuit is tested before we leave, and we schedule the city inspection when there is one." }
+  ],
+  "trust": {
+    "certifications": [
+      "Licensed Master Electrician",
+      "NECA Member",
+      "Generac Authorized Dealer",
+      "Tesla Powerwall Certified Installer",
+      "IEC Member",
+      "NABCEP PV Installation Professional"
+    ],
+    "license_label": "State electrical contractor license #",
+    "guarantees": [
+      "Flat price before work starts",
+      "Workmanship guaranteed for 1 year",
+      "If an inspection flags our work, we fix it at our cost",
+      "Floors covered and work area cleaned before we leave"
+    ],
+    "badges_hint": "A visible state electrical license number matters most, since homeowners are often told to check it. NECA or IEC membership, BBB accreditation, generator dealer status and EV charger installer programs from manufacturers or utilities are also worth showing. The certifications listed are examples (NECA is the National Electrical Contractors Association, IEC is Independent Electrical Contractors, NABCEP covers solar); keep only the ones the business holds."
+  },
+  "faqs": [
+    {
+      "q": "How much does an electrician cost?",
+      "a": "Small jobs like replacing an outlet or switch often run $150 to $350, depending on how many we do in one visit. Larger work varies more: a 200-amp panel upgrade commonly runs $1,500 to $4,000, and a Level 2 EV charger install $800 to $2,500. We give you a flat price before we start."
+    },
+    {
+      "q": "Do I need a permit?",
+      "a": "New circuits, panel upgrades, EV chargers, generators and rewiring almost always need a permit. Swapping a fixture or outlet usually doesn't. We pull the permit when it's required and include it in the price, and the inspection protects you when you sell the house."
+    },
+    {
+      "q": "Why does my breaker keep tripping?",
+      "a": "Usually the circuit is overloaded, something plugged into it has a fault, or there's a short or loose connection. A breaker that trips is doing its job, so don't keep resetting it or swap in a bigger one. We'll find the cause."
+    },
+    {
+      "q": "Is my electrical panel safe?",
+      "a": "Federal Pacific (Stab-Lok) and Zinsco panels have a history of breakers that may not trip when they should, and many electricians recommend replacing them. Warning signs in any panel include rust, scorch marks, buzzing or breakers that feel hot. We can inspect it and tell you what we see."
+    },
+    {
+      "q": "How do I know if my wiring is outdated?",
+      "a": "Warning signs include two-prong outlets throughout the house, fuses instead of breakers, lights that dim when appliances start, warm outlets or switch plates and wiring with cloth insulation. Homes built before the 1960s are worth having checked, especially before adding big loads like an EV charger or heat pump."
+    },
+    {
+      "q": "Can I charge an EV from a regular outlet?",
+      "a": "Yes, but a standard outlet adds only a few miles of range per hour. Most owners want a Level 2 charger on a 240-volt circuit, which can fill the battery overnight. We check your panel first to make sure it has the capacity."
+    },
+    {
+      "q": "What size generator do I need?",
+      "a": "It depends on what you want to run. Covering essentials like the fridge, furnace blower, well pump and some lights takes a smaller unit than running central AC and the whole house. We go through it with you and size it to your actual load."
+    },
+    {
+      "q": "Do you guarantee your work?",
+      "a": "Yes. Our workmanship is guaranteed for one year, and fixtures and equipment carry their manufacturer's warranty. If something we installed fails, we come back and make it right."
+    }
+  ],
+  "quote_form": {
+    "title": "Get a free estimate",
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "phone", "label": "Phone", "type": "tel", "required": true },
+      {
+        "name": "issue",
+        "label": "What do you need?",
+        "type": "select",
+        "options": ["Repair or troubleshooting", "Outlets or lighting", "Panel upgrade", "EV charger", "Generator", "Something else"],
+        "required": true
+      },
+      { "name": "zip", "label": "ZIP code", "type": "text", "required": false },
+      { "name": "details", "label": "Anything we should know?", "type": "textarea", "required": false }
+    ],
+    "promise": "We call back within 2 business hours."
+  },
+  "seasonal": [
+    "Generator installs before hurricane or winter storm season",
+    "Outdoor and holiday lighting circuits in the fall",
+    "Spring panel checks before adding central AC or a heat pump"
+  ],
+  "about_default": "{{name}} has done electrical work for homes in {{city}} for {{years}} years. Every job is handled by a licensed electrician, priced before we start and done to code, with a permit when one is required.",
+  "photo_subjects": {
+    "hero": "An electrician working on an open, neatly wired breaker panel in a garage or basement",
+    "work": [
+      "Clean 200-amp panel with labeled breakers",
+      "Level 2 EV charger on a garage wall with a car plugged in",
+      "Standby generator on a pad beside a house",
+      "Recessed lights in a finished kitchen",
+      "Old knob-and-tube wiring next to new cable during a rewire"
+    ],
+    "team": "Electricians in work clothes beside a van with ladders on the rack"
+  },
+  "keywords": [
+    "electrician {{city}}",
+    "electrical repair {{city}}",
+    "emergency electrician {{city}}",
+    "panel upgrade {{city}}",
+    "ev charger installation {{city}}",
+    "generator installation {{city}}",
+    "lighting installation {{city}}",
+    "outlet installation {{city}}",
+    "house rewiring {{city}}",
+    "licensed electrician {{area}}"
+  ],
+  "palette_hint": "Near-black and white with a high-visibility yellow accent, used sparingly."
+}

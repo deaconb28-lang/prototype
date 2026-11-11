@@ -1,0 +1,16 @@
+/* Nocturne Premium: dark studio, centered serif, hairline circle, brass light */
+.style-nocturne-premium .hero-fullbleed { min-height: 100vh; min-height: 100svh; }
+.style-nocturne-premium .hero-fullbleed .hero-inner { align-items: center; justify-content: center; text-align: center; padding-block: 140px 96px; }
+.style-nocturne-premium .hero-fullbleed .hero-text { margin-inline: auto; max-width: 900px; position: relative; }
+.style-nocturne-premium .hero-fullbleed .hero-text::before { content: ""; position: absolute; left: 50%; top: 50%; width: min(78vw, 640px); aspect-ratio: 1; transform: translate(-50%, -50%); border: 1px solid rgba(217,161,92,.28); border-radius: 50%; z-index: -1; pointer-events: none; }
+.style-nocturne-premium .hero-fullbleed .hero-sub { margin-inline: auto; max-width: 44ch; }
+.style-nocturne-premium .hero-fullbleed .cta-row, .style-nocturne-premium .hero-fullbleed .proof { justify-content: center; }
+.style-nocturne-premium h1 em, .style-nocturne-premium h2 em { color: #ecc48f; }
+.style-nocturne-premium .btn-secondary { border-color: var(--line-strong); }
+.style-nocturne-premium .trust { background: var(--bg); }
+.style-nocturne-premium .ph { background: #17171a; }
+.style-nocturne-premium .about-photo, .style-nocturne-premium .page-hero-photo { box-shadow: 0 0 120px -20px rgba(200,137,62,.35); }
+.style-nocturne-premium .mobile-bar-call { background: var(--surface); color: var(--ink); border: 1px solid var(--line-strong); }
+.style-nocturne-premium .footer-phone { font-weight: 500; }
+.style-nocturne-premium .svc-rows h3 { font-size: clamp(1.5rem, 2.4vw, 2rem); }
+.style-nocturne-premium .stars { color: var(--accent); }

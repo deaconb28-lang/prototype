@@ -1,0 +1,23 @@
+/* Poster Pop: tomato headline, cobalt offset blocks, town sticker */
+.style-poster-pop .hero-editorial h1, .style-poster-pop .page-hero h1 { color: #d63a0a; }
+.style-poster-pop .hero-editorial h1 { max-width: 12ch; }
+.style-poster-pop .hero-editorial .wrap-wide { position: relative; padding-right: clamp(28px, 3vw, 40px); }
+.style-poster-pop .hero-editorial .hero-photo { box-shadow: 18px 18px 0 var(--accent); border: 2px solid var(--ink); }
+.style-poster-pop .hero-editorial::after { content: attr(data-place); position: absolute; right: clamp(24px, 8vw, 140px); top: clamp(40px, 6vw, 96px); width: 132px; height: 132px; display: grid; place-items: center; text-align: center; padding: 18px;
+  border-radius: 50%; background: #ffd23f; color: var(--ink); border: 4px solid #fff; box-shadow: 0 10px 24px -10px rgba(26,31,58,.5); font: 800 1rem/1.05 var(--font-display); transform: rotate(-10deg); }
+@media (max-width: 860px) { .style-poster-pop .hero-editorial::after { display: none; } }
+.style-poster-pop .svc-cards .card { transition: transform .15s, box-shadow .15s; }
+.style-poster-pop .svc-cards .card:hover { transform: translate(-3px, -3px); box-shadow: 6px 6px 0 var(--ink); border-color: var(--ink); }
+.style-poster-pop .svc-cards li:nth-child(3n+2) .card, .style-poster-pop .svc-cards li.card:nth-child(3n+2) { background: #dbe4ff; }
+.style-poster-pop .svc-cards li.card:nth-child(3n) { background: #ffe8a3; }
+.style-poster-pop .review-cards li:nth-child(3n+1) { background: #ffe1d6; }
+.style-poster-pop .review-cards li:nth-child(3n+2) { background: #dbe4ff; }
+.style-poster-pop .review-cards .card { border-width: 2px; }
+.style-poster-pop .about-photo, .style-poster-pop .page-hero-photo { box-shadow: 14px 14px 0 #ff4a1c; }
+.style-poster-pop .cta-band { background: var(--ink); --fg: #f3ede0; --fg-2: #c7c5cf; }
+.style-poster-pop .cta-band .btn-inverse { background: #ff4a1c; color: var(--ink); }
+.style-poster-pop .footer-phone { color: #ff8a66; }
+.style-poster-pop .trust { border-block: 2px solid var(--ink); }
+.style-poster-pop .trust-list li + li { border-left: 2px solid var(--ink); }
+.style-poster-pop .faq-list details { border-bottom: 2px solid var(--ink); }
+.style-poster-pop .faq-list { border-top: 2px solid var(--ink); }

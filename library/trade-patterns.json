@@ -1,0 +1,1149 @@
+{
+  "collected_at": "2026-11-11",
+  "method": {
+    "summary": "35 real trade-business homepages (US 24, AU 5, UK 3, CA 3) across all 10 trades were fetched and audited for the same checklist: header, hero copy, CTAs, emergency/response claims, offers, pricing, trust signals, form fields, service area, booking, photos. A further 9 sites were reviewed but left out of `sites` because they were weak; they are used only as evidence in `anti_patterns` (see `reviewed_not_listed`). Third-party feature counts from Colorlib's audited roundups (plumbing 18, HVAC 30, roofing 27, electrical 19, painting 23, pest 23, cleaning 26 sites) are used to cross-check prevalence.",
+    "prevalence_denominator": "Unless stated otherwise, 'N/35' counts the 35 sites in `sites`. Trade subsets: roofing 7 (incl. Puetz), HVAC/heating 7 (incl. multi-trade Hiller, Snell, Fallon, Service Today, BOXT), plumbing-led 5 (Superior, Pimlico, Aspect, Fallon, Service Today), electrical 3, pest 3, cleaning 2, painting 2, remodeling 3, garage doors 2, landscaping 4.",
+    "limits": "Pages were read as extracted text, not rendered. Sticky/fixed bars, map embeds, page speed and visual layout are therefore under-counted or unmeasured; photo authenticity was judged from alt text and filenames. Prevalence for those patterns is a lower bound."
+  },
+  "sites": [
+    {
+      "name": "Guardian Roofing",
+      "url": "https://www.guardianroofing.com/",
+      "trade": "roofing",
+      "region": "US-WA",
+      "strengths": [
+        "Header shows the phone (tel: link) twice beside a 'Book Online' button, a '4.8' rating and a Seattle Times 'WINNER' badge",
+        "Hero 'Protecting What Matters Most, One Roof at a Time' with a single 'Free Estimate' CTA",
+        "Footer prints licence numbers for both states it works in (WA and OR CCB) plus 'Licensed, bonded, and insured'",
+        "Stacks manufacturer credentials: GAF and Owens Corning elite certifications, CertainTeed 'ShingleMaster PREMIER', Owens Corning 50-year warranty",
+        "Dated coupons with expiry (10% off for repeat clients; '$1,000 OFF' attic insulation with '$7,500 Minimum Purchase') and financing via Upgrade 'with no impact to your credit score for checking options'",
+        "Named maintenance plan ('Guardian Protection Plan') and city-by-city service-area lists for WA and OR plus named office locations",
+        "Links to reviews on Google, Yelp, Angi, HomeAdvisor and GAF"
+      ],
+      "weaknesses": [
+        "Stat counter renders '0+ Years of Combined Experience'",
+        "'Book Online' only opens the contact page",
+        "'24/7 Answering Service' next to footer hours 'Closed: Sunday'"
+      ]
+    },
+    {
+      "name": "Tadlock Roofing",
+      "url": "https://tadlockroofing.com/",
+      "trade": "roofing",
+      "region": "US-FL",
+      "strengths": [
+        "Speed-benefit headline 'Your Roof Could Be Done Tomorrow' / 'Residential roofs installed in just one day.' with CTA 'Get My Free Estimate'",
+        "Response promise in copy: 'most appointments set within 24 hours'",
+        "Financing shown as worked monthly examples (e.g. $132/mo over 10 years at 9.99%) under 'BUY NOW, PAY LATER'",
+        "Licence number 'Lic. CCC1336800', Owens Corning Platinum Preferred, 'America's Top 100 Roofing Contractors for seven consecutive years'",
+        "'lifetime workmanship warranty' and 'up to 50-year non-prorated system coverage'",
+        "Storm section separates itself from door-knockers: 'Tadlock Roofing isn't just another storm-chaser.'",
+        "Low-commitment entry point '3-minute Roof Assessment'; referral offer 'Refer a friend, get $250!'"
+      ],
+      "weaknesses": [
+        "No star rating or review count on the homepage",
+        "Placeholder testimonial avatars",
+        "Two different descriptions of the service area"
+      ]
+    },
+    {
+      "name": "Bone Dry Roofing",
+      "url": "https://www.bonedry.com/",
+      "trade": "roofing",
+      "region": "US-IN (multi-state)",
+      "strengths": [
+        "Sticky bar 'CALL TODAY | 866.371.5090' (tel:) with 'GET A FREE QUOTE'",
+        "Quote form inside the hero, headed 'Let Our Team Earn Your Trust': first name, last name, phone, email, ZIP, service dropdown",
+        "'12,104' Google Reviews with a 5-star badge",
+        "'24 HR EMERGENCY SERVICE' badge on the hero form",
+        "Owens Corning Platinum Preferred + CertainTeed ShingleMaster Select, NRCA, GuildQuality, BBB; '2023 Residential Roofing Contractor of the Year'",
+        "'25-Year Craftsmanship Warranty', 'Family Owned & Locally Operated', 'Since 1989'",
+        "Audience discount: '$500 OFF FULL ROOF REPLACEMENT' for military, veterans, seniors, first responders, teachers and healthcare workers",
+        "FAQ covers filing insurance claims and working with adjusters, plus a dedicated Insurance page"
+      ],
+      "weaknesses": [
+        "No licence number, only 'fully licensed and insured'",
+        "No team or real job photos on the homepage"
+      ]
+    },
+    {
+      "name": "Bumble Roofing",
+      "url": "https://www.bumbleroofing.com/",
+      "trade": "roofing",
+      "region": "US (multi-state)",
+      "strengths": [
+        "Hero CTA 'Get Your Instant Quote'; step 1 of a 3-step process is 'Get instant quote and visualize your new roof'",
+        "Memorable brand voice carried into copy ('Buzz-worthy manufacturer warranties')",
+        "Testimonials carry first name, last initial, town and a recent date, so they read as fresh",
+        "ZIP-code office finder across about 27 local offices; Owens Corning Preferred Contractor"
+      ],
+      "weaknesses": [
+        "No phone number in the header",
+        "No aggregate rating or review count",
+        "Some office tel: links are empty"
+      ]
+    },
+    {
+      "name": "Houston Roofing & Construction",
+      "url": "https://www.houstonroofingonline.com/",
+      "trade": "roofing",
+      "region": "US-TX",
+      "strengths": [
+        "Header 'Call Today (832) 237-3737' (tel:) + 'Free Quote'; hero form 'Book Your FREE Consultation Now'",
+        "Subhead that answers the upsell fear: 'shows you what your roof actually needs, then does the work right.'",
+        "'4.9' from '335+ Google reviews' linked to Google Maps; BBB A+",
+        "GAF Master Elite, CertainTeed SELECT ShingleMaster, Owens Corning, IKO and FORTIFIED logos; GAF President's Club",
+        "Dedicated 'Roof Insurance Claims' section and an anti-storm-chaser line: 'We're not a storm-chasing company that shows up, does the work, and disappears.'",
+        "Honest warranty note: '50-year' and 'Lifetime' claims depend on proper installation and registration",
+        "33 city pages, real drone/project photos and a team photo, hours 'Mon-Sun: 7am-8pm'"
+      ],
+      "weaknesses": [
+        "7-field form with 6 required, including 'How Did You Hear About Us?'"
+      ]
+    },
+    {
+      "name": "Puetz Construction",
+      "url": "https://www.puetzconstruction.com/",
+      "trade": "remodeling",
+      "also_covers": ["roofing"],
+      "region": "US-MN",
+      "strengths": [
+        "Phone as tel: link beside the menu button on every page",
+        "5-field form (name, phone, email, ZIP, service picker) with button 'Get Started Today'",
+        "'363+ five-star Google reviews' and 5.0 ratings on Google and Facebook",
+        "Prints Minnesota and Wisconsin licence numbers",
+        "Owner promise section ('The Puetz Promise') with the CEO's photo; 'Family Owned & Operated'",
+        "'Free inspections on every job'; financing partners named (FinTurf, Improvifi)",
+        "Three-step process (Reach out, Planning, We get to work) and a crew photo on a real Rochester job"
+      ],
+      "weaknesses": [
+        "Review count differs between sections (363+ vs 375)",
+        "No warranty terms"
+      ]
+    },
+    {
+      "name": "Gutter and Roof Repairs",
+      "url": "https://gutterandroofrepairs.com.au/",
+      "trade": "roofing",
+      "region": "AU-QLD",
+      "strengths": [
+        "Footer prints 'QBCC Licence: 1304235' (Queensland requires the licence number in website ads)",
+        "'authorised Colorbond installer' with BlueScope, Colorbond, Dulux and Master Builders logos",
+        "'6-Year Workmanship Guarantee' explained in plain words",
+        "Quote form asks for roof type (Metal (Colorbond), Tile / Terracotta, Asbestos), which helps sort jobs before anyone calls",
+        "Header tel: + 'Quick Quote'; regions named (Brisbane, Ipswich, Redlands, Logan, Caboolture) plus a suburbs page; 'Family Owned Business' badge"
+      ],
+      "weaknesses": [
+        "Stock images (AdobeStock filenames)",
+        "'30+ Years Experience' badge vs 'more than 20 years' in About",
+        "No review count or rating"
+      ]
+    },
+    {
+      "name": "Smock HVAC",
+      "url": "https://www.smockhvac.com/",
+      "trade": "hvac",
+      "also_covers": ["plumbing"],
+      "region": "US-MD",
+      "strengths": [
+        "Header phone (tel:) labelled '24/7 Live Answering Service'",
+        "Three hero CTAs for three intents: 'Book Your Service', 'Instant HVAC Quote', 'Explore Memberships'",
+        "Geo-specific H1 'Heating & Cooling Services in Frederick & Montgomery County'",
+        "'FREE 2nd Opinion on Major HVAC Repairs', free estimates on replacement, '$25 Off Your Next Repair', rebates",
+        "Comfort Plan perks listed: two tune-ups yearly, 15% off repairs, $100 Comfort Credits per year",
+        "Footer licence numbers (HVAC and plumbing); 13 town pages; 'Same Day Service'"
+      ],
+      "weaknesses": [
+        "Conflicting review counts ('Over 1,500+' vs '1899')",
+        "Form requires full street address up front"
+      ]
+    },
+    {
+      "name": "Snell Heating & Air",
+      "url": "https://www.snellheatingandair.com/",
+      "trade": "hvac",
+      "also_covers": ["plumbing", "electrical"],
+      "region": "US-VA",
+      "strengths": [
+        "Header 'Call Now' tel: + 'Book Now'; hero repeats both",
+        "Promise headline 'From the Furnace to the Faucet, Snell's Got It'",
+        "'Always On-Time, Guaranteed', 'Same-Day Service and Next-Day Installation', 'No emergency fees', '24/7 availability on nights, weekends, and holidays at no extra cost'",
+        "Promo with a monthly figure and expiry: 'New HVAC System for as little as $113/month'",
+        "Five licence numbers across VA/MD trades; 'Background-checked' technicians",
+        "Hero photo of a Snell technician at a branded van"
+      ],
+      "weaknesses": [
+        "No review rating or count on the homepage"
+      ]
+    },
+    {
+      "name": "Hiller Plumbing, Heating, Cooling & Electrical",
+      "url": "https://www.happyhiller.com/",
+      "trade": "hvac",
+      "also_covers": ["plumbing", "electrical"],
+      "region": "US-TN (multi-state)",
+      "strengths": [
+        "Vanity number '844-MYHILLER' as a tel: link, including the mobile header",
+        "Named guarantee: 'Happy You'll Be or the Service is Free'",
+        "'True Transparency Pricing' with a worked example (service fee 'NO FEE', parts $229 + $193)",
+        "Fixed-price promos ('$99 Heating Tune-Up') and monthly financing ('HVAC Systems Replacements Starting at $99/mo.')",
+        "Happy Hiller Club membership; 'Family Owned and Operated Since 1990'; licence numbers for five states"
+      ],
+      "weaknesses": [
+        "No reviews on the homepage",
+        "Two locations show the same phone number"
+      ]
+    },
+    {
+      "name": "Ignite Heating and Air Conditioning",
+      "url": "https://igniteheating.ca/",
+      "trade": "hvac",
+      "region": "CA-AB",
+      "strengths": [
+        "Hero CTA is the phone number itself: 'Call 780-919-4916'",
+        "Seasonal emergency framing: 'available 24/7 for no heat furnace repair situations'",
+        "'4.9' from '83 reviews' linked to Google",
+        "'authorized dealer for Napoleon Furnaces' and a '10-year parts and labour warranty' on installs",
+        "Named plan (Ignite Comfort Club) with a brochure"
+      ],
+      "weaknesses": [
+        "Headline is just the business name",
+        "No form or booking on the homepage"
+      ]
+    },
+    {
+      "name": "Superior Plumbing",
+      "url": "https://www.superiorplumbing.com/",
+      "trade": "plumbing",
+      "region": "US-GA",
+      "strengths": [
+        "'INSTANT WATER HEATER QUOTE' button in the header beside 'REQUEST AN APPOINTMENT'",
+        "Plain-spoken positioning: 'Plumbing repairs. Real people. Honest answers.' / 'Call The Honest Plumber!'",
+        "'CALLS ANSWERED 24/7'; the owner is named: 'Owned and operated by licensed master plumber Jay Cunningham'",
+        "29 city pages around metro Atlanta; BBB seal and 'Best of Cobb'"
+      ],
+      "weaknesses": [
+        "Repeated 'PHONE ISSUES' banner sends callers to email",
+        "Contact form has an unlabeled 'New Field'",
+        "No review numbers"
+      ]
+    },
+    {
+      "name": "Pimlico Plumbers",
+      "url": "https://www.pimlicoplumbers.com/",
+      "trade": "plumbing",
+      "also_covers": ["hvac", "electrical", "roofing"],
+      "region": "UK-London",
+      "strengths": [
+        "Header phone (tel:) labelled '24hrs & emergencies'",
+        "Form in the hero starts with 'I need help with...' (service, postcode, name, number, email, details; 4 required)",
+        "'1-Hour Emergency Response Time*' with an honest caveat ('subject to engineer availability, location and traffic')",
+        "'Same Prices, 7 Days a Week' and 'No hidden costs or surcharges'",
+        "Accreditation row: NICEIC, Gas Safe, SafeContractor, CHAS, NFRC, Federation of Master Builders",
+        "Operational proof stats: '85%' first-time fix, '100K+' jobs a year, '230+' tradespeople and vans",
+        "'Serving all 32 London boroughs' with a postcode checker"
+      ],
+      "weaknesses": [
+        "Trustpilot 'Excellent' without a review count",
+        "A different number appears at the page bottom"
+      ]
+    },
+    {
+      "name": "Aspect",
+      "url": "https://www.aspect.co.uk/",
+      "trade": "plumbing",
+      "also_covers": ["electrical", "roofing", "hvac", "remodeling"],
+      "region": "UK-London",
+      "strengths": [
+        "Two-field hero form (trade dropdown + postcode) leading to 'Check availability' in a live booking portal",
+        "Explains how it prices up front: 'Set price jobs', 'Half-hourly rate jobs', 'Scoped jobs'",
+        "Credentials named per service: Gas Safe (heating), NAPIT and BS 7671 (electrics), NFRC (roofing)",
+        "Hero '24-hour property maintenance experts, covering London and the South East.' / 'Need a tradesperson straight away? We can help...'",
+        "15 county pages and a postcode checker"
+      ],
+      "weaknesses": [
+        "Header phone is an icon only; the number is printed only in the footer",
+        "Stock-style photos",
+        "No review numbers"
+      ]
+    },
+    {
+      "name": "BOXT",
+      "url": "https://www.boxt.co.uk/",
+      "trade": "hvac",
+      "also_covers": ["plumbing"],
+      "region": "UK (national)",
+      "strengths": [
+        "The offer is the headline: 'Get a fixed price in minutes.'; 'Online quote in under 1 minute'",
+        "Price anchor 'Installed from £1,890'",
+        "Speed promise 'Order online by 3pm for next working day installation'",
+        "Price-match: 'beat any like-for-like boiler installation quote by £50'",
+        "Dated promo (free Hive thermostat, ends 7 Dec 2026) and 0% finance"
+      ],
+      "weaknesses": [
+        "No phone number shown",
+        "Two different 'from' prices (£1,890 vs £1,745)",
+        "'UK's most trusted*' with no matching footnote"
+      ]
+    },
+    {
+      "name": "Fallon Solutions",
+      "url": "https://www.fallonsolutions.com.au/",
+      "trade": "plumbing",
+      "also_covers": ["electrical", "hvac"],
+      "region": "AU-QLD",
+      "strengths": [
+        "Bottom bar with phone, 'Book Online' and 'Text Us' (SMS)",
+        "Hero 'Need a Trade Specialist?' / 'We Can Be There Today!*'; 'Our phone is answered 24/7'",
+        "Arrival promise: 'courtesy call 15-30 minutes before we arrive'",
+        "Discloses the '$88 call out fee' and 'You approve the final price before any major work begins.'",
+        "Two named plans (Safe Hands Preventative, VIP) with concrete perks (15% off; no call-out fee)",
+        "Google widget with '8852 reviews' at 4.6 stars; full licence list (QBCC, electrical, solar, air con, ABN)",
+        "Booking form with service dropdown and preferred date; Brighte 0% finance; dated seasonal offer 'Stay Cool Now. Pay Later!*'"
+      ],
+      "weaknesses": [
+        "'60yrs of Expert Workmanship' vs '10 Years Of Award Winning Service'"
+      ]
+    },
+    {
+      "name": "Service Today",
+      "url": "https://www.servicetoday.com.au/",
+      "trade": "plumbing",
+      "also_covers": ["electrical", "hvac"],
+      "region": "AU-NSW (multi-city)",
+      "strengths": [
+        "Top bar with 'Call' and 'Book' and a live 'Open Now' label",
+        "'Same day service or it's FREE!*'; 'We complete over 96% of service calls on the same day.'",
+        "Clear cut-off rule: 'If you book before midday, we guarantee a technician will be at your door that same day.'",
+        "'We don't charge by the hour' plus an all-inclusive quote after inspection",
+        "Booking form with arrival windows ('First Available', '8am - 12pm', '12pm - 4pm'); 'Book online in under a minute!'",
+        "Licence numbers for NSW, QLD, SA and VIC; 'Lifetime Workmanship Warranty'; technician-with-branded-van photos"
+      ],
+      "weaknesses": [
+        "'With over [blank] positive reviews' (the count is missing)",
+        "Asterisk on 'or it's FREE!*' with no visible terms",
+        "Duplicated reviews"
+      ]
+    },
+    {
+      "name": "Bright Electrical",
+      "url": "https://www.brightelectricalperth.com.au/",
+      "trade": "electrical",
+      "region": "AU-WA",
+      "strengths": [
+        "Top bar shows hours '7 Days 7AM TO 5PM' next to the tel: link and 'Get Free Quote'",
+        "Five-item trust strip directly under the nav: guarantee, suppliers, family ownership, licensed & insured, scope (per Zarla's teardown)",
+        "Prints 'Licence EC11863' and 'ARC number L193345'",
+        "EV-charger brand logos (Tesla, Zappi, Wallbox, Evnex) as supplier credibility"
+      ],
+      "weaknesses": [
+        "'5.0/5.0 Rated' with no count or source",
+        "No suburb list",
+        "Three service cards link to the same page"
+      ]
+    },
+    {
+      "name": "DYAD Air & Electrical",
+      "url": "https://dyadelectrical.com.au/",
+      "trade": "electrical",
+      "also_covers": ["hvac"],
+      "region": "AU-QLD",
+      "strengths": [
+        "Ratings from three platforms side by side (5.0 Google, hipages, Facebook) + '50+ 5 Star Reviews'",
+        "Hero 'Brisbane's Favourite Electricians' with 'GET A QUOTE' and the secondary line 'or call us on 1300 743 923'",
+        "'No obligation free quote'; '30+ Years'; 'Workmanship Guarantee'"
+      ],
+      "weaknesses": [
+        "Footer phone (1300 743 932) differs from the header number (1300 743 923)",
+        "No licence number"
+      ]
+    },
+    {
+      "name": "Powerful Electrical",
+      "url": "https://powerfulelectricalllc.com/",
+      "trade": "electrical",
+      "region": "US-SC",
+      "strengths": [
+        "Question headline 'Need an Electrician in Charleston, SC Today?' with 'Call Now (843) 300-9675' and 'Chat With Us'",
+        "'Call 843-300-9675, answered 24/7 by a real person'",
+        "'BOOK ONLINE' goes to a real Housecall Pro scheduler",
+        "Top banner 'FREE Electrical Panel Inspection'; 'Financing Available Through Wisetack'; 'Upfront, Honest Pricing'",
+        "5-field estimate form; 12 named towns with 6 location pages; floating call button; 'Track My Project' portal"
+      ],
+      "weaknesses": [
+        "'Business hours are Mon-Fri 8am-4pm' contradicts the 24/7 claim",
+        "Four service buttons share one bit.ly link",
+        "No reviews shown"
+      ]
+    },
+    {
+      "name": "Green Home Pest Control",
+      "url": "https://greenhomepest.com/",
+      "trade": "pest_control",
+      "region": "US-AZ",
+      "strengths": [
+        "Both metro numbers (Phoenix, Tucson) as tel: links in the header beside 'Free Quote'",
+        "'4.9' stars from '3,137 reviews' plus listing badges (Yelp, Nextdoor, NPMA, AZPPO)",
+        "Price anchor in the FAQ: 'pest control plans start at $49 per month'",
+        "Safety stated plainly: 'child and pet safe products', with a matching FAQ",
+        "19 named cities and per-city pages; 'Since August 2011'"
+      ],
+      "weaknesses": [
+        "Review source not named",
+        "5 of 6 form fields required, including 'How Did You Hear About Us?'"
+      ]
+    },
+    {
+      "name": "Arrow Pest Control",
+      "url": "https://www.arrownj.com/",
+      "trade": "pest_control",
+      "region": "US-NJ",
+      "strengths": [
+        "Top bar 'Call today for same day service' and a cut-off rule: 'Call before noon and we'll do our best to provide treatment that same day.'",
+        "Hero CTAs 'Get a free quote' and 'Prefer to talk? (732) 536-6500'",
+        "'Google rating 5.0 from 2,352 reviews'",
+        "New-customer offer '$35 off your first service'",
+        "QualityPro and NPMA logos; 'Since 1973'; county pages for 10 counties",
+        "Two-step form: contact + address, then service choice and message"
+      ]
+    },
+    {
+      "name": "Nozzle Nolen",
+      "url": "https://www.nozzlenolen.com/",
+      "trade": "pest_control",
+      "region": "US-FL",
+      "strengths": [
+        "Hero 'Same Day Pest Control Services in Southeast FL' / 'Available when you call before noon'",
+        "Two hero paths: 'Schedule Free Inspection' and 'Purchase Pest Control' (buy a plan online)",
+        "Three named plan tiers: 365 SELECT, 365 Complete, 365 Complete+",
+        "Form lets the customer pick a window (Morning 8am-noon / Afternoon noon-4pm) and weekdays; button 'Confirm Appointment'",
+        "Uniformed technicians in the hero and a branded truck",
+        "QualityPro, GreenPro, BBB Torch Award for Ethics; 'Trusted Since 1951'; fixed 'Get My Free Quote' / 'Call Now' buttons"
+      ],
+      "weaknesses": [
+        "Placeholder 'Need some text here.' in a live modal",
+        "No review numbers"
+      ]
+    },
+    {
+      "name": "Tidy Casa",
+      "url": "https://tidycasa.com/",
+      "trade": "cleaning",
+      "region": "US-AZ",
+      "strengths": [
+        "Guarantee as the headline: '200% Guaranteed Home Cleaning' / 'Book online in 60 Seconds.'",
+        "'Enjoy flat-rate pricing from background-checked cleaners with all supplies included.'; CTA 'Get Instant Quote & Book'",
+        "Removes the estimate step: 'No estimates, quotes, or in-house inspections are needed.'",
+        "Spells out how the guarantee works: 'We'll come back and fix it for free.' then 'We will give you your money back.'",
+        "Room-by-room checklists for standard, deep and move-out cleans",
+        "'4.8 ★ with 15,411+ homes served'; header 'Questions? Call (602) 753-5630'"
+      ],
+      "weaknesses": [
+        "Top bar still advertises an October promo code in November",
+        "City lists differ between body and footer"
+      ]
+    },
+    {
+      "name": "Maid Marines",
+      "url": "https://www.maidmarines.com/",
+      "trade": "cleaning",
+      "region": "US-NY",
+      "strengths": [
+        "'Book your cleaning in 60 seconds.' with 'Takes 60 seconds • No credit card required.'",
+        "Hero CTAs 'Book Your Cleaning Now' and 'Get Your Instant Price'",
+        "Published recurring discounts: weekly 20%, bi-weekly 15%, monthly 10%",
+        "'Bonded & Insured', background-checked staff, 're-clean it free' if told within 48 hours",
+        "85-point checklist; neighbourhood names (Chelsea, Park Slope, Astoria); FAQ on supplies and pet/child-safe products"
+      ],
+      "weaknesses": [
+        "Checklist is 85 points in one place, 100 in another",
+        "Team shown as an illustration, not a photo"
+      ]
+    },
+    {
+      "name": "Hedlund Painting",
+      "url": "https://www.hedlundpainting.com/",
+      "trade": "painting",
+      "region": "US-WA",
+      "strengths": [
+        "Hero 'Seattle-Area Painters You Can Trust' with a badge 'Backed by a 10-Year Warranty'",
+        "Promise that targets the main fear: 'a free written estimate with no surprise change orders'",
+        "Hero CTAs 'Get Your Free Estimate' and 'Call (206) 250-9193'",
+        "'4.9' stars, '122 verified reviews' from 'Google + Houzz'",
+        "'EPA Lead-Safe Certified', BBB A+, 'Licensed, bonded, and insured'",
+        "Six-step process ending in 'Two-stage walkthrough QC'",
+        "20 cities grouped by sub-region; project cards labelled by neighbourhood (Clyde Hill, Queen Anne, Green Lake)"
+      ],
+      "weaknesses": [
+        "No before/after pairs",
+        "Hero warranty badge drops the 'residential' qualifier"
+      ]
+    },
+    {
+      "name": "Catchlight Painting",
+      "url": "https://www.catchlightpainting.com/",
+      "trade": "painting",
+      "region": "US-MA",
+      "strengths": [
+        "Hero names its core towns (Newton, Wellesley, Brookline, Weston) and 'Greater Boston'",
+        "'Mass. HIC Reg No. 151854', EPA RRP, a named PDCA award, owner named",
+        "About 19 towns listed; office hours and crew hours shown separately",
+        "Pricing page linked from the homepage; 'Operating since 1994'"
+      ],
+      "weaknesses": [
+        "No free-estimate offer, review numbers or warranty"
+      ]
+    },
+    {
+      "name": "Normandy Remodeling",
+      "url": "https://www.normandyremodeling.com/",
+      "trade": "remodeling",
+      "region": "US-IL",
+      "strengths": [
+        "Sticky header with 'Request An Appointment' and tel: links for both design studios",
+        "Hero 'Home Additions and Remodeling Made Easy' / 'Creating beautiful spaces across Chicagoland since 1979'",
+        "Designer consult 'in-person or virtually'; free education events under 'Get Smart Before You Start'",
+        "Design-build steps in plain words, including 'a dedicated Project Superintendent'",
+        "'Projects Near You' across 10 suburbs"
+      ],
+      "weaknesses": [
+        "No review numbers, licence or warranty on the homepage"
+      ]
+    },
+    {
+      "name": "Neil Kelly",
+      "url": "https://www.neilkelly.com/",
+      "trade": "remodeling",
+      "region": "US-OR (also WA)",
+      "strengths": [
+        "Hero 'THE EASIEST WAY TO REMODEL, HONESTLY.' / 'Straight talk on budget, timing, and risk.'",
+        "Project-finder widget (space + location) as a two-click first step",
+        "Live kitchen and bath cost calculators; guide 'Fixed Price Contracts and Why They Matter'",
+        "Free dated workshops at its design centres (top banner)",
+        "'4.6/5 from 2,200+ reviews'; 'OR CCB #1663' and WA L&I licence; '5 Year Warranty'; 80 years, 30,000+ projects",
+        "About 60 staff headshots, video testimonials, 5-step process ending 'Love Your Space, Guaranteed'"
+      ],
+      "weaknesses": [
+        "Review source not named",
+        "Header and footer phone numbers differ"
+      ]
+    },
+    {
+      "name": "A1 Garage Door Service",
+      "url": "https://www.a1garage.com/",
+      "trade": "garage_doors",
+      "region": "US-AZ (multi-state)",
+      "strengths": [
+        "Problem-first headline 'GARAGE DOOR TROUBLE? FAST, HONEST REPAIR & INSTALLATION' with 'Schedule Now' + 'Call Now'",
+        "Sticky bar with 'Schedule Now'; header has 'Call Now' and 'Schedule Online'",
+        "'24/7, same day emergency services'",
+        "Cost Estimator giving a 'personalized price range' with 'No bait-and-switch. No pressure.'",
+        "'$400 OFF A NEW GARAGE DOOR!'; '140,000+ Reviews' with Google, Angi, BBB, HomeAdvisor and Nextdoor logos; door-style gallery 'GET INSPIRED!'"
+      ],
+      "weaknesses": [
+        "Header and sticky bar use different numbers",
+        "One Schedule button links to '#'",
+        "Stock-style technician photo",
+        "'the undisputed industry leader'"
+      ]
+    },
+    {
+      "name": "Garage Door Fix",
+      "url": "https://garagedoorfix.ca/",
+      "trade": "garage_doors",
+      "region": "CA-AB",
+      "strengths": [
+        "Headline 'Garage Door Broken? We Fix It Today.'",
+        "Promise row 'Same-day repair · Published prices · No emergency fees'",
+        "Published 'from' prices: springs from $380, cables from $320, opener repair from $820, tune-up from $120, new door from $2,445",
+        "'$0 Emergency Fees' and no weekend surcharge",
+        "Warranty spelled out by job type (1-year standard, 5-year heavy-duty, manufacturer warranty on openers)",
+        "'Every technician is a company employee, not a subcontractor'; husband-and-wife founders named",
+        "City picker for local prices and a direct number; floating 'Tap to call' and chat; '3,760+ five-star reviews' (Google); 'Trained, insured, WCB-covered'"
+      ],
+      "weaknesses": [
+        "No form for people who won't call",
+        "FAQ narrows the same-day claim to '95% of calls booked before noon'"
+      ]
+    },
+    {
+      "name": "Carrington Lawn & Landscape",
+      "url": "https://www.carringtonlawn.com/",
+      "trade": "landscaping",
+      "region": "US-WI",
+      "strengths": [
+        "Google widget '4.9' 'Based on 127 reviews'",
+        "Form asks for an investment range ('$3k-$5k' to '$60k-$100k+', or 'Prefer to discuss verbally'), which screens design/build leads by budget",
+        "Named lawn programs (traditional, organic, hybrid) and a 'two-year warranty on hardscape installations'",
+        "Four-step process: Discovery, Consultation, Estimate, Agreement",
+        "Team photo and crew-at-work photo; NALP, ISA and SIMA logos; 'since 1998'"
+      ],
+      "weaknesses": [
+        "Form has around 20 fields"
+      ]
+    },
+    {
+      "name": "Anderson Landscape Maintenance",
+      "url": "https://andersonlandscapemain.com/",
+      "trade": "landscaping",
+      "region": "US-OR",
+      "strengths": [
+        "Header 'Schedule a Free Estimate: (503) 659-3172' (tel:) and 'Get a Free Quote'",
+        "Hero adds an urgent side path: 'need a tree removal? Call (503) 659-3172'",
+        "'4.8 ★★★★★ 300+ Google reviews'; 'Family owned and operated'; 'licensed and insured'; '20+ Years'",
+        "16 towns listed by name",
+        "Explains the estimate process (drive-by estimate emailed, or a scheduled visit) and online approval and deposits"
+      ],
+      "weaknesses": [
+        "'100+ 5 Star Reviews' elsewhere contradicts '300+'"
+      ]
+    },
+    {
+      "name": "Gibbs Landscape Company",
+      "url": "https://gibbslandscape.com/",
+      "trade": "landscaping",
+      "region": "US-GA",
+      "strengths": [
+        "Header tel: + 'Request a Quote'",
+        "Leads with proof: 'Over 300 Awards'",
+        "Publishes minimums: design/install 'starts at $12,000'; weekly maintenance 'starts at $12,000 per year'",
+        "'We Plan. We Design. We Install.' and seasonal maintenance/colour programs"
+      ],
+      "weaknesses": [
+        "Generic headline 'Creativity. Quality. Experience.'",
+        "No service area named",
+        "No review numbers"
+      ]
+    },
+    {
+      "name": "Lawn Lovers",
+      "url": "https://lawnlovers.ca/",
+      "trade": "landscaping",
+      "region": "CA-AB",
+      "strengths": [
+        "Header has both 'Free Quote' and 'ORDER NOW' (packages bought online with a cart)",
+        "Hero CTA 'View Packages' (lawn care and mowing packages)",
+        "Before/after gallery on the homepage",
+        "Google reviews linked; 'Alberta Living Wage Employer'"
+      ],
+      "weaknesses": [
+        "No prices visible despite the 'packages'",
+        "Names Edmonton and Okanagan with no detail"
+      ]
+    }
+  ],
+  "reviewed_not_listed": [
+    { "name": "The Irish Plumber", "url": "https://theirishplumber.ca/", "region": "CA-ON", "why": "A 'Lorem ipsum' testimonial is live; 'Book Online' goes to a contact page; 'Open 24/7 per week'." },
+    { "name": "di Stefano Landscaping", "url": "https://distefanolandscaping.com/", "region": "US-VT", "why": "No phone or CTA in the header or hero; two different phone numbers; no reviews or credentials." },
+    { "name": "Best Bet Lawn", "url": "https://www.bestbetlawn.ca/", "region": "CA-AB", "why": "Has a 'Project Calculator' section with no inputs, and 'No Project Found' in two portfolio sections." },
+    { "name": "Mango Landscapes", "url": "https://www.mangolandscapes.co.uk/", "region": "UK", "why": "Phone printed as plain text (not tappable); no reviews, insurance or guarantee on the homepage." },
+    { "name": "RYAN Lawn & Tree", "url": "https://www.ryanlawn.com/", "region": "US-KS", "why": "No phone in the header; a 'Recognition' heading with nothing under it." },
+    { "name": "Phinney Ridge Painting", "url": "https://www.phinneyridgepainting.com/", "region": "US-WA", "why": "Phone only in the footer; copyright '© 2023'; no reviews, licence or warranty." },
+    { "name": "SafeHaven Pest Control", "url": "https://www.safehavenpest.com/", "region": "US-TX", "why": "Years in business conflict ('over 70 years', 'almost a century', 'since 1955'); 'Treatment Guarantees' heading with no terms." },
+    { "name": "Chet's Roofing", "url": "https://www.chetsroofing.com/", "region": "US-WA", "why": "Good before/after pairs and a 4-field form, but no reviews, licence, certifications or warranty." },
+    { "name": "TruTec Electric", "url": "https://www.trutecelectric.com/", "region": "US-TX", "why": "H1 targets Austin while H2 says 'Georgetown & Round Rock'; badge images empty; no licence number." }
+  ],
+  "conversion_patterns": [
+    {
+      "id": "click-to-call",
+      "name": "Every phone number is a tap-to-call link",
+      "what": "Every printed number is an <a href=\"tel:+1XXXXXXXXXX\"> link (E.164 in the href, local format in the text). Place it in the header, hero, after each service section and in the footer. Make the label an action, e.g. 'Call Now (843) 300-9675' or 'Call (206) 250-9193'. Use one number site-wide, or one per location.",
+      "prevalence": "34/35 have tel: links somewhere (BOXT is the exception). Colorlib: tappable anywhere on 17/18 plumbing, 27/30 HVAC, 19/27 roofing and only 13/19 electrician sites.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://colorlib.com/wp/plumbing-websites-design/ ; https://colorlib.com/wp/hvac-company-website-examples/ ; https://colorlib.com/wp/roofing-company-website-examples/ ; observed on Powerful Electrical, Hedlund Painting"
+    },
+    {
+      "id": "phone-in-header",
+      "name": "Printed phone number in the header, with when it's answered",
+      "what": "Top-right of the header on desktop, top bar on mobile. Print the digits (an icon alone doesn't count) and add a short line about availability: '24/7 Live Answering Service' (Smock), '24hrs & emergencies' (Pimlico), 'Call today for same day service' (Arrow), '7 Days 7AM TO 5PM' (Bright Electrical), 'Open Now' (Service Today). Multi-metro businesses list each metro number (Green Home Pest: Phoenix + Tucson; Garage Door Fix: Calgary + Edmonton + toll-free).",
+      "prevalence": "31/35 print a tappable number in the header. Misses: Bumble, BOXT, Aspect (icon only), Neil Kelly. Colorlib: phone above the fold on 16/18 plumbing, 25/30 HVAC, 17/27 roofing, 10/19 electrician sites.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "Smock HVAC, Pimlico Plumbers, Arrow Pest Control homepages; Colorlib counts above"
+    },
+    {
+      "id": "sticky-mobile-call-bar",
+      "name": "Sticky call/quote bar on mobile",
+      "what": "On mobile, a bar fixed to the bottom of the screen with 2 (at most 3) equal-width buttons: [Call] [Free Quote/Book], and optionally [Text]. At least 48px tall, with the safe-area inset. It stays visible while scrolling and hides while a form field has focus. Examples: Bone Dry 'CALL TODAY | 866.371.5090' + 'GET A FREE QUOTE'; Fallon phone + 'Book Online' + 'Text Us'; Nozzle Nolen 'Get My Free Quote' + 'Call Now'; A1 Garage 'Schedule Now'; Garage Door Fix floating 'Tap to call'.",
+      "prevalence": "At least 7/35 visible in the page source (Bone Dry, Fallon, Nozzle Nolen, A1 Garage, Powerful Electrical, Garage Door Fix, Normandy's sticky header). This is a lower bound because pages were read as text. Also cited: A-1 Total Service Plumbing's 'fixed Call Now bar' (Colorlib), Retro Roofers' sticky header and MHI's floating review button (ServiceTitan), Jansen Roofing's sticky free-estimate tab (Hook Agency).",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://www.bonedry.com/ ; https://www.fallonsolutions.com.au/ ; https://colorlib.com/wp/plumbing-websites-design/ ; https://www.servicetitan.com/blog/roofing-websites ; https://hookagency.com/blog/best-roofing-websites-roofing/"
+    },
+    {
+      "id": "hero-dual-cta",
+      "name": "Two paths in the hero: quote/book plus call",
+      "what": "The hero offers one main action (quote, book or estimate) and one secondary action that shows the phone number. Write the number into the secondary button and use soft wording for people who prefer to talk: 'Get Your Free Estimate' + 'Call (206) 250-9193' (Hedlund); 'Get a free quote' + 'Prefer to talk? (732) 536-6500' (Arrow); 'GET A QUOTE' + 'or call us on 1300 743 923' (DYAD); 'Schedule Now' + 'Call Now' (A1 Garage).",
+      "prevalence": "About 11/35 have both actions in the hero itself (Hedlund, Snell, Arrow, DYAD, Powerful, Service Today, Fallon, A1 Garage, Garage Door Fix, Anderson, Pimlico). Unbounce: home-improvement pages offering mixed CTAs (click, form, phone) convert at 4% vs a 2.6% baseline.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://unbounce.com/industry/home-improvement/ ; Arrow Pest Control, Hedlund Painting homepages"
+    },
+    {
+      "id": "emergency-24-7-banner",
+      "name": "Emergency / 24-7 availability banner",
+      "what": "Emergency trades get a top strip or header label that says when calls are answered and by whom: 'Call 843-300-9675, answered 24/7 by a real person' (Powerful); '24/7 availability on nights, weekends, and holidays at no extra cost' (Snell); 'for no heat furnace repair situations' (Ignite, seasonal). Only make the claim if a person really answers. Footer hours and the schema openingHoursSpecification must agree with it.",
+      "prevalence": "14/35 overall. Plumbing/HVAC/multi-trade 9/10, roofing 2/7, electrical 1/3, garage doors 1/2. Colorlib: 16/18 plumbing, 24/30 HVAC, but only 5/19 electrician sites.",
+      "trades": ["plumbing", "hvac", "electrical", "roofing", "garage_doors"],
+      "priority": "must",
+      "priority_by_trade": { "plumbing": "must", "hvac": "must", "garage_doors": "must", "electrical": "should", "roofing": "should", "pest_control": "nice" },
+      "evidence": "https://colorlib.com/wp/plumbing-websites-design/ ; https://colorlib.com/wp/hvac-company-website-examples/ ; Powerful Electrical, Snell homepages"
+    },
+    {
+      "id": "response-time-promise",
+      "name": "A response or arrival time the customer can check",
+      "what": "Put a concrete, checkable time promise next to the CTA. Options: a cut-off rule ('If you book before midday, we guarantee a technician will be at your door that same day.' Service Today; 'Call before noon...' Arrow; 'Available when you call before noon' Nozzle Nolen); a measured rate ('over 96% of service calls on the same day'); an arrival courtesy call ('courtesy call 15-30 minutes before we arrive', Fallon); a booking lead time ('most appointments set within 24 hours', Tadlock); or a capped emergency target ('1-Hour Emergency Response Time*' with the caveat stated, Pimlico). Next to form submit buttons, say when you'll reply.",
+      "prevalence": "11/35 make some same-day or response promise; 7/35 give a number or a cut-off time.",
+      "trades": ["all"],
+      "priority": "must",
+      "priority_by_trade": { "plumbing": "must", "hvac": "must", "garage_doors": "must", "pest_control": "must", "electrical": "must", "roofing": "should", "painting": "should", "remodeling": "should", "landscaping": "should", "cleaning": "should" },
+      "evidence": "https://www.servicetoday.com.au/ ; https://www.fallonsolutions.com.au/ ; https://www.arrownj.com/ ; https://www.pimlicoplumbers.com/"
+    },
+    {
+      "id": "free-estimate-offer",
+      "name": "Name the free thing in the CTA",
+      "what": "Put the free offer in the button text: 'Get My Free Estimate', 'Schedule Free Inspection', 'FREE 2nd Opinion on Major HVAC Repairs', 'FREE Electrical Panel Inspection', and add 'no obligation'. Painters and remodelers also say what the estimate excludes: 'a free written estimate with no surprise change orders' (Hedlund). When the job can be priced without a visit, skip the estimate and show the price instead (see price-transparency).",
+      "prevalence": "21/35 overall; roofing 6/7 (Colorlib: free inspection on 19/27 roofing sites). Sites without it swap in published or instant pricing (BOXT, Tidy Casa, Maid Marines, Garage Door Fix, A1 estimator) or a disclosed call-out fee (Fallon).",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://colorlib.com/wp/roofing-company-website-examples/ ; Hedlund Painting, Smock HVAC, Powerful Electrical homepages"
+    },
+    {
+      "id": "price-transparency",
+      "name": "Show a 'from' price, a price model or a fee policy",
+      "what": "Show at least one real number or explain how the work is priced. Options: a price list (Garage Door Fix: 'Starting at $380' springs, 'From $2,445' new door); a plan anchor ('plans start at $49 per month', Green Home Pest); an install anchor ('Installed from £1,890', BOXT); a worked invoice example (Hiller 'True Transparency Pricing'); a pricing model ('Set price jobs' / 'Half-hourly rate jobs' / 'Scoped jobs', Aspect); a disclosed call-out fee ('$88 call out fee', Fallon).",
+      "prevalence": "17/35 show a number or an instant-price tool. The rest rely only on 'free estimate'.",
+      "trades": ["all"],
+      "priority": "should",
+      "priority_by_trade": { "cleaning": "must", "garage_doors": "must", "pest_control": "must", "hvac": "should", "plumbing": "should", "roofing": "should", "remodeling": "should", "landscaping": "should" },
+      "evidence": "https://garagedoorfix.ca/ ; https://greenhomepest.com/ ; https://www.boxt.co.uk/ ; https://www.happyhiller.com/ ; https://www.aspect.co.uk/"
+    },
+    {
+      "id": "instant-quote-tool",
+      "name": "Self-serve instant quote or estimator",
+      "what": "A small estimator that returns a price or range before any contact details are asked for (ask for phone/email only to save or book). By trade: roofing = address + satellite measurement + material, returns a range ('Get instant quote and visualize your new roof', Bumble); water heater = tank/tankless + size ('INSTANT WATER HEATER QUOTE', Superior); HVAC replacement ('Instant HVAC Quote', Smock); cleaning = bedrooms/bathrooms/frequency to a flat rate (Tidy Casa, Maid Marines); remodeling cost calculators (Neil Kelly); garage door cost estimator ('No bait-and-switch. No pressure.', A1).",
+      "prevalence": "10/35 (Bumble, Houston Roofing, Tadlock's '3-minute Roof Assessment', Smock, Superior, BOXT, Tidy Casa, Maid Marines, Neil Kelly, A1 Garage). Colorlib: Complete Climate Services and Superior Plumbing also offer instant quotes.",
+      "trades": ["roofing", "cleaning", "hvac", "plumbing", "garage_doors", "remodeling"],
+      "priority": "should",
+      "priority_by_trade": { "cleaning": "must", "roofing": "should", "garage_doors": "should", "hvac": "should", "remodeling": "should", "plumbing": "nice" },
+      "evidence": "https://www.bumbleroofing.com/ ; https://www.superiorplumbing.com/ ; https://tidycasa.com/ ; https://www.neilkelly.com/"
+    },
+    {
+      "id": "financing-monthly",
+      "name": "Financing shown as a monthly payment",
+      "what": "Next to big-ticket services, show a monthly figure, the lender's name and a line saying checking won't affect credit: 'New HVAC System for as little as $113/month' (Snell); 'HVAC Systems Replacements Starting at $99/mo.' (Hiller); Tadlock's '$132/mo' example; 'with no impact to your credit score for checking options' (Guardian/Upgrade); '0% Interest payment plans available through Brighte' (Fallon). Put the APR and terms in small print.",
+      "prevalence": "17/35 mention financing: roofing 6/7, HVAC/heating 7/7, remodeling 2/3. Only 4/35 show an actual monthly figure. Colorlib: roofing 12/27; HVAC 'pricing or financing' 23/30.",
+      "trades": ["roofing", "hvac", "remodeling", "garage_doors", "electrical", "plumbing", "landscaping", "painting"],
+      "priority": "must",
+      "priority_by_trade": { "roofing": "must", "hvac": "must", "remodeling": "must", "garage_doors": "should", "electrical": "should", "plumbing": "should", "landscaping": "should", "painting": "nice", "pest_control": "nice", "cleaning": "nice" },
+      "evidence": "https://www.snellheatingandair.com/ ; http://tadlockroofing.com/ ; https://colorlib.com/wp/hvac-company-website-examples/ ; https://colorlib.com/wp/roofing-company-website-examples/"
+    },
+    {
+      "id": "service-area-pages",
+      "name": "Named service area and a page per town",
+      "what": "Name real towns on the homepage instead of 'and surrounding areas', grouped by sub-region when there are many (Hedlund: 'Seattle & North End', 'The Eastside'). Link each to a town page with local proof (projects, reviews and the crew from that town). Name the area in the H1 ('Heating & Cooling Services in Frederick & Montgomery County'). Keep the lists identical in the body, footer and schema areaServed.",
+      "prevalence": "31/35 name their area (misses: BOXT, Bright, DYAD, Gibbs); about 20/35 link to town/county pages (Houston Roofing 33, Superior 29, Pimlico 32 boroughs). Colorlib: area named on 13/18 plumbing, 24/30 HVAC, 15/27 roofing, 10/19 electrician sites.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://support.google.com/business/answer/7091 (relevance and distance drive local ranking) ; https://www.houstonroofingonline.com/ ; https://www.hedlundpainting.com/"
+    },
+    {
+      "id": "zip-first-entry",
+      "name": "Start with service + ZIP/postcode",
+      "what": "Make the first step two fields: service and ZIP/postcode (or a city picker). Use them to route to the right branch, show local prices or availability, then ask for contact details. Examples: Aspect 'What do you need help with?' + 'Your postcode' then 'Check availability'; Garage Door Fix 'Find Your City' for 'local prices and a direct number'; Neil Kelly space + location; Benjamin Franklin Plumbing uses a ZIP box as its main CTA (Colorlib).",
+      "prevalence": "7/35 (Aspect, Pimlico, Snell, Garage Door Fix, Bumble, Neil Kelly, A1 Garage).",
+      "trades": ["all"],
+      "priority": "should",
+      "evidence": "https://www.aspect.co.uk/ ; https://garagedoorfix.ca/ ; https://colorlib.com/wp/plumbing-websites-design/"
+    },
+    {
+      "id": "reviews-source-count",
+      "name": "Reviews with rating, count and source",
+      "what": "Put an aggregate badge in the header or hero: stars + count + platform + a link to the profile ('4.9' / '335+ Google reviews' linked to Google Maps; 'Google rating 5.0 from 2,352 reviews'). Showing two or three platforms side by side is stronger (DYAD: Google, hipages, Facebook). Further down, show 3-6 recent reviews with first name, town, date and the job. Keep counts the same everywhere on the page and refresh them.",
+      "prevalence": "12/35 show a rating or count with a named source; 21/35 show some aggregate; 14/35 show none (Snell, Hiller, Tadlock, Service Today, among others). BrightLocal 2026: 97% read reviews, 68% need 4+ stars, 47% won't use a business with under 20 reviews, 74% want reviews from the last 3 months.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://www.brightlocal.com/research/local-consumer-review-survey/ ; https://www.houstonroofingonline.com/ ; https://www.arrownj.com/ ; https://dyadelectrical.com.au/"
+    },
+    {
+      "id": "license-insurance-numbers",
+      "name": "Printed licence and insurance numbers",
+      "what": "Print the licence number itself, not just 'Licensed & Insured': 'Lic. CCC1336800' (Tadlock), 'OR CCB #1663; WA L&I...' (Neil Kelly), 'QBCC Licence: 1304235', 'Licence EC11863' + 'ARC number' (Bright). Put it in the footer, near the quote form, and in a trust strip. Add 'bonded & insured' and a link to the certificate of insurance or WCB/workers' comp where relevant. In some places it's the law: California's CSLB requires the licence number in website ads (B&P 7030.5), and Queensland's QBCC requires name and licence number in website ads.",
+      "prevalence": "12/35 print licence numbers; about 25/35 claim licensed/insured/accredited in some form. Colorlib: real numbers on only 5/30 HVAC and 5/19 electrician sites.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://www2.cslb.ca.gov/Newsletter/2016-summer/advertising.asp ; https://www.qbcc.qld.gov.au/running-your-business/advertising ; https://colorlib.com/wp/hvac-company-website-examples/"
+    },
+    {
+      "id": "manufacturer-certifications",
+      "name": "Manufacturer and dealer certifications",
+      "what": "A row of manufacturer badges with the tier name and what it means for the customer: GAF Master Elite (GAF says fewer than 2% of roofers qualify; unlocks Golden Pledge warranty), Owens Corning Platinum Preferred, CertainTeed ShingleMaster; HVAC dealer status (Trane, Napoleon 'authorized dealer', Carrier, Lennox); Colorbond 'authorised installer'; hardscape (Keystone authorised); garage doors (LiftMaster, 'authorized Sommer dealer'); EV chargers (Tesla, Wallbox, Zappi).",
+      "prevalence": "13/35 overall; roofing 7/7.",
+      "trades": ["roofing", "hvac", "garage_doors", "electrical", "landscaping"],
+      "priority": "must",
+      "priority_by_trade": { "roofing": "must", "hvac": "must", "garage_doors": "should", "electrical": "should", "landscaping": "nice" },
+      "evidence": "https://www.houstonroofingonline.com/ ; https://www.bonedry.com/ ; https://igniteheating.ca/ ; GAF blog via https://www.gaf.com/en-us/blog/your-home/2025-gaf-presidents-club-award-a-commitment-to-roofing-excellence-281474980403335"
+    },
+    {
+      "id": "trade-accreditations",
+      "name": "Trade-body and safety accreditations",
+      "what": "Show the credential customers in that trade and country look for: pest = QualityPro, GreenPro, NPMA; painting = 'EPA Lead-Safe Certified' (RRP); UK = Gas Safe, NICEIC/NAPIT, NFRC, Which? Trusted Trader; AU = Master Plumbers / Master Electricians, CEC for solar; remodeling = NARI, NKBA; landscaping = NALP, ISA arborist number. Link each badge to its public register where one exists.",
+      "prevalence": "About 15/35 (Arrow, Nozzle Nolen, Green Home, Hedlund, Catchlight, Pimlico, Aspect, BOXT, Fallon, Service Today, Carrington, Neil Kelly, Smock/ACCA, Bright/Worksafe, Bone Dry/NRCA).",
+      "trades": ["all"],
+      "priority": "should",
+      "priority_by_trade": { "pest_control": "must", "painting": "must", "plumbing": "must", "electrical": "must" },
+      "evidence": "https://www.pimlicoplumbers.com/ ; https://www.nozzlenolen.com/ ; https://www.hedlundpainting.com/ ; https://www.trade2base.com/blog/trade-business-website-design-uk"
+    },
+    {
+      "id": "guarantee-warranty",
+      "name": "A specific, named guarantee",
+      "what": "Put a named guarantee near the CTA that states the remedy or the term: 'Happy You'll Be or the Service is Free' (Hiller); 'If something was missed, tell us right away. We'll come back and fix it for free.' (Tidy Casa); 'Always On-Time, Guaranteed' (Snell); '25-Year Craftsmanship Warranty' (Bone Dry); 'Backed by a 10-Year Warranty' (Hedlund); 1-year standard / 5-year heavy-duty (Garage Door Fix). A heading such as 'Satisfaction Guarantee' with no terms doesn't build trust.",
+      "prevalence": "24/35 state a guarantee or warranty; 16/35 give a term or remedy; 7/35 show only a vague heading (Bright, DYAD, Powerful, Green Home, Lawn Lovers, Bumble, BOXT).",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://www.happyhiller.com/ ; https://tidycasa.com/ ; https://www.snellheatingandair.com/ ; https://garagedoorfix.ca/"
+    },
+    {
+      "id": "owner-team-photos",
+      "name": "Real owner, crew and technician photos",
+      "what": "Use real photos of the people who come to the house, in uniform, next to branded vans. Name the owner with a credential ('Owned and operated by licensed master plumber Jay Cunningham'; Garage Door Fix's 'husband-and-wife team'). An owner-promise block with a photo works well (Puetz). Larger firms show a team grid (Neil Kelly, about 60 headshots). Caption with first names; reviews often mention techs by name.",
+      "prevalence": "10/35 show identifiable team or technician photos; 4/35 name the owner.",
+      "trades": ["all"],
+      "priority": "should",
+      "priority_by_trade": { "cleaning": "must", "pest_control": "must", "remodeling": "must" },
+      "evidence": "https://www.puetzconstruction.com/ ; https://www.neilkelly.com/ ; https://www.nozzlenolen.com/ ; https://www.superiorplumbing.com/"
+    },
+    {
+      "id": "real-job-photos",
+      "name": "Captioned real job photos instead of stock",
+      "what": "Show project photos captioned with the service and the town ('Clyde Hill', 'Queen Anne' cards at Hedlund), drone shots of finished roofs (Houston Roofing), crews on site (Puetz, Carrington). Don't use stock: AdobeStock filenames, generic 'tech-photo' and illustrated cleaners were all spotted. Every gallery item should say what was done and where.",
+      "prevalence": "About 13/35 show identifiable real job imagery; at least 6/35 visibly use stock or illustrations (A1 Garage, Gutter and Roof Repairs, Aspect, Tidy Casa, Maid Marines, Powerful). Colorlib: gallery of work linked on 15/27 roofing and 12/23 painting sites.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://www.hedlundpainting.com/ ; https://www.houstonroofingonline.com/ ; https://colorlib.com/wp/painting-company-website-examples/"
+    },
+    {
+      "id": "before-after",
+      "name": "Before/after pairs",
+      "what": "Show paired before/after shots (slider or side by side), each labelled with the job and town. Strongest for painting, roof restoration, landscaping, cleaning, garage door replacement and remodeling. Keep 3-6 pairs on the homepage and the rest on service pages.",
+      "prevalence": "Only 2/35 show before/after on the homepage (Gutter and Roof Repairs, Lawn Lovers); Chet's Roofing (reviewed) has two pairs. Colorlib: 6-7/23 painting sites. Many roundups name it as a top pattern, so it's an easy gap to fill.",
+      "trades": ["painting", "landscaping", "roofing", "remodeling", "cleaning", "garage_doors"],
+      "priority": "should",
+      "priority_by_trade": { "painting": "must", "landscaping": "must", "remodeling": "must", "roofing": "should", "cleaning": "should", "garage_doors": "should" },
+      "evidence": "https://colorlib.com/wp/painting-company-website-examples/ ; https://www.chetsroofing.com/ ; https://www.servicetitan.com/blog/roofing-websites (Chet's before-and-after sliders)"
+    },
+    {
+      "id": "short-quote-form",
+      "name": "Short quote form near the top",
+      "what": "Put a form in or just below the hero with 3-5 fields: service (select), ZIP/postcode, name, phone (email and message optional). Use type=tel and autocomplete attributes. The button says what happens next ('Get My Free Estimate'). Show the reply-time promise and a 'Prefer to talk?' tel: link beside it. Never make 'How did you hear about us?' required. Colorlib's guidance: 'short enough to complete on a phone', 'a postcode and a phone number and nothing else', 'a quote form of four fields, in the hero'.",
+      "prevalence": "17/35 have a form on the homepage; only about 5/35 put it in the first screen (Bone Dry, Houston Roofing, Pimlico, Aspect, Puetz). Field counts range from 2 (Aspect) to about 20 (Carrington), median about 6. Colorlib: form above the fold on 1/18 plumbing, 2/30 HVAC, 7/27 roofing, 1/19 electrician sites; electrician forms have a median of 5 fields.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://colorlib.com/wp/?p=256765 ; https://www.aspect.co.uk/ ; https://www.puetzconstruction.com/"
+    },
+    {
+      "id": "multi-step-form",
+      "name": "Two-step form when you need detail",
+      "what": "Step 1 asks for contact details, or service + ZIP. Step 2 asks for job detail, photos and a preferred time. A partial step 1 still gives you a lead. Arrow: contact + address, 'Continue', then service + message. Hook Agency highlights Beaver Roofing's multi-step quote form in the hero. Neil Kelly opens with a 2-select project finder.",
+      "prevalence": "3/35 (Arrow, Neil Kelly, Aspect's 2-field start).",
+      "trades": ["all"],
+      "priority": "should",
+      "evidence": "https://www.arrownj.com/ ; https://hookagency.com/blog/best-roofing-websites-roofing/"
+    },
+    {
+      "id": "online-booking",
+      "name": "Real online booking with arrival windows",
+      "what": "'Book Online' must open a real scheduler (Housecall Pro, ServiceTitan, Jobber or similar) that shows arrival windows, not a contact form. Offer 'First Available', '8am - 12pm', '12pm - 4pm' (Service Today), or Morning/Afternoon plus weekdays (Nozzle Nolen, button 'Confirm Appointment'). Cleaning and lawn programs should allow full checkout ('Book online in 60 Seconds', Tidy Casa; 'ORDER NOW', Lawn Lovers).",
+      "prevalence": "About 20/35 show a Book/Schedule CTA, but only about 6/35 lead to real self-serve booking (Aspect, Tidy Casa, Maid Marines, Powerful/Housecall Pro, BOXT, Service Today). Colorlib HVAC: 20/30 have a Book button, only 8 have a booking system behind it.",
+      "trades": ["all"],
+      "priority": "should",
+      "priority_by_trade": { "cleaning": "must", "hvac": "should", "plumbing": "should", "pest_control": "should", "electrical": "should", "roofing": "nice", "remodeling": "nice", "landscaping": "nice" },
+      "evidence": "https://colorlib.com/wp/hvac-company-website-examples/ ; https://www.servicetoday.com.au/ ; https://www.nozzlenolen.com/ ; https://powerfulelectricalllc.com/"
+    },
+    {
+      "id": "text-chat-option",
+      "name": "Text or chat as a third contact route",
+      "what": "Offer 'Text Us' (Fallon has an SMS modal and a published text number) or a chat that a person answers (Garage Door Fix 'Chat with us!'; Powerful 'Chat With Us') for people who can't call from work. Load it lazily after interaction so it doesn't slow the page. Keep marketing SMS consent as a separate, unticked checkbox ('Consent is not a condition of purchase').",
+      "prevalence": "3/35; SMS-consent checkboxes appear on 7/17 observed forms.",
+      "trades": ["all"],
+      "priority": "nice",
+      "evidence": "https://www.fallonsolutions.com.au/ ; https://garagedoorfix.ca/ ; https://www.houstonroofingonline.com/"
+    },
+    {
+      "id": "seasonal-offers",
+      "name": "Dated seasonal and audience offers",
+      "what": "Run 1-2 offers tied to the season, each with an expiry date and short terms: '$99 Heating Tune-Up' (Hiller); 'Stay Cool Now. Pay Later!*' 'Offer ends 30 November 2026' (Fallon); first-service ('$35 off your first service', Arrow); audience ('$500 OFF FULL ROOF REPLACEMENT' for military, veterans, teachers, Bone Dry). Expire them automatically.",
+      "prevalence": "15/35 run offers; only 5/35 show an expiry date (Guardian, Snell, BOXT, Fallon, Tidy Casa). Tidy Casa's had already expired.",
+      "trades": ["all"],
+      "priority": "should",
+      "priority_by_trade": { "hvac": "must", "pest_control": "should", "landscaping": "should" },
+      "evidence": "https://www.fallonsolutions.com.au/ ; https://www.happyhiller.com/ ; https://www.bonedry.com/ ; https://tidycasa.com/"
+    },
+    {
+      "id": "insurance-claim-help",
+      "name": "Insurance claim help and storm-chaser differentiation (roofing)",
+      "what": "A roofing section that explains the claim path: free inspection with a photo report, meeting the adjuster, documentation, what the homeowner pays (deductible). Pair it with a line that sets the company apart from storm chasers and points to its local office and years ('We're not a storm-chasing company that shows up, does the work, and disappears.' Houston; 'isn't just another storm-chaser' Tadlock). Never promise a 'free roof' or offer to waive deductibles.",
+      "prevalence": "3/7 roofing sites (Bone Dry, Houston, Bumble). Colorlib: claim help on 7/27, storm/hail on 13/27. Hook Agency singles out Stormgrade for putting 'insurance claim help up front'.",
+      "trades": ["roofing"],
+      "priority": "must",
+      "evidence": "https://www.houstonroofingonline.com/ ; https://colorlib.com/wp/roofing-company-website-examples/ ; https://hookagency.com/blog/best-roofing-websites-roofing/"
+    },
+    {
+      "id": "maintenance-plans",
+      "name": "Named maintenance or membership plan with perks",
+      "what": "A named plan with listed perks and, ideally, a price: Smock Comfort Plan ('two tune-ups yearly, 15% off repairs, and $100 in Comfort Credits'); Fallon VIP ('No call-out fee'); Nozzle Nolen tiers 365 SELECT / Complete / Complete+ with 'Purchase Pest Control' online; recurring discounts ('weekly 20%, bi-weekly 15%, monthly 10%', Maid Marines); lawn programs (Carrington). Give it a hero CTA ('Explore Memberships', Smock).",
+      "prevalence": "HVAC/heating 6/7; pest 3/3; landscaping 3/4; cleaning 1/2 publish recurring discounts. Colorlib HVAC: membership or maintenance plans on Sanborn's, Thelen, Kensington and others.",
+      "trades": ["hvac", "pest_control", "landscaping", "cleaning", "plumbing", "roofing"],
+      "priority": "must",
+      "priority_by_trade": { "hvac": "must", "pest_control": "must", "landscaping": "should", "cleaning": "should", "plumbing": "should", "roofing": "nice", "electrical": "nice", "garage_doors": "nice" },
+      "evidence": "https://www.smockhvac.com/ ; https://www.nozzlenolen.com/ ; https://www.maidmarines.com/ ; https://www.fallonsolutions.com.au/"
+    },
+    {
+      "id": "no-surprise-fees",
+      "name": "Stated fee policy (no surprise fees)",
+      "what": "Emergency trades should state the fee rules: 'No emergency fees' (Snell); '$0 Emergency Fees' and no weekend surcharge (Garage Door Fix); 'Same Prices, 7 Days a Week' / 'No hidden costs or surcharges' (Pimlico); or disclose the call-out fee and say 'You approve the final price before any major work begins.' (Fallon).",
+      "prevalence": "5/35 (Snell, Garage Door Fix, Pimlico, Fallon, Hiller 'NO FEE').",
+      "trades": ["plumbing", "hvac", "electrical", "garage_doors", "pest_control"],
+      "priority": "should",
+      "evidence": "https://garagedoorfix.ca/ ; https://www.pimlicoplumbers.com/ ; https://www.fallonsolutions.com.au/"
+    },
+    {
+      "id": "process-steps",
+      "name": "What happens next, in 3-6 steps",
+      "what": "Number 3-6 steps from first contact to the finished job, and name the human in each (estimator, designer, superintendent): Hedlund 'On-site estimate' through 'Two-stage walkthrough QC'; Normandy 'a dedicated Project Superintendent'; Neil Kelly 5 steps ending 'Love Your Space, Guaranteed'; Puetz Reach out, Planning, We get to work; Carrington Discovery, Consultation, Estimate, Agreement.",
+      "prevalence": "8/35 (Hedlund, Normandy, Neil Kelly, Puetz, Carrington, Anderson, Bumble, Gibbs).",
+      "trades": ["remodeling", "landscaping", "painting", "roofing"],
+      "priority": "should",
+      "priority_by_trade": { "remodeling": "must", "landscaping": "must", "painting": "should", "roofing": "should" },
+      "evidence": "https://www.hedlundpainting.com/ ; https://www.neilkelly.com/ ; https://www.carringtonlawn.com/"
+    },
+    {
+      "id": "budget-qualifier",
+      "name": "Budget ranges or minimums for big projects",
+      "what": "For high-ticket design/build work, publish a minimum or ask for a budget range so leads sort themselves: Gibbs 'minimum investment... starts at $12,000'; Carrington's investment dropdown '$3k-$5k' to '$60k-$100k+' with 'Prefer to discuss verbally'; Neil Kelly's kitchen and bath cost calculators.",
+      "prevalence": "3/35 (Gibbs, Carrington, Neil Kelly).",
+      "trades": ["remodeling", "landscaping"],
+      "priority": "should",
+      "evidence": "https://gibbslandscape.com/ ; https://www.carringtonlawn.com/ ; https://www.neilkelly.com/"
+    },
+    {
+      "id": "years-local-ownership",
+      "name": "Founding year and local ownership",
+      "what": "Put the founding year and local/family ownership in the trust strip or hero subhead: 'Family Owned & Locally Operated' + 'Since 1989' (Bone Dry); 'Family Owned and Operated Since 1990' (Hiller); 'Trusted Since 1951' (Nozzle Nolen); 'locally owned for generations'. Use one founding year everywhere.",
+      "prevalence": "28/35 state years in business; 13/35 state family or local ownership.",
+      "trades": ["all"],
+      "priority": "should",
+      "evidence": "https://www.bonedry.com/ ; https://www.happyhiller.com/ ; https://www.nozzlenolen.com/"
+    },
+    {
+      "id": "who-comes-to-the-door",
+      "name": "Who comes to the door: vetted employees",
+      "what": "Say who will be in the customer's home: 'Every technician is a company employee, not a subcontractor' (Garage Door Fix); 'Background-checked' (Snell, Hiller, Tidy Casa); 'Bonded & Insured', 'Vetted' (Maid Marines); 'No Subcontractors' (Elegant Painting, Colorlib). Police and Working With Children checks in the opening paragraph (All Electrics AU, Zarla).",
+      "prevalence": "5/35 (Garage Door Fix, Snell, Hiller, Tidy Casa, Maid Marines).",
+      "trades": ["cleaning", "pest_control", "plumbing", "hvac", "electrical", "garage_doors", "painting"],
+      "priority": "should",
+      "priority_by_trade": { "cleaning": "must" },
+      "evidence": "https://garagedoorfix.ca/ ; https://www.maidmarines.com/ ; https://www.zarla.com/inspiration/electrician"
+    },
+    {
+      "id": "family-pet-safety",
+      "name": "Pet and child safety statement",
+      "what": "For treatments and products used inside or around the home, state safety in plain words and back it in the FAQ: 'child and pet safe products' (Green Home Pest); 'eco-friendly, pet-safe, and child-safe' (Maid Marines); 'safe for your kids, your pets' (SafeHaven).",
+      "prevalence": "2/5 pest+cleaning sites listed (plus SafeHaven, reviewed).",
+      "trades": ["pest_control", "cleaning", "landscaping"],
+      "priority": "should",
+      "evidence": "https://greenhomepest.com/ ; https://www.maidmarines.com/"
+    },
+    {
+      "id": "hours-visible",
+      "name": "Hours and open-now status beside the phone",
+      "what": "Show today's status and hours by the phone: 'Open Now' (Service Today), '7 Days 7AM TO 5PM' (Bright), 'Mon-Sun: 7am-8pm' (Houston Roofing). Painters and remodelers can list office hours and crew hours separately (Catchlight). They must match the Google Business Profile and schema.",
+      "prevalence": "About 5/35.",
+      "trades": ["all"],
+      "priority": "nice",
+      "evidence": "https://www.servicetoday.com.au/ ; https://www.brightelectricalperth.com.au/ ; https://support.google.com/business/answer/3038177"
+    },
+    {
+      "id": "objection-faq",
+      "name": "FAQ that answers the money and risk questions",
+      "what": "6-10 FAQs on price, timing, insurance claims, safety, warranty and what's included, written to answer, not to stuff keywords. Green Home puts its '$49 per month' anchor in the FAQ; Bone Dry explains insurance claims and adjusters; Hedlund confirms 'Every estimate is free and provided in writing'; Garage Door Fix gives '$380-$480 + GST' for springs. Mark it up as FAQ content on the page only, not as self-serving review schema.",
+      "prevalence": "About 8/35 have a substantive homepage FAQ.",
+      "trades": ["all"],
+      "priority": "should",
+      "evidence": "https://greenhomepest.com/ ; https://www.bonedry.com/ ; https://garagedoorfix.ca/"
+    },
+    {
+      "id": "local-schema-nap",
+      "name": "Local schema and consistent name, address and phone (NAP)",
+      "what": "Use one canonical name, address (or service area) and phone in the header, footer, contact page, JSON-LD and Google Business Profile. JSON-LD: the most specific LocalBusiness subtype (see schema_types), with name, url, telephone (E.164), address, geo, openingHoursSpecification, areaServed (City list), sameAs (GBP, Yelp, Facebook), and makesOffer/hasOfferCatalog of Service items. Don't add aggregateRating for your own reviews: Google makes self-serving LocalBusiness reviews ineligible for stars. Keep the name free of keywords (a GBP guideline).",
+      "prevalence": "Phone/NAP mismatches on 5/35 (DYAD 923 vs 932; Neil Kelly, A1 Garage and Pimlico have different header/footer numbers; Hiller shares one number across locations). JSON-LD wasn't measured site by site; LocalBusiness schema was seen on TruTec and SafeHaven.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://developers.google.com/search/docs/appearance/structured-data/local-business ; https://developers.google.com/search/docs/appearance/structured-data/review-snippet ; https://support.google.com/business/answer/3038177 ; https://schema.org/HomeAndConstructionBusiness"
+    },
+    {
+      "id": "google-maps-embed",
+      "name": "Service-area map and Google Maps link",
+      "what": "A service-area map (static image or SVG with the town names) on the homepage or areas page, and a lazy-loaded Google Maps embed (click to load) on the contact page that links to the Business Profile. Don't load a Maps iframe above the fold on mobile because it hurts LCP. Service-area businesses that hide their address in GBP should map the area, not a home address.",
+      "prevalence": "Not measurable from text extraction. Maps were referenced on Houston Roofing (service-area map), Bumble (office map) and Powerful Electrical (service map); Ritz Plumbing uses a hero map of review pins (Colorlib).",
+      "trades": ["all"],
+      "priority": "nice",
+      "evidence": "https://support.google.com/business/answer/3038177 (service-area businesses should hide the address) ; https://colorlib.com/wp/plumbing-websites-design/"
+    },
+    {
+      "id": "page-speed",
+      "name": "Fast mobile pages (Core Web Vitals)",
+      "what": "Mobile targets at the 75th percentile: LCP of 2.5s or less, INP of 200ms or less, CLS of 0.1 or less. Hero image in AVIF/WebP with explicit width/height and preloaded. No autoplay hero video or slider above the fold. Defer chat, review and Maps widgets until interaction. Use system or self-hosted fonts with font-display: swap. Render content as static HTML, not client-side only, so search crawlers and AI assistants can read it.",
+      "prevalence": "Not measured. Colorlib's audits show most trade sites run WordPress page builders (10 of 17 HVAC WordPress sites; 7 of 11 electrician WordPress sites), which tend to be heavy. 4 of about 45 sites fetched here returned little or no text to a non-JS reader.",
+      "trades": ["all"],
+      "priority": "must",
+      "evidence": "https://web.dev/articles/vitals ; https://thinkwithgoogle.com/consumer-insights/consumer-trends/mobile-site-load-time-statistics/ (53% of mobile visits abandoned past 3s) ; https://colorlib.com/wp/hvac-company-website-examples/"
+    }
+  ],
+  "quote_form": {
+    "typical_fields": [
+      "phone (16/17 forms observed)",
+      "email (14/17)",
+      "service type select (14/17)",
+      "full name or first + last (15/17)",
+      "location: ZIP/postcode/suburb or street address (12/17)",
+      "message / job details (12/17)",
+      "SMS/marketing consent checkbox (7/17)",
+      "'How did you hear about us?' (5/17, often required)",
+      "preferred date or arrival window (3/17)",
+      "budget range (1/17, Carrington)",
+      "trade-specific triage such as roof type (1/17, Gutter and Roof Repairs)"
+    ],
+    "observed_length": "2 fields (Aspect: service + postcode) to about 20 (Carrington); median about 6. Colorlib's electrician forms ran 4-8 fields, median 5.",
+    "best_practice": "Put a 4-field step 1 in or right under the hero: service (select), ZIP/postcode, name, mobile phone. Use type=tel, inputmode=numeric for ZIP, and autocomplete=name/tel/postal-code. Email and message are optional. The submit label says what happens: 'Get My Free Estimate' / 'Check availability' / 'Confirm Appointment'. Under the button, show the reply promise (e.g. 'We call back within 1 business hour, 7am-7pm') and a 'Prefer to talk? (xxx) xxx-xxxx' tel: link. An optional step 2 collects trade-specific details, photo upload and an arrival window, so a step-1-only submit is still a lead. Keep SMS marketing consent a separate, unticked, optional checkbox ('Consent is not a condition of purchase'). Never require 'How did you hear about us?'; ask it on the thank-you page. Thank-you state: confirm the next step, the time frame and the phone number. Long forms (Carrington about 20 fields; Medley 11 per Colorlib) and required full street address up front (Smock) are the main friction seen.",
+    "trade_specific_fields": {
+      "roofing": ["property address (enables satellite measurement / instant range)", "what's going on: leak / storm or hail damage / full replacement / inspection", "roof type: asphalt shingle / metal / tile / flat (TPO, EPDM) / slate (Gutter and Roof Repairs asks Metal / Tile / Asbestos)", "filing an insurance claim? yes / no / not sure", "approximate roof age", "photo upload (optional)"],
+      "plumbing": ["is this an emergency? (Jimmy Joe's Plumbing triage field, per Colorlib)", "problem: leak / clog / no hot water / sewer or drain / install", "water heater: tank or tankless, gas or electric, size (for instant quote)", "is water shut off? (yes/no)", "preferred arrival window"],
+      "hvac": ["system: furnace / AC / heat pump / boiler / ductless mini-split", "need: repair / replacement estimate / tune-up", "is the system down right now? (no heat / no cool)", "approximate system age", "existing member of the maintenance plan?", "preferred arrival window"],
+      "electrical": ["job: outage or fault / panel upgrade / EV charger / lighting / generator / rewiring", "is power out or is there burning smell/sparking? (routes to call)", "EV charger: vehicle and charger brand, panel amperage if known", "home age (pre-1980 wiring flags)", "photo of panel (optional)"],
+      "landscaping": ["service: design-build / maintenance / lawn program / tree / snow", "property type: residential / commercial / HOA", "budget range incl. 'Prefer to discuss verbally' (Carrington)", "desired timeline / season", "lot size or area to treat", "photos of the yard (optional)"],
+      "painting": ["interior / exterior / cabinets / deck & fence", "number of rooms or approximate square footage", "home built before 1978? (lead-safe RRP)", "desired start date", "colour help needed?", "photos (optional)"],
+      "pest_control": ["pest: ants / roaches / rodents / termites / bed bugs / mosquitoes / wildlife", "one-time treatment or ongoing plan", "property type: house / apartment / business", "pets or young children in the home?", "preferred window: morning / afternoon (Nozzle Nolen)"],
+      "cleaning": ["bedrooms", "bathrooms", "approximate square footage", "clean type: standard / deep / move-in-out", "frequency: one-time / weekly / bi-weekly / monthly (drives discount)", "extras: inside oven / fridge / windows / laundry", "pets?", "date and arrival time (instant price + book)"],
+      "remodeling": ["project: kitchen / bathroom / addition / basement / whole home (Neil Kelly, Normandy)", "location / design centre", "budget range", "timeline", "do you have plans or a designer already?", "in-person or virtual consult preference"],
+      "garage_doors": ["problem: broken spring / off track / opener / panel damage / new door", "is a car stuck inside or the door stuck open? (urgent routing)", "opener brand", "door size: single / double", "interested in a new door style? (link to gallery)", "photo (optional)"]
+    }
+  },
+  "trust_signals": {
+    "all": [
+      "Review badge with rating + count + named platform + link (e.g. '4.9 / 335+ Google reviews'); recent dated reviews with first name + town",
+      "Printed licence number(s) and 'bonded & insured' (link to COI / workers' comp where relevant)",
+      "A named guarantee with its remedy or term ('Happy You'll Be or the Service is Free'; '10-Year Warranty')",
+      "Years in business / founding year and local or family ownership",
+      "Real photos of owner, crew, technicians and branded vans; owner named with credential",
+      "Captioned real job photos with town names; before/after pairs",
+      "Manufacturer / dealer certifications and trade-body memberships with tier names",
+      "Local office address and named service towns (counters the fly-by-night fear)",
+      "BBB accreditation or rating (US/CA), Which? Trusted Trader / Checkatrade / TrustATrader (UK), hipages / ProductReview (AU)",
+      "Operational proof stats ('85%' first-time fix, '100K+' jobs a year, '96%' same-day; Pimlico, Service Today)",
+      "Fee policy and price anchors ('No emergency fees', 'from $380')",
+      "Who comes to the door: employees, background-checked, uniformed"
+    ],
+    "per_trade": {
+      "roofing": ["Manufacturer certification tier: GAF Master Elite (fewer than 2% of roofers, per GAF), Owens Corning Platinum Preferred, CertainTeed ShingleMaster/SELECT; AU: Colorbond authorised installer", "System warranty those tiers unlock (e.g. up to 50-year, non-prorated) plus the company's own workmanship warranty in years", "Insurance claim help (inspection photo report, adjuster meeting) and an anti-storm-chaser statement with local office + years", "State licence number (e.g. FL CCC, OR CCB, QBCC)", "FORTIFIED / NRCA / Roofing Contractor magazine awards", "Drone or photo inspection report sample"],
+      "plumbing": ["Licensed master plumber named (owner); state licence number", "UK: Gas Safe registration number (for gas/boilers), WaterSafe; AU: Master Plumbers membership + licence numbers", "24/7 answered by a person; no after-hours surcharge", "Upfront flat-rate pricing or disclosed call-out fee", "Background-checked, uniformed techs; branded vans", "Warranty on parts and labour"],
+      "hvac": ["Manufacturer dealer status (Trane, Carrier, Lennox, Napoleon 'authorized dealer', Mitsubishi)", "NATE-certified technicians; ACCA membership (US); TSSA (Ontario); Gas Safe and MCS for heat pumps (UK)", "Parts-and-labour warranty years (e.g. '10-year parts and labour warranty')", "Named maintenance/comfort club with perks", "Utility and government rebate help", "On-time guarantee / same-day service promise"],
+      "electrical": ["Licence numbers (state EC/TECL/CSLB; AU electrical contractor licence + ARC number; CEC for solar)", "UK: NICEIC or NAPIT registration; Part P", "EV charger brand installer (Tesla, Wallbox, Zappi) and Generac dealer for standby generators", "Master Electricians membership (AU)", "Police / Working With Children checks (AU, per Zarla)", "Free panel / safety inspection offer"],
+      "landscaping": ["Award counts (e.g. 'Over 300 Awards'), NALP / Landscape Ontario awards", "ISA Certified Arborist number for tree work", "Hardscape manufacturer authorised contractor (Keystone, Belgard, Unilock)", "Plant and hardscape warranty in years ('two-year warranty on hardscape installations')", "Licensed (e.g. Oregon LCB) and insured / WCB", "Real project galleries by town"],
+      "painting": ["EPA Lead-Safe (RRP) Certified Firm", "Written workmanship warranty in years (e.g. 10-year)", "State registration (e.g. 'Mass. HIC Reg No. 151854'); licensed, bonded, insured", "Premium paint brand named (Sherwin-Williams, Benjamin Moore)", "'No subcontractors' / in-house crews", "PDCA membership or awards; Houzz badges"],
+      "pest_control": ["State pesticide applicator / business licence", "QualityPro, GreenPro, NPMA membership", "Re-service guarantee between scheduled visits, stated in words", "Child- and pet-safe products / IPM approach", "Entomologist on staff", "Uniformed technicians + branded trucks; years since founding"],
+      "cleaning": ["Bonded & insured (link to certificate of insurance)", "Background-checked, vetted employees (not gig contractors)", "Satisfaction guarantee with re-clean window (e.g. 48 hours) and refund rule", "Supplies included; eco / pet-safe / child-safe products", "Published checklist (e.g. 85-point)", "Recurring discount table"],
+      "remodeling": ["Licence numbers (e.g. 'OR CCB #1663', WA L&I)", "NARI / NKBA membership and awards (Chrysalis, Houzz, BBB Torch)", "Designer and project-manager headshots; dedicated superintendent", "Fixed-price contract and written warranty in years", "Showroom / design centre address; free workshops", "Permits handled; process steps"],
+      "garage_doors": ["Published prices and a 'no emergency / weekend fees' policy", "Employees, not subcontractors; insured / WCB-covered", "Brand dealer status (LiftMaster, Clopay, Sommer, Genie)", "Warranty years by job type (parts and labour)", "International Door Association (IDA) membership where held", "Same-day completion rate with cut-off time"]
+    }
+  },
+  "copy_patterns": [
+    "Problem + time-frame headline: 'Garage Door Broken? We Fix It Today.' (Garage Door Fix); 'Need an Electrician in Charleston, SC Today?' (Powerful Electrical); 'Need a Trade Specialist? We Can Be There Today!*' (Fallon).",
+    "A benefit you can check, instead of a slogan: 'Your Roof Could Be Done Tomorrow' / 'Residential roofs installed in just one day.' (Tadlock); 'Get a fixed price in minutes.' (BOXT).",
+    "Trade + place in the H1 for relevance: 'Heating & Cooling Services in Frederick & Montgomery County' (Smock); 'Seattle-Area Painters You Can Trust' (Hedlund); 'Same Day Pest Control Services in Southeast FL' (Nozzle Nolen).",
+    "Lead with the guarantee: '200% Guaranteed Home Cleaning' (Tidy Casa); 'Happy You'll Be or the Service is Free' (Hiller); 'The Best Techs. The Best Service. 100% Guaranteed.' (Hiller); badge 'Backed by a 10-Year Warranty' (Hedlund).",
+    "Name the fear and answer it in the subhead: 'a free written estimate with no surprise change orders' (Hedlund); 'shows you what your roof actually needs, then does the work right.' (Houston Roofing); 'Straight talk on budget, timing, and risk.' (Neil Kelly); 'No bait-and-switch. No pressure.' (A1 Garage).",
+    "Plain-spoken honesty positioning: 'Plumbing repairs. Real people. Honest answers.' (Superior Plumbing); 'THE EASIEST WAY TO REMODEL, HONESTLY.' (Neil Kelly).",
+    "Promises in a dot-separated row under the hero: 'Same-day repair · Published prices · No emergency fees' (Garage Door Fix).",
+    "Speed and effort microcopy on booking CTAs: 'Book online in 60 Seconds.' (Tidy Casa); 'Takes 60 seconds • No credit card required.' (Maid Marines); 'Book online in under a minute!' (Service Today); 'Online quote in under 1 minute' (BOXT).",
+    "Soft secondary call CTA: 'Prefer to talk? (732) 536-6500' (Arrow); 'or call us on 1300 743 923' (DYAD); 'need a tree removal? Call (503) 659-3172' (Anderson).",
+    "Availability that says who answers: 'answered 24/7 by a real person' (Powerful); '24/7 Live Answering Service' (Smock); '24/7 availability on nights, weekends, and holidays at no extra cost' (Snell).",
+    "Cut-off rules instead of vague 'fast service': 'If you book before midday, we guarantee a technician will be at your door that same day.' (Service Today); 'Available when you call before noon' (Nozzle Nolen); 'most appointments set within 24 hours' (Tadlock).",
+    "First-person CTA labels that name the free thing: 'Get My Free Estimate' (Tadlock); 'Schedule My Pest Service Now' (SafeHaven); 'Get Your Instant Price' (Maid Marines); 'Start My Project' (Neil Kelly).",
+    "Button text that says what happens next: 'Check availability' (Aspect); 'Confirm Appointment' (Nozzle Nolen); 'Send Booking Request' (Pimlico).",
+    "Form opener in the customer's words: 'I need help with...' (Pimlico); 'Tell us about your project' (Catchlight); 'Let Our Team Earn Your Trust' (Bone Dry).",
+    "Monthly-payment framing for big tickets: 'New HVAC System for as little as $113/month' (Snell); 'Split Systems Installed from just $14.75/week' (Fallon); 'BUY NOW, PAY LATER' (Tadlock).",
+    "Separate yourself from storm chasers: 'We're not a storm-chasing company that shows up, does the work, and disappears.' (Houston Roofing); 'isn't just another storm-chaser.' (Tadlock).",
+    "Proof stats from operations, not adjectives: 'Same-day service on 95% of calls' (Garage Door Fix); '85%' first-time fix rate, '230+' tradespeople (Pimlico); '12,104' Google reviews (Bone Dry).",
+    "Local-pride or memorable line: 'Pimlico Plumbers. Built for London.'; 'From the Furnace to the Faucet, Snell's Got It' (Snell); vanity number '844-MYHILLER' (Hiller).",
+    "Reassure on fees: 'Same Prices, 7 Days a Week' / 'No hidden costs or surcharges' (Pimlico); 'You approve the final price before any major work begins.' (Fallon); 'No emergency fees' (Snell).",
+    "Who-shows-up line: 'Every technician is a company employee, not a subcontractor' (Garage Door Fix); 'background-checked cleaners with all supplies included' (Tidy Casa)."
+  ],
+  "anti_patterns": [
+    "No printed phone number in the header (icon only, footer only, or missing): Bumble Roofing, Aspect (icon only), BOXT, Neil Kelly, plus reviewed Phinney Ridge Painting, RYAN Lawn & Tree and di Stefano Landscaping. Colorlib: 6/19 electrician sites have no tappable number at all.",
+    "Phone printed as text but not a tel: link: Mango Landscapes (UK); Colorlib flags Circle Plumbing ('Phone number in headline but not tappable'), Kleinberg, JTM and O'Connell Electric, and 3/30 HVAC sites.",
+    "Different phone numbers on the same page (header vs footer vs sticky bar), which breaks NAP consistency and confuses callers: DYAD (1300 743 923 vs 932), Neil Kelly, A1 Garage, Pimlico; Hiller shows one number for two different locations.",
+    "'Book Online' / 'Schedule' buttons that lead to a generic contact form or nowhere: Guardian ('Book Online' to the contact page), Superior Plumbing, The Irish Plumber, A1 Garage (one button links to '#'). Colorlib: 12/30 HVAC sites show a booking button with no booking system behind it.",
+    "Ratings with no count or source ('5.0/5.0 Rated', Bright Electrical), or a review widget with a missing number ('With over [blank] positive reviews', Service Today). BrightLocal 2026: 47% won't use a business with under 20 reviews, so the count matters.",
+    "The same figure differs within one page: review counts (Smock 1,500+ vs 1,899; Puetz 363+ vs 375; Anderson 300+ vs 100+), years (Gutter and Roof Repairs 30+ vs 20+; Fallon '60yrs' vs '10 Years'; SafeHaven 70 years vs almost a century vs 1955), checklist points (Maid Marines 85 vs 100), prices (BOXT £1,890 vs £1,745).",
+    "Placeholder or broken content shipped live: 'Lorem ipsum' testimonial (The Irish Plumber); 'Need some text here.' in a modal (Nozzle Nolen); '0+ Years of Combined Experience' counter (Guardian); 'No Project Found' sections and a calculator with no inputs (Best Bet Lawn); an unlabeled 'New Field' (Superior Plumbing); four service buttons on one bit.ly link (Powerful Electrical).",
+    "Claims the footer contradicts: '24/7' next to 'Business hours are Mon-Fri 8am-4pm' (Powerful Electrical); '24/7 Answering Service' next to 'Closed: Sunday' (Guardian).",
+    "Stale or expired offers: Tidy Casa still advertised an October promo code in November; page copyright '© 2023' (Phinney Ridge). An expired coupon suggests nobody is maintaining the site.",
+    "An asterisk with no terms, and superlatives with no backing: 'Same day service or it's FREE!*' (Service Today); 'UK's most trusted*' with no footnote (BOXT); 'the undisputed industry leader' (A1 Garage); '#1 Best Licensed Electrician' in alt text (Powerful).",
+    "Vague guarantee headings with no terms: 'Satisfaction Guarantee' (Bright), 'Workmanship Guarantee' (DYAD), 'Treatment Guarantees' (SafeHaven), 'Exceptional Quality Guaranteed' (Lawn Lovers). 7/35 do this.",
+    "'Licensed & insured' with no licence number, even where the number is legally required in ads (California CSLB, Queensland QBCC): 23/35 studied sites print no licence number; Colorlib finds real numbers on only 5/30 HVAC and 5/19 electrician sites.",
+    "Stock or illustrated people instead of the real crew: AdobeStock filenames (Gutter and Roof Repairs), stock-style 'tech-photo' (A1 Garage), illustrated team (Maid Marines), generic action shots (Tidy Casa, Aspect).",
+    "Long forms with required low-value fields: Carrington (about 20 fields), Houston Roofing (6 required incl. 'How Did You Hear About Us?'), Green Home (5 of 6 required), Smock (full street address required). Colorlib: Medley HVAC's 11-field form.",
+    "No quote form near the top: only about 5/35 put a form in the first screen; Colorlib finds forms above the fold on just 1/18 plumbing, 2/30 HVAC and 1/19 electrician sites.",
+    "Generic or brand-name hero headlines that say nothing about the job or place: 'Ignite Heating and Air Conditioning.' (Ignite), 'Creativity. Quality. Experience.' (Gibbs), 'Beautiful, Lasting Results' (Catchlight), 'Professional Roofing Services Across the U.S.' (Bumble).",
+    "Service area hidden or vague ('Servicing Perth', 'North Brisbane', or none): Bright, DYAD, Gibbs; area lists that differ between body and footer (Tidy Casa, Hiller, Garage Door Fix); H1 city vs H2 cities mismatch (TruTec).",
+    "Looks great but is hard to contact: Colorlib's top plumbing pick (Parklane Plumbing) has 'No clickable phone in the opening screen, no licence claim, no homepage quote form'; di Stefano Landscaping has no header phone and no hero CTA.",
+    "Navigation cards that all link to the same page (Bright Electrical's Commercial, EV Chargers and Energy Solutions cards all go to the residential page), which wastes service-page SEO and confuses visitors.",
+    "Operational problems announced on the homepage: Superior Plumbing repeats 'WE ARE CURRENTLY EXPERIENCING SOME PHONE ISSUES' four times; fix the phones and route calls before advertising.",
+    "Content that only renders with JavaScript: several sites (e.g. Sharper Impressions Painting, Nova Landscape & Design, JT Madison Landscaping) returned little or no text to a non-JS fetch. Crawlers and AI assistants may see an empty page, which matters now that 45% of consumers use AI tools for local recommendations (BrightLocal 2026)."
+  ],
+  "schema_types": {
+    "roofing": "RoofingContractor",
+    "plumbing": "Plumber",
+    "hvac": "HVACBusiness",
+    "electrical": "Electrician",
+    "painting": "HousePainter",
+    "remodeling": "GeneralContractor",
+    "landscaping": "HomeAndConstructionBusiness",
+    "pest_control": "HomeAndConstructionBusiness",
+    "cleaning": "HomeAndConstructionBusiness",
+    "garage_doors": "HomeAndConstructionBusiness"
+  },
+  "schema_notes": [
+    "schema.org subtypes of HomeAndConstructionBusiness are exactly: Electrician, GeneralContractor, HVACBusiness, HousePainter, Locksmith, MovingCompany, Plumber, RoofingContractor. Landscaping, pest control, cleaning and garage doors have no dedicated type, so use HomeAndConstructionBusiness ('provides services around homes and buildings') and describe the trade with makesOffer -> Offer -> itemOffered Service {serviceType: 'Pest control'}.",
+    "Google: 'Use the most specific LocalBusiness sub-type possible'. Multi-trade businesses can give an array, e.g. [\"Plumber\", \"HVACBusiness\", \"Electrician\"]. Google does not support additionalType for this feature.",
+    "Required by Google: name and address (PostalAddress). Recommended: telephone (with country code), url, geo (5+ decimals), openingHoursSpecification (24/7 = all 7 days, opens 00:00, closes 23:59), priceRange (under 100 characters). Add areaServed (City/AdministrativeArea list matching the on-page list) and sameAs (GBP, Yelp, Facebook, BBB).",
+    "Don't add aggregateRating or review markup for reviews of your own business: Google makes self-serving LocalBusiness/Organization reviews ineligible for star rich results, including those from embedded third-party widgets.",
+    "Service-area businesses: Google says to hide the street address in the Business Profile when customers aren't served there, and to keep service areas within about 2 hours' drive of the base. Keep the site's NAP identical to the Business Profile and use a local number rather than a central call-centre number."
+  ],
+  "sources": [
+    { "url": "https://support.google.com/business/answer/7091", "supports": "Local ranking = relevance, distance, prominence; complete info, hours, reviews and photos help." },
+    { "url": "https://support.google.com/business/answer/3038177", "supports": "GBP guidelines: no extra keywords in the name, service-area businesses hide the address, local phone number, about 2-hour service radius." },
+    { "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business", "supports": "LocalBusiness required/recommended properties; use the most specific subtype." },
+    { "url": "https://developers.google.com/search/docs/appearance/structured-data/review-snippet", "supports": "Self-serving LocalBusiness reviews are ineligible for star rich results." },
+    { "url": "https://schema.org/HomeAndConstructionBusiness", "supports": "List of trade subtypes." },
+    { "url": "https://web.dev/articles/vitals", "supports": "Core Web Vitals thresholds (LCP 2.5s, INP 200ms, CLS 0.1 at p75)." },
+    { "url": "https://thinkwithgoogle.com/consumer-insights/consumer-trends/mobile-site-load-time-statistics/", "supports": "53% of mobile visits abandoned when load takes over 3s (Google, 2016-17 data)." },
+    { "url": "https://www.brightlocal.com/research/local-consumer-review-survey/", "supports": "2026 survey of 1,002 US consumers: 97% read reviews; 68% need 4+ stars; 47% won't use a business with under 20 reviews; 74% want reviews from the last 3 months; 45% use AI tools for local recommendations; 54% visit the website after positive reviews." },
+    { "url": "https://unbounce.com/industry/home-improvement/", "supports": "Home-improvement landing page median 2.6% conversion; mixed CTAs (click/form/phone) 4%; HVAC pages under 200 words convert best." },
+    { "url": "https://colorlib.com/wp/plumbing-websites-design/", "supports": "Feature counts across 18 plumbing sites." },
+    { "url": "https://colorlib.com/wp/hvac-company-website-examples/", "supports": "Feature counts across 30 HVAC sites, including the booking-button gap." },
+    { "url": "https://colorlib.com/wp/roofing-company-website-examples/", "supports": "Feature counts across 27 roofing sites." },
+    { "url": "https://colorlib.com/wp/?p=256765", "supports": "Feature counts across 19 electrician sites; short-form guidance." },
+    { "url": "https://colorlib.com/wp/painting-company-website-examples/", "supports": "Feature notes across 23 painting sites." },
+    { "url": "https://colorlib.com/wp/pest-control-website-examples/", "supports": "Feature notes across 23 pest-control sites." },
+    { "url": "https://colorlib.com/wp/cleaning-company-websites", "supports": "Feature notes across 26 cleaning sites (8 with online/instant booking)." },
+    { "url": "https://hookagency.com/blog/best-roofing-websites-roofing/", "supports": "Roofing examples: multi-step hero forms, sticky estimate tab, insurance-claim help up front." },
+    { "url": "https://hookagency.com/blog/hvac-websites/", "supports": "HVAC examples: booking CTAs, coupons near forms, differentiator bullets." },
+    { "url": "https://www.servicetitan.com/blog/roofing-websites", "supports": "Roofing examples: before/after sliders, insurance/scam pages, sticky header, floating review button." },
+    { "url": "https://www.zarla.com/inspiration/electrician", "supports": "Electrician examples: multi-platform ratings, trust strip under nav, police checks in intro." },
+    { "url": "https://www2.cslb.ca.gov/Newsletter/2016-summer/advertising.asp", "supports": "California contractors must include the licence number in online advertising (B&P 7030.5)." },
+    { "url": "https://www.qbcc.qld.gov.au/running-your-business/advertising", "supports": "Queensland: name and QBCC licence number required in ads, websites included." }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "section": "services",
+  "description": "Shows what the business does: the core services (roof replacement, drain clearing, panel upgrades, lawn care) and often the long tail of smaller jobs. It works as an index that routes visitors to service pages or straight to a call or quote.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "home services section listing services",
+    "construction company services section",
+    "architecture firm services list",
+    "services section with photo cards for each service"
+  ],
+  "references": [
+    {
+      "id": "mobbin:7045dd6d-5f65-4b32-87c5-03cc49e9d2d8",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/7045dd6d-5f65-4b32-87c5-03cc49e9d2d8",
+      "pattern": "split-list",
+      "layout": "Small 'Services' label top-left. The headline block starts about a third of the way in: a 3-line headline with a ~420px paragraph under it. Below that are full-width rows ~50-65px tall on hairline rules. Each row has three columns: a short descriptor on the left (~25%), the service name in the middle, and a '+' toggle flush right.",
+      "type": "Headline and service names in a condensed bold grotesk (Tusker or Oswald style), all caps, tight tracking. Headline ~44px with ~1.0 line-height, row titles ~22px. Descriptors and body in a neo-grotesk at ~12-13px regular, sentence case.",
+      "color": "White ~#FFFFFF ground, near-black ~#111111 text, hairlines ~#D9D9D9. The only accent is a muted stone/khaki ~#C9C4B5 on the nav CTA.",
+      "details": [
+        "Each service has a one-line descriptor in its own left column ('For an easy moving process'), so you can read the left column alone",
+        "Long titles wrap onto two lines and the row simply grows, with no truncation",
+        "All '+' icons sit on one right edge, so the list reads like a spec sheet",
+        "The headline column lines up with the service-name column, giving one strong vertical axis"
+      ],
+      "why_it_works": "Condensed uppercase type does the job icons usually do, so it feels confident and industrial rather than templated. The descriptor column turns a plain list into something you can scan for benefits.",
+      "trade_adaptation": "Roofer: 'Storm & hail damage | ROOF REPLACEMENT +', 'Leaks fixed in 48h | REPAIRS +', 'Seamless aluminum | GUTTERS +'. Each '+' expands to a short paragraph and a 'Get a quote' link.",
+      "mood": ["industrial", "editorial", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:4992ac8d-926b-404b-8042-8f1ff17fd7a4",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/4992ac8d-926b-404b-8042-8f1ff17fd7a4",
+      "pattern": "image-tiles",
+      "layout": "Top row: a 2-line headline on the left (~55% width) and a paragraph with a bold lead sentence plus a khaki button on the right (~35%). Below, a small 'YLLW Factory enables:' label on the left and two square outlined arrow buttons (~36px) on the right. Then three tall photo tiles (~1:1.1, ~8px radius, ~10px gutters) that run edge to edge inside the page margin.",
+      "type": "Condensed bold grotesk in all caps: headline ~40px, tile titles ~24px in white set directly on the photos. Tile subtitles ~13px sentence case. Body ~12px regular.",
+      "color": "White ground, black ~#111111 headline, stone ~#C9C4B5 button with dark text. Tiles are unfiltered work photos (warehouse racking, a worker in ear defenders, a workshop) with white type.",
+      "details": [
+        "The title sits top-left on the photo with no scrim, so the photos are chosen with dark, busy tops",
+        "Square, outlined prev/next arrows instead of round dots make the carousel feel industrial",
+        "A stat lives in the tile subtitle ('65000+ products in our catalog')",
+        "The bold lead-in sentence in the right column works as a second headline"
+      ],
+      "why_it_works": "Real on-the-job photography carries each service, and big condensed caps make the tiles read like signage. Nothing in it looks like stock.",
+      "trade_adaptation": "Plumber: 'DRAIN CLEARING / Same-day, no-dig camera inspection', 'WATER HEATERS / Tank & tankless installs', 'REPIPING / Copper and PEX'. Use the owner's own job photos, with arrows to scroll to more services.",
+      "mood": ["industrial", "bold"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:1fc9812f-f76d-4d21-8794-2464d8d6028b",
+      "site": "Daylight",
+      "url": "https://mobbin.com/sites/sections/1fc9812f-f76d-4d21-8794-2464d8d6028b",
+      "pattern": "card-grid",
+      "layout": "Full-width dark section. A tiny eyebrow sits above a 2-line headline left-aligned at ~70% width. Below are three equal cards (~3-column, ~12px gutters, ~8px radius). Each card has a photo filling the top ~45%, then a title, a 2-line paragraph, and a short list of chevron bullets.",
+      "type": "Headline in a transitional serif (GT Super or Tiempos style) at ~44px, regular weight. Card titles in the same serif at ~20px. Eyebrow in an all-caps monospace at ~9px with wide tracking. Body and bullets in a neo-grotesk at ~11px.",
+      "color": "Deep chocolate ~#4A2A0C ground, cream ~#FFF4E0 headline, eyebrow ~#C9B49A, cards ~#FFF7EA with brown-black ~#2B1A0A text and grey-brown ~#6E5F50 bullets.",
+      "details": [
+        "Spec bullets use small '›' chevrons rather than checkmarks: 'Hurricane-tested racking', '25-year warranty'",
+        "The photos are all of real homes with shingle or cedar siding, so the hardware is shown in context",
+        "The monospace eyebrow ('YOUR DAYLIGHT SYSTEM') against the serif headline adds a quiet technical note",
+        "The warm cream cards on dark brown feel like paper on wood rather than UI on a screen"
+      ],
+      "why_it_works": "It reads like a product brochure for a home-improvement company: warm, premium and specific. The spec bullets do the selling that generic descriptions usually fail to do.",
+      "trade_adaptation": "HVAC: 'High-efficiency heat pumps' (› SEER2 18+ › Sized to your home › 10-yr parts warranty), 'Smart thermostats', 'Duct cleaning'. Use install photos from real jobs.",
+      "mood": ["warm", "premium", "editorial"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:d0850530-6f9d-4590-83bc-baa018680be2",
+      "site": "Instrument",
+      "url": "https://mobbin.com/sites/sections/d0850530-6f9d-4590-83bc-baa018680be2",
+      "pattern": "split-list",
+      "layout": "Stacked rows split by thin rules. Each row (~190px tall) has one giant word on the left (~40% width), and on the right a ~3-line paragraph, a two-column list of 6-7 sub-services, then a small pill button. A tiny all-caps 'OUR OFFERINGS' label sits at top-left.",
+      "type": "Category words in a high-contrast display serif (Editorial New or Reckless style), ~70px, light weight, tight tracking. Paragraph in a grotesk at ~13px. Sub-service list at ~10px in a muted tone.",
+      "color": "Deep aubergine ~#2A0A33 ground, lavender ~#E9DDF0 serif words and body, sub-services ~#9A8AA3, rules ~#4A2E52. The pill button is ~#E5DAF0 with dark text and an arrow.",
+      "details": [
+        "Three top-level categories each carry a long tail of sub-services in small type: depth without clutter",
+        "The two-column sub-service list sits in the same column as the paragraph and doesn't get its own heading",
+        "The pill button is small and the same on every row, so it never competes with the giant word",
+        "The single-hue dark palette makes the whole section feel premium"
+      ],
+      "why_it_works": "A clear hierarchy: three big buckets that read from across the room, with every specific job findable underneath. The serif gives it gravitas.",
+      "trade_adaptation": "Painter: 'Interior' (walls, ceilings, trim, cabinets, drywall repair), 'Exterior' (siding, decks, fences, pressure washing), 'Commercial' (offices, HOAs, new builds), each with a 'See work →' pill linking to its gallery.",
+      "mood": ["premium", "editorial"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:67c9761c-a201-45f1-910a-ca8faa50cb33",
+      "site": "Raw Materials",
+      "url": "https://mobbin.com/sites/sections/67c9761c-a201-45f1-910a-ca8faa50cb33",
+      "pattern": "card-grid",
+      "layout": "A full-width rounded (~10px) violet banner holds the 'Our Capabilities' title, with tiny parenthetical labels pinned to its far left and right. Below are three equal outlined columns (~10px radius, 1px dark border). Each has an all-caps title with an outlined number pill on the right, then ~10 list items split by hairlines. A vertical stack of colored nav tabs runs down the left edge.",
+      "type": "Banner title in a geometric grotesk at ~52px, regular weight, white. Column titles in all caps at ~16px medium. List items ~11px regular. Number pills in mono at ~9px.",
+      "color": "Violet ~#5A12D6 banner, warm beige ~#F1E6DC column fill, dark ~#2B2B2B borders and text. Nav tabs in orange ~#FF4A1C, violet, black and blue ~#2B4BFF.",
+      "details": [
+        "Outlined '01 / 02 / 03' pills next to the column titles look like equipment tags",
+        "Hairlines between list items give a ledger feel",
+        "Tiny '(Raw)' and '(Materials)' labels in the banner corners: a small typographic flourish",
+        "The beige fill inside thin black outlines feels like printed stationery"
+      ],
+      "why_it_works": "It packs a lot of services into three tidy, equal columns, and the outlined-card language feels hand-built rather than default. Color is limited to blocks, not sprinkled everywhere.",
+      "trade_adaptation": "Electrician: 'RESIDENTIAL 01' (panel upgrades, EV chargers, rewiring, lighting…), 'COMMERCIAL 02', 'EMERGENCY 03', with the brand color on the banner.",
+      "mood": ["bold", "playful", "technical"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:f2bb0fbb-64b3-4dc1-bc90-fa473d2c42f1",
+      "site": "The Performance Lab",
+      "url": "https://mobbin.com/sites/sections/f2bb0fbb-64b3-4dc1-bc90-fa473d2c42f1",
+      "pattern": "card-grid",
+      "layout": "The intro paragraph is set as huge text across the full width (~4 lines). Below is a 2x2 grid of cells divided by hairlines, with small red '+' crosshairs where the lines meet. Each cell has a mono meta row at the top ('SERVICE  TESTING' on the left, '001' on the right), a ~16:9 photo, a 2-3 line sentence, and a red rectangular button next to a separate square arrow button.",
+      "type": "Intro paragraph in a neo-grotesk at ~28px medium with tight leading (~1.1). Card sentences ~14px. Meta labels and button labels in an all-caps monospace at ~8px.",
+      "color": "White ground, black text, hairlines ~#E5E5E5. Signal red-orange ~#FF3B12 for buttons and crosshairs. The photos are moody and dark (deep red, black).",
+      "details": [
+        "Crosshair '+' marks at the grid intersections look like registration marks on a technical drawing",
+        "Numbering '001 / 002 / 003 / 004' and the 'SERVICE' label give a catalog or spec-sheet tone",
+        "The button is split into a label block and a separate square arrow block",
+        "Using the intro paragraph as the headline, with no separate H2, is a confident move"
+      ],
+      "why_it_works": "Strong clinical credibility from very few elements: hairlines, mono labels, one accent color and good photos. It feels engineered.",
+      "trade_adaptation": "Plumber: cells 'SERVICE / DRAIN CLEARING 001', 'SERVICE / LEAK DETECTION 002' with real job photos and 'BOOK A DRAIN CLEAN →' buttons in the brand's safety color.",
+      "mood": ["technical", "industrial", "bold"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:8ae817bd-fdb1-41cb-8000-5148be5e0c8d",
+      "site": "Selfridges",
+      "url": "https://mobbin.com/sites/sections/8ae817bd-fdb1-41cb-8000-5148be5e0c8d",
+      "pattern": "image-tiles",
+      "layout": "A centered heading, then a 2-line paragraph, then a centered line 'Email | Call: 02073183536'. Below is a 3-column grid of landscape photos (~4:3, square corners, ~8px gutters). Each tile has a title and a 2-line description underneath, left-aligned, and the grid repeats for a second row.",
+      "type": "Heading in a condensed grotesk, all caps, ~20px bold. Tile titles ~15px medium sentence case. Descriptions ~11px regular.",
+      "color": "White ground, black text. Color comes entirely from the art-directed photography (saturated orange, red, green still lifes).",
+      "details": [
+        "The phone number is in the section header itself, so the contact action sits right next to the services",
+        "Square-cornered photos with no card chrome feel editorial, like a magazine",
+        "Short, benefit-led descriptions ('Seasonal updates, event dressing and style refreshes…')"
+      ],
+      "why_it_works": "A restrained frame lets the photos do the selling, and putting the call line in the header suits businesses that take bookings by phone.",
+      "trade_adaptation": "Landscaper: heading 'OUR SERVICES', 'Call: (555) 014-2277' centered below, then six photo tiles: Design, Planting, Hardscape, Irrigation, Lighting, Seasonal care.",
+      "mood": ["editorial", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:399c6a4e-63b9-4fed-9d07-bf6e44a4bb77",
+      "site": "AngelList",
+      "url": "https://mobbin.com/sites/sections/399c6a4e-63b9-4fed-9d07-bf6e44a4bb77",
+      "pattern": "bento",
+      "layout": "Four large stadium-shaped cells (radius ~60px) arranged around a tall central stadium-cropped photo: two on the left stacked, two on the right stacked, slightly offset in height. Each cell has a small '01'-'04' number and a ~15px statement. A tiny '• What we do' label sits top-left.",
+      "type": "Statements in a neo-grotesk at ~15px regular with ~1.3 line-height. Numbers at ~9px.",
+      "color": "Olive ~#8B7445 (white text), light grey ~#ECECEC, mint ~#DCEDE8 and lavender ~#B9B5F5 (dark text ~#1D2B2B). Photo in natural tones.",
+      "details": [
+        "The photo is cropped to the same stadium shape as the text cells, so everything reads as one family",
+        "Uneven heights make it feel composed rather than gridded",
+        "Muted, earthy pastels with one dark olive cell as the anchor"
+      ],
+      "why_it_works": "It breaks the card-grid habit with soft geometry that still has a clear reading order (01→04). Warm and approachable.",
+      "trade_adaptation": "Landscaper or cleaner: four promises ('01 Design that fits your yard', '02 Native, low-water plants', '03 Weekly crews you know by name', '04 Seasonal clean-ups') around a photo of a finished garden.",
+      "mood": ["friendly", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:6fbcef4f-e8df-4aa5-a71a-abe9504f619e",
+      "site": "Fiasco",
+      "url": "https://mobbin.com/sites/sections/6fbcef4f-e8df-4aa5-a71a-abe9504f619e",
+      "pattern": "tabs",
+      "layout": "An off-white panel with large rounded top corners (~24px) rises over the dark section above it. Three zones sit on one horizontal line: an italic label 'What we do' on the left, a ~200px image in the center that changes with the active item, and a vertical list of ~8 services on the right with ~30px spacing.",
+      "type": "Label and list in an italic transitional serif at ~12-14px. The active item is dark, the others are pale.",
+      "color": "Off-white ~#F7F6F2 panel on near-black ~#1C1C1C. Active item ~#222222, inactive items ~#C8C8C8.",
+      "details": [
+        "Hovering or scrolling through the list swaps the center image, which works like tabs with no tab chrome",
+        "The rounded-top panel overlapping the previous section creates a 'sheet' transition",
+        "Lots of empty space; the section is almost all whitespace and still feels finished"
+      ],
+      "why_it_works": "A quiet, interactive way to show many services one at a time. The single swapping image keeps attention on one thing.",
+      "trade_adaptation": "Remodeler: the list (Kitchens, Bathrooms, Basements, Additions, Decks) swaps a before/after photo in the center, with an italic 'What we build' label.",
+      "mood": ["editorial", "minimal", "premium"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:3cf723db-92c1-4601-b820-379757d44107",
+      "site": "Phantom Studios",
+      "url": "https://mobbin.com/sites/sections/3cf723db-92c1-4601-b820-379757d44107",
+      "pattern": "split-list",
+      "layout": "Full-width rows (~160px tall) on hairlines. Each row has a tiny glyph at the far left, the service name at ~25% in, then a paragraph with a small underlined pill link, and a thumbnail image (~180x95, ~4px radius) at the far right.",
+      "type": "Service names in a neo-grotesk at ~30px bold, white. Paragraph ~11px regular. Link in an all-caps monospace at ~8px, underlined, inside a dark pill.",
+      "color": "Charcoal ~#1E1E1E ground, white ~#FFFFFF titles, light grey ~#BDBDBD body, rules ~#3A3A3A. Thumbnails add the color.",
+      "details": [
+        "Each row ends in a proof image of real work, so service and evidence share one line",
+        "A tiny unique glyph per row stands in for an icon at a fraction of the visual weight",
+        "Mono 'VIEW OUR … WORK' links tie each service to a portfolio filter"
+      ],
+      "why_it_works": "It ties services directly to proof without a separate gallery, and the dark ground with bold white titles feels sturdy.",
+      "trade_adaptation": "Garage-door company: 'Repairs' (springs, openers, cables) → 'SEE REPAIR JOBS', 'New doors' → 'SEE INSTALLS', 'Commercial' → 'SEE PROJECTS', each with a job photo thumbnail.",
+      "mood": ["bold", "industrial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:33d8d60d-8c8d-4907-8294-4692622909f4",
+      "site": "MindMarket",
+      "url": "https://mobbin.com/sites/sections/33d8d60d-8c8d-4907-8294-4692622909f4",
+      "pattern": "index-list",
+      "layout": "A cream panel with large rounded top corners (~40px) overlaps a bright yellow section above. Inside are two equal columns of link rows (~40px each). Every row has a service name on the left, a small '›' on the right, and a hairline underneath. The columns have different lengths and nothing pads the shorter one.",
+      "type": "Row labels in a humanist grotesk at ~16px medium, sentence case.",
+      "color": "Sunflower yellow ~#FFC928 section above, cream ~#F4EEDF panel, ink ~#222222 text, hairlines ~#9A9A9A.",
+      "details": [
+        "The rounded-top panel creates a friendly 'pull-up sheet' transition from the colored section",
+        "Uneven column lengths are left as they are",
+        "Rows are full-width links, so the whole row is a tap target on mobile"
+      ],
+      "why_it_works": "It's the honest way to list a long tail of services (8-15 items) without inventing a card for each one. It reads as a directory, and the color break keeps it lively.",
+      "trade_adaptation": "Pest control: an index of pests (Ants, Termites, Rodents, Bed bugs, Wasps, Mosquitoes, Spiders, Wildlife…), each linking to its own page.",
+      "mood": ["friendly", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:dd3b3bfe-d63e-47e7-b692-64cde2a3f494",
+      "site": "OFF+BRAND",
+      "url": "https://mobbin.com/sites/sections/dd3b3bfe-d63e-47e7-b692-64cde2a3f494",
+      "pattern": "numbered-list",
+      "layout": "A small all-caps label sits top-left on its own (~30% column). The right ~65% holds a stack of full-width light cards (~48px tall, ~4px radius) that overlap slightly like a sticky scroll stack. Each has a tiny '01'-'08' number top-left and an all-caps title.",
+      "type": "Titles in a light-weight grotesk at ~20px, all caps, generous tracking. Numbers ~8px. In one row the letters sit at staggered baselines (a scroll-in animation frame).",
+      "color": "Warm grey ~#E2E0DB ground, cards ~#EDEBE6 with a faint edge, text ~#2A2A2A.",
+      "details": [
+        "Cards stack and pin as you scroll, so the list builds up physically",
+        "Tiny numerals tucked into each card corner keep the count without shouting",
+        "A near-monochrome palette lets the motion carry the interest"
+      ],
+      "why_it_works": "A numbered list with physicality and pacing. It's good for 'why us' service guarantees, where each point should land on its own.",
+      "trade_adaptation": "Any trade: '01 FREE WRITTEN ESTIMATES', '02 LICENSED & INSURED', '03 UPFRONT FLAT-RATE PRICING', '04 CLEAN-UP INCLUDED', stacking as the visitor scrolls.",
+      "mood": ["minimal", "editorial"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Let typography carry the services. The strongest references use display type for service names (condensed caps for an industrial feel, high-contrast serif for a premium one), not an icon per card.",
+    "Give each service a short descriptor in its own column or subtitle ('Leaks fixed in 48h'), so the list can be scanned for benefits as well as names.",
+    "Use real job photography as structure (titles over photos, photo-topped cards with spec bullets, proof thumbnails at row ends), never as decoration.",
+    "Hairline-ruled rows with a '+' or '›' and a consistent right edge feel like a spec sheet: credible, tidy and expandable.",
+    "Split depth into two levels: 3-4 primary services shown big, with the long tail of jobs in small type or a plain index list underneath.",
+    "Small meta details (mono labels, '001' numbering, outlined number pills, crosshair marks) are cheap and make a section feel engineered rather than templated.",
+    "Change the ground color for the services block (chocolate, aubergine, a cream panel with rounded top corners rising over color) so it reads as its own chapter.",
+    "Put the contact action inside the services block (a phone line in the header, a per-row quote link), because trade visitors often decide right here."
+  ],
+  "avoid": [
+    "Three or four white cards, each with a line icon or emoji in a tinted circle, a bold title and two lines of grey text (seen in Glide 'Purpose-fit for your enterprise' and Fibery 'Might be helpful to check out').",
+    "Stock photos of people at laptops as service-card headers (Mailchimp's expert categories): instantly generic for a trade.",
+    "Gradient pill tag clouds of features with an icon in every pill (Framer): reads as a SaaS perks list, not a service menu.",
+    "Directory and marketplace card grids with logos and star ratings (Apollo, Customer.io, Webflow partners): wrong genre for a single local business.",
+    "Generic 3D clip-art category icons (Airbnb's grid works only because the icons are custom; off-the-shelf 3D icons look AI-made).",
+    "Equal-weight cards for 10+ services. Past ~6, switch to an index list rather than inventing a card for every item.",
+    "Centered heading + centered sub + centered card grid with no change in rhythm or ground color."
+  ]
+}

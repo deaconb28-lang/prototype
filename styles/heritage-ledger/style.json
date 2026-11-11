@@ -1,0 +1,105 @@
+{
+  "id": "heritage-ledger",
+  "name": "Heritage Ledger",
+  "summary": "Established and trustworthy: Caslon serif in espresso and oxblood on paper, ledger rules, typewriter figures and a navy footer.",
+  "best_for": [
+    "roofing",
+    "plumbing",
+    "remodeling",
+    "hvac"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Libre Caslon Display",
+      "google": "Libre+Caslon+Display"
+    },
+    "text": {
+      "family": "Libre Caslon Text",
+      "google": "Libre+Caslon+Text:ital,wght@0,400;0,700;1,400"
+    },
+    "body": {
+      "family": "Libre Franklin",
+      "google": "Libre+Franklin:wght@400;500;600;700"
+    },
+    "mono": {
+      "family": "Courier Prime",
+      "google": "Courier+Prime:wght@400;700"
+    }
+  },
+  "tokens": {
+    "--bg": "#fbf7f1",
+    "--surface": "#fffdf9",
+    "--surface-2": "#f0e7da",
+    "--ink": "#2a1a14",
+    "--ink-2": "#6a5a4e",
+    "--line": "#d8cbbb",
+    "--line-strong": "#b6a48f",
+    "--accent": "#7a2e22",
+    "--accent-hover": "#63241a",
+    "--accent-ink": "#fbf7f1",
+    "--accent-text": "#7a2e22",
+    "--accent-2": "#efdcd5",
+    "--dark": "#23324d",
+    "--dark-ink": "#f6f1e8",
+    "--dark-ink-2": "#c5cbd8",
+    "--dark-line": "rgba(246,241,232,.18)",
+    "--banner-bg": "#7a2e22",
+    "--banner-ink": "#fbf7f1",
+    "--utility-bg": "#23324d",
+    "--font-display": "'Libre Caslon Display', Georgia, serif",
+    "--font-body": "'Libre Franklin', system-ui, sans-serif",
+    "--font-mono": "'Courier Prime', ui-monospace, monospace",
+    "--display-weight": "400",
+    "--display-tracking": "-0.01em",
+    "--display-leading": "1.06",
+    "--h1": "clamp(2.8rem, 5.6vw, 4.9rem)",
+    "--h2": "clamp(2.1rem, 3.6vw, 3.2rem)",
+    "--h3": "1.35rem",
+    "--eyebrow-font": "'Courier Prime', monospace",
+    "--eyebrow-size": ".85rem",
+    "--eyebrow-tracking": ".06em",
+    "--eyebrow-weight": "700",
+    "--eyebrow-case": "uppercase",
+    "--radius": "3px",
+    "--radius-lg": "4px",
+    "--radius-sm": "2px",
+    "--btn-radius": "3px",
+    "--logo-radius": "50%",
+    "--logo-weight": "400",
+    "--logo-size": "1.45rem",
+    "--quote-font": "'Libre Caslon Text', Georgia, serif",
+    "--em-color": "#7a2e22",
+    "--em-font": "'Libre Caslon Text', Georgia, serif",
+    "--star": "#7a2e22",
+    "--accent-on-dark": "#e9b9a9",
+    "--scrim": "linear-gradient(180deg, rgba(20,12,8,.15) 0%, rgba(20,12,8,.78) 100%)"
+  },
+  "variants": {
+    "nav": "utility",
+    "hero": "split",
+    "services": "list",
+    "process": "timeline",
+    "gallery": "grid",
+    "reviews": "quote",
+    "faq": "twocol",
+    "cta": "band",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "Amperos",
+      "url": "https://mobbin.com/sites/sections/7730614f-a372-4c59-b08a-afb9eab5637f",
+      "what": "Espresso classic serif centered on paper, ledger table with mono figures, torn-paper document fragment, engraved coin cutout, two-column letter-like body."
+    },
+    {
+      "site": "Amperos",
+      "url": "https://mobbin.com/sites/sections/d3a0d720-0baa-4e7a-aeac-4ff17681e8dc",
+      "what": "Handwritten script eyebrow above the serif headline, cutout portrait on torn paper with handwritten letter, near-square dark brown buttons."
+    },
+    {
+      "site": "Readymag (A—BUREAU template)",
+      "url": "https://mobbin.com/screens/0ecd2806-16a3-4fd2-ae48-0a2c11a4526f",
+      "what": "Didone caps wordmark with em dash, single narrow column on warm paper, attributed quote, plain architectural photo."
+    }
+  ]
+}

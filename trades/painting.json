@@ -1,0 +1,234 @@
+{
+  "id": "painting",
+  "name": "Painting",
+  "noun": "painter",
+  "schema_type": "HousePainter",
+  "emergency": { "enabled": false, "label": null, "detail": null },
+  "financing": false,
+  "maintenance_plan": { "enabled": false, "name": null, "pitch": null },
+  "hero": {
+    "headlines": [
+      "Clean lines, covered floors and a crew that shows up on time.",
+      "House painters in {{city}} who prep before they paint.",
+      "Interior and exterior painting with a written scope and a firm price.",
+      "Most rooms done in a day, most exteriors in under a week."
+    ],
+    "subheads": [
+      "Your estimate lists every surface, the prep and the exact paint, so you know what you're paying for.",
+      "Furniture moved and covered, floors protected and the house put back together at the end of each day.",
+      "Interior and exterior painting, cabinets and staining for homes across {{area}}."
+    ],
+    "primary_cta": "Get a free estimate",
+    "secondary_cta": "Call {{phone}}"
+  },
+  "services": [
+    {
+      "slug": "interior-painting",
+      "name": "Interior painting",
+      "short": "Walls, ceilings, trim and doors, with furniture moved and floors covered.",
+      "long": "A good paint job comes down to prep: filling nail holes, patching cracks, sanding, caulking trim and priming stains. We cover floors and furniture, use the right sheen for each room and clean up at the end of every day.",
+      "bullets": [
+        "Two finish coats of a professional-grade paint",
+        "Patching, caulking and spot priming included",
+        "Ceilings, trim, doors and closets",
+        "Low-VOC paints available"
+      ],
+      "icon": "roller",
+      "emergency": false
+    },
+    {
+      "slug": "exterior-painting",
+      "name": "Exterior painting",
+      "short": "Siding, trim, doors and shutters, scraped, primed and painted to last.",
+      "long": "Exterior paint fails when it goes on over loose paint, bare wood or damp siding. We wash, scrape, sand and prime bare spots, caulk gaps and replace small sections of rotted trim before painting. We schedule around the forecast and the temperature limits on the can.",
+      "bullets": [
+        "Power washing and scraping",
+        "Rotted trim and siding repair",
+        "Primer on bare wood and repairs",
+        "Lead-safe work practices on homes built before 1978"
+      ],
+      "icon": "brush",
+      "emergency": false
+    },
+    {
+      "slug": "cabinet-painting",
+      "name": "Cabinet painting",
+      "short": "Kitchen and bath cabinets painted with a hard, smooth sprayed finish.",
+      "long": "We remove the doors and drawer fronts, degrease and sand, prime with a bonding primer and spray a cabinet-grade finish. The cabinet boxes are painted in place with the kitchen masked off. Most kitchens take about a week, for a fraction of the cost of new cabinets.",
+      "bullets": [
+        "Doors and drawer fronts sprayed in a setup area or our shop",
+        "Degreasing and bonding primer",
+        "Cabinet-grade urethane or alkyd enamel",
+        "New hinges and pulls installed if you want them"
+      ],
+      "icon": "paint",
+      "emergency": false
+    },
+    {
+      "slug": "drywall-repair",
+      "name": "Drywall repair",
+      "short": "Holes, cracks and water stains repaired so they disappear under paint.",
+      "long": "We patch holes from doorknobs and old anchors, tape and mud cracks, and repair water-stained ceilings once the leak is fixed. We match the wall texture so the repair doesn't show.",
+      "bullets": [
+        "Patches from small holes to full sheets",
+        "Ceiling water stain repair",
+        "Texture matching",
+        "Nail pops and tape seams fixed"
+      ],
+      "icon": "hammer",
+      "emergency": false
+    },
+    {
+      "slug": "deck-fence-staining",
+      "name": "Deck and fence staining",
+      "short": "Decks, fences and pergolas cleaned, brightened and stained.",
+      "long": "We wash the wood, strip or brighten it as needed and let it dry before staining. Clear, semi-transparent and solid stains each last a different amount of time, and we'll tell you what to expect from each.",
+      "bullets": [
+        "Deck washing and stripping",
+        "Semi-transparent and solid stains",
+        "Fences, pergolas and railings",
+        "Loose boards and popped nails fixed first"
+      ],
+      "icon": "fence",
+      "emergency": false
+    },
+    {
+      "slug": "wallpaper-removal",
+      "name": "Wallpaper removal",
+      "short": "Old wallpaper and glue removed, walls repaired and primed for paint.",
+      "long": "Wallpaper removal is slow work, and any glue left behind will show through new paint. We strip the paper, wash off the adhesive, seal any torn drywall facing and prime the walls before painting.",
+      "bullets": [
+        "Removal by steaming or scoring and soaking",
+        "Adhesive washed off, not painted over",
+        "Torn drywall paper sealed and skim-coated",
+        "Primed and ready for paint"
+      ],
+      "icon": "spray",
+      "emergency": false
+    },
+    {
+      "slug": "commercial-painting",
+      "name": "Commercial painting",
+      "short": "Offices, shops and rental units painted after hours or between tenants.",
+      "long": "We schedule around your business hours, work evenings or weekends when needed and turn rental units around in a few days between tenants. You get one written price for the whole scope, and we can provide a certificate of insurance before we start.",
+      "bullets": [
+        "Offices, retail and restaurants",
+        "Apartment and rental turnovers",
+        "Evening and weekend scheduling",
+        "Low-odor paints for occupied spaces"
+      ],
+      "icon": "ladder",
+      "emergency": false
+    }
+  ],
+  "process": [
+    { "title": "Free estimate", "detail": "We walk through the rooms or around the house and talk about colors, finishes and timing." },
+    { "title": "Written scope", "detail": "Your estimate lists every surface, the prep work and the paint product, with a firm price." },
+    { "title": "Prep and paint", "detail": "We protect floors and furniture, do the prep and apply two finish coats." },
+    { "title": "Walk-through", "detail": "We walk the job with you, mark anything that needs a touch-up with blue tape and fix it before we leave." }
+  ],
+  "trust": {
+    "certifications": [
+      "EPA Lead-Safe Certified Firm",
+      "PCA Accredited Painting Contractor",
+      "PCA Member",
+      "OSHA 10 Trained Crew Leads"
+    ],
+    "license_label": "State contractor license #",
+    "guarantees": [
+      "Workmanship warranty: 2 years interior, 3 years exterior",
+      "Firm price for the scope in your estimate",
+      "Touch-up walk-through before final payment",
+      "Daily cleanup, with furniture put back when we're done"
+    ],
+    "badges_hint": "EPA Lead-Safe Certified Firm status is legally required for most paid painting on homes built before 1978, so show it if the business has it. PCA membership or accreditation, BBB accreditation and proof of liability insurance and workers' comp are what homeowners ask about most. The certifications listed are examples (PCA is the Painting Contractors Association); keep only the ones the business holds."
+  },
+  "faqs": [
+    {
+      "q": "How much does it cost to paint a room or a house?",
+      "a": "An average bedroom, walls only, often runs $400 to $1,000, more with ceilings, trim and repairs. Exteriors vary widely; most single-family homes land between $4,000 and $10,000 depending on size, height, siding and how much prep the old paint needs. We give you a firm written price after we see it."
+    },
+    {
+      "q": "How long will it take?",
+      "a": "Most single rooms take a day. A full interior usually takes three to five days, and most exteriors take three to seven working days, depending on prep and weather."
+    },
+    {
+      "q": "Do I need to move my furniture?",
+      "a": "No. We move furniture to the middle of the room, cover it and the floors, and put it back when we're done. We do ask you to take down pictures and put away small items like lamps and anything breakable."
+    },
+    {
+      "q": "What paint do you use?",
+      "a": "We use professional product lines from major brands like Sherwin-Williams and Benjamin Moore, and we name the exact product and sheen in your estimate. If you already have a brand or color you love, we're happy to use it."
+    },
+    {
+      "q": "How long will an exterior paint job last?",
+      "a": "With good prep and quality paint, most exteriors last 5 to 10 years on wood siding and often longer on fiber cement or stucco. Sun-facing walls and horizontal surfaces wear first. Deck stains need recoating more often, usually every 2 to 4 years."
+    },
+    {
+      "q": "Is lead paint a concern in my house?",
+      "a": "If your home was built before 1978, it may have lead paint. Federal rules require painters working on those homes to be EPA Lead-Safe Certified and follow lead-safe work practices, like containing dust and cleaning with HEPA vacuums. Ask any painter for their certification before they start."
+    },
+    {
+      "q": "Can you paint in cold or wet weather?",
+      "a": "Interior work goes on year-round. Most exterior paints need temperatures above 35 to 50 degrees (check the label) and dry surfaces, so we schedule exterior work around the forecast and stop early if rain is coming."
+    },
+    {
+      "q": "Do you help pick colors?",
+      "a": "Yes. We can bring large samples, paint test patches on your walls and talk through how a color will look in your light. Testing a few patches before deciding saves a lot of second-guessing."
+    }
+  ],
+  "quote_form": {
+    "title": "Get a free painting estimate",
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "phone", "label": "Phone", "type": "tel", "required": true },
+      {
+        "name": "project",
+        "label": "What are we painting?",
+        "type": "select",
+        "options": ["Interior rooms", "Exterior of the house", "Kitchen cabinets", "Deck or fence", "Commercial space", "Something else"],
+        "required": true
+      },
+      {
+        "name": "timing",
+        "label": "When would you like to start?",
+        "type": "select",
+        "options": ["As soon as possible", "Within a month", "1 to 3 months", "Just getting prices"],
+        "required": false
+      },
+      { "name": "zip", "label": "ZIP code", "type": "text", "required": false },
+      { "name": "details", "label": "Anything we should know?", "type": "textarea", "required": false }
+    ],
+    "promise": "We call back within 1 business day to set up your estimate."
+  },
+  "seasonal": [
+    "Exterior painting in spring and summer, booked early",
+    "Interior projects in fall and winter, done before the holidays",
+    "Deck and fence staining once the wood dries out in late spring"
+  ],
+  "about_default": "{{name}} has painted homes in {{city}} for {{years}} years. We put the prep, the paint and the price in writing, protect your floors and furniture, and walk the finished job with you before we call it done.",
+  "photo_subjects": {
+    "hero": "A painter cutting a sharp line along trim in a bright living room, drop cloths on the floor",
+    "work": [
+      "Two-story house mid-project with ladders and fresh trim paint",
+      "Kitchen cabinets before and after painting",
+      "Freshly stained deck in afternoon light",
+      "Drywall patch being feathered with a taping knife",
+      "Furniture grouped and covered in plastic during interior work"
+    ],
+    "team": "Painters in white work clothes standing in front of a freshly painted house"
+  },
+  "keywords": [
+    "house painters {{city}}",
+    "interior painting {{city}}",
+    "exterior painting {{city}}",
+    "cabinet painting {{city}}",
+    "painting contractor {{city}}",
+    "deck staining {{city}}",
+    "drywall repair {{city}}",
+    "wallpaper removal {{city}}",
+    "commercial painting {{area}}",
+    "painting company {{area}}"
+  ],
+  "palette_hint": "Warm off-white with deep navy or forest green, and color used in small blocks like paint chips."
+}

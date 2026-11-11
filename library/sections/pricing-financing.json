@@ -1,0 +1,257 @@
+{
+  "section": "pricing-financing",
+  "description": "Makes cost feel knowable and affordable. It covers flat-rate prices or 'starting at' figures, good/better/best tiers, maintenance-plan memberships, monthly financing payments and estimate builders. It's often the section that turns a nervous homeowner into a quote request.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "financing options section",
+    "insurance pricing section",
+    "membership plans pricing section for a consumer service",
+    "service price list section with starting prices"
+  ],
+  "references": [
+    {
+      "id": "mobbin:8f3b0c29-9da5-426e-ada2-ca2ace537a64",
+      "site": "Samara",
+      "url": "https://mobbin.com/sites/sections/8f3b0c29-9da5-426e-ada2-ca2ace537a64",
+      "pattern": "payment-compare",
+      "layout": "A full-bleed colored section with a left-aligned 1-line heading ending in an asterisk. Two equal cards side by side (~14px radius) hold the brand option and the alternative. Each has a label top-left, a huge monthly figure with a small term note beside it, then a label column and an em-dash bullet column. A 2-line footnote spans the bottom.",
+      "type": "Heading in a light neo-grotesk at ~32px. Monthly figures in the same light grotesk at ~56px ('$1,896/mo'), with '/mo' at the same size and the term ('for 30 years') at ~9px. Bullets ~10px with em-dash markers. Footnote ~8px.",
+      "color": "Bright azure ~#0A8CF0 ground, white type. The brand card is solid black ~#000000; the competitor card is a deeper blue ~#0B6FC0.",
+      "details": [
+        "The comparison is the whole section: our monthly payment against the typical alternative",
+        "Em-dash bullets ('— 6.5% APR — 30½ year term — $0/mo for 6 months') read like a fact sheet",
+        "The black brand card on blue makes the recommended option pop with no badge",
+        "The asterisked footnote holds the assumptions, which builds trust"
+      ],
+      "why_it_works": "It turns a scary total into a monthly number and proves it's better than the obvious alternative. Huge light-weight numerals feel calm, not salesy.",
+      "trade_adaptation": "HVAC or roofing: 'What you could pay:*' with '$189/mo — our financing (9.99% APR, 60 months, $0 down)' vs '$312/mo — typical credit card (24% APR)', and the assumptions ('$9,000 system…') in the footnote.",
+      "mood": ["bold", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:8fdd6979-1cd6-4ba4-a73b-5792854d4d66",
+      "site": "Samara",
+      "url": "https://mobbin.com/sites/sections/8fdd6979-1cd6-4ba4-a73b-5792854d4d66",
+      "pattern": "comparison-table",
+      "layout": "A left-aligned heading. Below, a table with row labels in the left ~20% and five option columns. The brand's column is a solid black rounded (~8px) pillar that extends above the header row and below the last row. The other columns are separated only by thin vertical dividers. A centered pill button sits under the table.",
+      "type": "Heading in a light neo-grotesk at ~34px. Column headers ~10px regular, centered, 2 lines. Row labels ~10px. The marks are thin checks and light grey '×'.",
+      "color": "White ground, black ~#000000 pillar with white checks, grey ~#BDBDBD crosses, dividers ~#E8E8E8. Azure ~#0A8CF0 pill CTA.",
+      "details": [
+        "The recommended option is a solid inverted column, not a 'Most popular' badge",
+        "Competitor columns use pale grey crosses, so they recede",
+        "No horizontal row lines; spacing alone separates the rows",
+        "The CTA names the next step: 'Get your rate estimate'"
+      ],
+      "why_it_works": "One glance shows that the brand ticks every box. The inverted pillar is a strong but elegant way to show a recommendation.",
+      "trade_adaptation": "Financing page: 'Our in-house financing' vs 'Credit card' vs 'HELOC' vs 'Personal loan', with rows such as 'No payments for 6 months', 'No home appraisal', 'Approval in minutes', 'Covers install & permits'.",
+      "mood": ["minimal", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:85269b9d-d285-4ee6-9b3e-d817193959f0",
+      "site": "Samara",
+      "url": "https://mobbin.com/sites/sections/85269b9d-d285-4ee6-9b3e-d817193959f0",
+      "pattern": "financing-benefits",
+      "layout": "A large left-aligned statement (~5 lines, max ~440px) that names the pain. Below is a 3x2 grid of hand-drawn illustrations (~110px tall), each with a 3-line caption under it, left-aligned to the illustration. A centered pill button closes the section.",
+      "type": "Statement in a neo-grotesk at ~24px light, line-height ~1.2. Captions ~10px regular.",
+      "color": "Off-white ~#F6F5EF ground, ink ~#1A1A1A line drawings with lime ~#9AD34A and yellow accents, azure ~#0A8CF0 button.",
+      "details": [
+        "The opening statement admits the pain ('It can be painful to finance…') before offering the fix",
+        "Loose, human hand-drawn illustrations (a person watering a plant, a calendar, a truck) instead of icon fonts",
+        "Captions are concrete terms ('No payments and no interest for the first six months…')"
+      ],
+      "why_it_works": "It makes financing feel humane and simple, and the illustrations add warmth to a dry topic without looking like stock.",
+      "trade_adaptation": "Remodeler or HVAC financing block: 'A new furnace shouldn't wreck your budget.' Benefits: 'No payments for 6 months', 'Finance 100% incl. install', 'Soft credit check', 'Pay off early, no penalty', each with a simple ink drawing in the brand accent.",
+      "mood": ["friendly", "warm", "playful"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:5d70975c-8895-498f-afa2-13852e9c2b22",
+      "site": "Klarna",
+      "url": "https://mobbin.com/sites/sections/5d70975c-8895-498f-afa2-13852e9c2b22",
+      "pattern": "payment-calculator",
+      "layout": "Centered: heading, a 2-line sub, a 'Your purchase' label and a big amount. A slider (~400px) has a circular handle with a '<>' glyph. Below are full-width stacked pill rows (~30px radius, ~60px tall, ~10px gaps). Each row has a bold plan name with a small detail line on the left, and a bold amount with a small 'Total cost' line on the right.",
+      "type": "Heading in a condensed heavy grotesk at ~26px. Amount ~28px bold. Row titles ~13px bold, detail lines ~9px regular. Right-hand amounts ~13px bold, right-aligned.",
+      "color": "White ground, near-black ~#17120F type, pill rows in warm off-white ~#F5F3EE, slider track ~#E0E0E0 with a black filled segment.",
+      "details": [
+        "Each option shows total cost and total interest, which is transparent rather than a teaser",
+        "The slider sets one input and every row updates, keeping the interaction minimal",
+        "The '<>' glyph on the handle says 'drag me' without instructions"
+      ],
+      "why_it_works": "Visitors can play with their own project size and see real monthly figures. It's interactive, honest and simple.",
+      "trade_adaptation": "'Estimate your monthly payment': a 'Your project' slider ($2k-$40k), then rows for '12 months, 0% APR', '36 months, 7.99%' and '60 months, 9.99%', each with monthly and total cost, plus a 'Pre-qualify — no credit impact' button.",
+      "mood": ["minimal", "friendly", "technical"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:f61593bd-fbbe-42f6-ad6a-a2be9fc87810",
+      "site": "Shop",
+      "url": "https://mobbin.com/sites/sections/f61593bd-fbbe-42f6-ad6a-a2be9fc87810",
+      "pattern": "plan-picker",
+      "layout": "Left ~35%: an all-caps eyebrow, a heading, a 3-line sub and an underlined link with an arrow. Center: a floating white UI card (~190px wide, ~10px radius, soft shadow) titled 'Choose your plan' with three radio rows. The selected row expands to show APR, Interest and Total and has a purple 'Interest free' tag. A full-width Continue button sits at the bottom. Cut-out 3D product renders (sofas) sit around the card at angles, with a half-circle sticker.",
+      "type": "Heading in a neo-grotesk at ~32px medium. Eyebrow ~9px bold all caps. Card text ~10-12px, with bold amounts ('$300.00 / month').",
+      "color": "Pale grey-green ~#EEF0EA ground, ink ~#111111, Shop purple ~#5A31F4 for the selected state, button and tag, red-orange ~#FF5B2E sticker.",
+      "details": [
+        "A real-looking plan selector UI used as the illustration",
+        "The selected row shows the breakdown (APR 0%, Interest $0, Total $1800)",
+        "Cut-out product photos break out of the grid around the card",
+        "A rotated sticker 'DREAM BIG PAY SMALL' adds personality"
+      ],
+      "why_it_works": "It demonstrates the payment options instead of describing them, and the cut-outs make it feel like a retail ad rather than a fintech page.",
+      "trade_adaptation": "Water heater or garage-door install: a floating 'Choose your plan' card ('$95/mo · 12 months · 0% APR' selected) surrounded by cut-out photos of a tankless heater, a new door and a smiling tech, plus a brand-color sticker 'NO MONEY DOWN'.",
+      "mood": ["playful", "bold"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:1a3b1e97-0042-43a6-b711-2d3fba805a01",
+      "site": "Corgi",
+      "url": "https://mobbin.com/sites/sections/1a3b1e97-0042-43a6-b711-2d3fba805a01",
+      "pattern": "tier-cards",
+      "layout": "Full-bleed color section with a centered 2-line heading. Three white cards (~10px radius). Each has a black-and-white engraved-style illustration at the top that grows by tier (sprout → leafy branch → full tree), a hairline, a title, a bold subtitle, 'What's included' with shield-check items, and a full-width black button pinned to the bottom.",
+      "type": "Heading in a geometric grotesk at ~30px medium, white. Tier titles ~18px regular. Subtitles ~10px bold. Items ~9-10px.",
+      "color": "Bright orange ~#FF5A1F ground with a faint dot pattern, white cards, black ~#111111 buttons and text, grey ~#555555 icons. The illustrations are monochrome halftone/engraving.",
+      "details": [
+        "The illustration grows from sprout to tree, explaining good/better/best with no words",
+        "Engraving-style art feels like old print, distinctive and timeless",
+        "Every card's CTA is the same 'Get a quote', so no tier is pushed",
+        "Shield-check icons match the 'protection' theme"
+      ],
+      "why_it_works": "Tiers become intuitive through an image metaphor, and the orange-plus-engraving combination is unusual and memorable.",
+      "trade_adaptation": "Roofing or maintenance tiers: 'Repair' (a single shingle), 'Restore' (a section of roof), 'Replace' (a whole house), drawn as engravings that build up, each with 'Get a quote'. For a landscaper the sprout-to-tree metaphor fits literally.",
+      "mood": ["bold", "editorial", "warm"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:ca2ee984-3d18-41d6-8206-1ab9660c4988",
+      "site": "Stripe",
+      "url": "https://mobbin.com/sites/sections/ca2ee984-3d18-41d6-8206-1ab9660c4988",
+      "pattern": "flat-vs-custom",
+      "layout": "A centered 2-line heading (the second line lighter) over angled background stripes. Two side-by-side cards with the right one offset ~30px lower. The left white card has a colored label, a description, a huge price, a caption, three icon bullets and a footer strip link. The right dark card has a label, a description, a 2x2 hairline grid of custom options and a footer link.",
+      "type": "Heading in a light grotesk at ~24px. Price ~40px light ('2.9%') with a small superscript-like '+ 30¢'. Labels ~10px all caps with tracking. Body ~11px.",
+      "color": "Mint-to-lime ~#9EDC9B/#D8F2B5 angled stripes, white card with green ~#3ECF8E label, dark navy ~#32325D card with lavender ~#CFD7FF text, footer strip ~#F6F9FC.",
+      "details": [
+        "Contrast between a simple standard price and 'Let's design a custom package'",
+        "The vertical offset between the cards makes the pair feel composed",
+        "Footer strips act as full-width buttons ('GET STARTED IN MINUTES →', 'CONTACT SALES →')",
+        "A 2x2 hairline grid lists what can be customized"
+      ],
+      "why_it_works": "It maps exactly to how trades price: standard jobs at a flat rate, bigger jobs by custom quote. It shows both honestly side by side.",
+      "trade_adaptation": "Plumber: 'FLAT-RATE: Drain clearing $149 · No overtime fees · Price before we start' vs 'CUSTOM QUOTE: Repiping · Sewer line · Remodels · Commercial', with 'BOOK NOW →' and 'GET A FREE ESTIMATE →'.",
+      "mood": ["technical", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:9b9f9eae-90a6-454a-b33e-db6abedf17d2",
+      "site": "Going",
+      "url": "https://mobbin.com/sites/sections/9b9f9eae-90a6-454a-b33e-db6abedf17d2",
+      "pattern": "comparison-table",
+      "layout": "A left column holds a 2-line, two-color heading and a 1-line sub. Three tier columns each have a small line icon, the tier name, a 3-line description, the price and an outlined or filled pill CTA. The top tier's column is tinted from header to table bottom and has a hand-drawn hat illustration perched on its top edge. Feature rows are grouped by hairlines, with centered values and checks.",
+      "type": "Heading in a rounded grotesk at ~24px. Tier names ~20px. Prices ~16px bold ('$49 /year', with '/year' smaller). CTAs ~9px bold all caps with an arrow. Row labels ~9px bold.",
+      "color": "Butter cream ~#FFFDF2 ground, deep teal ~#1F3B3A text, burgundy ~#6B1E2E second heading line, peach ~#F6D5C0 top-tier column, violet-blue ~#4A3AFF filled CTA.",
+      "details": [
+        "An illustrated hat sits on top of the premium column, a playful 'crown'",
+        "Small line icons above each tier name (globe, sparkle, gem) differentiate the tiers",
+        "The two-color heading ('Compare' in teal, 'memberships' in burgundy) is a warm, editorial touch",
+        "The free tier uses words ('Always free') instead of $0"
+      ],
+      "why_it_works": "A friendly, warm take on the comparison table. The tinted column plus a small illustration marks the recommendation with character instead of a badge.",
+      "trade_adaptation": "HVAC or plumbing maintenance club: 'Basic' (1 tune-up/yr), 'Comfort' (2 tune-ups + 10% off), 'Priority' (tinted, with a little illustrated wrench or hard hat on top: same-day service, no overtime fees, 15% off).",
+      "mood": ["friendly", "warm", "playful"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:28f6f7f1-03fd-4541-a720-3d3ab51e9c43",
+      "site": "Oku",
+      "url": "https://mobbin.com/sites/sections/28f6f7f1-03fd-4541-a720-3d3ab51e9c43",
+      "pattern": "tier-cards",
+      "layout": "A centered serif heading, a 2-line sub and a 'Pay monthly / Pay yearly' toggle with a tiny 'Save 30%!' note. Three equal cards (~6px radius), each tinted differently, each with an optional small tag pill, the price, a 3-line description, a check list and a black full-width button. Paid tiers carry a diagonal corner ribbon reading 'save 30%' in the tier color.",
+      "type": "Heading in a book serif at ~30px regular. Prices in the serif at ~24px ('$52 / year' with '($1 per week)' at ~8px). Tag pills ~7px bold all caps. Body ~10px grotesk.",
+      "color": "White ground. Cards tinted grey ~#F1F2F0, sage ~#E9EFE6 and lilac ~#F3ECF1. Tags in sage ~#7C9A72 and mauve ~#B48AA6. Black ~#111111 buttons.",
+      "details": [
+        "The per-week breakdown under the annual price ('$1 per week') makes the cost tiny",
+        "Each tier has its own tint, with the tag and ribbon in a darker shade of the same tint",
+        "A heart icon replaces the check on the last item of the top tier: a human touch",
+        "The serif price feels bookish and warm rather than SaaS"
+      ],
+      "why_it_works": "Soft tints and a serif make tiers feel personal and approachable, and the per-week reframe is a simple affordability trick.",
+      "trade_adaptation": "Lawn or pool care plans: 'Essential', 'Seasonal' (sage), 'Full-Service' (clay), with '$39/visit ($9 a week)' and a corner ribbon 'Save 15% prepaid'.",
+      "mood": ["friendly", "warm", "editorial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:22ac9cef-b082-4eb7-a5ae-1f598c3cabc2",
+      "site": "Upwork",
+      "url": "https://mobbin.com/sites/sections/22ac9cef-b082-4eb7-a5ae-1f598c3cabc2",
+      "pattern": "cost-estimate",
+      "layout": "Two columns. The left ~62% holds category blocks, each with an icon + title header, line items with right-aligned editable amount boxes (~50px), and a tinted 'Total' row. Each block is followed by a row of 'fits your budget' chips ('Under $40'). The right ~25% is a sticky 'Cost Breakdown' panel listing the category subtotals, with a bold grand total.",
+      "type": "Category headers in a grotesk at ~20px medium. Line items ~10px. Amounts ~9px inside input boxes. Totals bold.",
+      "color": "White ground, near-black text, total rows and side panel in pale mint ~#EEF5EE, chip borders ~#D5D5D5, green ~#14A800 brand accent.",
+      "details": [
+        "Editable amount boxes invite the visitor to build their own budget",
+        "The sticky side panel keeps the running total visible while scrolling",
+        "Budget chips under each block suggest options at that price"
+      ],
+      "why_it_works": "It makes a complex, multi-part job transparent. Visitors see how the price is built and can adjust it, which builds trust before the quote.",
+      "trade_adaptation": "Bathroom remodel estimator: categories 'Demolition', 'Plumbing', 'Tile & finishes', 'Fixtures', each with typical line-item ranges, and a sticky 'Your estimate: $14,200–$18,900' panel with a 'Get an exact quote' button.",
+      "mood": ["technical", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:240ebeb3-dfb9-4fe3-8bc0-9f069adab348",
+      "site": "Parker AI",
+      "url": "https://mobbin.com/sites/sections/240ebeb3-dfb9-4fe3-8bc0-9f069adab348",
+      "pattern": "tier-cards",
+      "layout": "Top-left: the heading set on two cream label blocks, like stickers. Top-right: a short paragraph. Below, a 'What's Included' card with a check list on the left (~45%). On the right, stacked tier cards, each with title, price, a dashed rule, a qualifier line, another dashed rule and a full-width black button. The second tier card is outlined in yellow.",
+      "type": "Heading in a book serif at ~24px with key words in red. Tier titles and prices in the serif at ~20px. Qualifiers ~11px serif. Check items ~8px grotesk.",
+      "color": "Deep green ~#1E5A1E ground, cream ~#F7F0DC label blocks, red ~#D8332A emphasis words, white cards with a 2px black border and a hard ~4px black offset shadow, a yellow ~#F2C94C outline on the highlighted tier.",
+      "details": [
+        "Hard offset shadows and thick borders give a retro, print or sign-painter feel",
+        "The heading sits on cream 'label-maker' strips",
+        "Dashed rules separate price from qualifier, like a receipt",
+        "Features are listed once in a shared card, so tiers differ only by scope"
+      ],
+      "why_it_works": "A rare pricing layout with real character: old-school, sturdy and honest. Listing the shared features once keeps the tier cards short.",
+      "trade_adaptation": "Old-school family plumbing or HVAC: green ground, 'Every visit includes:' card (licensed tech, upfront price, shoe covers, clean-up), then tier cards 'Service call $89', 'Tune-up $149', 'Comfort Club $19/mo' with the club outlined in the accent color.",
+      "mood": ["rustic", "bold", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:47056b4f-8e3d-4656-8899-50a4e3169687",
+      "site": "Superpower",
+      "url": "https://mobbin.com/sites/sections/47056b4f-8e3d-4656-8899-50a4e3169687",
+      "pattern": "membership-card",
+      "layout": "A centered grey eyebrow that frames value ('What could cost you $15,000 is $499'), then a centered heading. On the left, a credit-card-shaped object (~270x165, ~14px radius) with a soft glow shadow shows the brand and the price, with a 2-line reassurance and a full-width orange pill CTA below it. On the right, three check items, each with a bold title and a 3-line description.",
+      "type": "Heading in a neo-grotesk at ~26px regular. Card price ~22px bold white ('$42/month'). Item titles ~12px medium, body ~9px grey. Eyebrow ~12px grey.",
+      "color": "White ground, a card in organic orange texture ~#FF5A1F/#FF8A3D with an orange glow shadow, an orange ~#FF5A1F pill button, check icons in orange.",
+      "details": [
+        "The plan is shown as a physical membership card, something people can picture owning",
+        "The value anchor sits in the eyebrow ('could cost you $15,000')",
+        "A refund reassurance line sits right under the card"
+      ],
+      "why_it_works": "For a single plan, the card makes the membership feel tangible and premium, and the anchor makes the price feel small.",
+      "trade_adaptation": "HVAC 'Comfort Club' or pest-control annual plan: a brand-colored member card '$19/month, billed annually at $228', with an eyebrow 'One emergency call can cost $450' and checks for '2 tune-ups a year', 'No overtime fees', 'Priority scheduling'.",
+      "mood": ["premium", "bold"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Lead with the monthly number, set big and light, with APR, term and assumptions in small print or an asterisked footnote. Trades sell big-ticket jobs, and monthly framing plus visible disclosure builds trust.",
+    "Compare against the obvious alternative (credit card, HELOC, 'typical' price) rather than only against your own tiers.",
+    "Mark the recommended option with an inverted solid column, a tinted column or a growing illustration, not a generic 'Most popular' badge.",
+    "Calculators and sliders that show monthly and total cost make financing tangible and honest. One input, many updated rows.",
+    "Match how trades actually price: flat-rate standard jobs next to custom-quote projects, or a shared 'every visit includes' list with tiers that differ only by scope.",
+    "Warmth comes from serif prices, tinted cards, hand-drawn or engraved illustration and earthy grounds, not SaaS blue and gradients.",
+    "Reframe cost small ('$1 per week', 'could cost you $15,000') and show reassurances (refund, no money down, soft credit check) next to the CTA.",
+    "Every pricing block ends in a concrete next step ('Get your rate estimate', 'Get a quote'), not 'Learn more'."
+  ],
+  "avoid": [
+    "The standard SaaS 3-column grid with a purple 'Most popular' pill, a Monthly/Yearly toggle and an 'Enterprise: Let's talk' column (Riverside, Height, Customer.io): wrong vocabulary for a local trade.",
+    "Dark neon pricing cards with glowing gradient buttons (Save.design, ClickUp add-ons): reads as a crypto or AI tool.",
+    "Glowing purple-gradient hero backgrounds behind the plans (Mixpanel).",
+    "Giant feature-comparison matrices with 20+ rows of checkmarks (Threads, Webflow site plans). Homeowners need 4-6 rows at most.",
+    "Per-seat or per-unit pricing language and footnote soup copied from software.",
+    "Icon-in-square 'add-on' cards with blue 'Learn more' buttons (Webflow add-ons): generic and non-committal.",
+    "Prices hidden behind 'Contact us' with no starting point at all. Show 'from $X' even when jobs are quoted."
+  ]
+}

@@ -1,0 +1,28 @@
+/* Jobsite Industrial: signage, label boxes, 2px rules */
+.style-jobsite-industrial .eyebrow { display: inline-block; background: var(--accent); color: #111; padding: 5px 9px 4px; line-height: 1; }
+.style-jobsite-industrial .tone-dark .eyebrow { opacity: 1; color: #111; }
+.style-jobsite-industrial .hero-form h1 { max-width: 15ch; font-size: clamp(3rem, 6vw, 5.4rem); }
+.style-jobsite-industrial .hero-form-card { border: 0; border-top: 8px solid var(--accent); }
+.style-jobsite-industrial .btn-lg.btn-primary::after, .style-jobsite-industrial .cta-band .btn-inverse::after { content: "\2192"; font-family: system-ui, sans-serif; font-weight: 400; margin-left: .2em; }
+.style-jobsite-industrial .btn-secondary { border-width: 2px; }
+.style-jobsite-industrial .trust { --ink: #f2efe8; --ink-2: #bdb8ad; --line: rgba(242,239,232,.16); background: #111; color: #f2efe8; border: 0; }
+.style-jobsite-industrial .trust .icon { color: var(--accent); }
+.style-jobsite-industrial .trust strong { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .04em; font-size: 1.1rem; }
+.style-jobsite-industrial .section-head h2 { max-width: 16ch; }
+.style-jobsite-industrial .svc-list li, .style-jobsite-industrial .svc-list { border-color: var(--ink); border-top-width: 2px; }
+.style-jobsite-industrial .svc-num { font-family: var(--font-display); font-weight: 800; font-size: 1.6rem; color: var(--ink); }
+.style-jobsite-industrial .svc-list a:hover { background: var(--accent); }
+.style-jobsite-industrial .svc-list a:hover .svc-name, .style-jobsite-industrial .svc-list a:hover .svc-arrow { color: #111; }
+.style-jobsite-industrial .svc-list a { padding-inline: 12px; }
+.style-jobsite-industrial .process-row .steps li { border-top-width: 4px; }
+.style-jobsite-industrial .step-num { color: var(--ink); }
+.style-jobsite-industrial .g-item figcaption { right: auto; background: #fff; color: #111; text-shadow: none; padding: 7px 10px 6px; font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .05em; font-size: .9rem; }
+.style-jobsite-industrial .review-cards .card { border-width: 2px; }
+.style-jobsite-industrial .faq-list summary { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .03em; font-size: 1.2rem; }
+.style-jobsite-industrial .faq-list, .style-jobsite-industrial .faq-list details { border-color: var(--ink); }
+.style-jobsite-industrial .cta-band h2 { font-size: clamp(2.6rem, 5.6vw, 4.8rem); }
+.style-jobsite-industrial .footer-phone { color: var(--accent); }
+.style-jobsite-industrial .nav-links a { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .06em; font-weight: 700; font-size: 1.02rem; }
+.style-jobsite-industrial .map, .style-jobsite-industrial .ph { border: 2px solid var(--ink); }
+.style-jobsite-industrial .hero-bg, .style-jobsite-industrial .svc-tiles .ph { border: 0; }
+.style-jobsite-industrial .facts strong { font-weight: 800; font-size: 3rem; }

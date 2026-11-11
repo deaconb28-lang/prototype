@@ -1,0 +1,104 @@
+{
+  "id": "poster-pop",
+  "name": "Poster Pop",
+  "summary": "Loud, warm and friendly: a giant colored condensed headline on cream, cobalt pills and offset photo blocks. A screen-printed neighborhood poster.",
+  "best_for": [
+    "cleaning",
+    "pest-control",
+    "painting",
+    "plumbing"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "google": "Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,600..800"
+    },
+    "body": {
+      "family": "Onest",
+      "google": "Onest:wght@400;500;600;700"
+    }
+  },
+  "tokens": {
+    "--bg": "#f3ede0",
+    "--surface": "#ffffff",
+    "--surface-2": "#ebe2cf",
+    "--ink": "#1a1f3a",
+    "--ink-2": "#4c5068",
+    "--line": "#ddd3bf",
+    "--line-strong": "#1a1f3a",
+    "--accent": "#2457f5",
+    "--accent-hover": "#1543d6",
+    "--accent-ink": "#ffffff",
+    "--accent-text": "#1d48d4",
+    "--accent-2": "#dbe4ff",
+    "--dark": "#1a1f3a",
+    "--dark-ink": "#f3ede0",
+    "--dark-ink-2": "#c7c5cf",
+    "--dark-line": "rgba(243,237,224,.18)",
+    "--banner-bg": "#ff4a1c",
+    "--banner-ink": "#1a1f3a",
+    "--font-display": "'Bricolage Grotesque', system-ui, sans-serif",
+    "--font-body": "'Onest', system-ui, sans-serif",
+    "--font-mono": "'Onest', system-ui, sans-serif",
+    "--display-weight": "800",
+    "--display-tracking": "-0.03em",
+    "--display-leading": "0.9",
+    "--h1-xl": "clamp(3.4rem, 9.6vw, 8.4rem)",
+    "--h1": "clamp(3rem, 6.6vw, 5.6rem)",
+    "--h2": "clamp(2.3rem, 4.4vw, 3.8rem)",
+    "--h3": "1.4rem",
+    "--h1-page": "clamp(2.6rem, 6vw, 4.8rem)",
+    "--eyebrow-size": ".82rem",
+    "--eyebrow-tracking": ".06em",
+    "--eyebrow-weight": "700",
+    "--eyebrow-color": "#1a1f3a",
+    "--radius": "24px",
+    "--radius-lg": "30px",
+    "--radius-sm": "12px",
+    "--btn-radius": "999px",
+    "--logo-radius": "999px",
+    "--logo-mark-bg": "#ff4a1c",
+    "--logo-mark-ink": "#1a1f3a",
+    "--logo-weight": "800",
+    "--card-border": "2px solid #1a1f3a",
+    "--quote-weight": "700",
+    "--star": "#ff4a1c",
+    "--em-style": "normal",
+    "--em-color": "#2457f5",
+    "--accent-on-dark": "#ff8a66",
+    "--scrim": "linear-gradient(180deg, rgba(15,18,40,.1) 0%, rgba(15,18,40,.75) 100%)"
+  },
+  "variants": {
+    "nav": "bar",
+    "hero": "editorial",
+    "services": "cards",
+    "process": "row",
+    "gallery": "grid",
+    "reviews": "cards",
+    "faq": "stack",
+    "cta": "band",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "Maxima Therapy",
+      "url": "https://mobbin.com/sites/sections/198e731d-6209-49b3-b74c-e360a3d1ed72",
+      "what": "Huge orange condensed caps stacked down the left on cream, keylined sticker illustrations over the type, white pill nav, cobalt pill CTA."
+    },
+    {
+      "site": "Airtasker",
+      "url": "https://mobbin.com/screens/3f0f1fb8-b6d6-43b7-8d19-3b4253d3b6f3",
+      "what": "Skewed condensed navy headline 'GET MORE DONE' inside a rounded cream panel, illustrated cobalt boxes collaged onto a photo, offset navy block, trust stat row."
+    },
+    {
+      "site": "Later",
+      "url": "https://mobbin.com/screens/13f77350-a788-4f4b-81dc-de9a5b5400e2",
+      "what": "Heavy black wide grotesk headline, single orange CTA, chamfered/angled photo crop instead of rounded corners."
+    },
+    {
+      "site": "Figma",
+      "url": "https://mobbin.com/sites/sections/ca825e99-08b1-42f7-afde-ab3790f9978a",
+      "what": "Flat geometric sticker shapes in a clashing warm palette framing a single black label CTA."
+    }
+  ]
+}

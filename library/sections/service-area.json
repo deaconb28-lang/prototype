@@ -1,0 +1,260 @@
+{
+  "section": "service-area",
+  "description": "Answers 'do you come to my town?' in a few seconds: lists of towns served, coverage maps, branch or yard locations with hours, and per-town links that double as local SEO pages. It should end with a fallback for people outside the list.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "locations section with map",
+    "store locator section",
+    "areas we serve section with list of cities",
+    "delivery coverage area map section with zip code check"
+  ],
+  "references": [
+    {
+      "id": "mobbin:2fb8b273-b40c-4e66-aa87-96f58111972f",
+      "site": "Airbnb",
+      "url": "https://mobbin.com/sites/sections/2fb8b273-b40c-4e66-aa87-96f58111972f",
+      "pattern": "town-list",
+      "layout": "Two-column split. Left ~40%: 4-line bold heading, then a small 2-line note with an underlined link near the bottom. Right ~60%: three columns of ~9 city names each with ~8px line gaps; the last column ends with an underlined 'View All'. Under the list: 'Don't see your city?' followed by an outlined pill button 'Join the waitlist'.",
+      "type": "Rounded grotesk (Cereal-like). Heading ~30px semibold, line-height ~1.1, black. City names ~13px regular grey. Button ~10px medium.",
+      "color": "White page; heading ~#222; list ~#717171; button white fill with 1px ~#222 border.",
+      "details": [
+        "Qualifiers like 'Metro' and 'County' set expectations about reach",
+        "Plain text names, not chips or badges",
+        "Explicit fallback for anyone not on the list",
+        "List columns are left-aligned and sit on the heading's top line"
+      ],
+      "why_it_works": "Quiet, scannable and honest, and the 'don't see your city?' line catches edge cases instead of losing them.",
+      "trade_adaptation": "'Proudly serving Union County' on the left; towns on the right (Westfield, Cranford, Scotch Plains, Garwood...). Fallback: 'Don't see your town? Call (908) 555-0142, we often go 30 miles out.'",
+      "mood": ["minimal", "friendly"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:36469115-cc4f-4511-bfe2-5ba65b31f0ec",
+      "site": "Zipline",
+      "url": "https://mobbin.com/sites/sections/36469115-cc4f-4511-bfe2-5ba65b31f0ec",
+      "pattern": "map-annotated",
+      "layout": "Small-caps eyebrow 'GLOBAL IMPACT', heavy condensed headline (~32px). A large light-grey rounded panel holds a left column of 3 big stats (number + label, each with a thin vertical rule on its left) and a white dotted map on the right. Small square red markers connect by thin vertical leader lines to labels like 'Utah / Since 2022' and 'Bay Area (HQ) / Since 2014'. A 4-up stat row sits under the panel.",
+      "type": "Condensed grotesk bold for headline and stat numbers (~28-32px). Place labels ~8px red; 'Since YYYY' ~8px grey. Stat labels ~9px.",
+      "color": "Off-white page ~#f3f2ee; panel ~#e8e6e1; map land white; markers and place names red ~#e8452c; text ~#111.",
+      "details": [
+        "Leader lines with 'Since YEAR' show how long they have served each place",
+        "Stats and map share one panel, so numbers read as facts about the map",
+        "Square markers instead of teardrop pins",
+        "Map is drawn flat in white on grey, not an embedded tile map"
+      ],
+      "why_it_works": "Where, how long and how much in one glance. The 'since' detail builds trust in a way a bare pin never does.",
+      "trade_adaptation": "Roofer or HVAC: county outline with leader-line labels 'Westfield, since 2009', 'Summit, since 2014'; stats '2,140 roofs', '4.9★ from 312 reviews', '18 towns'.",
+      "mood": ["technical", "editorial", "industrial"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:b9f10246-c8f9-47a1-9b5b-777dd981534e",
+      "site": "Craft Agency",
+      "url": "https://mobbin.com/sites/sections/b9f10246-c8f9-47a1-9b5b-777dd981534e",
+      "pattern": "town-stack",
+      "layout": "Centered stack of 4 city names, one per line, very large (~64px). The active city ('LONDON') is italic and near-black, with small pink name tags (first names of staff) pinned onto its letters; the other cities are upright and light grey. Under the stack, a small off-white card (~230x40) with address, phone and an underlined email for the active city. Tiny 'LOCATIONS' eyebrow top-left.",
+      "type": "Condensed high-contrast serif (Editorial New / Canela-like), uppercase, ~64px; active line italic. Card text sans ~9px. Name tags ~6px bold uppercase.",
+      "color": "Warm greige ~#e6e1db; active ~#2a1d1d; inactive ~#bdb3ab; tags pink ~#f29ac0; info card ~#f6f3ef.",
+      "details": [
+        "Active/inactive state is italic + dark vs upright + grey",
+        "People's first names pinned to the active city",
+        "Contact card only shows the selected city's details",
+        "Type is the map: no map graphic at all"
+      ],
+      "why_it_works": "Turns a list of places into a brand statement while staying usable: pick a town, get its details.",
+      "trade_adaptation": "Painter or landscaper with 5-8 towns: stack the names; selecting one shows 'Crew lead: Marco, usually there within 2 hrs, (908) 555-0142'. Name tags = crew leads.",
+      "mood": ["editorial", "premium", "warm"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:2c3707de-6813-45f0-8bb1-25fc3f270222",
+      "site": "Nike After Dark Tour",
+      "url": "https://mobbin.com/sites/sections/2c3707de-6813-45f0-8bb1-25fc3f270222",
+      "pattern": "town-stack",
+      "layout": "Black full-bleed. Centered, ragged stack of 7 city names in heavy condensed uppercase (~44px, leading ~0.95), each followed by a superscript data label ('21.1K', '10K', '13.1'). Bottom-right a large wordmark lockup; bottom-left a tiny red link list.",
+      "type": "Heavy condensed grotesk (Futura Condensed / Druk-like), uppercase, ~44px; superscripts ~12px bold.",
+      "color": "Black ~#000 and signal red ~#ff2a1a only.",
+      "details": [
+        "Superscript data attached to each name",
+        "One color, one typeface, no icons",
+        "Centered ragged edge makes the list into a shape",
+        "Tight leading so lines nearly touch"
+      ],
+      "why_it_works": "Maximum confidence with minimum parts; the superscripts add real information.",
+      "trade_adaptation": "Bold industrial style for a roofer or electrician: 'WESTFIELD ¹² ᴹᴵᴺ', 'CRANFORD ¹⁸ ᴹᴵᴺ' (drive time) or 'SUMMIT ²¹⁴ ᴶᴼᴮˢ' (jobs done), in one brand color on black or concrete grey.",
+      "mood": ["bold", "industrial"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:fd7064d7-a026-4e29-9789-1b3c6f124d85",
+      "site": "Maxima Therapy",
+      "url": "https://mobbin.com/sites/sections/fd7064d7-a026-4e29-9789-1b3c6f124d85",
+      "pattern": "map-split",
+      "layout": "Split section on a saturated field. Left ~50%: flat, cropped state map with served regions filled yellow and not-yet-served regions a darker orange, decorated with simple cloud and mountain illustrations. Right: small yellow tag 'SERVICE AREAS', a 6-line bold paragraph explaining current coverage and growth, then a 2-item legend with color squares.",
+      "type": "Grotesk bold ~22px white for the paragraph; tag uppercase ~8px; legend ~10px regular.",
+      "color": "Orange-red field ~#ff4a12; served ~#ffc93c; not-yet-served ~#ff7a22; white text; blue/indigo illustration accents ~#3b4bff.",
+      "details": [
+        "Legend admits 'Areas not serviced yet'",
+        "Coverage explained in a sentence, not a list",
+        "Flat drawn map in brand colors instead of a Google embed",
+        "Section tag reused as a consistent label style across the site"
+      ],
+      "why_it_works": "Answers 'do you serve me?' visually in one look, and it is ownable because the map is in brand colors.",
+      "trade_adaptation": "Pest control or landscaper: flat county outline with served townships filled in the brand color; legend 'Weekly routes' / 'Call for availability'; paragraph 'We cover all of Union County and the western edge of Essex.'",
+      "mood": ["bold", "playful", "friendly"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:74a3a0da-d93a-419b-a675-1a641b46a4eb",
+      "site": "Little Amps Coffee",
+      "url": "https://mobbin.com/sites/sections/74a3a0da-d93a-419b-a675-1a641b46a4eb",
+      "pattern": "location-feature",
+      "layout": "Wide split card. Left ~30% text column bounded by a vertical rule: location name, address line, two lines of hours, a 6-line paragraph about the place, then two small outlined buttons 'GO TO MAP' / 'DOWNLOAD MENU'. Right ~70%: photo carousel (~8px radius) with a '01 — 03' counter and two square prev/next buttons at bottom-right.",
+      "type": "Soft serif (Cooper / Recoleta-like) ~24px for the name; address ~10px in the accent color; hours and buttons in mono ~8px uppercase; paragraph sans ~8px.",
+      "color": "Cream ~#fdf7ef; burnt orange ~#c75b12 for address, button borders and rules; text dark brown ~#3a2a20.",
+      "details": [
+        "Hours set in mono so they read like a shop sign",
+        "Paragraph gives history and practical details (opened 2011, free street parking)",
+        "Small outlined uppercase buttons instead of big filled CTAs",
+        "Photo counter '01 — 03'"
+      ],
+      "why_it_works": "Makes a location feel like a real place with a history rather than an address.",
+      "trade_adaptation": "Trade with a shop, yard or showroom (garage doors, remodeler, landscape supply): 'Our Westfield yard, since 1998', hours in mono, buttons 'Get directions' / 'See the showroom', carousel of the shop, trucks and crew.",
+      "mood": ["warm", "rustic", "friendly"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:83cbf6ef-28d8-4e94-abe9-41b92fe45d18",
+      "site": "Rains",
+      "url": "https://mobbin.com/sites/sections/83cbf6ef-28d8-4e94-abe9-41b92fe45d18",
+      "pattern": "map-split",
+      "layout": "Left column (~170px): search input 'Enter a postcode or address' with magnifier, then a scrolling list of locations, each with a pin icon, bold name, address, underlined phone and email, and full Monday-Sunday hours. Right ~75%: grayscale map with black circular cluster markers showing counts (1, 5, 24, 2, 1) and zoom controls.",
+      "type": "Sans ~9px; location names bold, hours regular; marker numbers ~10px bold white.",
+      "color": "White list panel; desaturated map ~#e9e9e9 / ~#cfcfcf; markers ~#222 with white numerals.",
+      "details": [
+        "Map is fully desaturated so the brand markers are the only contrast",
+        "Postcode search at the top of the list",
+        "Hours listed for every day, including 'Sunday Closed'",
+        "Cluster counts instead of dozens of overlapping pins"
+      ],
+      "why_it_works": "A functional locator done with restraint; the monochrome map matches a minimal brand instead of fighting it.",
+      "trade_adaptation": "Zip checker for an HVAC or plumbing company: 'Enter your ZIP' returns 'Yes, we're in Westfield every weekday' plus the nearest crew base; grayscale map with branded van-base markers.",
+      "mood": ["minimal", "technical"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:21027106-1159-4299-af3d-862ca83d5102",
+      "site": "re_",
+      "url": "https://mobbin.com/sites/sections/21027106-1159-4299-af3d-862ca83d5102",
+      "pattern": "centered-address-stack",
+      "layout": "Full-bleed orange-red field. A centered outlined oval label 'Our Stores' (~150x50, 1px white). Below, three centered address blocks of five lines each (neighborhood, street, city/state/ZIP, phone, hours) with ~24px between blocks. Three stacked white pill buttons at the bottom (email, Instagram, TikTok).",
+      "type": "Grotesk ~16px regular white, line-height ~1.25, all lines the same size; pill labels ~9px.",
+      "color": "Orange-red ~#f4511e field; white text; white pills with orange text.",
+      "details": [
+        "Hand-drawn-looking oval outline as the section label",
+        "No hierarchy games: every line the same size, all info visible",
+        "Hours and phone in every block",
+        "Centered poster layout"
+      ],
+      "why_it_works": "Warm and poster-like, and everything a visitor needs is visible with zero clicks.",
+      "trade_adaptation": "Trade with 1-3 bases or route zones: oval label 'Where we work', blocks like 'North County / Westfield, Cranford, Garwood / Mon-Wed / (908) 555-0142'.",
+      "mood": ["bold", "warm", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:cdf87d42-8bd8-4238-b4a9-8e90abfc1ebc",
+      "site": "Slack",
+      "url": "https://mobbin.com/sites/sections/cdf87d42-8bd8-4238-b4a9-8e90abfc1ebc",
+      "pattern": "region-tabs",
+      "layout": "White card centered on a grey page. Heading 'Explore by region' (~18px bold), then a tab row (active tab with ~3px purple underline). Below, a 4-column grid of ~37 entries, each two lines: bold 'City, ST' and a lighter country line with a small flag.",
+      "type": "Sans; city ~10px bold; country ~9px regular; tabs uppercase ~8px tracked.",
+      "color": "White card; underline aubergine ~#4a154b; text ~#1d1c1d; secondary ~#616061.",
+      "details": [
+        "Tabs chunk a long list into regions",
+        "'City, ST' bold format is easy to scan",
+        "Second line adds context under every town",
+        "Grid columns stay aligned regardless of name length"
+      ],
+      "why_it_works": "Handles a long coverage list without a wall of text.",
+      "trade_adaptation": "Multi-county HVAC or pest company: tabs 'Union / Essex / Morris'; entries 'Westfield, NJ' bold with a second line 'Mon & Thu routes' or 'Same-day available'.",
+      "mood": ["minimal", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:f3256733-76f8-4aa7-a305-5613a7c91d50",
+      "site": "Fresha",
+      "url": "https://mobbin.com/sites/sections/f3256733-76f8-4aa7-a305-5613a7c91d50",
+      "pattern": "service-town-links",
+      "layout": "Heading 'Browse by City' (~18px bold). A horizontal row of country filters (active = black pill, others plain text). Below, 5 columns, one per city: bold city header then 8 links in the form '[Service] in [City]'. A round arrow button at the right scrolls to more cities.",
+      "type": "Sans; headers ~10px semibold; links ~8px regular, near-black.",
+      "color": "White page; active pill ~#0d0d0d with white text; links ~#222.",
+      "details": [
+        "Programmatic '[service] in [town]' link matrix: each link is a landing page",
+        "Pill filter for the top-level region",
+        "Horizontal scroll for more columns instead of a taller section",
+        "No decoration at all; pure navigation"
+      ],
+      "why_it_works": "Maps directly onto the local-SEO page structure trades need, without looking like spam.",
+      "trade_adaptation": "Above the footer: one column per town, links 'Roof repair in Westfield', 'Gutter cleaning in Westfield', 'Skylight install in Westfield'; county pills on top.",
+      "mood": ["technical", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:cc18f715-7183-4eaf-86d5-c468f66df492",
+      "site": "IKEA",
+      "url": "https://mobbin.com/sites/sections/cc18f715-7183-4eaf-86d5-c468f66df492",
+      "pattern": "map-counts",
+      "layout": "Left-aligned heading with the total ('460 IKEA stores in 62 markets'), a small 'Updated: 22 December 2022' line, then a large flat grey map with ~50px yellow circles per region, each holding the region name and a count.",
+      "type": "Bold sans; heading ~22px; bubble labels ~8px bold, counts ~16px bold; date ~9px regular.",
+      "color": "White page; map ~#cccccc; bubbles IKEA yellow ~#ffd426 with ~#111 text.",
+      "details": [
+        "'Updated' date stamp adds honesty",
+        "Numbers on the map instead of pins",
+        "Total stated in the heading so the map is supporting detail",
+        "Brand color only on the data"
+      ],
+      "why_it_works": "Coverage becomes a count you can read in two seconds.",
+      "trade_adaptation": "County outline with brand-color bubbles 'Westfield 214', 'Cranford 167', 'Summit 98' (jobs completed); heading '1,900 jobs in 14 towns'; 'Updated Oct 2026'.",
+      "mood": ["friendly", "bold", "technical"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:8fa14376-c626-4c19-941c-3bf77f0d64db",
+      "site": "Slack",
+      "url": "https://mobbin.com/sites/sections/8fa14376-c626-4c19-941c-3bf77f0d64db",
+      "pattern": "region-cards",
+      "layout": "Beige band; centered heading (~20px bold) with a one-line subline. A 4-column grid of flat white cards (~150x145, square corners, no shadow), each with a bold city name, a 3-4 line address, and a bottom-pinned 'GET DIRECTIONS' small-caps link with a right-aligned arrow.",
+      "type": "Sans; city ~13px bold; address ~9px regular; CTA uppercase ~8px tracked.",
+      "color": "Beige ~#f4ede4 band; white cards; text ~#1d1c1d; link blue ~#1264a3.",
+      "details": [
+        "CTA pinned to the card bottom so rows align regardless of address length",
+        "Flat white cards on a warm band, no borders or shadows",
+        "Arrow right-aligned on the CTA row",
+        "Wrapping second row left-aligned, not centered"
+      ],
+      "why_it_works": "Clean, repeatable and practical; works for 2 cards or 12.",
+      "trade_adaptation": "One card per county or crew: 'Union County' + towns covered + 'Call this crew →' pinned at the bottom.",
+      "mood": ["minimal", "friendly"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Open with a plain sentence of coverage ('We serve Union County and 18 surrounding towns') before any list or map.",
+    "A plain 3-4 column town list in ~13px grey beats chips, badges or pins, and it should end with a fallback: 'Don't see your town? Call us.'",
+    "Pick one strong visual device per site: a giant typographic town stack, a flat brand-colored county map, or an annotated map. Not all three.",
+    "Attach useful data to towns: drive time, years served ('since 2009'), jobs completed, route days. Superscripts and leader lines are the crafted way to do it.",
+    "If a real map is used, desaturate it to grayscale so brand markers carry it; flat drawn maps in brand colors are more ownable than embeds.",
+    "Set hours in mono or small caps so they read like a sign, and keep the phone number visible without a click.",
+    "Use the section for local SEO: '[service] in [town]' links double as navigation."
+  ],
+  "avoid": [
+    "Unstyled full-color Google Maps iframes and repeated identical map tiles per office (SIGMA, Upwork): they read as template.",
+    "World maps and 'offices around the globe' framing (Customer.io, Klarna, Wise): wrong scale for a local trade.",
+    "Emoji or clip-art landmark icons per city (Cake's 🌴🎡🏰, Intercom line icons, HubSpot postage stamps): cute but generic.",
+    "Stock skyline photos per city (OpenTable, Wise): trades should show their own trucks, crews and jobs.",
+    "Purple-filled country choropleths: a SaaS cliché.",
+    "Unbounded alphabetical dumps of 200+ neighborhoods with no grouping (ClassPass).",
+    "Accordion-only lists where the town names are hidden behind clicks."
+  ]
+}

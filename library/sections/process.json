@@ -1,0 +1,255 @@
+{
+  "section": "process",
+  "description": "Explains what happens after someone calls or books: inspection, estimate, the work, clean-up and follow-up, often with how long each stage takes. It reduces anxiety about hiring a contractor and sets expectations before the quote.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "solar company how it works section",
+    "home renovation process steps section",
+    "what to expect timeline section for a service appointment"
+  ],
+  "references": [
+    {
+      "id": "mobbin:cc6060b4-6c08-4e60-9927-809d8d181f09",
+      "site": "Daylight",
+      "url": "https://mobbin.com/sites/sections/cc6060b4-6c08-4e60-9927-809d8d181f09",
+      "pattern": "steps-row",
+      "layout": "A centered mono eyebrow, then a centered 1-line headline. Below, four equal columns run left to right, with the 4th cropped by the viewport edge to invite a horizontal scroll. Each column has the step title, a thin rule with a small dot at its left end, a ~4:3 photo (~6px radius), then a 2-3 line caption.",
+      "type": "Headline in a transitional serif at ~40px regular. Step titles in the same serif at ~18px with the number inline ('01. Solar makes energy'). Eyebrow in an all-caps monospace at ~8px with wide tracking. Captions in a grotesk at ~11px.",
+      "color": "Warm saturated yellow ~#FFC83D ground, dark brown ~#4A2508 text, rules ~#8A5A20. The photos are natural (green trees, cedar shingles, dusk light).",
+      "details": [
+        "The rule-and-dot under each title chains the steps together with no arrows",
+        "The last column is cut off on purpose, signaling there's more to scroll",
+        "The numbers sit inside the serif title ('01.') instead of in big badges",
+        "Every step is shown with a real photo of a house, not an icon"
+      ],
+      "why_it_works": "Warm, confident and concrete: each step is something you can picture at your own home. The yellow ground makes it a moment on the page without feeling loud.",
+      "trade_adaptation": "Roofer: '01. Free inspection' (drone photo), '02. Tear-off' (crew on roof), '03. New roof installed' (finished ridge line), '04. Magnet sweep & clean-up' (tidy driveway).",
+      "mood": ["warm", "premium", "editorial"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:3d371462-eede-464f-9512-2ecc9a3e008a",
+      "site": "Daylight",
+      "url": "https://mobbin.com/sites/sections/3d371462-eede-464f-9512-2ecc9a3e008a",
+      "pattern": "steps-cards",
+      "layout": "A full-bleed sunset photo fills the section. A mono eyebrow and a 2-line headline sit top-left. Three equal cards (~200x140px, ~4px radius) run along the bottom third, with small '›' chevrons in the gutters between them. The cards hold either three bold sub-items with a one-line explainer each, or a list of '›' bullets.",
+      "type": "Headline in a transitional serif at ~44px, white. Card labels in an all-caps monospace at ~9px ('01 — SCOPE', '02 — INSTALL', '03 — POWER ON'). Card body in a grotesk at ~10-11px, with bold sub-item titles.",
+      "color": "The photo runs from orange ~#D9782A sky to a near-black hill silhouette. Cards in solid sunflower ~#FFC83D with dark brown ~#3A2208 text. Chevrons in cream.",
+      "details": [
+        "One bullet states the duration outright: 'Typical timeline: 12–14 weeks from contract to activation'",
+        "The chevrons in the gutters are the only connector, small and quiet",
+        "Solid colored cards over a photo keep contrast without a scrim",
+        "Mono step labels use an em-dash format ('01 — SCOPE') that reads like a work order"
+      ],
+      "why_it_works": "Atmospheric and practical at once: the photo sets the emotion and the cards hold real logistics, including the timeline people actually want to know.",
+      "trade_adaptation": "HVAC replacement: '01 — ASSESS' (load calc, sizing, quote), '02 — INSTALL' (permit, removal, install, inspection; 'Typical: 1–2 days'), '03 — COMFORT' (thermostat setup, maintenance plan), over a dusk photo of a home.",
+      "mood": ["warm", "bold", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:001f0854-a5f2-42e5-b54f-349fdf95799a",
+      "site": "Samara",
+      "url": "https://mobbin.com/sites/sections/001f0854-a5f2-42e5-b54f-349fdf95799a",
+      "pattern": "timeline-vertical",
+      "layout": "A centered heading, then a thick vertical line down the center of the page with filled dots at each step. Steps alternate sides: text sits right of the line for one step and right-aligned left of it for the next. Large images (~300-340px wide, ~10px radius) fill the opposite side of each step.",
+      "type": "Heading in a light neo-grotesk at ~36px. Step titles in the same light grotesk at ~22px over 2 lines. Body ~10px regular, max ~240px wide.",
+      "color": "Off-white ~#FAFAF5 ground, black ~#000000 line and dots, text ~#111111. A clean 3D render on white alternates with a natural photo (lawn, a worker in a hi-vis vest).",
+      "details": [
+        "The line is heavy (~3px) and black, a strong spine rather than a faint dotted rail",
+        "The alternating text alignment (left-aligned, then right-aligned) mirrors the zigzag of the images",
+        "The friendly headline 'As easy as yes.' sets a reassuring tone",
+        "A real site-visit photo of a worker in safety gear shows a human on the property"
+      ],
+      "why_it_works": "Premium and calm. The heavy spine and alternating images give a long process rhythm without boxes or icons.",
+      "trade_adaptation": "Remodeler: 'Design consult' (render or mood board), 'Site visit' (project manager measuring), 'Proposal review' (itemized quote), 'Build' (crew photo), 'Walkthrough' (finished kitchen).",
+      "mood": ["minimal", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:198ab6d6-9cc9-41a8-8dcb-80e17a177ef3",
+      "site": "Samara",
+      "url": "https://mobbin.com/sites/sections/198ab6d6-9cc9-41a8-8dcb-80e17a177ef3",
+      "pattern": "numbered-columns",
+      "layout": "A large 2-part headline in the left ~35%. The right ~65% holds a 2x2 grid of steps. Each step starts with a small square number badge sitting on a hairline that runs across the column, then a title and a 3-line paragraph. Two steps carry tall photos (~170x210, ~8px radius). The bottom-right cell is a soft 'Want the details? Learn more…' link block.",
+      "type": "Headline in a neo-grotesk at ~28px light: the first sentence black, the continuation grey ('And as few as eight weeks on site.'). Step titles ~16px regular. Body ~10px grey. Numbers in mono at ~9px inside ~22px square badges.",
+      "color": "White ~#FFFFFF ground, black text, grey ~#8A8A8A for the headline continuation and body. Badges alternate between solid black with white numerals and outlined grey with grey numerals.",
+      "details": [
+        "The two-tone headline turns a time promise into the second line",
+        "Number badges sit on a full-width hairline, so the steps read as stations along one track",
+        "Badge fill varies (filled vs outlined) to vary the rhythm",
+        "The empty 4th quadrant becomes a soft CTA instead of a forced card"
+      ],
+      "why_it_works": "Precise and calm, with a speed promise built into the headline. The track-and-station device does the connecting without arrows.",
+      "trade_adaptation": "Garage doors: 'New door in four simple steps. And installed in as little as 3 days.' Steps: '01 Pick your style', '02 Measure visit', '03 Install day', '04 Warranty registered'.",
+      "mood": ["minimal", "technical", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:f87aa2f1-658f-4a3c-909f-2b0979a83c6b",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/f87aa2f1-658f-4a3c-909f-2b0979a83c6b",
+      "pattern": "steps-cards",
+      "layout": "Centered: a small lead line, a 3-line headline, and two buttons side by side (filled khaki and outlined). Then a full-width hairline, a centered 'OUR PROCESS' label, and four equal tall cards (~190px wide, ~230px+ tall) divided by hairlines. Each card has a black filled circle number (~16px) top-left and a title. The first card is 'active', with a full photo background and a 'Read more about what we offer →' link.",
+      "type": "Headline in a condensed bold grotesk, all caps, ~32px, line-height ~1.05. Card titles in the same condensed caps at ~22px. Lead line and buttons ~11px regular.",
+      "color": "White ground, black ~#111111 type, hairlines ~#D9D9D9. Khaki/stone ~#C9C4B0 primary button. The active card's photo is darkened enough for white type.",
+      "details": [
+        "The headline promises flexibility: 'ALL THE WAY, OR JUST AS FAR AS YOU WANT'",
+        "Only one card holds a photo; the rest are white with titles, showing active vs upcoming",
+        "Small filled black circles with white numerals feel like stencilled markers",
+        "The lead line asks the reader's situation ('Are you relocating, setting up a new business or renovating?')"
+      ],
+      "why_it_works": "Strong, plainspoken and industrial. Four big caps titles are enough to explain the process, and the active photo card adds life.",
+      "trade_adaptation": "Any contractor: '1 INSPECTION & NEEDS', '2 QUOTE & PLANNING', '3 INSTALLATION', '4 FOLLOW-UP'. Headline: 'FOUR STEPS. NO SURPRISES.'",
+      "mood": ["industrial", "bold", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:7b55840d-17ad-4087-938e-b2dae6ad48a5",
+      "site": "Kalstore",
+      "url": "https://mobbin.com/sites/sections/7b55840d-17ad-4087-938e-b2dae6ad48a5",
+      "pattern": "steps-cards",
+      "layout": "Split layout. A sticky left column (~45%) holds the heading, a 3-line paragraph and a small amber button. The right column holds tall step cards stacked vertically (~200px tall, ~4px radius, ~6px gaps), one per step. Each card has an outlined circle number top-left and a title plus 2-line body anchored at the bottom-left.",
+      "type": "Heading in a neo-grotesk at ~22px regular. Card titles ~20px regular. Body ~11px. The button label is all caps at ~8px with a hooked arrow glyph.",
+      "color": "Off-white ~#F8F7F4 ground. Cards step through earthy tones: stone ~#E8E0D3, tan ~#DDB991, then charcoal ~#3A3633 with white text. Amber ~#F2B230 button.",
+      "details": [
+        "Each card is a different shade, darkening as the process advances: progress shown through color",
+        "Content anchored to the bottom of tall cards leaves empty space at the top, which feels calm and premium",
+        "Thin outlined circle numbers, never filled",
+        "The left column stays put while the cards scroll past"
+      ],
+      "why_it_works": "Simple and tactile. The swatch-like card colors make the steps feel like materials, which suits home trades.",
+      "trade_adaptation": "Painter: cards tinted like paint chips that deepen per step ('1 Color consult', '2 Prep & protect', '3 Two-coat finish', '4 Final walkthrough'), with a 'Book a color consult' button on the left.",
+      "mood": ["warm", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:12e6b86f-2523-4ad6-872b-47cecd653f28",
+      "site": "Biograph",
+      "url": "https://mobbin.com/sites/sections/12e6b86f-2523-4ad6-872b-47cecd653f28",
+      "pattern": "timeline-vertical",
+      "layout": "A light rounded panel (~12px radius) with a small heading. A thin vertical rail runs down the left with small dots. Time badges ('Day 1', '3 Weeks Later', '4 Weeks Later', '9 Months Later') sit on the rail between entries. Each entry is a ~80x60 photo thumbnail (~6px radius) followed by a title and a 2-line description.",
+      "type": "Heading in a grotesk at ~16px regular. Entry titles ~12px semibold. Body ~10px regular grey. Badges ~8px in grey pills.",
+      "color": "Panel ~#F7F7F7 on white, text ~#1E1E1E, body ~#6B6B6B, badges ~#E6E6E6 with grey text. The thumbnails add warm and saturated color (orange, violet).",
+      "details": [
+        "Relative time labels ('3 Weeks Later') describe the customer's experience better than calendar dates",
+        "Thumbnails make each milestone concrete",
+        "It runs beyond the job into a long-term check-in ('Year-End Check-In'), selling the relationship"
+      ],
+      "why_it_works": "It answers 'what happens and when' in one glance, and extending past completion builds trust in after-care.",
+      "trade_adaptation": "Bathroom remodel: 'Week 1 — Demo', '2 Weeks Later — Plumbing rough-in & inspection', '4 Weeks Later — Tile & fixtures', '6 Weeks Later — Final walkthrough', '1 Year Later — Free warranty check'.",
+      "mood": ["minimal", "friendly"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:0a635ee3-8326-4ebe-bd7f-89a3230a8d2e",
+      "site": "Seed",
+      "url": "https://mobbin.com/sites/sections/0a635ee3-8326-4ebe-bd7f-89a3230a8d2e",
+      "pattern": "timeline-vertical",
+      "layout": "A centered heading and a 2-line sub. The left ~45% holds a thin vertical line with dots, and at each stop a pill time badge with a bold title, then 3 bullet points. A rounded 'How to Use' box sits under the timeline. The right ~50% is a photo collage: one large rounded photo, a circle-cropped product shot top-right and a small rounded portrait below it.",
+      "type": "Heading in a neo-grotesk at ~28px regular, deep green. Step titles ~11px bold. Bullets ~10px. Badges ~9px bold white.",
+      "color": "Cream ~#F6F4EC ground, deep forest ~#1F3A1A heading, olive ~#7A7A5A badges with white text, box ~#EFEDE4. Photos in soft natural tones.",
+      "details": [
+        "Pill time badges ('Day 1', 'Week 4', 'Week 8') stand in for numbers",
+        "The collage mixes crop shapes (rounded rectangle, circle, small rectangle) for an editorial feel",
+        "The closing 'How to Use' box gives a practical takeaway after the timeline"
+      ],
+      "why_it_works": "It frames the process as results building over time, which suits recurring services, and the collage keeps it human.",
+      "trade_adaptation": "Lawn-care program: 'Day 1 — Aeration & overseed', 'Week 4 — First feed & weed control', 'Week 8 — Thick, green lawn', with a 'What you'll do: water 3x a week' box and lawn photos.",
+      "mood": ["warm", "friendly", "editorial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:6a577754-ba97-4e19-a9a1-9ff91a9983cc",
+      "site": "Shade",
+      "url": "https://mobbin.com/sites/sections/6a577754-ba97-4e19-a9a1-9ff91a9983cc",
+      "pattern": "steps-row",
+      "layout": "A mono eyebrow '▶ LET'S CHAT' and a 2-line headline at top-left. Three equal columns, each with a mono day label, a title and a 3-line paragraph. A full-width progress track runs underneath with small square nodes under each column; the segment up to the current step is solid black and the rest is pale.",
+      "type": "Headline in a neo-grotesk at ~28px regular, two-tone (black sentence, then grey sentence). Day labels in an all-caps monospace at ~8px ('DAY 1 / DAY 14 / DAY 21'). Titles ~16px, body ~11px.",
+      "color": "White ground. The active step is black ~#111111 and future steps fade to ~#C7C7C7. Track ~#E6E6E6 with a black filled segment.",
+      "details": [
+        "Future steps are literally greyed out, showing progress through the process",
+        "Square nodes rather than round dots give a technical, blueprint feel",
+        "The two-tone headline puts the promise second: 'We ensure a smooth, guided start.'"
+      ],
+      "why_it_works": "Minimal and clear, with built-in motion (the progress fill can animate on scroll). Day labels set real expectations.",
+      "trade_adaptation": "Electrician panel upgrade: 'DAY 1 — Call & photo review', 'DAY 3 — On-site quote', 'DAY 10 — Install & inspection', with the track filling as the visitor scrolls.",
+      "mood": ["minimal", "technical"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:c92cdd16-60d4-43f7-a711-3eb878c100f4",
+      "site": "Lightship",
+      "url": "https://mobbin.com/sites/sections/c92cdd16-60d4-43f7-a711-3eb878c100f4",
+      "pattern": "timeline-vertical",
+      "layout": "A centered small label and a 1-line headline. Below, a dotted path winds down and sideways between circular icon nodes (~44px): a green node with a sun icon, then a black node with a bolt icon. Cards (~150px wide, ~6px radius) alternate left and right of the path. Each card has a bold small label, a ~14px grey statement and a photo.",
+      "type": "Headline in a neo-grotesk at ~34px regular. Card labels ~9px bold. Card statements ~13px regular grey, which is larger than the labels.",
+      "color": "Warm beige ~#F4EEE6 ground with soft orange ~#FBD9B0 sunburst rays and faint '+' grid marks. Nodes in green ~#2DB36A and black ~#111111. Cards white.",
+      "details": [
+        "The path shows a flow (sun → storage → home), not just an order",
+        "Faint '+' registration marks on the ground add a technical overlay",
+        "Card statements are larger than their labels, flipping the usual hierarchy"
+      ],
+      "why_it_works": "It explains how something works physically, which is perfect for trades whose value is invisible (wiring, plumbing, airflow).",
+      "trade_adaptation": "Plumber or HVAC: a dotted path following the water or air (Main line → Filter/softener → Water heater → Taps), with icon nodes and photo cards at each component.",
+      "mood": ["technical", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:fcf332b6-2658-4af3-859c-286a46081b75",
+      "site": "Patch",
+      "url": "https://mobbin.com/sites/sections/fcf332b6-2658-4af3-859c-286a46081b75",
+      "pattern": "steps-cards",
+      "layout": "Outlined boxes laid on a visible grid. A label box 'OUR PROCESS' with a small circle-icon strip top-left, a giant title box 'THE PATCH SYSTEM' split over two lines with a diagonal-cut corner box holding '02', and a square box on the right with a line-art illustration. A full-bleed electric blue band follows, holding a step box: 'PROCESS - STEPS', a huge '01' and the step title 'STOP THE LEAK'.",
+      "type": "Title in a heavy condensed grotesk, all caps, ~60px, tight. Labels in a grotesk at ~11px bold, all caps. Step numerals very large (~80px).",
+      "color": "Light grey ~#D4D4D4 ground with ~#C2C2C2 grid lines, electric blue ~#1A00FF type and 1px outlines, white box fills. A small orange ~#FF5A1F 'BOOK A CALL' button in the nav.",
+      "details": [
+        "Everything sits in 1px outlined boxes like a technical form or work order",
+        "A diagonal-split corner box holds the section number",
+        "A cheeky line-art illustration of three characters marching keeps it from feeling cold",
+        "Step titles are plain verbs ('STOP THE LEAK')"
+      ],
+      "why_it_works": "A brutalist, blueprint aesthetic that feels like a contractor's paperwork. The memorable look comes from only two colors.",
+      "trade_adaptation": "Plumber (bold variant): '01 STOP THE LEAK', '02 FIND THE CAUSE', '03 FIX IT RIGHT', '04 GUARANTEE IT', in the brand's single bright color on a grid background.",
+      "mood": ["bold", "industrial", "playful"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:629482aa-3595-4bbc-8569-ee09953bae9d",
+      "site": "Farm Minerals",
+      "url": "https://mobbin.com/sites/sections/629482aa-3595-4bbc-8569-ee09953bae9d",
+      "pattern": "numbered-columns",
+      "layout": "50/50 split: a full-bleed photo on the left, a cream panel on the right. The right side holds a heading, a 2-line all-caps mono sub, and an outlined button framed with tiny dots. Below, a horizontal line with dot nodes, then step columns with a large light numeral, title and body; the third column runs off the right edge.",
+      "type": "Heading in a neo-grotesk at ~28px regular, olive. Sub in an all-caps monospace at ~8px. Numerals ~20px light grey. Step titles ~16px regular olive over 2 lines. Body ~10px.",
+      "color": "Cream ~#FBF8EF panel, olive ~#5E6B2E heading and titles, light grey ~#C9C9C0 numerals and rule, body ~#5A5A50. The photo is green grass with hens.",
+      "details": [
+        "The button has dotted corner brackets ('· READ THE SCIENCE ·'), a crafted take on an outline button",
+        "Pale numerals let the titles lead",
+        "The horizontal rule with nodes runs across the top of the steps, like a ruler"
+      ],
+      "why_it_works": "Earthy and credible: a calm, outdoorsy palette combined with a scientific explanation. A good model for rural or outdoor trades.",
+      "trade_adaptation": "Landscaper or septic service: a photo of a finished yard on the left; on the right 'How it works' with '01 Site & soil test', '02 Design & plan', '03 Install', '04 Seasonal care'.",
+      "mood": ["rustic", "warm", "technical"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Time is the most persuasive content. Duration badges ('Day 1', '3 Weeks Later'), a stated typical timeline ('12–14 weeks') or a promise in the headline ('as few as eight weeks') beat abstract step names.",
+    "Show each step with a real photo of the work (inspection, crew, finished result). Icons for steps read as generic.",
+    "Use one quiet connecting device (a rule with dots, a heavy center spine, a progress track or small chevrons between cards) rather than big arrows.",
+    "Keep numbers small and typographic (mono '01 — SCOPE', square badges, numbers inside the serif title). Make numerals the hero only in a deliberately brutalist style.",
+    "Show active vs upcoming: a filled progress segment, greyed future steps, one photo-backed active card, or card colors that deepen per step.",
+    "A two-tone headline (black statement + grey continuation) adds the promise without a separate subheading.",
+    "Three to five steps is the sweet spot. Letting the last column bleed off-screen invites scrolling and makes the process feel like a journey.",
+    "Extend the process past completion (warranty check, maintenance visit) to sell after-care and the relationship."
+  ],
+  "avoid": [
+    "Three identical beige or white cards with a centered small '01' and a centered title (Function 'What happens next'): competent but anonymous.",
+    "Big outline or gradient numerals '01 02 03' in rounded boxes (OpenPhone): playful SaaS onboarding, not a contractor.",
+    "Glassy dark panels with circled numbers and faint grey text (Railway): low contrast and tech-coded.",
+    "Rows of line-art spot illustrations (alarm clock, megaphone) over each step (Duolingo): clip-art feel.",
+    "Chevron-arrow week ribbons with callout boxes (Circle): reads like a project-management slide.",
+    "Neon gradient progress bars and 'Day 1 / Day 6 / Day 12' on black (Giga): AI-startup look.",
+    "Steps without any time, cost or deliverable attached, just verbs like 'Plan, Build, Launch'."
+  ]
+}

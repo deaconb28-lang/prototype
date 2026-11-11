@@ -1,0 +1,1129 @@
+{
+  "source": "Pexels (https://www.pexels.com/license/)",
+  "note": "Placeholders only. Generated sites label these as stock until replaced with the business's own photos.",
+  "url_template": "https://images.pexels.com/photos/{id}/pexels-photo-{id}.jpeg?auto=compress&cs=tinysrgb&w={w}",
+  "trades": {
+    "roofing": [
+      {
+        "id": 28460169,
+        "page": "https://www.pexels.com/photo/triangular-roofs-against-a-clear-blue-sky-28460169/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Row of three gable roof peaks with brown roofing along the bottom edge, wide blue sky with white clouds above",
+        "alt": "Three gabled rooftops lined up beneath a bright blue sky with scattered clouds",
+        "focal": "bottom",
+        "tone": "light"
+      },
+      {
+        "id": 37677476,
+        "page": "https://www.pexels.com/photo/workers-renovating-roof-of-brick-house-in-texas-37677476/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Crew re-roofing a large brick house, underlayment exposed, ladders against the eaves, wheelbarrow and tarps on the lawn",
+        "alt": "Roofing crew tearing off and re-roofing a brick house, with ladders and materials on the front lawn",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 9431615,
+        "page": "https://www.pexels.com/photo/handyman-putting-roof-tiles-on-roof-9431615/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Roofer kneeling on a sloped roof laying new shingle courses over old ones, pale sky in the upper left",
+        "alt": "Roofer kneeling on a sloped roof laying a new course of shingles",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 33404248,
+        "page": "https://www.pexels.com/photo/professional-roofer-installing-shingles-on-new-roof-33404248/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Close, low view of a roofer's hand and pneumatic nail gun fastening a dark asphalt shingle bundle on a new roof",
+        "alt": "Roofer fastening dark asphalt shingles with a nail gun on a new roof",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 38510717,
+        "page": "https://www.pexels.com/photo/professional-roofer-applying-torch-down-membrane-38510717/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Roofer heating a roll of torch-down membrane with a gas torch on a flat roof while a second worker unrolls it",
+        "alt": "Roofers applying torch-down waterproof membrane on a flat roof with a gas torch",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 31771166,
+        "page": "https://www.pexels.com/photo/roofer-working-on-new-house-roof-installation-31771166/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Roofer crawling up a steep roof laying red clay tiles, partly tiled section with stacked tiles near the ridge",
+        "alt": "Roofer laying red clay tiles on a steep new roof under a cloudy sky",
+        "focal": "top",
+        "tone": "light"
+      },
+      {
+        "id": 31763541,
+        "page": "https://www.pexels.com/photo/roof-installation-with-terracotta-tiles-in-progress-31763541/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Half-finished terracotta tile roof: rows of laid tiles on the lower slope, bare battens and loose tiles above",
+        "alt": "Terracotta roof partly tiled, with bare battens and stacked tiles on the upper slope",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 37704251,
+        "page": "https://www.pexels.com/photo/professional-roofer-working-safely-on-a-building-roof-37704251/",
+        "use": "team",
+        "orientation": "portrait",
+        "subject": "Roofer in a white hard hat crouched on a metal-tile roof edge, framed against a deep blue sky",
+        "alt": "Roofer in a hard hat working on the edge of a tiled roof against a deep blue sky",
+        "focal": "top",
+        "tone": "mid"
+      },
+      {
+        "id": 12660749,
+        "page": "https://www.pexels.com/photo/photo-of-a-house-exterior-12660749/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Blue-gray craftsman-style house with multiple gables and a clean gray shingle roof, shrubs in front",
+        "alt": "Craftsman-style house with several gables and a clean gray shingle roof",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 26612731,
+        "page": "https://www.pexels.com/photo/chimney-on-a-roof-26612731/",
+        "use": "result",
+        "orientation": "portrait",
+        "subject": "Corner of a house with dark shingle roof, white trim and a brick chimney against an overcast sky",
+        "alt": "Dark shingle roof with white trim and a brick chimney against a gray sky",
+        "focal": "left",
+        "tone": "light"
+      }
+    ],
+    "plumbing": [
+      {
+        "id": 34295403,
+        "page": "https://www.pexels.com/photo/modern-stainless-steel-kitchen-faucet-in-minimalist-setting-34295403/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Round stainless sink and chrome faucet set in a dark counter against a white marble backsplash, empty space above",
+        "alt": "Stainless kitchen sink with a chrome faucet against a white marble backsplash",
+        "focal": "left",
+        "tone": "light"
+      },
+      {
+        "id": 6933779,
+        "page": "https://www.pexels.com/photo/bathtub-and-shower-cabin-in-light-bathroom-with-white-furniture-and-tiled-walls-6933779/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Bright finished bathroom with white vanity, built-in tub, wall-hung toilet and glass shower door",
+        "alt": "Bright, newly finished bathroom with a white vanity, bathtub and glass shower",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 6419128,
+        "page": "https://www.pexels.com/photo/plumber-installs-pipe-fittings-6419128/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Gloved hands tightening a steel supply-line fitting under a sink, foil insulation behind the pipes",
+        "alt": "Plumber's hands tightening a steel pipe fitting under a sink",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 29226620,
+        "page": "https://www.pexels.com/photo/professional-plumber-installing-a-radiator-pipe-29226620/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Gloved hands threading a pipe connection onto a radiator, blue PEX lines and fittings in the foreground",
+        "alt": "Plumber in work gloves connecting a pipe fitting to a radiator",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 39885416,
+        "page": "https://www.pexels.com/photo/close-up-of-plumber-working-with-copper-pipe-39885416/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Plumber bending a length of copper pipe held in a bench vise, manifold fittings in the background",
+        "alt": "Plumber bending copper pipe clamped in a bench vise",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 35290675,
+        "page": "https://www.pexels.com/photo/focused-technician-working-with-water-pump-35290675/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Technician hunched over a red water pump, connecting a braided hose against a teal wall",
+        "alt": "Plumber connecting a braided hose to a water pump",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 8488035,
+        "page": "https://www.pexels.com/photo/metal-pipes-on-wall-8488035/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Old galvanized supply and drain pipes exposed in a chipped-out white wall during a repair",
+        "alt": "Old metal pipes exposed in an opened-up wall during a plumbing repair",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 18274115,
+        "page": "https://www.pexels.com/photo/close-up-of-a-water-pipe-18274115/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Black water pipe with a split joint spraying water, dark green foliage behind",
+        "alt": "Leaking outdoor water pipe spraying water from a cracked joint",
+        "focal": "center",
+        "tone": "dark"
+      },
+      {
+        "id": 32497162,
+        "page": "https://www.pexels.com/photo/senior-man-conducting-bathroom-inspection-with-device-32497162/",
+        "use": "team",
+        "orientation": "landscape",
+        "subject": "Older tradesman kneeling beside a toilet, checking the floor with a handheld meter in a small bathroom",
+        "alt": "Tradesman kneeling by a toilet checking the bathroom floor with a handheld meter",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 6253786,
+        "page": "https://www.pexels.com/photo/photograph-of-a-sink-with-a-black-faucet-6253786/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Matte black pull-down faucet over a concrete sink on a white counter, plain white wall",
+        "alt": "Matte black pull-down kitchen faucet over a concrete sink",
+        "focal": "left",
+        "tone": "light"
+      }
+    ],
+    "hvac": [
+      {
+        "id": 4119844,
+        "page": "https://www.pexels.com/photo/facade-of-a-house-4119844/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Back of a gray-sided two-story house with an outdoor AC condenser on mulch beside a white fence, blue sky",
+        "alt": "Backyard of a two-story house with an AC condenser unit beside a white fence",
+        "focal": "left",
+        "tone": "light"
+      },
+      {
+        "id": 30210086,
+        "page": "https://www.pexels.com/photo/industrial-rooftop-with-hvac-unit-and-ladder-30210086/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Small condenser units and a steel access ladder on a rooftop parapet with orange trim, wide blue sky",
+        "alt": "Rooftop condenser units and access ladder under a clear blue sky",
+        "focal": "bottom",
+        "tone": "light"
+      },
+      {
+        "id": 5463581,
+        "page": "https://www.pexels.com/photo/man-drilling-an-aircon-casing-5463581/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Technician bent over a large rooftop condenser with its side panel off, working on the wiring",
+        "alt": "HVAC technician working on a rooftop condenser with the service panel removed",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 6471914,
+        "page": "https://www.pexels.com/photo/close-up-shot-of-a-man-working-6471914/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Technician kneeling on a rooftop connecting manifold gauges and hoses beside an outdoor unit",
+        "alt": "HVAC technician kneeling to connect refrigerant gauges beside an outdoor unit",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 6471912,
+        "page": "https://www.pexels.com/photo/person-holding-a-pressure-gauge-6471912/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Hands adjusting a red and blue refrigerant manifold gauge set next to an outdoor unit",
+        "alt": "Technician's hands adjusting refrigerant manifold gauges",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 5463580,
+        "page": "https://www.pexels.com/photo/man-repairing-an-aircon-5463580/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Close view of a technician's hand working at the base of a condenser coil with a test tool",
+        "alt": "Close-up of a technician working at the coil of an outdoor AC unit",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 36818203,
+        "page": "https://www.pexels.com/photo/modern-smart-thermostat-with-user-interface-36818203/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Finger pressing the dial of a black wall thermostat reading 25, white wall",
+        "alt": "Finger adjusting a black digital wall thermostat",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 36248286,
+        "page": "https://www.pexels.com/photo/circular-air-vent-close-up-with-concentric-design-36248286/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Round white ceiling supply diffuser with concentric rings, shot straight on",
+        "alt": "Round white ceiling air diffuser with concentric rings",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 38788452,
+        "page": "https://www.pexels.com/photo/wall-mounted-air-conditioner-in-modern-interior-38788452/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "White ductless mini-split indoor unit mounted high on a pale wall",
+        "alt": "White ductless mini-split unit mounted high on a living room wall",
+        "focal": "top",
+        "tone": "light"
+      },
+      {
+        "id": 34558045,
+        "page": "https://www.pexels.com/photo/man-adjusting-thermostat-in-modern-home-interior-34558045/",
+        "use": "team",
+        "orientation": "landscape",
+        "subject": "Technician in a dark polo setting a wall thermostat while checking his phone, curved staircase to the left",
+        "alt": "Technician setting a wall thermostat in a home hallway next to a staircase",
+        "focal": "right",
+        "tone": "light"
+      }
+    ],
+    "electrical": [
+      {
+        "id": 32497160,
+        "page": "https://www.pexels.com/photo/electrician-inspecting-residential-fuse-box-area-32497160/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Gray-haired electrician working at an open residential breaker panel on a garage wall next to a window",
+        "alt": "Electrician working on an open residential breaker panel in a garage",
+        "focal": "right",
+        "tone": "mid"
+      },
+      {
+        "id": 27928761,
+        "page": "https://www.pexels.com/photo/a-man-is-working-on-an-electrical-panel-27928761/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Electrician in profile driving a screw with a cordless drill inside an open distribution panel",
+        "alt": "Electrician using a cordless drill inside an open distribution panel",
+        "focal": "left",
+        "tone": "light"
+      },
+      {
+        "id": 3615735,
+        "page": "https://www.pexels.com/photo/holes-on-white-wall-with-electrical-wires-3615735/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Row of four red outlet boxes set into a white wall with wires hanging out, lots of empty white space",
+        "alt": "Four new outlet boxes with wires pulled through a freshly plastered white wall",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 4792522,
+        "page": "https://www.pexels.com/photo/man-installing-light-bulb-in-apartment-4792522/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Bearded man fitting a black wire-cage pendant light to a ceiling rose in a white room",
+        "alt": "Man installing a black wire-cage pendant light on a white ceiling",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 4981802,
+        "page": "https://www.pexels.com/photo/man-drilling-in-a-wall-in-an-apartment-4981802/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Worker in white and a hard hat crouching to drill into fresh drywall for an outlet box",
+        "alt": "Worker in a hard hat crouching to drill an outlet box opening in new drywall",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 29871587,
+        "page": "https://www.pexels.com/photo/electrician-working-on-renovation-project-in-turkiye-29871587/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Electrician on a step ladder running wiring in a gutted room with red conduit across brick walls",
+        "alt": "Electrician running wiring through red conduit in a gutted room under renovation",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 257736,
+        "page": "https://www.pexels.com/photo/electrician-fixing-an-opened-switchboard-257736/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Hand testing breakers with a voltage tester in a panel full of blue, yellow and black wires",
+        "alt": "Hand testing circuit breakers with a voltage tester in an open panel",
+        "focal": "right",
+        "tone": "mid"
+      },
+      {
+        "id": 8488029,
+        "page": "https://www.pexels.com/photo/close-up-photo-of-opened-switchboard-8488029/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Open gray junction box in a stud wall packed with copper and black wires, conductors labeled HOT",
+        "alt": "Open junction box in a stud wall with wires labeled hot during rough-in",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 32391477,
+        "page": "https://www.pexels.com/photo/man-fixing-ceiling-light-in-empty-room-32391477/",
+        "use": "team",
+        "orientation": "portrait",
+        "subject": "Man standing on a step ladder fixing a ceiling light in an empty beige room",
+        "alt": "Electrician on a step ladder fixing a ceiling light in an empty room",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 5767595,
+        "page": "https://www.pexels.com/photo/an-opened-switchbox-5767595/",
+        "use": "result",
+        "orientation": "portrait",
+        "subject": "Newly wired breaker box with orange and white breakers mounted on a white wall, cable running down",
+        "alt": "Newly wired breaker box mounted on a white wall",
+        "focal": "center",
+        "tone": "light"
+      }
+    ],
+    "landscaping": [
+      {
+        "id": 12558900,
+        "page": "https://www.pexels.com/photo/view-of-a-mansion-12558900/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Mediterranean-style house framed by palms, trimmed hedges and red flower beds along a curving brick drive",
+        "alt": "House framed by palm trees, trimmed hedges and red flower beds along a brick driveway",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 12087398,
+        "page": "https://www.pexels.com/photo/a-man-mowing-the-green-lawn-12087398/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Man on a riding mower crossing a wide sunlit lawn, trees and shrubs behind",
+        "alt": "Man on a riding mower crossing a wide, sunlit lawn lined with trees",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 6728925,
+        "page": "https://www.pexels.com/photo/a-person-cutting-grass-with-a-lawn-mower-6728925/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Low ground-level view of a push mower throwing clippings across a lawn in warm backlight",
+        "alt": "Push mower cutting a lawn in warm afternoon light, seen from ground level",
+        "focal": "top",
+        "tone": "light"
+      },
+      {
+        "id": 4920293,
+        "page": "https://www.pexels.com/photo/man-trimming-the-grass-using-a-grass-cutter-4920293/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Worker in blue coveralls string-trimming grass along a row of potted conifers",
+        "alt": "Groundskeeper string-trimming grass along a row of young conifers",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 24595769,
+        "page": "https://www.pexels.com/photo/man-cutting-a-hedge-with-a-trimmer-in-the-garden-24595769/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Man shaping a rounded conifer hedge with an electric hedge trimmer",
+        "alt": "Man shaping a rounded hedge with an electric trimmer",
+        "focal": "right",
+        "tone": "mid"
+      },
+      {
+        "id": 6728926,
+        "page": "https://www.pexels.com/photo/a-person-mowing-the-lawn-6728926/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Legs and push mower on a fresh-cut lawn with long sunlit shadows",
+        "alt": "Push mower on a freshly cut lawn with long afternoon shadows",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 38936347,
+        "page": "https://www.pexels.com/photo/man-trimming-hedges-with-garden-shears-38936347/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Close-up of hands using long-bladed hedge shears along the flat top of a hedge",
+        "alt": "Hands trimming the top of a hedge with long garden shears",
+        "focal": "left",
+        "tone": "mid"
+      },
+      {
+        "id": 3999647,
+        "page": "https://www.pexels.com/photo/red-lawn-mower-on-grass-3999647/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Overhead view of a red push mower beside a freshly cut stripe in a side yard",
+        "alt": "Red push mower next to a freshly cut stripe of lawn",
+        "focal": "bottom",
+        "tone": "mid"
+      },
+      {
+        "id": 30467599,
+        "page": "https://www.pexels.com/photo/gardening-workers-in-green-uniforms-in-park-30467599/",
+        "use": "team",
+        "orientation": "portrait",
+        "subject": "Two groundskeepers in green uniforms tipping soil from a wheelbarrow among trees",
+        "alt": "Two groundskeepers in green uniforms emptying a wheelbarrow of soil",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 8134817,
+        "page": "https://www.pexels.com/photo/frontage-of-a-residential-house-with-garden-8134817/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Modern house with wood-slat gate and a planted bed of flowers and a spiral topiary on paving",
+        "alt": "Modern house front with a planted flower bed and spiral topiary",
+        "focal": "center",
+        "tone": "light"
+      }
+    ],
+    "painting": [
+      {
+        "id": 33513858,
+        "page": "https://www.pexels.com/photo/painters-working-on-dutch-brick-house-exterior-33513858/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Two painters in whites refinishing window frames and shutters on a long brick row house",
+        "alt": "Two painters refinishing window frames and shutters on a brick house",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 1917849,
+        "page": "https://www.pexels.com/photo/man-painting-a-house-1917849/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Man rolling paint onto a pale exterior wall with an extension pole, paint-spattered ladder beside him",
+        "alt": "Man painting an exterior wall with a long-handled roller next to a ladder",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 7218579,
+        "page": "https://www.pexels.com/photo/man-painting-the-wall-7218579/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Painter kneeling to roll white paint beside a blue-taped edge, tray on a drop cloth",
+        "alt": "Painter rolling white paint along a taped edge, kneeling on a drop cloth",
+        "focal": "top",
+        "tone": "light"
+      },
+      {
+        "id": 5691610,
+        "page": "https://www.pexels.com/photo/man-with-roller-working-in-room-5691610/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Worker seen from behind rolling a ceiling with a long extension pole",
+        "alt": "Painter rolling a ceiling with a long extension pole",
+        "focal": "top",
+        "tone": "light"
+      },
+      {
+        "id": 31544574,
+        "page": "https://www.pexels.com/photo/senior-man-painting-exterior-wall-on-scaffolding-31544574/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Older painter sitting on wooden scaffolding, brushing paint high on an exterior wall",
+        "alt": "Painter on wooden scaffolding brushing paint high on an exterior wall",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 7217987,
+        "page": "https://www.pexels.com/photo/man-putting-adhesive-tape-on-wall-7217987/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Man pressing blue painter's tape along a wall corner before painting",
+        "alt": "Man applying blue painter's tape along a wall corner before painting",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 6474455,
+        "page": "https://www.pexels.com/photo/person-pouring-gray-paint-6474455/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Gray paint pouring from a can into a yellow roller tray on a concrete floor",
+        "alt": "Gray paint pouring from a can into a yellow roller tray",
+        "focal": "bottom",
+        "tone": "mid"
+      },
+      {
+        "id": 36153946,
+        "page": "https://www.pexels.com/photo/construction-workers-painting-interior-walls-36153946/",
+        "use": "team",
+        "orientation": "landscape",
+        "subject": "Two workers in a hallway, one in a hard hat cutting in paint along a door frame",
+        "alt": "Two workers painting a hallway, one cutting in along a door frame",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 36284873,
+        "page": "https://www.pexels.com/photo/vibrant-yellow-house-with-white-accents-36284873/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Freshly painted yellow two-story house with crisp white window trim and balconies",
+        "alt": "Freshly painted yellow two-story house with crisp white trim",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 37184153,
+        "page": "https://www.pexels.com/photo/bright-empty-room-with-wooden-floor-and-patio-view-37184153/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Empty room with fresh off-white walls, red hardwood floor and a sliding door to a patio",
+        "alt": "Empty room with freshly painted off-white walls and a red hardwood floor",
+        "focal": "center",
+        "tone": "light"
+      }
+    ],
+    "pest-control": [
+      {
+        "id": 19789841,
+        "page": "https://www.pexels.com/photo/smoke-used-for-pest-control-19789841/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Technician in red coveralls fogging the front of a house, thick white smoke rolling across the driveway",
+        "alt": "Pest control technician fogging the front of a house with thick white smoke",
+        "focal": "left",
+        "tone": "mid"
+      },
+      {
+        "id": 4894608,
+        "page": "https://www.pexels.com/photo/woman-in-hat-and-mask-spraying-a-tree-in-a-garden-with-pesticides-4894608/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Person in a sun hat and mask spraying young fruit trees in a fenced green yard",
+        "alt": "Person in a hat and mask spraying young trees in a fenced backyard",
+        "focal": "right",
+        "tone": "mid"
+      },
+      {
+        "id": 4176303,
+        "page": "https://www.pexels.com/photo/a-person-disinfecting-a-carpet-4176303/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Technician in a white protective suit fogging a rug in a bright living room",
+        "alt": "Technician in a protective suit fogging a rug in a bright living room",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 4176069,
+        "page": "https://www.pexels.com/photo/a-woman-fumigating-a-wooden-shelf-4176069/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Technician in a protective suit fogging a wooden bookshelf indoors, mist around the shelves",
+        "alt": "Technician in a protective suit treating a wooden shelf with fog",
+        "focal": "left",
+        "tone": "light"
+      },
+      {
+        "id": 4975345,
+        "page": "https://www.pexels.com/photo/man-spraying-leaves-with-water-4975345/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Gloved hand squeezing a pump sprayer at shrub foliage",
+        "alt": "Gloved hand using a pump sprayer on shrub leaves",
+        "focal": "left",
+        "tone": "mid"
+      },
+      {
+        "id": 38680283,
+        "page": "https://www.pexels.com/photo/close-up-of-a-vibrant-paper-wasp-nest-under-eaves-38680283/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Paper wasp nest covered in wasps tucked under a white eave",
+        "alt": "Paper wasp nest covered in wasps under a house eave",
+        "focal": "left",
+        "tone": "light"
+      },
+      {
+        "id": 5324732,
+        "page": "https://www.pexels.com/photo/close-up-shot-of-a-small-mouse-escaping-from-a-trap-5324732/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Small brown mouse beside a wire cage trap on gravel",
+        "alt": "Small mouse beside a wire cage trap on gravel",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 19294665,
+        "page": "https://www.pexels.com/photo/close-up-of-cockroach-19294665/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Macro of a reddish-brown cockroach on a pale stucco surface",
+        "alt": "Close-up of a cockroach on a pale textured wall",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 12895278,
+        "page": "https://www.pexels.com/photo/a-macro-shot-of-a-termite-12895278/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Macro of a pale termite on damp wood and moss",
+        "alt": "Close-up of a termite on damp wood",
+        "focal": "center",
+        "tone": "dark"
+      },
+      {
+        "id": 18087296,
+        "page": "https://www.pexels.com/photo/woodworm-in-log-18087296/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Wood with bark removed showing winding insect galleries and larvae",
+        "alt": "Wood surface eaten into winding tunnels by wood-boring insects",
+        "focal": "center",
+        "tone": "mid"
+      }
+    ],
+    "cleaning": [
+      {
+        "id": 6197108,
+        "page": "https://www.pexels.com/photo/group-of-people-cleaning-a-dining-room-6197108/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Three cleaners in red coveralls mopping, wiping glass and cabinets in a bright open kitchen",
+        "alt": "Three cleaners mopping and wiping surfaces in a bright open-plan kitchen",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 6195277,
+        "page": "https://www.pexels.com/photo/women-in-orange-uniform-cleaning-the-floor-6195277/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Two cleaners in red coveralls vacuuming and mopping a bright living room with a gray sofa",
+        "alt": "Two cleaners vacuuming and mopping a bright living room",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 6195275,
+        "page": "https://www.pexels.com/photo/person-vacuuming-the-floor-6195275/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Cleaner in red coveralls vacuuming tile beside a gray sofa with a yellow canister vacuum",
+        "alt": "Cleaner vacuuming a tiled living room floor beside a sofa",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 9462746,
+        "page": "https://www.pexels.com/photo/a-woman-cleaning-a-kitchen-9462746/",
+        "use": "work",
+        "orientation": "portrait",
+        "subject": "Woman in gloves and apron wiping down a white gas stove",
+        "alt": "Woman in gloves and an apron wiping down a gas stove",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 6195118,
+        "page": "https://www.pexels.com/photo/woman-in-gray-shirt-and-orange-jumpsuit-6195118/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Cleaner in a red apron working at a counter with a blue bucket",
+        "alt": "Cleaner in a red apron working at a counter with a blue bucket",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 6196566,
+        "page": "https://www.pexels.com/photo/person-in-gray-sweater-mopping-and-cleaning-the-floor-6196566/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Flat microfiber mop gliding over a gray tile floor, sofa and bucket behind",
+        "alt": "Flat microfiber mop cleaning a gray tile floor",
+        "focal": "bottom",
+        "tone": "light"
+      },
+      {
+        "id": 4440536,
+        "page": "https://www.pexels.com/photo/person-in-red-long-sleeve-shirt-holding-green-plastic-tool-4440536/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Pink-gloved hands spraying and wiping a white windowsill",
+        "alt": "Gloved hands spraying and wiping a white windowsill",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 4440537,
+        "page": "https://www.pexels.com/photo/a-woman-cleaning-the-window-4440537/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Pink-gloved hand wiping window glass while holding a spray bottle",
+        "alt": "Gloved hand wiping window glass while holding a spray bottle",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 6196685,
+        "page": "https://www.pexels.com/photo/back-view-of-workers-walking-towards-a-house-6196685/",
+        "use": "team",
+        "orientation": "portrait",
+        "subject": "Cleaning crew in red coveralls carrying a ladder, vacuum and bags up the steps of a house",
+        "alt": "Cleaning crew carrying a ladder, vacuum and bags up to a house",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 280239,
+        "page": "https://www.pexels.com/photo/empty-fabric-sofa-inside-room-280239/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Tidy open-plan living room with gray sofas, yellow cushions, wood floor and garden doors",
+        "alt": "Tidy, bright living room with gray sofas opening onto a kitchen and garden",
+        "focal": "center",
+        "tone": "light"
+      }
+    ],
+    "remodeling": [
+      {
+        "id": 15124970,
+        "page": "https://www.pexels.com/photo/men-working-inside-a-house-under-repairs-15124970/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Open-plan kitchen nearing completion, worker at the island, compressor and tools on a protected floor",
+        "alt": "Kitchen remodel nearing completion, with a worker at the island and tools on the floor",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 36035073,
+        "page": "https://www.pexels.com/photo/modern-interior-kitchen-under-renovation-36035073/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Stripped kitchen with sample tiles on the wall, ladder, sawhorse table and protected floor",
+        "alt": "Kitchen under renovation with a ladder, sample tiles and a covered floor",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 15798784,
+        "page": "https://www.pexels.com/photo/interior-of-a-room-under-renovation-15798784/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Gutted room with bare walls, rubble, buckets and tools on the floor, light from French doors",
+        "alt": "Gutted room mid-renovation with bare walls, rubble and tools on the floor",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 5691550,
+        "page": "https://www.pexels.com/photo/faceless-handyman-installing-window-in-new-house-5691550/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Worker seen from behind fitting a new window frame, interior doors wrapped in plastic",
+        "alt": "Worker fitting a new window frame in a room under renovation",
+        "focal": "left",
+        "tone": "light"
+      },
+      {
+        "id": 29181495,
+        "page": "https://www.pexels.com/photo/unfinished-wall-tiling-in-construction-site-29181495/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Wall partly covered in new white tiles over bare plaster, with a level line marked",
+        "alt": "Wall partly tiled with new white tiles over bare plaster",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 11806490,
+        "page": "https://www.pexels.com/photo/a-close-up-shot-of-a-person-putting-tile-levelers-11806490/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Gloved hand setting a large gray floor tile into combed thinset with blue leveling clips",
+        "alt": "Gloved hand setting a large floor tile with leveling clips into combed thinset",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 8293686,
+        "page": "https://www.pexels.com/photo/person-choosing-a-tile-design-on-wall-8293686/",
+        "use": "detail",
+        "orientation": "portrait",
+        "subject": "Hand holding a mosaic tile sheet against a white subway backsplash under cabinets",
+        "alt": "Hand test-fitting a mosaic tile sheet on a kitchen backsplash",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 7667625,
+        "page": "https://www.pexels.com/photo/carpenters-building-a-staircase-7667625/",
+        "use": "team",
+        "orientation": "landscape",
+        "subject": "Two carpenters kneeling to assemble a wooden staircase in a timber-clad house",
+        "alt": "Two carpenters assembling a wooden staircase in a timber-clad home",
+        "focal": "right",
+        "tone": "mid"
+      },
+      {
+        "id": 6510984,
+        "page": "https://www.pexels.com/photo/kitchen-design-with-white-cabinets-and-wooden-flooring-6510984/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Finished kitchen with white shaker cabinets, granite counters, stainless appliances and plank floor",
+        "alt": "Finished kitchen with white cabinets, granite counters and stainless appliances",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 8583529,
+        "page": "https://www.pexels.com/photo/an-interior-of-a-bathroom-8583529/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Walk-in shower with white marble-look tile, niche, mosaic floor and frameless glass door",
+        "alt": "Walk-in shower finished in marble-look tile with a frameless glass door",
+        "focal": "center",
+        "tone": "light"
+      }
+    ],
+    "garage-doors": [
+      {
+        "id": 186077,
+        "page": "https://www.pexels.com/photo/blue-and-gray-concrete-house-with-attic-during-twilight-186077/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Two-story house at dusk with warm window light, lit double garage doors and wet driveway",
+        "alt": "Two-story house at dusk with lit windows, a double garage and a wet driveway",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 8583638,
+        "page": "https://www.pexels.com/photo/view-of-modern-suburban-detached-house-with-driveway-8583638/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Suburban house with a brown garage door at the end of a wide concrete driveway, blue sky with clouds",
+        "alt": "Suburban house with a brown garage door at the end of a wide driveway",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 9472574,
+        "page": "https://www.pexels.com/photo/photo-of-a-garage-with-a-black-door-9472574/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Detached white garage with a dark door at the end of a tree-lined asphalt drive",
+        "alt": "Detached garage with a dark door at the end of a tree-lined driveway",
+        "focal": "center",
+        "tone": "dark"
+      },
+      {
+        "id": 7578862,
+        "page": "https://www.pexels.com/photo/photo-of-a-home-exterior-7578862/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Single-story home with a three-car run of white raised-panel garage doors and windows",
+        "alt": "Single-story home with three white garage doors and a wide driveway",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 33350023,
+        "page": "https://www.pexels.com/photo/suburban-house-with-double-garage-and-greenery-33350023/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Split-level house with two white garage doors with window inserts, shrubs and trees",
+        "alt": "Split-level house with two white garage doors and landscaped front yard",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 12127816,
+        "page": "https://www.pexels.com/photo/garage-driveway-with-flowering-plants-on-side-12127816/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Single wide white garage door under a gable, framed by climbing yellow roses",
+        "alt": "Wide white garage door framed by climbing roses under a gable",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 24524484,
+        "page": "https://www.pexels.com/photo/houses-in-village-24524484/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "White house with a pair of blue garage doors and a paved forecourt",
+        "alt": "White house with a pair of blue garage doors and a paved driveway",
+        "focal": "right",
+        "tone": "mid"
+      },
+      {
+        "id": 9459177,
+        "page": "https://www.pexels.com/photo/photo-of-a-house-s-garage-9459177/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Carriage-style double garage doors lit by a lamp at dusk, dark trees around",
+        "alt": "Carriage-style garage doors lit by a wall lamp at dusk",
+        "focal": "center",
+        "tone": "dark"
+      },
+      {
+        "id": 34326526,
+        "page": "https://www.pexels.com/photo/brick-house-with-solar-panels-and-ivy-climbing-walls-34326526/",
+        "use": "result",
+        "orientation": "portrait",
+        "subject": "Brick house with two dark green garage doors over a cobbled drive, ivy above",
+        "alt": "Brick house with two dark green garage doors over a cobbled driveway",
+        "focal": "bottom",
+        "tone": "light"
+      },
+      {
+        "id": 12127819,
+        "page": "https://www.pexels.com/photo/entrance-to-garage-12127819/",
+        "use": "detail",
+        "orientation": "landscape",
+        "subject": "Close view of a white sectional garage door with leaf shadows and greenery along the top",
+        "alt": "White sectional garage door with leaf shadows and greenery above",
+        "focal": "center",
+        "tone": "light"
+      }
+    ],
+    "generic": [
+      {
+        "id": 1396132,
+        "page": "https://www.pexels.com/photo/lighted-beige-house-1396132/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Single-story stucco house at dusk with lit windows, red door, new landscaping and wet driveway",
+        "alt": "Single-story stucco house at dusk with lit windows and a red front door",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 31602311,
+        "page": "https://www.pexels.com/photo/charming-red-brick-suburban-home-in-daylight-31602311/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Red brick suburban house with gables, two-car garage and a large lawn under blue sky",
+        "alt": "Red brick suburban house with a two-car garage and a big front lawn",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 29350636,
+        "page": "https://www.pexels.com/photo/charming-ranch-style-home-with-autumn-foliage-29350636/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Gray farmhouse-style home with dormers and a wide white porch among autumn trees",
+        "alt": "Farmhouse-style home with dormers and a wide front porch among autumn trees",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 8031890,
+        "page": "https://www.pexels.com/photo/plants-planted-outside-a-house-8031890/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Low white-painted brick ranch house with black shutters, fresh mulch beds and green lawn",
+        "alt": "White brick ranch house with black shutters, fresh mulch beds and a green lawn",
+        "focal": "right",
+        "tone": "light"
+      },
+      {
+        "id": 39743606,
+        "page": "https://www.pexels.com/photo/charming-tudor-style-house-in-daylight-39743606/",
+        "use": "hero",
+        "orientation": "landscape",
+        "subject": "Tudor-style stucco house with steep dark roofs, half-timbering and a pink front door",
+        "alt": "Tudor-style house with steep dark roofs, half-timbering and a pink front door",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 36645884,
+        "page": "https://www.pexels.com/photo/senior-woman-smiling-at-front-door-36645884/",
+        "use": "team",
+        "orientation": "portrait",
+        "subject": "Older woman opening a front door with leaded glass panels, looking out warmly",
+        "alt": "Older homeowner opening her front door with a warm smile",
+        "focal": "right",
+        "tone": "mid"
+      },
+      {
+        "id": 6017736,
+        "page": "https://www.pexels.com/photo/woman-receiving-boxes-at-door-6017736/",
+        "use": "team",
+        "orientation": "landscape",
+        "subject": "Woman at an open front door bending toward boxes on the mat, dog on the porch",
+        "alt": "Homeowner at her open front door picking up boxes, dog on the porch",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 36816986,
+        "page": "https://www.pexels.com/photo/bright-modern-living-room-with-hardwood-floor-36816986/",
+        "use": "result",
+        "orientation": "landscape",
+        "subject": "Clean living room with hardwood floor, area rug, white sofa, bookcase and sliding door",
+        "alt": "Clean, bright living room with hardwood floors, a rug and a white sofa",
+        "focal": "center",
+        "tone": "light"
+      },
+      {
+        "id": 10874956,
+        "page": "https://www.pexels.com/photo/a-white-van-parked-on-the-side-of-the-road-10874956/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Plain white high-roof cargo van, side view, parked in front of a red brick building",
+        "alt": "Plain white cargo van with no markings parked on a city street",
+        "focal": "center",
+        "tone": "mid"
+      },
+      {
+        "id": 13804269,
+        "page": "https://www.pexels.com/photo/a-pickup-truck-parked-on-the-street-13804269/",
+        "use": "work",
+        "orientation": "landscape",
+        "subject": "Silver pickup truck, rear three-quarter view, parked in a sunny driveway by a garage",
+        "alt": "Silver pickup truck parked in a sunny driveway next to a garage",
+        "focal": "center",
+        "tone": "mid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+/* Field Guide: olive field, contour lines, trail-marker CTA */
+.style-field-guide h1, .style-field-guide h2, .style-field-guide h3, .style-field-guide .svc-name, .style-field-guide .facts strong, .style-field-guide .footer-phone { font-variation-settings: "SOFT" 60, "WONK" 0; }
+.style-field-guide .hero-editorial { text-align: center; padding-top: clamp(56px, 8vw, 120px);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520' fill='none' stroke='%23f4f1e6' stroke-opacity='.07' stroke-width='1.5'%3E%3Cpath d='M-20 120c120-60 240 40 360 0s200-100 330-40 160 90 260 40'/%3E%3Cpath d='M-20 160c120-60 240 40 360 0s200-100 330-40 160 90 260 40'/%3E%3Cpath d='M-20 200c120-60 240 40 360 0s200-100 330-40 160 90 260 40'/%3E%3Cpath d='M-20 240c120-60 240 40 360 0s200-100 330-40 160 90 260 40'/%3E%3Cpath d='M-20 280c120-60 240 40 360 0s200-100 330-40 160 90 260 40'/%3E%3Cpath d='M-20 320c120-60 240 40 360 0s200-100 330-40 160 90 260 40'/%3E%3Cpath d='M-20 360c120-60 240 40 360 0s200-100 330-40 160 90 260 40'/%3E%3C/svg%3E");
+  background-size: 900px auto; background-repeat: repeat-x; background-position: center top 30px; }
+.style-field-guide .hero-editorial h1 { margin-inline: auto; max-width: 16ch; }
+.style-field-guide .hero-editorial-row { grid-template-columns: 1fr; justify-items: center; text-align: center; padding-bottom: clamp(40px, 5vw, 72px); }
+.style-field-guide .hero-editorial-row .hero-sub { margin-inline: auto; }
+.style-field-guide .hero-editorial .cta-row, .style-field-guide .hero-editorial .proof { justify-content: center; }
+.style-field-guide .hero-editorial .wrap-wide { max-width: none; padding: 0; }
+.style-field-guide .hero-editorial .hero-photo { border-radius: 0; aspect-ratio: 21 / 8 !important; }
+.style-field-guide .btn-primary::before { content: ""; width: 0; height: 0; border-left: 8px solid currentColor; border-block: 5px solid transparent; }
+.style-field-guide .eyebrow, .style-field-guide .footer-h, .style-field-guide .footer-kicker { font-family: var(--font-mono); }
+.style-field-guide .svc-rows h3 { font-weight: 400; font-size: clamp(1.35rem, 2vw, 1.75rem); }
+.style-field-guide .trust { background: var(--surface-2); border: 0; }
+.style-field-guide .area-list .icon { color: var(--accent); }
+.style-field-guide .cta-band { background: var(--dark); --fg: var(--dark-ink); --fg-2: var(--dark-ink-2); }
+.style-field-guide .cta-band .btn-inverse { background: var(--accent); color: var(--accent-ink); }
+.style-field-guide .cta-band .btn-inverse:hover { background: var(--accent-hover); }

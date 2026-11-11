@@ -1,0 +1,260 @@
+{
+  "section": "testimonials",
+  "description": "Reviews, testimonials and rating displays: the social proof a homeowner reads before picking up the phone. Shows the aggregate score from a platform they trust, then a few short, believable reviews from neighbours.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "customer reviews section",
+    "home services testimonials section",
+    "home services testimonials section (page 2)",
+    "single large testimonial quote section with customer photo",
+    "local business reviews section with star rating",
+    "interior design studio client testimonials section"
+  ],
+  "references": [
+    {
+      "id": "mobbin:43585819-3447-41fd-9e82-9576bbda6025",
+      "site": "Daylight",
+      "url": "https://mobbin.com/sites/sections/43585819-3447-41fd-9e82-9576bbda6025",
+      "pattern": "quote-with-photo",
+      "layout": "Full-width saturated band. Tiny monospace eyebrow top-left, serif headline under it (~40px), then three equal portrait cards (~3:4, ~16px radius). Each card is a full-bleed exterior photo of a home; a frosted-glass panel inset ~12px from the card edges fills most of the card and holds a large quote, with name + town/state at bottom-left and a tiny icon at bottom-right.",
+      "type": "Transitional serif for headline and quotes, regular weight, tight leading (~1.1); quotes set near display size (~26px). Eyebrow in monospace caps ~10px, wide tracking. Attribution small sans ~10px.",
+      "color": "Background ~#1E3A8A deep cobalt; headline ~#B9CCF5 pale blue instead of white; frosted panels ~rgba(255,255,255,0.15) with backdrop blur; quote text ~#FFFFFF.",
+      "details": [
+        "Eyebrow reads 'WHAT HOMEOWNERS SAY', naming the audience instead of saying 'Testimonials'",
+        "Headline is two short sentences with full stops: 'Real homes. Real savings.'",
+        "Attribution is first name + initial + town, state (e.g. 'Norwood, MA'), so the location does the proving",
+        "Each photo shows a real house at golden hour, so the image persuades before the words do",
+        "Quotes are short (12-20 words) and set huge; there are no stars at all"
+      ],
+      "why_it_works": "A house photo with a short serif quote reads like a magazine feature, not a review widget. Naming the town makes it believable.",
+      "trade_adaptation": "Roofers, solar, painters, window installers: one finished-exterior photo per card, quote pulled from a Google review, attribution 'Dana R. · Westlake'. Three cards on desktop, horizontal swipe on mobile.",
+      "mood": ["premium", "editorial", "warm"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:d10bbac5-ee67-4351-be93-f74762ca67d6",
+      "site": "Complex Law",
+      "url": "https://mobbin.com/sites/sections/d10bbac5-ee67-4351-be93-f74762ca67d6",
+      "pattern": "rating-summary",
+      "layout": "Two rows on a warm off-white page with faint vertical grid lines in the side margins. Top row: left half has a pill eyebrow, a serif headline, a short paragraph and a dashed-outline button; right half holds a Trustpilot score card drawn as a stack of three slightly offset paper cards. Then a centred 'Excellent rating' label sitting in a gap of a hairline divider, then three unboxed review columns (serif name + inline star boxes, then ~4 lines of body).",
+      "type": "Serif headline ~28px regular with the key phrase in italic ('past clients'); reviewer names serif ~16px; body sans ~12px at ~1.6 leading; pill eyebrow sans ~10px.",
+      "color": "Background ~#FBF8F4; text ~#1F2A33; italic accent teal ~#1F7A7A; eyebrow pill fill ~#DCEFEF; stars in platform green ~#00B67A; dashed button border ~#7FBFBF on ~#DFF1F1.",
+      "details": [
+        "The score card is a little stack of paper (two offset outlines behind it), which makes a third-party badge feel physical",
+        "Two words of the headline in italic serif with an accent colour",
+        "'Excellent rating' sits inside a break in the hairline, like a label on a printed form",
+        "Reviews have no cards and no avatars: just name, stars and text",
+        "The dashed button border repeats the stacked-paper outline"
+      ],
+      "why_it_works": "It leads with the aggregate score from a platform people recognise and follows with three short real reviews, which is how people judge a local service. The quiet palette keeps it credible.",
+      "trade_adaptation": "Swap Trustpilot for a Google card ('4.9 ★ · 312 Google reviews'), headline 'Hear from our neighbours', three recent reviews signed first name + last initial. Ideal for plumbers, HVAC, pest control.",
+      "mood": ["warm", "editorial", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:58d18fcd-9872-4a0b-b900-42ce4b1aa10c",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/58d18fcd-9872-4a0b-b900-42ce4b1aa10c",
+      "pattern": "quote-list",
+      "layout": "Laid out like an editorial table. A small 'From our customers' label sits top-left; the condensed headline, a two-line intro and two buttons start at column 2 (~1/3 in). Below that, full-width rows divided by hairlines: the left ~1/3 holds the client name (bold ~12px) and role/company (grey ~10px), the right holds the quote (~18px) and a small 'Read more about what we've done →' link.",
+      "type": "Headline in a heavy condensed grotesk, all caps, ~36px, tight; quotes in condensed sans ~18px regular at ~1.35 leading; labels ~11px.",
+      "color": "White ~#FFFFFF ground, near-black ~#141414 text, hairlines ~#D9D9D9; primary button filled stone ~#C9C2B0 with black text, secondary button outlined black.",
+      "details": [
+        "Every quote links to the project it came from ('Read more about what we've done')",
+        "The buttons under the headline are 'See completed projects' and 'Book a meeting', so the section also converts",
+        "Attribution has its own column, so all quotes share one left edge",
+        "No photos and no stars; the length and specificity of the quotes carry the credibility"
+      ],
+      "why_it_works": "It treats testimonials like a firm's client list: serious, easy to scan and tied directly to finished projects, which is how contractors actually win work.",
+      "trade_adaptation": "Remodelers, landscapers, roofers: name + neighbourhood + job type in the left column ('Kitchen remodel · Oak Park'), quote on the right, link to the matching gallery project. Strong fit for an industrial or premium style.",
+      "mood": ["industrial", "editorial", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:75790f6e-f272-49e0-b168-956eb15e52e8",
+      "site": "Function",
+      "url": "https://mobbin.com/sites/sections/75790f6e-f272-49e0-b168-956eb15e52e8",
+      "pattern": "video-cards",
+      "layout": "Centred serif headline above four equal portrait cards (~3:4, ~10px radius) in one row. Each card is a video still of a customer looking at the camera in their own home, with a translucent play button (~44px circle) in the middle and a bold name line plus a one-line story caption at bottom-left over a dark gradient.",
+      "type": "Headline transitional serif ~36px regular, second sentence in italic and accent colour; captions sans ~11px with the name in bold.",
+      "color": "Cream ground ~#FCF6EC; headline ~#2A2522; italic accent rust ~#B4573A; play button ~rgba(255,255,255,0.35); caption gradient to ~rgba(0,0,0,0.5).",
+      "details": [
+        "Headline pattern 'Real people. Real results.' with the second half in italic and colour",
+        "Captions describe an outcome ('From diabetes diagnosis to action') instead of a star rating",
+        "Subjects are filmed in their own homes in natural light, not as studio headshots",
+        "The play button is translucent so the face stays the focus"
+      ],
+      "why_it_works": "Video of real people in real rooms is the strongest form of proof, and the cream, rust and serif treatment keeps it warm rather than corporate.",
+      "trade_adaptation": "Short phone-shot clips of homeowners in the finished kitchen or next to the new furnace; caption 'Maria · Flooded basement to finished den'. Use stills with the same caption if there is no video.",
+      "mood": ["warm", "editorial", "friendly"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:58353cc8-d7bc-43bb-9ab8-72cfc5563469",
+      "site": "Yellowbird",
+      "url": "https://mobbin.com/sites/sections/58353cc8-d7bc-43bb-9ab8-72cfc5563469",
+      "pattern": "rating-summary",
+      "layout": "Heavy slab-serif 'Reviews' title top-left (~44px). Under it, the left third shows 4.9 + stars + review count and a 5-row histogram, the middle shows '97% would recommend these products', and the right third is a 5×3 mosaic of square customer photos. After a rule, reviews run as rows: reviewer column (initials avatar, name, location, verified, item) | 1px black divider | stars, bold title, body, helpful votes | a ~100px customer photo on the far right.",
+      "type": "Display slab/soft serif ~44px in black weight; review titles ~13px medium; body sans ~11px.",
+      "color": "Cream ~#FBF9EF ground; black ~#111111 text, histogram bars and 1px rules; customer photos supply the only colour.",
+      "details": [
+        "A mosaic of customer photos sits right next to the score, putting visual proof beside the number",
+        "'97% would recommend' is written as a plain sentence with a bold number",
+        "A thick black vertical divider separates reviewer details from the review",
+        "Reviewers without photos get black circles with white initials, so the list stays consistent"
+      ],
+      "why_it_works": "It combines the aggregate score, the distribution and customer photos in one band, and the strong black-on-cream type makes a dense block feel designed.",
+      "trade_adaptation": "For a full reviews page: Google score + histogram, a mosaic of job photos customers sent in, then reviews tagged by service ('Water heater install'). Suits bold and friendly styles.",
+      "mood": ["bold", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:2d472cc1-6985-4c03-9199-319659f1cd44",
+      "site": "Going",
+      "url": "https://mobbin.com/sites/sections/2d472cc1-6985-4c03-9199-319659f1cd44",
+      "pattern": "quote-with-photo",
+      "layout": "Stacked rows that alternate sides. Each row puts a candid vertical photo (~260×390, ~10px radius) on one side and the quote block, vertically centred, on the other: a pull-quote (~24px medium, 3-4 lines), a short story paragraph (~11px), then the name in bold and 'Member since 2018'.",
+      "type": "Rounded grotesk throughout; pull-quote ~24px medium at ~1.15 leading; body ~11px regular; name ~12px semibold.",
+      "color": "Cream ~#FFFBEA ground; text dark teal ~#1E4747; peach header band ~#F4AE85 above the section.",
+      "details": [
+        "The photos are customers' own holiday snaps: casual, imperfect and believable",
+        "The pull-quote is the outcome in plain words ('Paid off in one trip.'), and the paragraph gives the context",
+        "A tenure line ('Member since 2018') replaces a job title",
+        "About 120px of space between rows, so each story stands on its own"
+      ],
+      "why_it_works": "One customer, one photo, one outcome. It reads like a profile rather than a widget, and the candid photo makes it feel human.",
+      "trade_adaptation": "'Customer since 2009' for HVAC maintenance plans or pest control; photo of the family on their porch or in the new bathroom; the pull-quote is the outcome ('No more ice dams.').",
+      "mood": ["warm", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:0e16c929-51e8-4685-81ca-63629c8127e4",
+      "site": "Kit",
+      "url": "https://mobbin.com/sites/sections/0e16c929-51e8-4685-81ca-63629c8127e4",
+      "pattern": "quote-large",
+      "layout": "A single rounded panel (~16px radius) across the content width, ~190px tall, with everything centred: a small quote glyph, a one-line quote set as a headline (~34px), then a tiny avatar + name + role inline.",
+      "type": "Condensed grotesk in heavy/black weight ~34px with tight tracking; attribution ~11px.",
+      "color": "Peach panel ~#FDD0AE on a warm grey page ~#F0EEE9; quote mark rust ~#C2410C; text ~#1A1A1A.",
+      "details": [
+        "The whole testimonial is seven words, edited down to a headline",
+        "The quote mark is small and coloured rather than a giant decorative glyph",
+        "The avatar is a tiny (~28px) rounded square beside the name, not a big circle"
+      ],
+      "why_it_works": "It makes the boldest choice available: pick one line and set it like a headline. It also works as a pause between denser sections.",
+      "trade_adaptation": "'They showed up when they said they would.' in a heavy condensed face on a tinted band. Fits between the services section and the quote form on any trade page.",
+      "mood": ["bold", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:91130669-7c3f-4682-a522-c2c757bffa11",
+      "site": "Metalab",
+      "url": "https://mobbin.com/sites/sections/91130669-7c3f-4682-a522-c2c757bffa11",
+      "pattern": "quote-with-photo",
+      "layout": "One black-framed card (~370×380) centred on a pale grey page. The upper ~60% is a studio portrait inset inside a ~8px black border; the lower ~40% is solid black and holds the quote (~20px), a small grey attribution and a tiny spark glyph at bottom-right. The subject's hands and chair continue below the card edge.",
+      "type": "Neo-grotesk regular ~20px in white; attribution ~9px grey ~#8A8A8A.",
+      "color": "Page ~#E6E8EA; frame and text area ~#000000; quote ~#FFFFFF.",
+      "details": [
+        "Portrait and quote share one continuous black frame, so it reads like a printed poster",
+        "The subject's body extends past the frame for depth",
+        "Plain typographic curly quotes, no oversized quote glyph"
+      ],
+      "why_it_works": "It gives one hero testimonial a gallery-like presentation, and the frame is easy to reproduce in CSS.",
+      "trade_adaptation": "For a high-end remodeler or custom landscaper: portrait of the homeowner in the finished space inside a charcoal frame, quote below. Use once per page.",
+      "mood": ["premium", "minimal", "editorial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:64cd68f9-19f3-403f-97b7-0285b6c15087",
+      "site": "Webflow",
+      "url": "https://mobbin.com/sites/sections/64cd68f9-19f3-403f-97b7-0285b6c15087",
+      "pattern": "rating-summary",
+      "layout": "A full-width hairline on top. Left half: 'Reviews' (~32px bold) with a one-line intro. Right half: stacked rows divided by hairlines, each with the platform name (bold ~20px, underlined), a row of large black stars (~18px) with the numeric score, and 'N reviews as of DATE' in small text.",
+      "type": "Geometric grotesk; title ~32px bold; platform names ~20px bold; meta ~11px regular.",
+      "color": "White ground; black ~#000000 stars and type; hairlines ~#D0D0D0.",
+      "details": [
+        "Each rating carries a date ('354 reviews as of 6/1/2022'), which reads as honest",
+        "Stars are monochrome black, not yellow",
+        "Platform names are underlined links to the source",
+        "Half stars are drawn precisely (4.4 shows four and a bit)"
+      ],
+      "why_it_works": "It is the simplest credible way to show several review platforms, and the monochrome stars look editorial rather than salesy.",
+      "trade_adaptation": "Rows for Google, Yelp, Angi and BBB, each with score, review count and an 'as of' date, linking out. Good for minimal and industrial styles.",
+      "mood": ["minimal", "technical"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:68676b8f-0337-4dfe-a3c0-d9e65f37c80f",
+      "site": "Function",
+      "url": "https://mobbin.com/sites/sections/68676b8f-0337-4dfe-a3c0-d9e65f37c80f",
+      "pattern": "quote-columns",
+      "layout": "Three centred columns with no cards: a tiny 5-star row on top, the quote (~13px) centred over 3-5 lines, then the first name in bold and a grey qualifier ('Age 54') underneath.",
+      "type": "Sans ~13px regular for quotes; names ~10px bold; qualifier ~10px regular.",
+      "color": "Cream ~#FBF6EC ground; text ~#2A2522; stars rust ~#B4573A at ~8px each.",
+      "details": [
+        "Stars are tiny and tinted in the brand rust, not yellow: present but quiet",
+        "A two-word qualifier under the name gives context",
+        "No avatars and no boxes; whitespace does the separating"
+      ],
+      "why_it_works": "Calm, honest and fast to read. It shows how holding back makes reviews feel less manufactured.",
+      "trade_adaptation": "First name + neighbourhood or job ('Tom · Furnace replacement') with tiny stars in the brand accent. Drops into the homepage of any style.",
+      "mood": ["minimal", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:1448ece1-d309-4849-9f2c-55675cb0d464",
+      "site": "HoneyBook",
+      "url": "https://mobbin.com/sites/sections/1448ece1-d309-4849-9f2c-55675cb0d464",
+      "pattern": "cards-grid",
+      "layout": "Centred section title; three equal cards (~190×150, ~4px radius, soft shadow), each a different muted tint. The quote is the card headline (~18px bold, coloured), followed by the name in bold + 'worked with: …' and a row of small grey tag chips naming the services involved.",
+      "type": "Grotesk; quote ~18px bold with tight leading; attribution ~10px; chips ~8px.",
+      "color": "Section ~#FCF1EC; card tints peach ~#F6CDBE, sage ~#D6DDCF, blue-grey ~#C6D7DC; each quote in a darker shade of its own tint: orange ~#E2683A, green ~#6E8F67, teal ~#1F6F8B.",
+      "details": [
+        "Quote text is a darker tone of its own card tint (tonal), never black",
+        "Service tag chips under each review say what was done",
+        "Quotes are under 15 words so they can be set large"
+      ],
+      "why_it_works": "The tonal tinted cards look designed and friendly, and the service tags turn praise into information about what the business does.",
+      "trade_adaptation": "Tags like 'Panel upgrade' and 'EV charger' for electricians, or 'Spring cleanup' and 'Patio' for landscapers; take the card tints from the trade's palette.",
+      "mood": ["friendly", "warm", "playful"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:d0f878b5-3fc8-4e2c-ba1c-1de04ef55adc",
+      "site": "Twingate",
+      "url": "https://mobbin.com/sites/sections/d0f878b5-3fc8-4e2c-ba1c-1de04ef55adc",
+      "pattern": "wall",
+      "layout": "A full-width masonry wall of about four columns of review cards (avatar, name, role, quote) that fades out at the top and bottom. One solid card is pinned dead-centre over the wall: a big '4.9', five stars, 'Based on 50+ G2 reviews' and the platform logo.",
+      "type": "Score ~36px light; card text sans ~12px; meta ~9px monospace.",
+      "color": "Near-black ~#121212 ground; cards ~#1C1C1C with ~#2A2A2A border; text ~#CFCFCF fading to ~#555555 at the edges; centre card ~#0F0F0F with crisp white type.",
+      "details": [
+        "The wall is deliberately dimmed so it reads as volume rather than something to read",
+        "One crisp aggregate badge floats above it and is the only thing in focus",
+        "Card heights follow quote length, so the masonry looks natural"
+      ],
+      "why_it_works": "It shows quantity and quality at once: the faded wall says 'lots of people', the badge says 'and they rate us 4.9'.",
+      "trade_adaptation": "Light-mode version for trades: a faded wall of real Google review snippets behind a centred '4.9 ★ · 486 Google reviews' card with a 'Read them all' link.",
+      "mood": ["technical", "bold"],
+      "quality": 3
+    }
+  ],
+  "takeaways": [
+    "Lead with the aggregate (score + count + platform), then show about three short real reviews. Never put more than ~6 on a homepage.",
+    "Attribute locally: first name + last initial + town or neighbourhood, plus the job done, beats job titles and avatars.",
+    "Edit quotes hard. The best sections set a 7-20 word quote at display size instead of paragraphs in small type.",
+    "Real photos of the customer or their finished home do more than stars. With no real photo, use no photo rather than a stock avatar.",
+    "Keep stars quiet: small, monochrome or tinted with the brand accent, not saturated yellow.",
+    "Tie praise to work: link the quote to the project or tag the service performed.",
+    "Cite and date the rating source ('as of', 'on Google') so the numbers read as honest.",
+    "One typographic accent (an italic serif phrase or a coloured second sentence) is enough to make the heading feel crafted."
+  ],
+  "avoid": [
+    "Grid of identical white cards, each with a circular stock avatar, five yellow stars and 'John D., CEO' (Fresha, Kalstore, Blue Apron)",
+    "Giant decorative quotation-mark glyphs floating behind the text",
+    "Carousels with arrows and dots that hide all but one review",
+    "Walls of embedded tweets with @handles and bird icons, which read as SaaS",
+    "E-commerce review widgets with sort, filter and 'was this helpful?' votes on a marketing homepage (Glossier, KÖPPEN, Hims)",
+    "Stock headlines like 'What our customers say' or 'Don't just take our word for it'",
+    "Corporate job titles in attribution where a neighbourhood or job type would mean more to a homeowner"
+  ]
+}

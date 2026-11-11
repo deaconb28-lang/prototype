@@ -1,0 +1,250 @@
+{
+  "section": "faq",
+  "description": "Answers the questions homeowners ask before they call: cost, timing, licensing and insurance, warranties, financing, emergencies and service area. It handles objections, adds long-tail SEO copy and should always end with a way to reach a human.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "FAQ section accordion",
+    "home services company FAQ section",
+    "FAQ section next to a photo with contact call to action"
+  ],
+  "references": [
+    {
+      "id": "mobbin:2bf2b42f-fb25-4dde-b866-b15924a8fab5",
+      "site": "The Performance Lab",
+      "url": "https://mobbin.com/sites/sections/2bf2b42f-fb25-4dde-b866-b15924a8fab5",
+      "pattern": "category-accordion",
+      "layout": "A giant 2-line heading spans the full width, centered, with small red '+' marks at the far left and right margins. A centered 2-line sub follows. Below, full-width category rows (~30px tall, hairlines) each show a '+' or '×' at the far left, the category name at ~8% in, a grey description at ~58% and a grey 'N essential questions' count flush right. The open category reveals a nested accordion in the right half, with questions, '+' icons and an answer paragraph.",
+      "type": "Heading in a neo-grotesk at ~72px medium, all caps, line-height ~0.9, tight tracking. Sub ~14px medium. Category names ~10px. Descriptions and counts ~8px grey. Nested questions ~10px semibold.",
+      "color": "White ground, black ~#111111 type, grey ~#8A8A8A meta, hairlines ~#E2E2E2, signal red ~#FF3B12 for the corner '+' marks.",
+      "details": [
+        "Question counts per category ('5 essential questions') set expectations and invite a click",
+        "Two-level accordion: categories first, then questions, so a long FAQ stays short on screen",
+        "Each category gets a one-line description ('Costs, availability, and how to get started')",
+        "Red registration '+' marks at the edges echo the brand's technical system"
+      ],
+      "why_it_works": "It scales to 25+ questions without becoming a wall, and the huge heading makes FAQ a confident chapter rather than an afterthought.",
+      "trade_adaptation": "Plumber: categories 'Emergencies' (what counts, response time), 'Pricing' (flat rate, trip fee), 'Warranty', 'Water heaters', 'Service area', each with a count and a one-line description.",
+      "mood": ["technical", "bold", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:0be471a0-ec9b-4691-be03-c1387066da02",
+      "site": "Patch",
+      "url": "https://mobbin.com/sites/sections/0be471a0-ec9b-4691-be03-c1387066da02",
+      "pattern": "numbered-accordion",
+      "layout": "A 2-line heading top-left, and a diagonal-split box holding the section number '06' top-right. Accordion rows (~80% width, offset right) are white boxes with 1px outlines. Each has a tiny numbered tab ('01') notched into the top-left corner, the question, and a separate right-hand cell with an ↑ or ↓ arrow. The open row shows two long answer paragraphs with bold phrases. A small promo card with a book cover and an orange button sits bottom-right.",
+      "type": "Heading in a heavy condensed grotesk at ~56px, all caps. Questions ~16px regular. Answers ~10px with bold emphasis. Number tabs ~7px.",
+      "color": "Light grey ~#D4D4D4 ground with ~#C2C2C2 grid lines, electric blue ~#2A1AFF type and outlines, white fills, orange ~#FF5A1F promo button.",
+      "details": [
+        "Numbered tabs notched into the box corners look like file-folder tabs",
+        "The arrow sits in its own outlined column, which turns the toggle into a deliberate control",
+        "Grid-paper ground and a single ink color give a blueprint or work-order aesthetic",
+        "A lead magnet sits beside the FAQ ('MARKETING FREEBIE')"
+      ],
+      "why_it_works": "Distinctive with only two colors. It feels engineered and confident, which suits contractors who want to look sharp and modern.",
+      "trade_adaptation": "Bold electrician or garage-door brand: '01 Do you charge for estimates?', '02 Are you licensed & insured?', '03 How fast can you come out?', with a side card offering a 'Free home safety checklist (PDF)'.",
+      "mood": ["bold", "industrial", "technical"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:ccc1f8b1-28cd-46a5-a2a0-9f9aaf9f512e",
+      "site": "Maxima Therapy",
+      "url": "https://mobbin.com/sites/sections/ccc1f8b1-28cd-46a5-a2a0-9f9aaf9f512e",
+      "pattern": "split-accordion",
+      "layout": "A sticky left column (~38%) holds a 2-line heading, a 4-line friendly paragraph and a pill 'Contact us' button. The right column (~45%) is grouped by colored subheads ('Getting Started', 'Services & Sessions'). Under each, questions sit on hairline dividers with a '+' inside a small tinted circle at the right. A thick colored frame borders the whole page.",
+      "type": "Heading in a neo-grotesk at ~22px bold. Paragraph ~11px. Group subheads ~14px medium in blue. Questions ~10px regular.",
+      "color": "White panel inside a lime ~#A6EE8A frame, black text, royal blue ~#1F5BFF subheads and button, blue-grey ~#9DB0CF dividers, pink ~#F9C9D2 icon circles with blue '+'.",
+      "details": [
+        "Grouped subheads in color break a long list into scannable chapters",
+        "Soft pink circles behind the '+' icons make the toggles feel friendly",
+        "The contact CTA stays visible on the left while you read",
+        "The intro paragraph speaks to the reader ('don't hesitate to reach out, we're always happy to help')"
+      ],
+      "why_it_works": "Warm, organized and accessible. The split keeps help one tap away, which is the real job of an FAQ.",
+      "trade_adaptation": "House cleaner or pest control: groups 'Before your first visit', 'Pricing & payment', 'Safety (kids & pets)', with 'Do you bring your own supplies?' and 'Is treatment pet-safe?'. A 'Text us' button stays fixed on the left.",
+      "mood": ["friendly", "playful", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:f8611fc6-f28a-4445-b54b-fce624553d0e",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/f8611fc6-f28a-4445-b54b-fce624553d0e",
+      "pattern": "split-accordion",
+      "layout": "Left (~40%): a small lead line, a condensed heading, a 4-line paragraph and a khaki button. Right (~48%): the open question with a '×' at the right, then a rich answer (an intro sentence, a bulleted list with bold lead-ins, a closing sentence), then the next question with a '+'. Hairlines throughout.",
+      "type": "Heading 'FAQS' in a condensed bold grotesk at ~32px, all caps. Questions ~13px medium. Answer body ~10px, with bold lead-ins ('Workplace Strategy:') in each bullet.",
+      "color": "White ground, black ~#111111 text, hairlines ~#DADADA, stone ~#C9C4B0 button.",
+      "details": [
+        "Answers are structured content (bullets with bold lead-ins), not a single paragraph",
+        "The closing sentence of the answer restates the benefit",
+        "The button points to a fuller FAQ page ('To our FAQ'), so the home-page version stays short"
+      ],
+      "why_it_works": "It treats answers as real sales copy and gives rich detail without clutter. The condensed heading keeps the brand's industrial voice.",
+      "trade_adaptation": "Roofer: 'How do you handle storm damage?' answered with bullets: 'Emergency tarping: same day…', 'Insurance claims: we meet your adjuster…', 'Repair or replace: honest assessment…'.",
+      "mood": ["industrial", "minimal", "editorial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:57a45734-0e16-4229-a2eb-f7e69d85d2f0",
+      "site": "United Carriers",
+      "url": "https://mobbin.com/sites/sections/57a45734-0e16-4229-a2eb-f7e69d85d2f0",
+      "pattern": "numbered-accordion",
+      "layout": "Three zones: a 'F.A.Q' heading with a 2-line sub on the left (~25%), numbered question rows in the center (~42%), and a 'Still have questions? Our team is here to help.' note with a mono 'EMAIL US' link and a circular outline button on the right. A black CTA band with faint concentric arcs follows directly.",
+      "type": "'F.A.Q' in a squared, wide display grotesk (Eurostile or Michroma style) at ~36px bold with periods. Row numbers ~7px grey. Questions ~10px. CTA band headline in the same squared display at ~36px, all caps.",
+      "color": "White ground, black text, grey ~#9A9A9A numbers, hairlines ~#E6E6E6. Black ~#141414 CTA band with faint ~#2A2A2A arcs and white type.",
+      "details": [
+        "The squared, wide display face reads as transport or industrial signage",
+        "The 'still have questions' escape hatch sits in the same row as the FAQ, not below it",
+        "The FAQ hands straight off to a bold CTA band ('READY TO MOVE SMARTER?')",
+        "Small numbered rows ('07', '08') feel like an index"
+      ],
+      "why_it_works": "Industrial character from one typeface choice, and the three-zone layout pairs answers with a contact route.",
+      "trade_adaptation": "Garage-door or moving-adjacent trade: 'Can you service commercial roll-up doors?', 'Do you carry parts on the truck?', with 'Still stuck? Call (555) 018-4400' on the right, then a black 'READY FOR A DOOR THAT WORKS?' band.",
+      "mood": ["industrial", "bold"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:bfa01b4e-4216-4832-a61a-6051f9280854",
+      "site": "Tines",
+      "url": "https://mobbin.com/sites/sections/bfa01b4e-4216-4832-a61a-6051f9280854",
+      "pattern": "ruled-accordion",
+      "layout": "A 2-line serif heading top-left and a small spot illustration (overlapping speech bubbles) top-right. Below is a full-width list of hairline-separated rows (~50px). Questions run up to 2 lines, with an ↑ or ↓ arrow at the far right. The open answer is capped at ~420px width.",
+      "type": "Heading in a book serif at ~26px regular. Questions ~13px medium in color. Answers ~10px regular dark grey with ~1.6 line-height.",
+      "color": "Warm off-white ~#FBF8F3 ground, deep violet ~#3B2A6B heading, medium violet ~#7A5AC8 questions and arrows, hairlines ~#E3DDE8, a multicolor spot illustration (pink, green, yellow).",
+      "details": [
+        "Questions are tinted in the brand color, so the list itself carries the color",
+        "A scoped heading ('FAQs about Tines professional services'), not just 'FAQ'",
+        "One small hand-drawn illustration personalizes an otherwise austere list",
+        "Thin arrows instead of chevrons or plus signs"
+      ],
+      "why_it_works": "Quietly crafted: serif plus a warm ground plus brand-tinted questions feels considered with almost no decoration.",
+      "trade_adaptation": "'FAQs about our drain cleaning service' (scoped per service page), with questions in the brand color and a small spot drawing of a wrench or pipe.",
+      "mood": ["editorial", "warm", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:1f1caf97-2f02-4668-bc84-05c7f760d6d2",
+      "site": "Origin",
+      "url": "https://mobbin.com/sites/sections/1f1caf97-2f02-4668-bc84-05c7f760d6d2",
+      "pattern": "split-accordion",
+      "layout": "A rounded panel (~12px radius) on a dark page. The left half holds a single-line heading at top-left and nothing else (generous negative space). The right half holds stacked question cards (~6px radius, ~6px gaps); the open card shows the answer and a '×', and closed cards show '+'.",
+      "type": "Heading in a transitional serif at ~20px, with the first word in italic ('*Answers* to your questions'). Questions ~10px medium grotesk. Answers ~9px regular.",
+      "color": "Page ~#111111, panel ~#1C1C1C, question cards ~#262626, white questions, grey ~#9A9A9A answers.",
+      "details": [
+        "Mixing italic and roman serif in one heading is an easy premium move",
+        "The empty left half is deliberate: the heading floats like a magazine pull",
+        "Small tonal steps (page → panel → card) create depth without borders"
+      ],
+      "why_it_works": "Restrained luxury. Good for a high-end trade brand (custom remodeler, solar, smart-home electrician) that wants a dark theme.",
+      "trade_adaptation": "Custom remodeler: '*Answers* to your questions', with cards 'How long does a kitchen remodel take?', 'Do you handle permits?', 'Can we live at home during the work?'.",
+      "mood": ["premium", "editorial", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:962b30a4-f4ca-49c0-8ee7-4047b75170b1",
+      "site": "Pangram",
+      "url": "https://mobbin.com/sites/sections/962b30a4-f4ca-49c0-8ee7-4047b75170b1",
+      "pattern": "display-accordion",
+      "layout": "A tiny 'FAQ' eyebrow and a 1-line heading at top-left. Below are full-width white rows (~4px radius, ~4px gaps) where the question is set very large. A circular icon sits at the far right: a filled orange minus when open, a grey plus when closed. The open answer is a short bulleted list.",
+      "type": "Heading and questions in a high-contrast display serif. Heading ~28px; questions ~22px regular, which is nearly heading size. Answers ~10px grotesk bullets.",
+      "color": "Light grey ~#F0F0EE ground, white rows, near-black ~#141414 serif, orange ~#FF5A1F active icon, grey ~#BDBDBD inactive icons.",
+      "details": [
+        "The questions are the display type, which flips the usual small-question hierarchy",
+        "Only the open item gets color (the filled orange minus), so the state is unmistakable",
+        "Few questions (3), each given room"
+      ],
+      "why_it_works": "Editorial confidence: three big questions read like headlines and invite reading. Ideal for a short, curated FAQ on a home page.",
+      "trade_adaptation": "Home-page FAQ with the three questions that matter: 'How much does a new roof cost?', 'Will insurance cover it?', 'How long will it take?', in a big serif with the brand accent on the open state.",
+      "mood": ["editorial", "premium", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:bbca5e2f-31ab-4cd5-ad88-977dd43bef77",
+      "site": "Sketch",
+      "url": "https://mobbin.com/sites/sections/bbca5e2f-31ab-4cd5-ad88-977dd43bef77",
+      "pattern": "faq-card-grid",
+      "layout": "A 'Common searches' label with grey chip links above. Below is a 3x2 grid of cards (~8px radius, ~12px gaps). Each card has a heading with a circular arrow button at the top-right, a hairline, then 3 question links, each with a faint arrow at the right. The sixth cell is a dark card ('Haven't found what you need? Get in touch — we're happy to help!') with a glossy 3D speech-bubble sticker bleeding off its top-right corner and a white full-width 'Contact us' button.",
+      "type": "Card headings ~14px bold. Question links ~10px regular, 2 lines max. Dark-card heading ~12px bold white with a grey second line.",
+      "color": "White ground, cards ~#F2F2F2, text ~#1E1E1E, chips ~#EDEDED. Dark card ~#1E1E1E with a green ~#7ED957 and orange ~#FF9A1F 3D bubble, white button.",
+      "details": [
+        "The contact card is a peer in the grid, not an afterthought below it",
+        "One playful 3D object breaking the card edge gives the grid a focal point",
+        "'Common searches' chips surface the top questions before the grid"
+      ],
+      "why_it_works": "A help-center pattern scaled down to one section: browsable by topic, with a clear human fallback built into the layout.",
+      "trade_adaptation": "Cards: 'Before your appointment', 'Pricing & financing', 'Warranty & guarantees', 'Emergencies', 'Service area', plus a dark 'Need a human? Call (555) 019-2020' card with a brand-color sticker (a phone or truck).",
+      "mood": ["friendly", "minimal", "playful"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:4d5922ae-3341-4c7e-9cc1-b629dfd2aa6f",
+      "site": "Vizcom",
+      "url": "https://mobbin.com/sites/sections/4d5922ae-3341-4c7e-9cc1-b629dfd2aa6f",
+      "pattern": "split-accordion",
+      "layout": "Left (~42%): a 2-line heading, a 2-line grey sub and a small blue button. Right (~44%): question rows (~40px), each with a thin '+' at the far right and a hand-drawn wavy line divider underneath instead of a straight hairline.",
+      "type": "Heading in a neo-grotesk at ~30px regular, white. Sub ~10px grey. Questions ~12px regular white.",
+      "color": "Near-black ~#161616 ground, white text, grey ~#8A8A8A sub, wavy dividers ~#4A4A4A, blue ~#2F7BEA button.",
+      "details": [
+        "Wavy, sketch-like dividers are a single custom detail that makes a standard accordion feel bespoke",
+        "Very little else on the page: the detail carries the identity"
+      ],
+      "why_it_works": "Proof that one custom divider can make a common pattern feel designed rather than generated.",
+      "trade_adaptation": "The divider becomes a trade motif: a wavy water line for a plumber or pool service, a dashed wire for an electrician, a hedge squiggle for a landscaper.",
+      "mood": ["minimal", "playful"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:ec0c5c8b-6384-4e3d-873f-fdaf91b98e50",
+      "site": "Whereby",
+      "url": "https://mobbin.com/sites/sections/ec0c5c8b-6384-4e3d-873f-fdaf91b98e50",
+      "pattern": "ruled-accordion",
+      "layout": "A full-width light band. A small quirky character illustration is centered above a centered heading, then a narrow (~380px) centered list of hairline-separated questions with chevrons. The open item gets a colored rule beneath its question, and the answer is indented slightly.",
+      "type": "Heading in a condensed, high-contrast serif at ~30px regular. Questions ~10px regular. Answers ~10px with ~1.6 line-height.",
+      "color": "Light grey ~#F2F2F2 band, ink ~#1A1A1A text, hairlines ~#CFCFCF, dark green ~#2E5A4A rule under the open question, an illustration in yellow ~#F2C230 and navy.",
+      "details": [
+        "The condensed serif heading feels bookish and distinct from the grotesk body",
+        "The open state is marked by a colored rule, not a background change",
+        "A single mascot-like illustration above the heading adds personality"
+      ],
+      "why_it_works": "A simple centered accordion made memorable by type choice and one illustration, with minimal effort and real character.",
+      "trade_adaptation": "Family-run handyman or cleaner: a small illustrated mascot (a toolbox or mop character) above 'Frequently asked questions' in a condensed serif, with the open item underlined in the brand color.",
+      "mood": ["friendly", "editorial"],
+      "quality": 3
+    },
+    {
+      "id": "mobbin:aa571d9d-6c29-4306-893d-9de9db6d36b3",
+      "site": "MasterClass",
+      "url": "https://mobbin.com/sites/sections/aa571d9d-6c29-4306-893d-9de9db6d36b3",
+      "pattern": "grouped-accordion",
+      "layout": "A centered heading over a narrow (~380px) column. Group labels ('General', 'Pricing & Payment', 'Sessions') sit above clusters of full-width question bars (~4px radius, ~6px gaps) with chevrons. The open bar expands to show answer paragraphs. A sticky bottom bar carries a price summary and a CTA.",
+      "type": "Heading ~16px bold, centered. Group labels ~9px semibold grey. Questions ~9px bold white. Answers ~9px regular.",
+      "color": "Black ~#000000 ground, bars ~#1E1F22, white text, grey ~#9A9A9A labels, brand red ~#E1344B CTA.",
+      "details": [
+        "Group labels split money questions from logistics",
+        "A sticky bottom bar ('Starting at $15/month… Sign Up') keeps the conversion path visible throughout"
+      ],
+      "why_it_works": "Not visually remarkable, but the grouping plus a persistent price-and-CTA bar is a useful conversion mechanic for long FAQs.",
+      "trade_adaptation": "A sticky bar under the FAQ on mobile: 'Same-day service · Flat-rate pricing · Call (555) 017-3300', with groups 'Pricing', 'Scheduling' and 'Warranty'.",
+      "mood": ["bold", "minimal"],
+      "quality": 3
+    }
+  ],
+  "takeaways": [
+    "Always pair the FAQ with a human fallback in the same layout: a sticky left-column contact button, a dark 'Still stuck? Call us' card in the grid, a right-side 'Email us' zone or a sticky bottom bar.",
+    "Group questions by the homeowner's worries (Pricing, Scheduling, Warranty, Emergencies). For long lists use two levels: categories with counts, then questions.",
+    "Make the open state unmistakable with a single accent (a filled orange minus, a colored rule, a raised white card) and keep closed rows quiet.",
+    "Treat answers as sales copy: bullets with bold lead-ins, concrete numbers and a closing benefit sentence. A home-page FAQ can show just 3-5 big questions and link to the full page.",
+    "One custom detail is enough to escape the template look: wavy dividers, numbered folder tabs, brand-tinted questions, an italic word in a serif heading, or a spot illustration.",
+    "Scope the heading ('FAQs about drain cleaning') on service pages, which also helps local SEO.",
+    "A split layout (heading and contact left, accordion right) uses wide screens better than a narrow centered column and keeps the CTA visible."
+  ],
+  "avoid": [
+    "A centered 'Frequently Asked Questions' bold heading over a narrow stack of identical grey rounded pills with chevrons (Lattice, Shuttle, Loom, Amie): the default AI-template FAQ.",
+    "Dark purple cards with white plus-in-circle icons (Mixpanel): SaaS pricing-page boilerplate.",
+    "Two-column boxed accordions with blue chevrons and bold small questions (HubSpot): dated corporate look.",
+    "Giant pastel pill rows with tiny arrow icons and huge padding (Loom): low density and low trust.",
+    "An FAQ with no contact route, or a contact CTA pushed into a separate section far below.",
+    "Non-collapsible walls of Q&A text with inline pink links (Wellfound).",
+    "Generic questions that are really ads ('Why should I choose X?'). Answer real objections: cost, timing, mess, insurance, warranty."
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "landscaping",
+  "name": "Landscaping",
+  "noun": "landscaper",
+  "schema_type": "HomeAndConstructionBusiness",
+  "emergency": { "enabled": false, "label": null, "detail": null },
+  "financing": true,
+  "maintenance_plan": {
+    "enabled": true,
+    "name": "Season-long yard care",
+    "pitch": "Weekly mowing from spring through fall, with spring and fall cleanups, edging and bed upkeep on one plan. Same day each week, and you never have to call to get back on the schedule."
+  },
+  "hero": {
+    "headlines": [
+      "Weekly mowing in {{city}}, on the same day every week.",
+      "Patios, walkways and planting beds built to last more than one season.",
+      "A yard you don't have to think about from spring to fall.",
+      "Landscaping crews that show up, do the work and leave it clean."
+    ],
+    "subheads": [
+      "Mowing, cleanups, planting, irrigation and hardscaping for homes across {{area}}.",
+      "We walk the property, measure and send a written estimate with every plant and material listed.",
+      "One crew for the weekly upkeep and the bigger projects, so you're not juggling three companies."
+    ],
+    "primary_cta": "Get a free estimate",
+    "secondary_cta": "Call {{phone}}"
+  },
+  "services": [
+    {
+      "slug": "lawn-mowing",
+      "name": "Lawn mowing and care",
+      "short": "Weekly or every-other-week mowing, edging, trimming and blowing off hard surfaces.",
+      "long": "We mow at the right height for your grass and the season, edge the walks and beds, trim what the mower can't reach and blow off the driveway before we leave. Fertilizer and weed control can be added on a set schedule.",
+      "bullets": [
+        "Weekly or every-other-week visits",
+        "Edging along walks, drives and beds",
+        "Fertilizer and weed control programs",
+        "Aeration and overseeding in the fall"
+      ],
+      "icon": "leaf",
+      "emergency": false
+    },
+    {
+      "slug": "cleanups",
+      "name": "Spring and fall cleanups",
+      "short": "Leaves, sticks and dead growth cleared out and hauled away.",
+      "long": "Spring cleanups get the beds and lawn ready for the season: debris out, perennials cut back, edges recut. Fall cleanups clear leaves before they smother the grass and get the yard ready for winter.",
+      "bullets": [
+        "Leaf removal and haul-away",
+        "Perennial and ornamental grass cutback",
+        "Bed edging and weeding",
+        "Storm branch and debris cleanup"
+      ],
+      "icon": "broom",
+      "emergency": false
+    },
+    {
+      "slug": "mulch-beds",
+      "name": "Mulch and planting beds",
+      "short": "Fresh mulch, clean bed edges and weeding, done once or kept up all season.",
+      "long": "We pull weeds, recut the bed edges and spread mulch 2 to 3 inches deep, kept off tree trunks and plant stems so it doesn't cause rot. We can also replace tired or dead plants while we're there.",
+      "bullets": [
+        "Hardwood, dyed and pine straw mulch",
+        "Bed edging and weed barrier where it helps",
+        "Seasonal color and annual plantings",
+        "Dead plant removal and replacement"
+      ],
+      "icon": "shovel",
+      "emergency": false
+    },
+    {
+      "slug": "shrub-trimming",
+      "name": "Shrub and hedge trimming",
+      "short": "Shrubs and hedges shaped at the right time of year for each plant.",
+      "long": "Cutting at the wrong time can cost you a year of flowers, so we trim spring bloomers after they flower and most hedges in late spring and again in summer. We stick to shrubs and small ornamental trees; larger tree work goes to a certified arborist.",
+      "bullets": [
+        "Hedge shaping and size reduction",
+        "Ornamental tree pruning up to ladder height",
+        "Renewal pruning for overgrown shrubs",
+        "Clippings hauled away"
+      ],
+      "icon": "tree",
+      "emergency": false
+    },
+    {
+      "slug": "irrigation",
+      "name": "Sprinklers and irrigation",
+      "short": "Sprinkler installs, repairs, spring startups and fall winterization.",
+      "long": "We install new systems zoned to how much water each area needs, and fix broken heads, leaking valves and controller problems on existing ones. Where it freezes, we start the system in spring and blow out the lines in fall so pipes don't crack.",
+      "bullets": [
+        "New system design and installation",
+        "Head, valve and line repairs",
+        "Smart controllers that skip watering after rain",
+        "Spring startup and fall blowout"
+      ],
+      "icon": "sprinkler",
+      "emergency": false
+    },
+    {
+      "slug": "sod-seeding",
+      "name": "Sod and seeding",
+      "short": "New lawns from sod or seed, with the soil prepped first.",
+      "long": "A new lawn is only as good as the soil under it. We remove the old turf or weeds, grade for drainage, add topsoil where needed and lay sod or seed, then leave you a watering schedule you can follow.",
+      "bullets": [
+        "Old lawn removal and grading",
+        "Topsoil and soil amendments",
+        "Sod or seed suited to your sun and shade",
+        "Written watering instructions for the first month"
+      ],
+      "icon": "sun",
+      "emergency": false
+    },
+    {
+      "slug": "landscape-installation",
+      "name": "Landscape design and planting",
+      "short": "Planting plans and installs with plants that suit your soil and sun.",
+      "long": "We start with what you want from the yard and how much upkeep you're willing to do, then draw a plan with plants that fit your soil, light and climate. Plants go in at the right depth with amended soil and a watering plan.",
+      "bullets": [
+        "Site visit and scaled planting plan",
+        "Trees, shrubs and perennials from local nurseries",
+        "Low-water and native plant options",
+        "One-year plant guarantee when watered as directed"
+      ],
+      "icon": "ruler",
+      "emergency": false
+    },
+    {
+      "slug": "hardscaping",
+      "name": "Patios, walkways and retaining walls",
+      "short": "Paver and stone patios, walkways and walls, built on a proper base.",
+      "long": "Most patios that sink or heave were built on too little base. We dig out, compact a gravel base in layers and set pavers or stone with edge restraints and polymeric sand. Retaining walls over about 4 feet are engineered, as most codes require.",
+      "bullets": [
+        "Paver, natural stone and concrete patios",
+        "Walkways, steps and garden walls",
+        "Retaining walls with drainage behind them",
+        "Fire pits and seating walls"
+      ],
+      "icon": "hammer",
+      "emergency": false
+    }
+  ],
+  "process": [
+    { "title": "Site visit", "detail": "We walk the property with you, measure and talk through what you want and what you want to spend." },
+    { "title": "Written estimate", "detail": "You get a plan and a written price with every plant and material listed." },
+    { "title": "Install", "detail": "The crew works on the scheduled days and cleans up each evening." },
+    { "title": "Follow-up", "detail": "We check back after a few weeks to make sure new plants and lawns are taking hold." }
+  ],
+  "trust": {
+    "certifications": [
+      "NALP Landscape Industry Certified",
+      "ISA Certified Arborist",
+      "CMHA Certified Concrete Paver Installer",
+      "Irrigation Association Certified Irrigation Contractor",
+      "Licensed Pesticide Applicator"
+    ],
+    "license_label": "Landscape contractor license #",
+    "guarantees": [
+      "Plants we install are guaranteed for 1 year when watered as directed",
+      "Hardscape workmanship warranty: 5 years",
+      "Rained-out visits made up within the same week",
+      "Written estimate with plants and materials listed"
+    ],
+    "badges_hint": "NALP membership or Landscape Industry Certified status, a state landscape or nursery association, ISA arborist credentials for tree work, CMHA paver installer certification for hardscape and BBB accreditation. Show the pesticide applicator license if the company applies fertilizer or weed control. The certifications listed are examples (CMHA, the Concrete Masonry & Hardscapes Association, took over the old ICPI installer program); keep only the ones the business holds."
+  },
+  "faqs": [
+    {
+      "q": "How much does lawn mowing cost?",
+      "a": "For a typical suburban lot, weekly mowing with edging and blowing usually runs $40 to $80 per visit. Bigger lots, steep slopes and lots of obstacles cost more. We give you a fixed per-visit price after seeing the yard."
+    },
+    {
+      "q": "How much does a paver patio cost?",
+      "a": "Most paver patios run about $15 to $30 per square foot installed, so a 12 by 16 foot patio often lands between $3,000 and $6,000. Access, excavation, steps and the paver you choose move the price most. We itemize it in writing."
+    },
+    {
+      "q": "Do I need to be home?",
+      "a": "No. For mowing and cleanups, we just need access through the gate and pets inside. For bigger projects, we'll meet you at the start and the end to walk through the work."
+    },
+    {
+      "q": "What happens if it rains on my mowing day?",
+      "a": "We move the visit to the next dry day, usually within a day or two. Mowing wet grass tears the blades and leaves ruts, so it's worth the wait."
+    },
+    {
+      "q": "When is the best time to plant?",
+      "a": "Fall is often the best time for trees, shrubs and cool-season grass seed, because the soil is still warm and the air is cool. Spring works well too. Summer planting is possible but needs a lot more watering."
+    },
+    {
+      "q": "Do you guarantee your plants?",
+      "a": "Yes. Trees, shrubs and perennials we install are guaranteed for one year, as long as they're watered as directed. If one dies in that time, we replace it."
+    },
+    {
+      "q": "Do I need a permit for a patio or retaining wall?",
+      "a": "Most patios don't need one. Retaining walls over about 4 feet, work near property lines and anything that changes drainage onto a neighbor's lot often do. We check with your city and HOA before we start."
+    },
+    {
+      "q": "How long does new sod take to root?",
+      "a": "Usually two to three weeks with steady watering. Keep foot traffic off until a gentle tug doesn't lift the sod, and hold off on the first mow until then."
+    }
+  ],
+  "quote_form": {
+    "title": "Get a free landscaping estimate",
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "phone", "label": "Phone", "type": "tel", "required": true },
+      {
+        "name": "service",
+        "label": "What do you need?",
+        "type": "select",
+        "options": ["Weekly mowing", "Spring or fall cleanup", "Mulch and beds", "Patio or walkway", "Sprinklers", "Something else"],
+        "required": true
+      },
+      { "name": "zip", "label": "ZIP code", "type": "text", "required": false },
+      { "name": "details", "label": "Anything we should know?", "type": "textarea", "required": false }
+    ],
+    "promise": "We call back within 1 business day to set up a site visit."
+  },
+  "seasonal": [
+    "Spring cleanups and fresh mulch",
+    "Fall aeration and overseeding",
+    "Fall leaf removal and sprinkler blowouts"
+  ],
+  "about_default": "{{name}} has taken care of yards in {{city}} for {{years}} years. We handle the weekly upkeep and the bigger projects, so you have one company to call. Estimates are in writing, and the crew blows off every hard surface before leaving.",
+  "photo_subjects": {
+    "hero": "A freshly mowed lawn with clean stripes and sharp bed edges in front of a house, late afternoon light",
+    "work": [
+      "Paver patio with a fire pit and seating wall",
+      "Freshly mulched beds with clean edges",
+      "Crew laying sod on graded soil",
+      "Sprinkler zone running in early morning light",
+      "Before and after of a fall leaf cleanup",
+      "Stone walkway leading to a front door"
+    ],
+    "team": "The crew in matching shirts beside a truck and trailer with mowers loaded"
+  },
+  "keywords": [
+    "landscaping {{city}}",
+    "lawn care {{city}}",
+    "lawn mowing service {{city}}",
+    "landscaper {{city}}",
+    "paver patio installation {{city}}",
+    "sprinkler repair {{city}}",
+    "mulch installation {{city}}",
+    "spring cleanup {{city}}",
+    "retaining wall contractor {{city}}",
+    "landscape design {{area}}"
+  ],
+  "palette_hint": "Deep green and soil brown with a stone gray neutral."
+}

@@ -1,0 +1,26 @@
+{
+  "style": "cinematic-horizon",
+  "business": {
+    "name": "Ridgeline Roofing",
+    "trade": "roofing",
+    "city": "Boise",
+    "region": "ID",
+    "areas": [
+      "Boise",
+      "Meridian",
+      "Nampa",
+      "Eagle",
+      "Kuna",
+      "Star",
+      "Caldwell",
+      "Garden City"
+    ],
+    "phone": "(208) 555-0142",
+    "email": "office@ridgeline.example",
+    "hours": "Mon to Fri 7am to 6pm, Sat 8am to noon"
+  },
+  "copy": {
+    "heroHeadline": "Roofs replaced in two days, *not two weeks.*",
+    "eyebrow": "Roofing · Treasure Valley, Idaho"
+  }
+}

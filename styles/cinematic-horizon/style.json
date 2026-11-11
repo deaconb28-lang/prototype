@@ -1,0 +1,104 @@
+{
+  "id": "cinematic-horizon",
+  "name": "Cinematic Horizon",
+  "summary": "Big-sky photography, a calm white serif centered in the light, and a floating nav pill. Like an opening film still.",
+  "best_for": [
+    "roofing",
+    "landscaping",
+    "electrical",
+    "hvac"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Newsreader",
+      "google": "Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500"
+    },
+    "body": {
+      "family": "Hanken Grotesk",
+      "google": "Hanken+Grotesk:wght@400;500;600;700"
+    },
+    "mono": {
+      "family": "Fragment Mono",
+      "google": "Fragment+Mono"
+    }
+  },
+  "tokens": {
+    "--bg": "#f5f3ee",
+    "--surface": "#ffffff",
+    "--surface-2": "#e9e6df",
+    "--ink": "#0f1720",
+    "--ink-2": "#4f5864",
+    "--line": "#dcd8cf",
+    "--line-strong": "#b9b4a8",
+    "--accent": "#f2601f",
+    "--accent-hover": "#ff7a3d",
+    "--accent-ink": "#0f1720",
+    "--accent-text": "#b23f0a",
+    "--accent-2": "#fde0d1",
+    "--dark": "#0f1720",
+    "--dark-ink": "#ffffff",
+    "--dark-ink-2": "#d3d6db",
+    "--dark-line": "rgba(255,255,255,.18)",
+    "--banner-bg": "#0f1720",
+    "--banner-ink": "#f5f3ee",
+    "--font-display": "'Newsreader', Georgia, serif",
+    "--font-body": "'Hanken Grotesk', system-ui, sans-serif",
+    "--font-mono": "'Fragment Mono', ui-monospace, monospace",
+    "--display-weight": "300",
+    "--display-tracking": "-0.02em",
+    "--display-leading": "1.0",
+    "--h1": "clamp(3rem, 6.4vw, 5.8rem)",
+    "--h2": "clamp(2.2rem, 4vw, 3.5rem)",
+    "--h3": "1.45rem",
+    "--eyebrow-font": "'Fragment Mono', monospace",
+    "--eyebrow-size": ".72rem",
+    "--eyebrow-tracking": ".18em",
+    "--eyebrow-weight": "400",
+    "--radius": "12px",
+    "--radius-lg": "16px",
+    "--radius-sm": "8px",
+    "--btn-radius": "999px",
+    "--pill-radius": "14px",
+    "--logo-radius": "10px",
+    "--logo-weight": "500",
+    "--logo-size": "1.35rem",
+    "--quote-font": "'Newsreader', serif",
+    "--quote-weight": "300",
+    "--card-border": "1px solid var(--line)",
+    "--star": "#f2601f",
+    "--scrim": "linear-gradient(180deg, rgba(8,14,22,.38) 0%, rgba(8,14,22,.12) 35%, rgba(8,14,22,.2) 60%, rgba(8,14,22,.72) 100%)"
+  },
+  "variants": {
+    "nav": "pill",
+    "hero": "fullbleed",
+    "services": "tiles",
+    "process": "row",
+    "gallery": "strip",
+    "reviews": "quote",
+    "faq": "stack",
+    "cta": "card",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "Daylight",
+      "url": "https://mobbin.com/sites/sections/f9f781dc-03d5-4372-bd1e-56415d63a1bf",
+      "what": "Aerial dusk photo of suburban rooftops, light white serif centered, mono eyebrow, floating white nav pill with a single orange CTA. Closest existing match to a solar/roofing hero."
+    },
+    {
+      "site": "Frontify",
+      "url": "https://mobbin.com/sites/sections/2d1eac14-3056-4a94-b927-adecc9d3526f",
+      "what": "Thin serif across a deep-blue sky photo; black solid pill + white-outline ghost pill pairing."
+    },
+    {
+      "site": "Paraform",
+      "url": "https://mobbin.com/sites/sections/f8ae1344-754c-4efa-9563-604a5d7306ff",
+      "what": "Photo that fades into the page background through a misty gradient, serif headline sitting on the fade."
+    },
+    {
+      "site": "Lightship",
+      "url": "https://mobbin.com/sites/sections/a5fa6838-ff45-42cc-8e90-b513fd69a5e7",
+      "what": "Edge-to-edge winding-road landscape with a centered headline and a translucent dark pill CTA."
+    }
+  ]
+}

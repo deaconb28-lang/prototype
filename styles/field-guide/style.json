@@ -1,0 +1,106 @@
+{
+  "id": "field-guide",
+  "name": "Field Guide",
+  "summary": "Deep olive fields, soft serif, wide landscape photos and an orange trail-marker accent. The outdoors as a printed guidebook.",
+  "best_for": [
+    "landscaping",
+    "pest-control",
+    "roofing",
+    "painting"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Fraunces",
+      "google": "Fraunces:opsz,wght,SOFT@9..144,300..500,0..100"
+    },
+    "body": {
+      "family": "Work Sans",
+      "google": "Work+Sans:wght@400;500;600"
+    },
+    "label": {
+      "family": "Antonio",
+      "google": "Antonio:wght@600;700"
+    }
+  },
+  "tokens": {
+    "--bg": "#f4f1e6",
+    "--surface": "#fbf9f2",
+    "--surface-2": "#e2e6d8",
+    "--ink": "#262d1b",
+    "--ink-2": "#585f4a",
+    "--line": "#cfd3c2",
+    "--line-strong": "#a9ae98",
+    "--accent": "#e07b39",
+    "--accent-hover": "#ea8c4c",
+    "--accent-ink": "#1d220f",
+    "--accent-text": "#954514",
+    "--accent-2": "#f6dcc7",
+    "--dark": "#3f4a2a",
+    "--dark-ink": "#f4f1e6",
+    "--dark-ink-2": "#d6d9c6",
+    "--dark-line": "rgba(244,241,230,.2)",
+    "--footer-bg": "#2f3820",
+    "--banner-bg": "#2f3820",
+    "--banner-ink": "#f4f1e6",
+    "--font-display": "'Fraunces', Georgia, serif",
+    "--font-body": "'Work Sans', system-ui, sans-serif",
+    "--font-mono": "'Antonio', 'Arial Narrow', sans-serif",
+    "--display-weight": "350",
+    "--display-tracking": "-0.015em",
+    "--display-leading": "1.04",
+    "--h1-xl": "clamp(3rem, 7.4vw, 6.4rem)",
+    "--h2": "clamp(2.1rem, 3.8vw, 3.3rem)",
+    "--eyebrow-font": "'Antonio', sans-serif",
+    "--eyebrow-size": ".9rem",
+    "--eyebrow-tracking": ".12em",
+    "--eyebrow-weight": "600",
+    "--radius": "3px",
+    "--radius-lg": "3px",
+    "--radius-sm": "2px",
+    "--btn-radius": "3px",
+    "--logo-radius": "3px",
+    "--logo-weight": "450",
+    "--logo-size": "1.4rem",
+    "--step-font": "'Antonio', sans-serif",
+    "--step-size": "1.05rem",
+    "--quote-font": "'Fraunces', serif",
+    "--quote-weight": "350",
+    "--star": "#e07b39",
+    "--accent-on-dark": "#f0a36d",
+    "--scrim": "linear-gradient(180deg, rgba(25,30,15,.2) 0%, rgba(25,30,15,.75) 100%)"
+  },
+  "variants": {
+    "nav": "bar",
+    "hero": "editorial",
+    "heroTone": "dark",
+    "services": "split",
+    "process": "timeline",
+    "gallery": "grid",
+    "reviews": "cards",
+    "faq": "twocol",
+    "cta": "band",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "Felt",
+      "url": "https://mobbin.com/screens/e2654dc8-2394-4706-bdfd-05a7b0113d7b",
+      "what": "Deep olive hero, light serif centered in cream, orange CTA with arrow glyph + muted olive secondary, topographic shape behind the nav, caps nav."
+    },
+    {
+      "site": "Escape Cafe",
+      "url": "https://mobbin.com/sites/sections/458fe700-42b9-4932-83fc-4f7ceb6db9a8",
+      "what": "Mountain landscape hero with centered condensed caps, vertical rail text on the right edge, hairline list rows with origin / region / country / arrow."
+    },
+    {
+      "site": "Faire",
+      "url": "https://mobbin.com/sites/sections/ac343cc9-a6d2-493a-a8d5-2543ab1db130",
+      "what": "Olive-brown band with light white serif centered, spaced-caps wordmark, then a full-width photo of a small business at work."
+    },
+    {
+      "site": "Face Formula",
+      "url": "https://mobbin.com/sites/sections/7446404d-31fb-4f96-9f65-2a8752d7abf6",
+      "what": "Pale sage page, condensed serif in slate, spaced-caps nav, mono 'WELCOME TO' label beside an inset misty landscape photo."
+    }
+  ]
+}

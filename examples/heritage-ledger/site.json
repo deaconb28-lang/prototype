@@ -1,0 +1,22 @@
+{
+  "style": "heritage-ledger",
+  "business": {
+    "name": "Hollis & Sons Plumbing",
+    "trade": "plumbing",
+    "city": "Richmond",
+    "region": "VA",
+    "areas": [
+      "Richmond",
+      "Henrico",
+      "Chesterfield",
+      "Midlothian",
+      "Mechanicsville",
+      "Glen Allen"
+    ],
+    "phone": "(804) 555-0163",
+    "hours": "Mon to Fri 7:30am to 5:30pm"
+  },
+  "copy": {
+    "heroHeadline": "Plumbing done the *old-fashioned* way: on time, in writing, cleaned up."
+  }
+}

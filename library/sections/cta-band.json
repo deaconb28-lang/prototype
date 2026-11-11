@@ -1,0 +1,249 @@
+{
+  "section": "cta-band",
+  "description": "Closing call-to-action sections and mid-page CTA bands. On a trade site this is the last push to call, book or request an estimate. It should remove the remaining doubt (what happens next, how fast, do you serve me) and make the phone number tappable.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "home services call to action section",
+    "closing call to action section with background photo",
+    "get a free quote call to action band",
+    "navigation bar with phone number and call now button",
+    "landscape design studio hero section"
+  ],
+  "references": [
+    {
+      "id": "mobbin:4d6c6c50-ebc6-4765-8847-faf418e7690c",
+      "site": "Shader",
+      "url": "https://mobbin.com/sites/sections/4d6c6c50-ebc6-4765-8847-faf418e7690c",
+      "pattern": "coupon-cutout",
+      "layout": "Cream paper page with print grain. A big serif headline spans the top. Left column: body paragraphs. Right column: a dashed-border coupon (~270×260) with a scissors icon on its left edge. Inside: serif 'Act now! Book a Consultation.', instructions to 'Cut along the dotted line and mail this', an 'Email: ____' underline field, a 3-line postal address, 'Or click below.', and a full-width dark brown button with a phone glyph, 'Book a Call Today'. The nav has an underlined '☎ Book a call'.",
+      "type": "Old-style serif (Cheltenham / Century feel) throughout. Headline ~48px, coupon heading ~16px bold, body ~13px. No sans at all.",
+      "color": "Paper ~#EFE6D2, ink brown ~#3E352B, button ~#3B3127, dashed rule in ink. Slight halftone/ink-bleed texture.",
+      "details": [
+        "Dashed cut line with a scissors glyph, a literal coupon",
+        "Full postal address inside the CTA (a trust signal)",
+        "Phone glyph on the button and in the nav",
+        "Print grain makes the whole page feel like a mailer"
+      ],
+      "why_it_works": "It's witty and tactile, and it uses the native language of trade marketing (door hangers, mailers, clip-out coupons).",
+      "trade_adaptation": "'$50 OFF ANY REPAIR: show this to your technician' coupon with dashed border, licence number, street address and a '☎ Call (555) 012-3456' button. Fits plumbers, HVAC, pest control and garage doors.",
+      "mood": ["rustic", "warm", "playful"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:58686d82-1872-4803-8f0f-a328b5a38602",
+      "site": "ClassPass",
+      "url": "https://mobbin.com/sites/sections/58686d82-1872-4803-8f0f-a328b5a38602",
+      "pattern": "card-over-collage",
+      "layout": "Left: a bold 2-line headline and a paragraph on light gray. Right: a masonry grid of 6+ photos of people at services. A white card (~260px) overlaps the center of the grid: heading 'Ready to learn more?', two icon rows (clipboard: 'Fill out our quote form (in less than 5 minutes)'; clock: 'Get a response within 1-2 business days'), a full-width blue 'Request a quote' button, and an underlined alternative link 'Not sure if ClassPass is right for you? Take our quiz.'",
+      "type": "Sans bold ~24px headline, ~18px card heading, ~12px rows.",
+      "color": "Blue ~#1F5BFF, white card with soft shadow, gray ~#F4F4F4 panel, full-color photos.",
+      "details": [
+        "Sets expectations: how long the form takes and when they'll reply",
+        "Offers a lower-commitment path (quiz) under the main button",
+        "The card overlaps the photo grid, so proof surrounds the ask"
+      ],
+      "why_it_works": "It answers the biggest lead-form worry, 'what happens after I click?', in two lines.",
+      "trade_adaptation": "Card over a grid of job photos: 'Get your free estimate' / 'Two-minute form' / 'We call back within 2 business hours' / [Request estimate] / 'Prefer to talk? (555) 012-3456'.",
+      "mood": ["friendly", "bold"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:c360f406-a29e-4000-8d39-8599c1f7de5b",
+      "site": "Mews",
+      "url": "https://mobbin.com/sites/sections/c360f406-a29e-4000-8d39-8599c1f7de5b",
+      "pattern": "form-split",
+      "layout": "Left: a 3-line heavy uppercase headline 'GET PRICING TAILORED TO YOUR PROPERTY', a 3-step checklist (✓ bold step title + gray one-line description), and at the bottom award badges with year chips ('2024 2025 2026'). Right: a compact form (2-column first/last name, email, country + phone, selects, an optional free-text field), privacy microcopy and a full-width pink pill 'GET PRICING'.",
+      "type": "Grotesk black/heavy caps ~40px, leading ~0.95. Sans ~12-13px for steps and fields.",
+      "color": "White, ink ~#000000, gray descriptions ~#555555, pink CTA ~#FF8AD8, light hairline field borders ~#DADADA.",
+      "details": [
+        "The steps explain the process right beside the form",
+        "Award badges carry year chips, showing repeated wins",
+        "Placeholder labels inside fields keep the form compact"
+      ],
+      "why_it_works": "Persuasion (steps and awards) and action (form) share one screen, so nobody has to scroll between them.",
+      "trade_adaptation": "'GET A QUOTE FOR YOUR ROOF' with steps 'Tell us about your home / Free on-site inspection / Written quote in 48 hrs', badges 'BBB A+', 'Angi Super Service 2024 2025', a manufacturer certification. Form: name, phone, address, service select.",
+      "mood": ["bold", "technical"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:9409f7e7-ec92-477e-9db5-dc4efa0ecdc0",
+      "site": "Daylight",
+      "url": "https://mobbin.com/sites/sections/9409f7e7-ec92-477e-9db5-dc4efa0ecdc0",
+      "pattern": "editorial-map",
+      "layout": "Cream section. Centered stack: mono kicker 'A GROWING NETWORK', a 2-line serif headline, 3 lines of body, and a small black rectangular button 'See if your house qualifies'. Below, a hairline line-drawing of the US with state outlines, + markers, thin circles and colored arcs connecting locations.",
+      "type": "Serif regular ~52px, tight leading. Mono kicker ~9px caps. Sans body ~13px.",
+      "color": "Cream ~#FFF5E8, ink ~#111111, hairlines ~#CFC6B8, arc accents orange ~#F26B1D, amber ~#F7B733, lavender ~#B9A6F5.",
+      "details": [
+        "The CTA is a question about the visitor's own home",
+        "The service-area map is drawn in hairlines, not a Google embed",
+        "A small, square button under a big serif headline shows restraint"
+      ],
+      "why_it_works": "It turns 'do you serve me?' into the CTA itself and shows coverage as an elegant drawing.",
+      "trade_adaptation": "'See if we serve your street' + a hairline county map with + markers on served towns and a ring around the shop location.",
+      "mood": ["editorial", "premium", "warm"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:ab45d207-6127-4880-8793-d3da9da07c77",
+      "site": "Cloudstudio",
+      "url": "https://mobbin.com/sites/sections/ab45d207-6127-4880-8793-d3da9da07c77",
+      "pattern": "contact-meta-cta",
+      "layout": "Light sky-blue section. A black pill 'Book a call →' sits top-left. Below it are three columns, each a mono label over a value: 'NEW PROJECTS / hello@…', 'BASED IN / Spain · Working globally', 'HOW IT STARTS / 30-min call → proposal in 5 days' with a gray second line 'Fixed price or retainer · no commitment'. A dark footer with a giant outlined wordmark follows.",
+      "type": "Mono caps ~9px labels. Sans medium ~14px values. Pill label sans ~13px.",
+      "color": "Sky ~#C6E6F3, ink ~#0E0F10, black pill, gray ~#5E6B72 secondary lines.",
+      "details": [
+        "A 'How it starts' line spells out the process with an arrow",
+        "'Based in' answers locality",
+        "'No commitment' sits as quiet gray reassurance"
+      ],
+      "why_it_works": "It converts with facts, not hype: who to contact, where you are, what happens first.",
+      "trade_adaptation": "'CALL OR TEXT / (555) 012-3456', 'BASED IN / Asheville · serving Buncombe County', 'HOW IT STARTS / Free visit → written quote in 48 hrs' + 'No pressure, no deposit'.",
+      "mood": ["technical", "minimal", "friendly"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:db606a06-580c-4a2a-b326-96df0ce8b3e1",
+      "site": "Zipline",
+      "url": "https://mobbin.com/sites/sections/db606a06-580c-4a2a-b326-96df0ce8b3e1",
+      "pattern": "split-photo-cta",
+      "layout": "Cream section. Left: a rounded (~12px) landscape photo (~48% width) of the product installed in green hills. Right, vertically centered: a 2-line condensed uppercase headline and a small black pill 'Get in touch ↗'.",
+      "type": "Condensed grotesk heavy caps, ~30px, leading ~0.95. Pill sans ~11px.",
+      "color": "Cream ~#F6F3E8, ink ~#111111, natural greens and blue sky in the photo.",
+      "details": [
+        "A tiny pill against a heavy headline creates strong contrast of scale",
+        "The photo shows the product in place, in context",
+        "The headline speaks to the visitor's situation: 'fits with your business'"
+      ],
+      "why_it_works": "Simple, strong and photographic. It reads in one glance.",
+      "trade_adaptation": "Garage-door company: photo of an installed door on a craftsman house, 'SEE HOW A NEW DOOR CHANGES YOUR CURB APPEAL.' + 'Get a quote ↗'.",
+      "mood": ["bold", "industrial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:07171413-c1f7-4a6b-bf59-4601386187b8",
+      "site": "Samara",
+      "url": "https://mobbin.com/sites/sections/07171413-c1f7-4a6b-bf59-4601386187b8",
+      "pattern": "solid-color-band",
+      "layout": "A full-bleed royal-blue band (~300px). Centered 2-line headline: line 1 white, line 2 in a paler tint. Below it, two equal-width stacked buttons: white 'Connect with us' and black 'Design yours' with an icon.",
+      "type": "Neo-grotesk light/300, ~26px, sentence case.",
+      "color": "Royal blue ~#253DB8, white, second line ~#C9D1FF, black button.",
+      "details": [
+        "The second line is dimmer, giving two-tone hierarchy without changing weight",
+        "Buttons are stacked vertically, not side by side",
+        "Light weight at a large size feels calm"
+      ],
+      "why_it_works": "Calm confidence. One color, two lines, two clear paths.",
+      "trade_adaptation": "Landscaper: 'Imagine what's possible in your yard. / Plan it with us this spring.' with [Talk to a designer] and [Get an estimate] on a deep green band.",
+      "mood": ["minimal", "premium"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:719dadf3-2b7e-44b1-81f2-1492ae96ca6b",
+      "site": "Ada",
+      "url": "https://mobbin.com/sites/sections/719dadf3-2b7e-44b1-81f2-1492ae96ca6b",
+      "pattern": "inline-pill-sentence",
+      "layout": "Off-white section. A tiny lowercase kicker 'see ada in action' sits above a centered 2-line headline. A yellow pill button (with a black arrow circle) is embedded inline as a word in the sentence: 'let's talk—book a / free [Get a demo →] consultation'.",
+      "type": "Grotesk light, ~36px, all lowercase, em dash. Pill label ~11px.",
+      "color": "Off-white ~#F8F8F6, ink ~#111111, yellow pill ~#F9E58B, black arrow disc.",
+      "details": [
+        "The button is part of the sentence",
+        "Lowercase voice feels conversational",
+        "Lots of whitespace above and below"
+      ],
+      "why_it_works": "Memorable and minimal. It turns the CTA into a sentence the visitor reads.",
+      "trade_adaptation": "'let's get your [Book a tune-up →] furnace ready for winter' or 'need it fixed [Call now →] today?'.",
+      "mood": ["playful", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:68afe8ce-0f12-481e-abef-63aa28f25d80",
+      "site": "Square",
+      "url": "https://mobbin.com/sites/sections/68afe8ce-0f12-481e-abef-63aa28f25d80",
+      "pattern": "scattered-photo-cta",
+      "layout": "Black section. Rounded (~16px) photos of real small-business owners and workers (café, retail, warehouse, tattooed shop owner) are scattered at varied sizes around the edges and cropped by the viewport. Centered: small caps kicker 'WHY SQUARE?', a 2-line white headline, a blue filled and a blue outline button.",
+      "type": "Grotesk medium ~36px. Kicker ~10px caps tracked.",
+      "color": "Black ~#000000, white, blue ~#006AFF.",
+      "details": [
+        "Photos frame the headline from every side",
+        "Real customers of many types",
+        "Photos are cropped at the edges, implying more beyond"
+      ],
+      "why_it_works": "The customers' faces surround the ask, which is social proof without a single quote.",
+      "trade_adaptation": "Scatter completed-job photos and homeowner portraits around 'Join 2,300 Boise homeowners who call us first.' [Book a visit] [See our work].",
+      "mood": ["bold", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:fa9788f2-54fc-4579-9173-7052eadacd20",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/fa9788f2-54fc-4579-9173-7052eadacd20",
+      "pattern": "statement-cta",
+      "layout": "White section. A one-line lead-in question (~11px) sits above a 3-line centered condensed caps headline. Below are two square-cornered buttons: tan filled 'Book an appointment to get started' and an outlined 'See our services & solutions'.",
+      "type": "Condensed grotesk caps (Antonio / Druk feel), ~38px, leading ~1.0: 'FOUR STEPS. A CLEAR PROCESS. ALL THE WAY, OR JUST AS FAR AS YOU WANT'.",
+      "color": "White, ink ~#111111, tan ~#CFC8B4.",
+      "details": [
+        "The lead-in names the visitor's situations ('relocating, setting up… or renovating?')",
+        "The headline is a process promise, not a slogan",
+        "Long, descriptive button labels"
+      ],
+      "why_it_works": "Plain-spoken and confident, it promises clarity, which is exactly what remodel customers want.",
+      "trade_adaptation": "'Leak? Remodel? New build? We handle it start to finish.' / 'THREE VISITS. ONE PRICE. NO SURPRISES.' / [Book a free walkthrough] [See our services].",
+      "mood": ["industrial", "bold"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:5e61e2ac-f141-4d94-8302-d2d68e9cee92",
+      "site": "Apple",
+      "url": "https://mobbin.com/sites/sections/5e61e2ac-f141-4d94-8302-d2d68e9cee92",
+      "pattern": "dark-cta-with-paths",
+      "layout": "Near-black section. A huge left-aligned 'Take the next step.' (~56px), a 2-line subhead (~22px) and an outline pill 'Get in touch'. Below are three columns, each with a thin line icon (laptop, people, $), a 2-line bold heading and blue links ('Shop for your small business.', 'Get service and support.', 'Explore financing options.'), plus plain text 'Call us at 1-800-854-3680.'",
+      "type": "SF Pro Display semibold ~56px. Subhead ~22px regular. Links ~13px.",
+      "color": "Near-black ~#161617, white, link blue ~#2997FF, gray icons.",
+      "details": [
+        "Three next-step paths match the different intents",
+        "The phone number appears as plain text plus a link",
+        "Thin outline icons, not filled blobs"
+      ],
+      "why_it_works": "It routes visitors by intent (buy, get service, finance), the same split trade customers have.",
+      "trade_adaptation": "'Take the next step.' with columns 'Book a repair', 'Plan a replacement', 'Explore financing' and 'Call us at (555) 012-3456'.",
+      "mood": ["premium", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:8fe7fadd-1c8b-4a4a-b171-4e7470e0f640",
+      "site": "OpenTable",
+      "url": "https://mobbin.com/sites/sections/8fe7fadd-1c8b-4a4a-b171-4e7470e0f640",
+      "pattern": "phone-button-band",
+      "layout": "A full-bleed band (~100px) above the footer. Centered 2-line white headline addressing a segment ('Restaurant groups: call to get the full picture…'), then a red button whose label is the phone number: 'CALL (866) 951-7154'. The footer repeats the number large in its right column.",
+      "type": "Sans bold ~20px headline. Button caps ~11px.",
+      "color": "Gradient navy ~#1E1446 to coral ~#D24B4B (generic; replace with a solid brand color), button red ~#D8423F.",
+      "details": [
+        "The phone number IS the button label, so it is tap-to-call on mobile",
+        "The number is repeated in the footer for scanners",
+        "The headline names who should call"
+      ],
+      "why_it_works": "Direct and mobile-first. The gradient is the weak part; the phone-as-label move is the lesson.",
+      "trade_adaptation": "'Burst pipe or no heat? We answer 24/7.' [CALL (555) 012-3456] on a solid deep-red or navy band.",
+      "mood": ["bold"],
+      "quality": 3
+    }
+  ],
+  "takeaways": [
+    "Set expectations right next to the button: how long the form takes, when they'll hear back, what the first step is (ClassPass, Mews, Cloudstudio). This is the strongest conversion pattern found.",
+    "Make the phone number a tap-to-call button label, and repeat it as plain text nearby.",
+    "Phrase the CTA around the visitor's home or situation: 'See if your house qualifies', 'fits with your business', 'Leak? Remodel? New build?'",
+    "Put proof inside or around the ask: award badges with years, a hairline service-area map, real customer and job photos framing the headline.",
+    "Print metaphors make a trade site feel warm and local: dashed coupon borders, paper grain, old-style serif, clip-out offers.",
+    "Use one band color (or cream paper) with either light big type or heavy condensed caps. A small pill is enough when the headline carries the weight.",
+    "Offer a lower-commitment alternative under the main action ('Prefer to talk?', 'Not sure? Take the quiz')."
+  ],
+  "avoid": [
+    "Two-tone gradient bands (OpenTable 'Let's do this', Aboard purple) and pastel gradient cards with '$0/month' (Contra).",
+    "'Ready to get started?' + two equal buttons on pale gray with nothing else (Stripe, Dovetail 'Get in touch', Contra 'Try Contra today').",
+    "Empty black strips like 'Let's talk business' + a tiny button (UGLYCASH).",
+    "Random decorative shapes or 3D blobs around the headline (Figma, Ada pixel grid).",
+    "Darkened stock-photo bands with a centered white headline and one orange button (Eventbrite, Canva, Wix Learn).",
+    "Textured gradient paint backgrounds that fight the type (Wise 'CONTACT US TODAY')."
+  ]
+}

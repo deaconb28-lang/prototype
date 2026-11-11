@@ -1,0 +1,263 @@
+{
+  "section": "contact-form",
+  "description": "Turns a visitor into a lead: quote requests, callback and booking forms, and contact sections that put phone, hours, service area and a short form side by side. For trades the form should take under a minute: 3-5 fields, service type as taps, and a clear promise of what happens next.",
+  "source": "Mobbin MCP (search_sections, search_screens)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "contact form section",
+    "request a quote form",
+    "booking form section to schedule an appointment",
+    "screens (web): contact page with address, phone and form",
+    "screens (web): request a quote page for a home service"
+  ],
+  "references": [
+    {
+      "id": "mobbin:7e65a424-f68b-4e4d-81b4-fa938436dc52",
+      "site": "United Carriers",
+      "url": "https://mobbin.com/sites/sections/7e65a424-f68b-4e4d-81b4-fa938436dc52",
+      "pattern": "split-details-form",
+      "layout": "6 fields (1 radio group + 5 inputs). Header row: 'HOTLINE 1300 000 082' at far left, a huge 2-line 'GET / IN TOUCH' in the middle column, a dotted world map top-right. Body in 3 columns: left ~20% = team photo in front of the company truck (~130x85), then mono-labeled 'WORKING HOURS 8:30AM - 5PM', 'SOCIALS', 'EMAIL'; middle ~45% = 'BOOK AN APPOINTMENT', a 2-line intro promising a callback within one business day, a 'Reason of enquiry' radio list in 2 columns (12 options), then underline fields name/company (2-up), email, phone, message and a right-aligned black pill 'SEND MESSAGE'; right ~25% = 'LOCATIONS' with mono office labels and addresses.",
+      "type": "Heavy wide grotesk (Monument / Druk Wide-like) for 'GET IN TOUCH' ~56px, uppercase, leading ~0.9. Section heads ~14px bold uppercase. Labels in mono ~7px uppercase. Body and placeholders sans ~9px.",
+      "color": "White page; text ~#111; hairline rules ~#dddddd; black pill button with white mono label. No accent color: the photo provides it.",
+      "details": [
+        "Real crew-and-truck photo right next to the form",
+        "Response-time promise in the intro ('within one business day')",
+        "Service type as visible radios instead of a dropdown",
+        "Hotline sits in the header, above everything else",
+        "Underline-only inputs; button aligned to the field column's right edge"
+      ],
+      "why_it_works": "The closest thing to a trade business in the results: a logistics company that puts its people, phone, hours and service choice beside a short form, all scannable at once.",
+      "trade_adaptation": "HVAC or plumber: crew + van photo; 'HOTLINE (908) 555-0142, 24/7 emergencies'; radios cut to 5-6 ('No heat / No cooling / Leak / Maintenance / New install / Other'); fields Name, Phone, Address, Message; promise 'We call back within 1 business hour.'",
+      "mood": ["industrial", "bold", "technical"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:ae1f5fe6-9420-45e4-b097-64ae2aa8c06e",
+      "site": "Savor",
+      "url": "https://mobbin.com/sites/sections/ae1f5fe6-9420-45e4-b097-64ae2aa8c06e",
+      "pattern": "split-details-form",
+      "layout": "5 fields (one select). Cream page in an asymmetric split. Left ~40% is mostly empty, with contact details anchored at the bottom-left (small-caps labels 'CONTACT' and 'ADDRESS' over ~10px values). Right ~55%: a 4-line serif intro, then 5 underline-only fields stacked ~44px apart (First Name, Last Name, Email address, 'I am a...' select with chevron, Your message), a ~8px consent line, and a dark maroon button (~120x32, ~2px radius) reading 'Send —— Message'.",
+      "type": "Condensed display serif (Ogg / Saol-like) ~22px for the intro, tight leading ~1.15. Placeholders sans ~11px grey. Labels small caps ~7px tracked.",
+      "color": "Cream ~#fdf6e8; ink deep maroon ~#3b0d0d; field rules ~#cfc6b8; button ~#4a0b0b with cream text.",
+      "details": [
+        "Underline-only fields, no boxes",
+        "'I am a...' select routes the inquiry in one tap",
+        "An em-rule inside the button label: 'Send —— Message'",
+        "Contact details pushed to the bottom-left to balance the column weight"
+      ],
+      "why_it_works": "It reads like stationery: few fields, a human intro sentence, and one confident color.",
+      "trade_adaptation": "Remodeler or painter: intro 'Tell us about the room, the house, and when you'd like it done.'; fields Name, Phone, Email, 'I need a... (Quote / Repair / Question)', Message; license number and yard address bottom-left.",
+      "mood": ["editorial", "warm", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin-screen:4bd2045f-e3a8-49f9-83ff-90037e632cf8",
+      "site": "Care.com",
+      "url": "https://mobbin.com/screens/4bd2045f-e3a8-49f9-83ff-90037e632cf8",
+      "pattern": "stepped-form",
+      "layout": "One step of a multi-step booking form, centered in a narrow column. Question heading, then a 2x2 grid of service tiles (~75x50, ~8px radius, line icon + label); the selected tile gets a 2px dark border. Next: 'When and where do you need care?' with start date + time and end date + time pickers (2-up), an address preview with an 'Edit' pill, and a full-width dark green pill 'Next'. About 5 inputs on this step, with the address already filled.",
+      "type": "Sans ~10-13px; tile labels ~8px medium; button ~11px medium.",
+      "color": "White; dark green ~#0b5a46 button; tile borders ~#999 (selected ~#222); text ~#1a1a1a.",
+      "details": [
+        "Service type picked from icon tiles, not a dropdown",
+        "Prefilled address with an 'Edit' pill",
+        "One short screen per step keeps each step to a few inputs",
+        "Pill 'Next' button spans the column width"
+      ],
+      "why_it_works": "Tap-first and phone-friendly: it feels like booking, not paperwork.",
+      "trade_adaptation": "Step 1 tiles 'Repair / Replace / Inspect / Emergency' with line icons; step 2 'Morning / Afternoon' window + preferred day; step 3 Name, Phone, Address. Keep 4 or fewer inputs per step.",
+      "mood": ["friendly", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin-screen:e441aa4b-608d-4ba1-8e26-bd66e362a9e6",
+      "site": "Airtasker",
+      "url": "https://mobbin.com/screens/e441aa4b-608d-4ba1-8e26-bd66e362a9e6",
+      "pattern": "inline-short",
+      "layout": "1 field + suggestion chips. Blue band with a small greeting line, a heavy condensed headline ('Post a task. Get it done.'), then a full-width white input (~600x40, ~6px radius) reading 'In a few words, what do you need done?' with a dark navy 'Get Offers →' pill inside its right end. Below, a row of outlined white pill chips with small icons ('Help me move home', 'Fix my washing machine', 'Mow my backyard', 'More inspiration ▾').",
+      "type": "Condensed bold display ~30px white; input placeholder ~11px; chips ~9px medium.",
+      "color": "Blue ~#3c6cf2 band; white input; navy button ~#0b1a4a; chips with 1px white border and white text.",
+      "details": [
+        "Suggestion chips show what kinds of jobs to ask for, and prefill the input",
+        "Submit button lives inside the input",
+        "Starts with one free-text question in the customer's words",
+        "Icons on chips reinforce the job type"
+      ],
+      "why_it_works": "Lowest-friction possible start; the chips teach visitors what the business does.",
+      "trade_adaptation": "Plumber or handyman hero or contact block: 'What needs fixing?' + chips 'Leaky faucet', 'Clogged drain', 'Water heater', 'Running toilet' → next step asks Phone and ZIP.",
+      "mood": ["friendly", "bold"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:48277ebc-1984-41a6-b25e-f2ee7c4404f2",
+      "site": "Graza",
+      "url": "https://mobbin.com/sites/sections/48277ebc-1984-41a6-b25e-f2ee7c4404f2",
+      "pattern": "card-form",
+      "layout": "7 fields. Lime field split in half. Left, centered: eyebrow '✲ SUBMIT A REQUEST ✲', large 'Contact Us' with 'Contact' in italic serif and 'Us' roman, and a 2-line mono note. Right: cream card (~310x330, ~14px radius, 1px dashed border) with 7 pill-shaped inputs (~22px tall, full radius, 1px dark green border) under mono labels: First/Last (2-up), Company, Email*, Phone, Target Delivery Date, Total Estimated Products*. Chartreuse pill 'Submit Form' with a hard offset shadow.",
+      "type": "Italic high-contrast serif mixed with roman for the heading (~40px). Labels, placeholders, eyebrow and note in a typewriter mono (~8-9px).",
+      "color": "Lime ~#9be77a field; card cream ~#fdf3ea; ink dark olive ~#2f3a1f; button chartreuse ~#d7e22c; dashed border ~#2f3a1f.",
+      "details": [
+        "Dashed card border reads like a coupon or order slip",
+        "Hard drop-shadow on the button, no blur",
+        "Italic + roman word mix in one heading",
+        "Mono labels give a hand-filled-form feel"
+      ],
+      "why_it_works": "Playful but disciplined; all the craft is in borders and type pairing, not decoration.",
+      "trade_adaptation": "Cleaner or landscaper: 'Request a Quote' card with 5 fields: Name, Phone, Address or ZIP, Preferred date, 'What needs doing?'. Drop Company and quantity.",
+      "mood": ["playful", "friendly", "warm"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:939927f7-47b9-47b3-ad9f-0a2945a3927d",
+      "site": "Maxima Therapy",
+      "url": "https://mobbin.com/sites/sections/939927f7-47b9-47b3-ad9f-0a2945a3927d",
+      "pattern": "split-details-form",
+      "layout": "6 fields. White panel framed by a teal border band. Left ~40%: 6-line bold statement ending 'No pressure. Just people who care.', then email, phone, 'Serving families across California', and 'Business Hours Monday–Friday, 9am–5pm PST'. Right ~55%: labeled fields First*/Last* (2-up), Email*, Phone, Subject select, a tall Message (~160px), a terms checkbox and a blue pill 'Submit'.",
+      "type": "Grotesk bold ~20px for the statement, leading ~1.15; labels ~9px medium; inputs ~11px.",
+      "color": "White panel; teal frame ~#cdeeed; fields tinted mint ~#eef8f6 with no border; button ~#2a66f5 with white text.",
+      "details": [
+        "Service area line sits inside the contact details",
+        "Reassurance copy ('No pressure') right before the form",
+        "Borderless tinted fields",
+        "Business hours stated with timezone"
+      ],
+      "why_it_works": "Tone, service area and hours beside the form answer the usual objections before the visitor has to ask.",
+      "trade_adaptation": "Pest control or cleaner: 'No pressure, no upsell. Tell us what's bugging you.' + 'Serving Union & Essex Counties' + hours; cut Last name and Subject to reach 4 fields.",
+      "mood": ["friendly", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:c360f406-a29e-4000-8d39-8599c1f7de5b",
+      "site": "Mews",
+      "url": "https://mobbin.com/sites/sections/c360f406-a29e-4000-8d39-8599c1f7de5b",
+      "pattern": "split-details-form",
+      "layout": "9 fields (too many for trades; borrow the left column). Left ~45%: heavy 3-line uppercase headline ('GET PRICING TAILORED TO YOUR PROPERTY'), a 3-item checklist with a bold title and 2-line explanation each ('Tell us about your property / Schedule a short call / Find the right fit'), and two award badges with year chips at the bottom. Right ~45%: outlined inputs (~30px, ~6px radius) with red asterisks, phone with a country select, selects, privacy text and a full-width pink pill 'GET PRICING'.",
+      "type": "Ultra-heavy grotesk uppercase ~34px, leading ~1.0; checklist titles ~11px bold, body ~10px; inputs ~10px.",
+      "color": "White page; black ~#000; CTA pink ~#ff86d8 with black label; asterisks red ~#e0262b; borders ~#cfcfcf.",
+      "details": [
+        "'What happens next' steps next to the form",
+        "Award badges with year chips (2024 2025 2026) instead of a logo wall",
+        "Button label states the outcome: 'GET PRICING'",
+        "Headline names the customer's thing ('your property')"
+      ],
+      "why_it_works": "It answers the biggest anxiety on quote forms: what happens after I hit submit?",
+      "trade_adaptation": "Roofer: 'GET A PRICE FOR YOUR ROOF' + steps '1. Tell us about the roof  2. Free 30-min inspection  3. Written quote in 48 hrs'; badges 'GAF Master Elite 2024 2025'; form cut to Name, Phone, Address, Roof issue, Notes.",
+      "mood": ["bold", "industrial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:a6f3d599-7e74-47ff-9009-7eb5e6ff0410",
+      "site": "Zaro",
+      "url": "https://mobbin.com/sites/sections/a6f3d599-7e74-47ff-9009-7eb5e6ff0410",
+      "pattern": "card-form",
+      "layout": "7 fields. Two equal rounded cards (~16px radius) side by side. Left card beige with a logo mark top-center, a 2-line centered headline (second line grey), 3 lines of candid subcopy, and a pixel-figure illustration along the bottom. Right card white with a 1px border, holding filled fields (no border, ~4px radius) incl. a textarea, then a full-width near-black 'Submit →' and small consent text.",
+      "type": "Neo-grotesk (Söhne-like) ~22px regular for the 2-tone headline; subcopy ~10px; placeholders ~9px grey.",
+      "color": "Page off-white ~#f7f6f2; left card beige ~#e9e6df; right card white with ~#e5e2db border; fields ~#f4f2ee; button ~#1e1915.",
+      "details": [
+        "Two-tone headline: first line black, second grey",
+        "Candid microcopy: 'If Zaro is the wrong tool for it, we will say so on the first call.'",
+        "Pitch card and form card get equal width",
+        "Borderless filled fields"
+      ],
+      "why_it_works": "Honest copy plus a calm, symmetric layout lowers the stakes of reaching out.",
+      "trade_adaptation": "Plumber: 'Tell us what's leaking. / We'll tell you if it's a $90 fix.' + 'If you don't need us, we'll say so on the phone.' Form: Name, Phone, ZIP, What's happening.",
+      "mood": ["minimal", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:db870672-2b63-4e7d-b1f9-3c9fca6afb2a",
+      "site": "Retool",
+      "url": "https://mobbin.com/sites/sections/db870672-2b63-4e7d-b1f9-3c9fca6afb2a",
+      "pattern": "inline-short",
+      "layout": "2 fields. Full-height split. Left ~50% pale sage: heading, 2-line subcopy, then only Work email (input) and Reason (select) with small-caps labels, and a right-aligned black pill button; consent text pinned to the bottom edge. Right ~50% deep green panel with a thin grid-line pattern and 3 offset proof tiles (stat sentence + customer name).",
+      "type": "Sans ~22px regular heading; labels uppercase ~7px tracked; proof tiles ~14px regular white.",
+      "color": "Sage ~#e9ebe2; green ~#1e5b46 with grid lines ~#2f7059; button ~#111; tiles a darker green ~#174a39.",
+      "details": [
+        "Just two fields",
+        "Proof tiles sit on a blueprint-like grid",
+        "Consent text moved to the bottom edge, away from the fields",
+        "Button sized to its label, aligned right"
+      ],
+      "why_it_works": "Minimum friction on one side, maximum proof on the other.",
+      "trade_adaptation": "'Get a callback': Phone + 'What do you need?' select. Right panel on a blueprint grid: '312 five-star reviews', 'Licensed & insured', 'Same-day in Westfield'.",
+      "mood": ["technical", "minimal", "industrial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:fa474866-416b-4b77-96fc-aab40ce5b108",
+      "site": "NEON",
+      "url": "https://mobbin.com/sites/sections/fa474866-416b-4b77-96fc-aab40ce5b108",
+      "pattern": "inline-short",
+      "layout": "3 fields + subject checkboxes. Centered narrow column (~240px). Giant 'CONTACT' (~56px) above. 'Select your subject:' with 3 inline checkbox options, then bordered inputs Name, Email, Message (short, ~45px), and a full-width black 'SEND MESSAGE' button.",
+      "type": "Heavy condensed grotesk (Anton / Druk-like) ~56px for the heading; form text sans ~8px; button uppercase ~8px tracked.",
+      "color": "White; black ~#000; input borders ~#dddddd.",
+      "details": [
+        "Topic picked with inline checkboxes instead of a dropdown",
+        "Huge heading vs tiny form: the scale contrast is the design",
+        "Short message box keeps the form compact",
+        "Button full width of the column"
+      ],
+      "why_it_works": "Stark and fast; one bold type move plus a very short form.",
+      "trade_adaptation": "Electrician in a bold industrial style: giant 'CALL (908) 555-0142' or 'GET A QUOTE', topic chips 'Repair / Panel / EV charger / Other', 3 fields Name, Phone, Message.",
+      "mood": ["bold", "minimal", "industrial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:c2a71e9e-7636-4d8e-972d-e5ce0b7743a5",
+      "site": "Square",
+      "url": "https://mobbin.com/sites/sections/c2a71e9e-7636-4d8e-972d-e5ce0b7743a5",
+      "pattern": "card-form",
+      "layout": "9 fields (borrow the layout, not the length). Split background: top ~45% light blue band, bottom white. Left: heading + 3-line subcopy in the band, then a client logo row and an existing-customer link in the white area. Right: white card (~260x500, ~14px radius, 1px border) straddling the band edge, with stacked full-width outlined inputs (~32px) incl. Zip Code and phone with flag, 3 selects, consent checkbox and a full-width blue button.",
+      "type": "Sans; heading ~30px regular; inputs ~10px placeholder; helper text ~8px.",
+      "color": "Band ~#d4ebf7; white; button ~#006aff; input borders ~#8a8a8a.",
+      "details": [
+        "Card straddles the color-band edge: depth without a shadow",
+        "Zip Code asked early",
+        "Helper text under a select explains why it's asked",
+        "Trust block placed under the heading, not under the form"
+      ],
+      "why_it_works": "A robust, reusable structure; the overlapping card anchors the section.",
+      "trade_adaptation": "Brand-color band, card with 4-5 fields: Name, Phone, ZIP, Service (select), 'Anything we should know?'; replace logos with 'Licensed #... / BBB A+ / 4.9★ Google'.",
+      "mood": ["friendly", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:b347b267-90cd-45cd-993c-168c6d8c2903",
+      "site": "User Interviews",
+      "url": "https://mobbin.com/sites/sections/b347b267-90cd-45cd-993c-168c6d8c2903",
+      "pattern": "card-form",
+      "layout": "4 fields + day picker. Left ~40%: outlined card (1px dark green border, ~4px radius, pale fill) titled 'What day is best for you?', with First/Last (2-up), Work Email*, a select, a full-width dark green 'Pick a time' button, then a 5-column day strip ('Tue 2 Jan', 'Wed 3 Jan'... with vertical rules, weekend greyed out, '>' arrow). Right: small icon, 2-line serif heading, 2 lines of body and an underlined bold link.",
+      "type": "Serif (Tiempos-like) for the card title (~13px) and right heading (~24px); labels sans ~8px bold; day strip ~8px.",
+      "color": "White page; deep green ~#2b5e50 for border, button and day text; card fill ~#f4f7f6; text ~#1a1a1a.",
+      "details": [
+        "Inline day strip shows availability without opening a calendar",
+        "Unavailable days greyed rather than hidden",
+        "Serif question as the card title",
+        "Secondary path ('learn more') offered on the right for the undecided"
+      ],
+      "why_it_works": "Showing real availability up front adds urgency and convenience in one move.",
+      "trade_adaptation": "'Pick a day for your free estimate': Name, Phone, Address, then the next 5 weekdays as a strip; tapping a day reveals 'Morning / Afternoon'.",
+      "mood": ["friendly", "editorial"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Trades need 3-5 fields: Name, Phone, ZIP or address, service type, optional message. Most SaaS forms in the results ran 7-11 fields; every extra field must earn its place.",
+    "Put phone, hours, service area and a response-time promise beside the form ('We call back within 1 business hour').",
+    "Say what happens next: a 3-step list ('Tell us / We inspect / Written quote in 48 hrs') or candid microcopy.",
+    "Pick service type with taps (icon tiles, radios, chips), not a dropdown; chips also teach what the business does.",
+    "Commit to one crafted field style (underline-only, borderless tinted, or pill with mono labels); default grey-bordered boxes read generic.",
+    "Button labels state the outcome ('Get my quote', 'Pick a time', 'Send —— Message'), never 'Submit'.",
+    "Show availability (a 5-day strip) to create urgency without fake countdowns.",
+    "A real crew or van photo next to the form beats any illustration."
+  ],
+  "avoid": [
+    "Long B2B qualification forms with job title, company size, 'how did you hear about us' and visible reCAPTCHA boxes (ClassPass, PayPal, Zipline, MindMarket).",
+    "Purple/blue gradient glows and cloud skies behind a floating white card (Framer, Calendly, Air): the most AI-default look.",
+    "Corporate logo walls beside the form; use licenses, reviews and local badges instead.",
+    "Placeholder-only labels that vanish on typing, and grey 'Submit' buttons.",
+    "Slide-in drawer forms and floating chat bubbles (Jeton, Framer FAB) as the only way to make contact.",
+    "A giant 'CONTACT' word with no phone, hours or address anywhere near it.",
+    "'Book a demo' / 'Talk to sales' phrasing carried over from SaaS templates."
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "remodeling",
+  "name": "Remodeling",
+  "noun": "remodeling contractor",
+  "schema_type": "GeneralContractor",
+  "emergency": { "enabled": false, "label": null, "detail": null },
+  "financing": true,
+  "maintenance_plan": { "enabled": false, "name": null, "pitch": null },
+  "hero": {
+    "headlines": [
+      "Kitchens and baths remodeled on a schedule you can plan around.",
+      "One contractor from design to final inspection.",
+      "A fixed price and a written schedule before demo day.",
+      "Remodeling in {{city}} with a weekly update you don't have to chase."
+    ],
+    "subheads": [
+      "We handle design, permits, trades and inspections, with one project lead you can call.",
+      "Your contract lists the scope, the price, the payment schedule and the start and finish dates.",
+      "Kitchens, bathrooms, basements and additions for homes across {{area}}."
+    ],
+    "primary_cta": "Schedule a free consultation",
+    "secondary_cta": "Call {{phone}}"
+  },
+  "services": [
+    {
+      "slug": "bathroom-remodeling",
+      "name": "Bathroom remodeling",
+      "short": "Full bathroom remodels, tub-to-shower conversions and accessible baths.",
+      "long": "We take the bathroom down to the studs when needed, fix what's behind the walls and rebuild with a proper waterproofing system behind the tile. Most full bathroom remodels take three to six weeks once materials are on site.",
+      "bullets": [
+        "Tub-to-shower conversions",
+        "Waterproofing membrane behind all shower tile",
+        "Vanities, tile, lighting and exhaust fans",
+        "Curbless showers and grab bars"
+      ],
+      "icon": "hammer",
+      "emergency": false
+    },
+    {
+      "slug": "kitchen-remodeling",
+      "name": "Kitchen remodeling",
+      "short": "Layout changes, cabinets, counters and lighting, planned and built by one team.",
+      "long": "We start with how you cook and use the room, then plan the layout, cabinets, counters, lighting and appliances. Most kitchen remodels take six to twelve weeks of construction, and we can set up a temporary kitchen so you can still make coffee.",
+      "bullets": [
+        "Design and layout planning",
+        "Cabinets, countertops and backsplash",
+        "Electrical, plumbing and lighting upgrades",
+        "Temporary kitchen setup during the work"
+      ],
+      "icon": "tools",
+      "emergency": false
+    },
+    {
+      "slug": "basement-finishing",
+      "name": "Basement finishing",
+      "short": "Unfinished basements turned into living space, with moisture handled first.",
+      "long": "We check for moisture before we frame anything, because finishing over a damp wall leads to mold. Then we frame, insulate, wire, drywall and finish, with egress windows where a bedroom needs one.",
+      "bullets": [
+        "Moisture check and fixes before framing",
+        "Egress windows for bedrooms",
+        "Bathrooms, wet bars and media rooms",
+        "Permits and inspections at each stage"
+      ],
+      "icon": "window",
+      "emergency": false
+    },
+    {
+      "slug": "aging-in-place",
+      "name": "Accessibility and aging-in-place",
+      "short": "Curbless showers, grab bars, wider doors and first-floor living changes.",
+      "long": "Small changes can let you stay in your home longer: a curbless shower, grab bars anchored to blocking in the wall, wider doorways, better lighting and lever handles. We plan around how you and your family actually move through the house.",
+      "bullets": [
+        "Curbless and walk-in showers",
+        "Grab bars with blocking in the wall",
+        "Wider doorways and ramps",
+        "First-floor bedroom and bath conversions"
+      ],
+      "icon": "shield",
+      "emergency": false
+    },
+    {
+      "slug": "interior-updates",
+      "name": "Flooring and interior updates",
+      "short": "Flooring, trim, doors, built-ins and smaller projects done by the same crew.",
+      "long": "Not every project is a full remodel. We replace flooring, install new trim and doors, build shelves and built-ins and work through the list of smaller jobs that have been waiting.",
+      "bullets": [
+        "Hardwood, luxury vinyl plank and tile flooring",
+        "Trim, baseboards and interior doors",
+        "Built-in shelves and window seats",
+        "Small projects grouped into one visit"
+      ],
+      "icon": "door",
+      "emergency": false
+    },
+    {
+      "slug": "home-additions",
+      "name": "Home additions",
+      "short": "Room additions, second stories and bump-outs, designed to match the house.",
+      "long": "We plan additions with an architect or designer so the roofline, siding and trim match the house. We handle engineering, permits, foundation, framing and finishes, and give you a schedule with milestones. Most additions take three to six months from groundbreaking.",
+      "bullets": [
+        "Family rooms, bedrooms and primary suites",
+        "Bump-outs to enlarge a kitchen or bath",
+        "Second-story additions",
+        "Engineering, permits and inspections handled"
+      ],
+      "icon": "ruler",
+      "emergency": false
+    },
+    {
+      "slug": "whole-home-renovation",
+      "name": "Whole-home renovations",
+      "short": "Full renovations of older homes, phased so the work goes in the right order.",
+      "long": "In a whole-home renovation, the order of work matters: structure, then mechanicals, then insulation, then finishes. We plan the full scope up front, give you a schedule by phase and tell you early if something behind the walls changes the plan.",
+      "bullets": [
+        "Full design and scope before demo",
+        "Electrical, plumbing and HVAC updates",
+        "Insulation and window upgrades",
+        "Change orders in writing before work continues"
+      ],
+      "icon": "home",
+      "emergency": false
+    }
+  ],
+  "process": [
+    { "title": "Consultation", "detail": "We meet at your home, talk through what you want and give you a realistic budget range." },
+    { "title": "Design and fixed price", "detail": "We finalize the plans and selections and give you a written contract with the price and schedule." },
+    { "title": "Build", "detail": "Your project lead runs the trades and inspections and sends you an update every week." },
+    { "title": "Final walk-through", "detail": "We walk the finished space with you, make a punch list and finish every item on it." }
+  ],
+  "trust": {
+    "certifications": [
+      "NARI Certified Remodeler (CR)",
+      "NKBA Certified Kitchen Designer (CKD)",
+      "NAHB Certified Aging-in-Place Specialist (CAPS)",
+      "EPA Lead-Safe Certified Firm",
+      "NARI Certified Kitchen & Bath Remodeler (CKBR)",
+      "NAHB Certified Graduate Remodeler (CGR)"
+    ],
+    "license_label": "Home improvement contractor license #",
+    "guarantees": [
+      "Workmanship warranty: 2 years, in writing",
+      "Fixed price for the agreed scope; any change priced in writing before work",
+      "Weekly progress updates",
+      "Punch list finished before the final payment"
+    ],
+    "badges_hint": "NARI and NKBA credentials, NAHB CAPS for accessibility work, EPA Lead-Safe Certified Firm status for older homes and a visible state contractor license and proof of insurance carry the most weight. BBB accreditation and local home builders association membership are secondary. The certifications listed are examples; keep only the ones the business or its designers hold (NKBA also issues the Certified Bath Designer, CBD)."
+  },
+  "faqs": [
+    {
+      "q": "How much does a kitchen or bathroom remodel cost?",
+      "a": "It depends on size, layout changes and the finishes you choose. National cost surveys put a mid-range bathroom remodel around $25,000, a minor kitchen update around $28,000 and a full mid-range kitchen remodel closer to $80,000. We give you a budget range at the first meeting and a fixed price once the design is set."
+    },
+    {
+      "q": "How long will my remodel take?",
+      "a": "Most full bathrooms take three to six weeks of construction, kitchens six to twelve weeks and additions several months. Design, permits and ordering materials add time up front. We give you a written schedule before we start and update it weekly."
+    },
+    {
+      "q": "Do you pull permits?",
+      "a": "Yes. Work involving structure, electrical, plumbing or HVAC needs permits in most places. We pull them, schedule the inspections and include the cost in your price. Unpermitted work can cause problems with insurance and when you sell."
+    },
+    {
+      "q": "Can we live at home during the remodel?",
+      "a": "Usually, yes. We seal off the work area with dust barriers, keep a clean path through the house and set up a temporary kitchen for kitchen remodels. For whole-home renovations, some families move out for part of the job, and we'll tell you if we think that's worth it."
+    },
+    {
+      "q": "What if you find something behind the walls?",
+      "a": "Older homes sometimes hide rot, old wiring or plumbing that isn't to code. If we find something, we stop, show you and price the fix in writing before going further. We suggest keeping 10 to 15 percent of your budget in reserve for surprises."
+    },
+    {
+      "q": "How do payments work?",
+      "a": "You pay a deposit to get on the schedule, then in stages tied to completed work, like rough-in or cabinet install, with the final payment after the punch list is done. Some states cap how large a deposit can be, and we follow those rules."
+    },
+    {
+      "q": "Do I need to pick everything out before you start?",
+      "a": "As much as possible, yes. Choosing tile, fixtures, cabinets and appliances before demo keeps the job from stalling while something is on backorder. We help you narrow the choices and give you a selections list with deadlines."
+    },
+    {
+      "q": "Who does the electrical and plumbing work?",
+      "a": "Licensed electricians, plumbers and HVAC technicians handle those parts of the job, whether they're on our payroll or long-time trade partners. Your project lead schedules and checks every trade, and you deal with one company the whole way."
+    }
+  ],
+  "quote_form": {
+    "title": "Schedule a free consultation",
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "phone", "label": "Phone", "type": "tel", "required": true },
+      {
+        "name": "project",
+        "label": "What are you planning?",
+        "type": "select",
+        "options": ["Bathroom", "Kitchen", "Basement", "Addition", "Accessibility changes", "Something else"],
+        "required": true
+      },
+      {
+        "name": "timeline",
+        "label": "When do you want to start?",
+        "type": "select",
+        "options": ["In the next 3 months", "3 to 6 months", "6 to 12 months", "Just planning"],
+        "required": false
+      },
+      { "name": "zip", "label": "ZIP code", "type": "text", "required": false },
+      { "name": "details", "label": "Anything we should know?", "type": "textarea", "required": false }
+    ],
+    "promise": "We call back within 1 business day to set up a visit."
+  },
+  "seasonal": [
+    "Winter design and planning for spring projects",
+    "Kitchens finished before the holidays (start by late summer)",
+    "Basement finishing in fall and winter"
+  ],
+  "about_default": "{{name}} has remodeled homes in {{city}} for {{years}} years. We handle design, permits and every trade, put the price and schedule in writing and keep one project lead on your job from start to finish.",
+  "photo_subjects": {
+    "hero": "A finished kitchen with an island and pendant lights in natural daylight, lived-in but tidy",
+    "work": [
+      "Curbless walk-in shower with a tile niche and grab bar",
+      "Kitchen mid-remodel with new cabinets going in",
+      "Finished basement family room with an egress window",
+      "Addition framing tied into the existing roofline",
+      "Before and after of a dated bathroom",
+      "Dust barrier and floor protection set up in a hallway"
+    ],
+    "team": "Project lead and carpenters reviewing plans at a kitchen island on a job site"
+  },
+  "keywords": [
+    "home remodeling {{city}}",
+    "kitchen remodeling {{city}}",
+    "bathroom remodeling {{city}}",
+    "basement finishing {{city}}",
+    "home additions {{city}}",
+    "general contractor {{city}}",
+    "tub to shower conversion {{city}}",
+    "aging in place remodeling {{city}}",
+    "whole home renovation {{city}}",
+    "remodeling contractor {{area}}"
+  ],
+  "palette_hint": "Warm white, natural wood tones and a dark charcoal or deep green accent."
+}

@@ -1,0 +1,212 @@
+{
+  "section": "announcement-banner",
+  "description": "Top-of-page strips and mid-page promo bars. For a trade business they carry storm or emergency notices, seasonal offers (tune-up specials), financing, new locations or hiring, without looking like an ad or breaking the header.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "announcement bar at top of website",
+    "promo banner with limited time discount offer",
+    "alert notice banner for urgent service update",
+    "real estate hero section",
+    "home services company navigation header"
+  ],
+  "references": [
+    {
+      "id": "mobbin:19d48f9c-20f5-4d4e-84a8-a0abfcf2133c",
+      "site": "Samara",
+      "url": "https://mobbin.com/sites/sections/19d48f9c-20f5-4d4e-84a8-a0abfcf2133c",
+      "pattern": "dark-alert-band",
+      "layout": "A black band (~64px tall) directly under a black nav, so the two read as one header block. One centered line of text with a red-orange rounded button inline to its right. The hero photo starts immediately below.",
+      "type": "Neo-grotesk light, ~18px, white, sentence case: 'Support for homeowners in fire-affected Southern California communities'. Button label sans ~12px.",
+      "color": "Black ~#000000, white text, CTA ~#FF4A1C (the only red on the page).",
+      "details": [
+        "Same color as the nav, so it extends the header instead of sitting on it like a sticker",
+        "Calm, specific wording about a crisis, no exclamation marks",
+        "A taller band than a typical strip gives it the weight of a real notice"
+      ],
+      "why_it_works": "It gives an emergency or community message gravity without an alarm-red full bar, and stays on-brand.",
+      "trade_adaptation": "Roofer or restoration company after a storm: 'Storm damage in Linn County? Emergency tarping crews are available now.' [Get help today]. Shown only while active.",
+      "mood": ["premium", "bold"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:0f2a25b1-dca4-4384-85a9-497d3f164544",
+      "site": "Seed",
+      "url": "https://mobbin.com/sites/sections/0f2a25b1-dca4-4384-85a9-497d3f164544",
+      "pattern": "promo-bar",
+      "layout": "A thin full-width bar (~22px) with one centered line: event name, a small inline brand glyph, then the offer. The nav and hero sit below on off-white.",
+      "type": "Sans ~11px. Event name regular, offer bold ('The New Year's Sale ● Save up to 40%').",
+      "color": "Pale chartreuse ~#DDF5A0, dark green ink ~#173A1E. The tint matches the brand's green accent.",
+      "details": [
+        "Bold is used only on the number",
+        "An inline brand glyph acts as the separator instead of a pipe or dash",
+        "The light tint reads as friendly, not as an ad"
+      ],
+      "why_it_works": "Soft color, one fact in bold and no button. It informs without fighting the hero.",
+      "trade_adaptation": "HVAC: 'Fall furnace tune-up ● $89 through Oct 31' on a pale tint of the brand color, with the whole bar linking to booking.",
+      "mood": ["friendly", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:d56c79d5-584b-415c-8e27-316448eccb2f",
+      "site": "Glossier",
+      "url": "https://mobbin.com/sites/sections/d56c79d5-584b-415c-8e27-316448eccb2f",
+      "pattern": "rotating-bar",
+      "layout": "A thin electric-blue bar (~16px). The message is left-aligned ('Free standard shipping on orders $40+'). On the right are tiny ‹ › arrows and a ⏸ pause control for the rotating messages.",
+      "type": "Sans ~10-11px white, sentence case.",
+      "color": "Electric blue ~#1B1BF5, white type.",
+      "details": [
+        "Rotation has accessible manual controls, including pause",
+        "Left alignment matches the nav grid instead of floating centered",
+        "Very short copy (under 40 characters)"
+      ],
+      "why_it_works": "It lets a business rotate three useful facts in one slim strip and stays accessible.",
+      "trade_adaptation": "Rotate: 'Financing from $0 down' / '24/7 emergency line (555) 012-3456' / 'Now booking spring cleanups', in the brand's strongest color.",
+      "mood": ["bold", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:44aa1c9b-dff8-4512-aecc-749e8bcb8706",
+      "site": "Rivian",
+      "url": "https://mobbin.com/sites/sections/44aa1c9b-dff8-4512-aecc-749e8bcb8706",
+      "pattern": "quiet-text-bar",
+      "layout": "A beige bar (~22px) with tiny centered text ending in an underlined link. A transparent nav floats over the full-bleed photo hero below.",
+      "type": "Sans ~10px, ink. The link is underlined, not a button ('Get updates from Rivian.').",
+      "color": "Beige ~#E8E3D3, ink ~#222222. The tone matches the dusty landscape photo.",
+      "details": [
+        "The bar color is pulled from the hero photo palette",
+        "The link is an underline, not a button",
+        "It asks a question first ('Want to see what we're up to?')"
+      ],
+      "why_it_works": "Low-key and harmonious. It never competes with a strong photo hero.",
+      "trade_adaptation": "'Now scheduling winter roof inspections. Book a slot.' in a sand tone that matches a warm exterior photo.",
+      "mood": ["minimal", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:20db4fde-5843-481a-9907-f12cd851e211",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/20db4fde-5843-481a-9907-f12cd851e211",
+      "pattern": "three-slot-bar",
+      "layout": "A yellow bar (~22px) split into three slots on the nav grid: brand tagline left ('Transforming Spaces, Driving Growth'), a priced offer centered ('Subscription solutions for offices, from 49kr/m²'), language selector right.",
+      "type": "Sans ~10px, dark ink. Uses a real superscript for m².",
+      "color": "Yellow ~#FFE000, ink ~#111111.",
+      "details": [
+        "Three slots give credibility, offer and utility a fixed place each",
+        "The price is in the middle, so the eye lands on it",
+        "Strong brand color, used nowhere else in large areas"
+      ],
+      "why_it_works": "It uses the strip as information architecture instead of a single shout.",
+      "trade_adaptation": "Left 'Family-owned since 1976', center 'Water heater installs from $1,199', right '(555) 012-3456' as a tap-to-call link.",
+      "mood": ["industrial", "bold"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:13d9a28c-126f-4364-acaa-7cdb47e77a7b",
+      "site": "Hex",
+      "url": "https://mobbin.com/sites/sections/13d9a28c-126f-4364-acaa-7cdb47e77a7b",
+      "pattern": "ticker-bar",
+      "layout": "A thin bar (~18px) with several short announcements scrolling horizontally, each ending in → and separated by small emoji. It sits above a nav on a light pink dotted-grid background.",
+      "type": "Monospace ~10px, sentence case.",
+      "color": "Very light blush ~#F7EEEE background, ink ~#2A2A2A.",
+      "details": [
+        "Multiple updates without a carousel UI",
+        "Monospace gives it a teletype or news-wire feel",
+        "Each item is a link with its own arrow"
+      ],
+      "why_it_works": "It fits several small items of news (hiring, reviews, new area) into one quiet strip with personality.",
+      "trade_adaptation": "'Now hiring apprentices → · 4.9★ on Google (412 reviews) → · Now serving Round Rock →' in mono on a pale brand tint. Pause on hover.",
+      "mood": ["technical", "playful"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:5092c090-266f-4bce-b5f5-1475a6ba3d29",
+      "site": "Calendly",
+      "url": "https://mobbin.com/sites/sections/5092c090-266f-4bce-b5f5-1475a6ba3d29",
+      "pattern": "dismissible-bar",
+      "layout": "A pale blue bar (~22px) with centered content: megaphone icon, one sentence, and a small white 'Learn more →' pill. A × close sits at the far right.",
+      "type": "Sans medium ~11px, navy.",
+      "color": "Pale blue ~#D6E9FF, navy ~#0B2A4A, white pill with a hairline border.",
+      "details": [
+        "Close affordance for non-critical news",
+        "A small icon frames it as an announcement",
+        "The pill CTA is visually lighter than the main nav CTA"
+      ],
+      "why_it_works": "Polite, clear and closable. It sets the template for non-urgent news.",
+      "trade_adaptation": "'📣 We've moved to a bigger shop on Main St. [See hours →] ×', with the dismissal remembered in localStorage.",
+      "mood": ["friendly", "minimal"],
+      "quality": 3
+    },
+    {
+      "id": "mobbin:4601c00d-bea6-485e-b1fe-26815103c200",
+      "site": "The New Yorker",
+      "url": "https://mobbin.com/sites/sections/4601c00d-bea6-485e-b1fe-26815103c200",
+      "pattern": "inset-promo-card",
+      "layout": "A horizontal inset card (~600×70) within the content width. Left: a mascot illustration holding a '100' sign. Center: serif headline 'Unlimited Access', then an offer line with a struck-through old price and the new price in bold, and a gift line. Right: wordmark, black 'Subscribe' button, and tiny 'Cancel or pause anytime.' underneath.",
+      "type": "Serif headline ~18px. Sans body ~11px. The old price uses strikethrough ('$2.50' → '$1 a week').",
+      "color": "Cream ~#F6EFD9, black ink and button, illustration in black line with a red accent.",
+      "details": [
+        "Strikethrough price makes the deal concrete",
+        "Reassurance microcopy under the button",
+        "The illustration gives it a print-ad charm"
+      ],
+      "why_it_works": "It feels like a crafted print ad, not a web banner, and the price mechanics are persuasive.",
+      "trade_adaptation": "Mid-page: 'Gutter guard install: ~~$1,400~~ $1,050 this month, plus a free cleaning.' [Claim offer] / 'No deposit needed.' with a line drawing of a house gutter.",
+      "mood": ["editorial", "warm", "rustic"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:1dd966ac-1014-494e-b413-3bf276e9e462",
+      "site": "incident.io",
+      "url": "https://mobbin.com/sites/sections/1dd966ac-1014-494e-b413-3bf276e9e462",
+      "pattern": "inset-promo-card",
+      "layout": "A wide rounded (~8px) band (~100px tall) inside the content width. Left: a small white tag chip ('SEV0'), a serif headline and an orange text link with an arrow. Right: four photos with rounded corners, tilted and fanned, overlapping each other and breaking out above the top edge of the band.",
+      "type": "Serif regular ~22px white. Link sans ~12px. Tag chip mono/sans caps ~9px.",
+      "color": "Oxblood ~#5C0E17, white type, orange link ~#FF6A3D.",
+      "details": [
+        "Photos break the container edge, which adds depth",
+        "Tag chip names the event or offer like a label",
+        "A text link instead of a button keeps it editorial"
+      ],
+      "why_it_works": "A promo band that feels like a magazine insert. The fanned photos add life without clutter.",
+      "trade_adaptation": "'SPRING EVENT · Free AC check with any service →' on a deep brand color, with fanned photos of real jobs and techs.",
+      "mood": ["bold", "editorial", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:1a9b76b3-bdeb-4a73-89a3-85218ef59f90",
+      "site": "re_",
+      "url": "https://mobbin.com/sites/sections/1a9b76b3-bdeb-4a73-89a3-85218ef59f90",
+      "pattern": "promo-split",
+      "layout": "Off-white section. Left: a tall stadium/oval photo mask (~300×540) of a canvas tote on a picnic blanket outdoors. Right: a centered serif headline '20% Off Reusables', a 3-line body, and an outlined pill 'Shop Sale'.",
+      "type": "Display serif (soft, Recoleta/Tiempos feel) ~32px. Sans body ~12px. All type is one accent color.",
+      "color": "Off-white ~#F7F5F0, red-orange ~#E8462B for every piece of type and the pill outline, natural photo greens and canvas.",
+      "details": [
+        "Monochrome typography in a single accent color",
+        "The oval photo mask echoes the pill button shape",
+        "The discount is the headline, stated plainly"
+      ],
+      "why_it_works": "A sale that looks editorial instead of like a coupon. Shape and color discipline make it feel premium.",
+      "trade_adaptation": "Painter: '15% off exterior painting' beside an oval photo of a freshly painted porch, with 'Book by May 1' and an outlined 'Get a quote' pill.",
+      "mood": ["warm", "editorial", "premium"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Make the strip part of the header. Match the nav color (Samara) or use a muted tint pulled from the photo or brand (Rivian, Seed), not an unrelated bright.",
+    "One message, one link, under ~70 characters. Use an underlined link or a small pill; a full button is only for real emergencies.",
+    "Bold only the number or offer ('Save up to 40%', '$89').",
+    "Emergency or storm notices: use a taller dark band with calm, specific wording and one clear action. Don't shout in red caps.",
+    "Rotate or ticker only when there are 3+ genuinely useful messages, and give a pause control.",
+    "Mid-page promos should feel like print ads: strikethrough price, reassurance microcopy, an illustration or shaped photo, monochrome type in the accent color.",
+    "Non-critical news should be dismissible and remember that it was dismissed."
+  ],
+  "avoid": [
+    "Fake OS warning dialogs and 'Claim Deal' pop-ups over synthwave graphics (beehiiv).",
+    "'LIMITED TIME OFFER!' in heavy caps with gimmick props (UGLYCASH CRT TV).",
+    "Sale banners on noisy multicolor gradients with huge '30% OFF' (SOTF).",
+    "Newsletter signup bands dressed up as announcements (Linear, PayPal 'Stay up to date', Dropbox 'Stay informed').",
+    "Countdown timers, flashing badges or fake scarcity. They read as untrustworthy for a local trade.",
+    "Gray utility strips crammed with icon + phone + email + hours + social icons all at 10px."
+  ]
+}

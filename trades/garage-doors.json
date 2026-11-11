@@ -1,0 +1,236 @@
+{
+  "id": "garage-doors",
+  "name": "Garage Doors",
+  "noun": "garage door technician",
+  "schema_type": "HomeAndConstructionBusiness",
+  "emergency": {
+    "enabled": true,
+    "label": "Door stuck or a spring just snapped?",
+    "detail": "Don't force the door or keep pressing the opener. We send a technician across {{area}}, same day in most cases."
+  },
+  "financing": true,
+  "maintenance_plan": {
+    "enabled": true,
+    "name": "Annual door tune-up",
+    "pitch": "Once a year we lubricate the moving parts, test the spring balance and safety reverse, tighten hardware and check the cables and rollers. Worn rollers, fraying cables and a door that's out of balance usually show up at a tune-up before they leave you stuck."
+  },
+  "hero": {
+    "headlines": [
+      "Broken spring? Most are replaced the same day you call.",
+      "Garage door repair priced at the door, before we start.",
+      "New garage doors and openers, installed in a day.",
+      "Garage door service in {{city}}, with the parts already on the truck."
+    ],
+    "subheads": [
+      "Springs, cables, rollers and openers for homes across {{area}}, with a written price before any work.",
+      "Most repairs are done in one visit because we carry common springs and parts on the truck.",
+      "New doors measured, ordered and installed in about a day, with the old door hauled away."
+    ],
+    "primary_cta": "Book a repair",
+    "secondary_cta": "Call {{phone}}"
+  },
+  "services": [
+    {
+      "slug": "spring-repair",
+      "name": "Broken spring repair",
+      "short": "Torsion and extension springs replaced and matched to your door's weight.",
+      "long": "A broken spring is the most common reason a garage door won't open, and it's not a do-it-yourself job because the springs hold a lot of tension. We match the new springs to the door's weight and usually replace both, since the second one is close behind.",
+      "bullets": [
+        "Torsion and extension springs",
+        "High-cycle springs that last longer",
+        "Door balanced and tested after install",
+        "Cables and bearings checked at the same visit"
+      ],
+      "icon": "door",
+      "emergency": true
+    },
+    {
+      "slug": "opener-repair",
+      "name": "Opener repair",
+      "short": "Openers that hum, grind, reverse or won't respond, diagnosed and fixed.",
+      "long": "Before replacing an opener, we check the usual causes: misaligned safety sensors, stripped gears, a worn trolley, a bad logic board or a door that's too heavy because of a weak spring. Many of these are a quick fix.",
+      "bullets": [
+        "Safety sensor alignment and replacement",
+        "Gear, sprocket and trolley repair",
+        "Remote and keypad programming",
+        "All major opener brands"
+      ],
+      "icon": "bolt",
+      "emergency": false
+    },
+    {
+      "slug": "off-track-repair",
+      "name": "Cables, rollers and off-track doors",
+      "short": "Off-track doors, frayed cables and worn rollers repaired safely.",
+      "long": "A door that's crooked or off its track can fall, so leave it where it is and call us. We set the door back on the track, replace bent track sections, frayed cables and worn rollers, and get it running straight.",
+      "bullets": [
+        "Off-track door reset",
+        "Cable and drum replacement",
+        "Nylon roller upgrades for quieter operation",
+        "Bent track and hinge replacement"
+      ],
+      "icon": "tools",
+      "emergency": true
+    },
+    {
+      "slug": "opener-installation",
+      "name": "New garage door openers",
+      "short": "Chain, belt and wall-mount openers, with app control and battery backup.",
+      "long": "Chain drives are the budget choice, belt drives are quieter, and wall-mount openers suit garages with high or crowded ceilings. We can add app control, battery backup and a keypad, and we set the force and travel limits so the safety reverse works the way it should.",
+      "bullets": [
+        "Chain, belt and wall-mount openers",
+        "Wi-Fi and app control",
+        "Battery backup, required on new installs in some states",
+        "Keypads and remotes programmed"
+      ],
+      "icon": "plug",
+      "emergency": false
+    },
+    {
+      "slug": "new-garage-doors",
+      "name": "New garage doors",
+      "short": "Steel, insulated, wood-look and carriage-style doors, measured and installed in a day.",
+      "long": "We measure the opening, help you choose a style and insulation level and install the new door with new springs, tracks and weatherstripping. Ordered doors usually arrive in one to four weeks, installation takes half a day to a day, and we haul the old door away.",
+      "bullets": [
+        "Insulated steel doors with R-values listed",
+        "Carriage-house and wood-look styles",
+        "Window and decorative hardware options",
+        "Old door removal and disposal included"
+      ],
+      "icon": "home",
+      "emergency": false
+    },
+    {
+      "slug": "tune-ups",
+      "name": "Tune-ups and safety inspections",
+      "short": "Lubrication, balance test and safety reverse check for a quieter, safer door.",
+      "long": "We lubricate hinges, rollers and springs, tighten hardware, test the door's balance and check that the safety reverse and photo eyes work. You get a short list of anything that's wearing out.",
+      "bullets": [
+        "Lubrication of moving parts",
+        "Spring balance test",
+        "Safety reverse and photo eye test",
+        "Hardware tightened and weatherstripping checked"
+      ],
+      "icon": "check",
+      "emergency": false
+    },
+    {
+      "slug": "commercial-doors",
+      "name": "Commercial doors",
+      "short": "Rolling steel and sectional doors for shops, warehouses and storage buildings.",
+      "long": "We repair and install sectional and rolling steel doors and commercial operators for small businesses, shops and warehouses. Service calls are scheduled around your business hours.",
+      "bullets": [
+        "Rolling steel and sectional doors",
+        "Commercial operators and controls",
+        "Annual fire door drop testing where required",
+        "Scheduled maintenance visits"
+      ],
+      "icon": "key",
+      "emergency": false
+    }
+  ],
+  "process": [
+    { "title": "Call or book", "detail": "Tell us what the door is doing and we'll give you an arrival window." },
+    { "title": "Inspect and price", "detail": "The technician checks the whole door system and gives you a written price before starting." },
+    { "title": "Repair", "detail": "Most repairs are done the same visit with parts from the truck." },
+    { "title": "Test", "detail": "We balance the door, test the safety reverse and show you everything works." }
+  ],
+  "trust": {
+    "certifications": [
+      "IDEA Accredited Dealer",
+      "IDEA Certified Technician",
+      "IDA Member",
+      "Clopay Authorized Dealer",
+      "LiftMaster Authorized Dealer"
+    ],
+    "license_label": "Contractor license #",
+    "guarantees": [
+      "Written price before work starts",
+      "Repairs: 1-year parts and labor warranty",
+      "New doors and openers: manufacturer warranty plus our installation warranty",
+      "Safety reverse tested on every visit"
+    ],
+    "badges_hint": "IDEA accreditation and technician certification are the industry's own credentials, and IDA membership signals a dealer that has agreed to its code of ethics. Authorized dealer status with door and opener brands, BBB accreditation and a visible contractor license (where the state requires one) also help. Homeowners in this trade are wary of bait-and-switch pricing, so a clear written price matters as much as any badge. The certifications listed are examples (IDEA is the Institute of Door Dealer Education and Accreditation, IDA the International Door Association); keep only the ones the business holds and swap in its actual door and opener brands."
+  },
+  "faqs": [
+    {
+      "q": "How much does garage door repair cost?",
+      "a": "Spring replacement usually runs $150 to $350 for most residential doors, and cable, roller or off-track repairs often fall in a similar range. A new opener usually runs $350 to $900 installed. New doors start around $1,000 for a basic single door and go up with size, insulation and style. We give you a written price before we start."
+    },
+    {
+      "q": "Can I replace a garage door spring myself?",
+      "a": "We don't recommend it. Torsion springs hold enough tension to lift a door that can weigh a few hundred pounds, and they cause serious injuries every year when they're released the wrong way. Leave the door closed and call a pro."
+    },
+    {
+      "q": "Should I replace both springs if only one broke?",
+      "a": "Usually, yes. Springs on a two-spring door went in at the same time and have the same number of cycles on them, so the second one tends to break soon after. Replacing both at once saves you a second service call."
+    },
+    {
+      "q": "How long do garage door springs last?",
+      "a": "Standard springs are rated for about 10,000 open-and-close cycles, which is roughly 7 to 10 years for a door used a few times a day. High-cycle springs last longer and cost a bit more up front."
+    },
+    {
+      "q": "My door starts to close, then goes back up. What's wrong?",
+      "a": "Usually the safety sensors (the small photo eyes near the floor) are blocked, dirty or knocked out of line. Wipe the lenses, make sure both indicator lights are steady and nothing is in the way. If that doesn't fix it, the opener's force or travel settings may need adjusting."
+    },
+    {
+      "q": "My car is stuck inside. What should I do?",
+      "a": "If a spring is broken, don't keep running the opener, since that can damage it or pull the door off track. Only pull the red emergency release when the door is fully closed, and expect the door to be very heavy without a working spring. If you can't lift it safely, call us."
+    },
+    {
+      "q": "How long does a new garage door take?",
+      "a": "Most doors are ordered to size and arrive in one to four weeks. Installation itself usually takes half a day to a full day, including removing the old door."
+    },
+    {
+      "q": "Do you work on all brands?",
+      "a": "Yes. We service doors and openers from all major brands, including LiftMaster, Chamberlain, Genie, Clopay, Amarr and Wayne Dalton."
+    }
+  ],
+  "quote_form": {
+    "title": "Get a garage door repair price",
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "phone", "label": "Phone", "type": "tel", "required": true },
+      {
+        "name": "issue",
+        "label": "What's going on?",
+        "type": "select",
+        "options": ["Broken spring", "Opener not working", "Door off track", "New door", "New opener", "Something else"],
+        "required": true
+      },
+      { "name": "zip", "label": "ZIP code", "type": "text", "required": false },
+      { "name": "details", "label": "Anything we should know?", "type": "textarea", "required": false }
+    ],
+    "promise": "We call back within 1 business hour. For a stuck door, call {{phone}}."
+  },
+  "seasonal": [
+    "Winter spring repairs, when cold weather adds strain",
+    "Fall tune-ups and new weatherstripping before winter",
+    "Spring door replacements for curb appeal before listing a home"
+  ],
+  "about_default": "{{name}} has repaired and installed garage doors in {{city}} for {{years}} years. We give you a written price before any work, carry common springs and parts on the truck and test the safety reverse on every door we touch.",
+  "photo_subjects": {
+    "hero": "A new carriage-style door on a two-car garage, closed, in front of a well-kept house in late afternoon light",
+    "work": [
+      "Technician winding a new torsion spring with winding bars",
+      "Before and after of a dented door replaced with an insulated one",
+      "Belt-drive opener mounted to a garage ceiling",
+      "Safety photo eye being aligned near the floor",
+      "Commercial rolling steel door at a loading bay"
+    ],
+    "team": "Technicians beside a service van with springs and parts racked inside"
+  },
+  "keywords": [
+    "garage door repair {{city}}",
+    "garage door spring replacement {{city}}",
+    "garage door opener repair {{city}}",
+    "new garage door {{city}}",
+    "garage door installation {{city}}",
+    "garage door off track {{city}}",
+    "emergency garage door repair {{city}}",
+    "garage door opener installation {{city}}",
+    "commercial garage door repair {{city}}",
+    "garage door company {{area}}"
+  ],
+  "palette_hint": "Steel gray and white with a strong red or blue accent."
+}

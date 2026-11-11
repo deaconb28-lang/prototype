@@ -1,0 +1,22 @@
+{
+  "style": "field-guide",
+  "business": {
+    "name": "Cedar Hollow Landscapes",
+    "trade": "landscaping",
+    "city": "Asheville",
+    "region": "NC",
+    "areas": [
+      "Asheville",
+      "Weaverville",
+      "Black Mountain",
+      "Fletcher",
+      "Arden",
+      "Candler"
+    ],
+    "phone": "(828) 555-0151",
+    "hours": "Mon to Fri 7am to 5pm"
+  },
+  "copy": {
+    "heroHeadline": "Yards built for *mountain weather*, and kept that way."
+  }
+}

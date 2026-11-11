@@ -1,0 +1,20 @@
+{
+  "name": "prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Claude Code toolkit for beautiful small-business websites: a reference library, 10 styles x 10 trade packs, /prototype and /deslopify.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "status": "node scripts/status.mjs",
+    "build": "node engine/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "examples": "node scripts/build-examples.mjs",
+    "audit": "node deslop/audit.mjs",
+    "shots": "node scripts/screenshot.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "style": "nocturne-premium",
+  "business": {
+    "name": "Ashgrove Build Co.",
+    "trade": "remodeling",
+    "city": "Scottsdale",
+    "region": "AZ",
+    "areas": [
+      "Scottsdale",
+      "Paradise Valley",
+      "Phoenix",
+      "Tempe",
+      "Fountain Hills",
+      "Cave Creek"
+    ],
+    "phone": "(480) 555-0192",
+    "hours": "By appointment, Mon to Fri"
+  },
+  "copy": {
+    "heroHeadline": "Kitchens and baths, built *quietly* and on schedule."
+  }
+}

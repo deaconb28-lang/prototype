@@ -1,0 +1,236 @@
+{
+  "id": "pest-control",
+  "name": "Pest Control",
+  "noun": "pest control technician",
+  "schema_type": "HomeAndConstructionBusiness",
+  "emergency": {
+    "enabled": true,
+    "label": "Wasps by the door or mice in the kitchen?",
+    "detail": "Same-day visits are often available across {{area}} for stinging insects and rodents."
+  },
+  "financing": false,
+  "maintenance_plan": {
+    "enabled": true,
+    "name": "Year-round pest plan",
+    "pitch": "Quarterly exterior treatments with an inspection every visit, and free return trips if pests show up between visits. Covers ants, spiders, roaches, crickets and other common invaders."
+  },
+  "hero": {
+    "headlines": [
+      "Pests out, and a plan to keep them out.",
+      "We find how they're getting in, not just where they are.",
+      "Pest control in {{city}} that's careful around kids and pets.",
+      "Termite inspections and treatment from licensed technicians."
+    ],
+    "subheads": [
+      "Licensed technicians who inspect first, treat what they find and seal the gaps pests use to get in.",
+      "Quarterly plans with free return visits between treatments if pests come back.",
+      "We tell you what we're applying, where and how long to keep kids and pets off treated areas."
+    ],
+    "primary_cta": "Book an inspection",
+    "secondary_cta": "Call {{phone}}"
+  },
+  "services": [
+    {
+      "slug": "general-pest",
+      "name": "General pest control",
+      "short": "Ants, spiders, roaches, silverfish and crickets, treated inside and out.",
+      "long": "We inspect the house for entry points and nesting areas, treat the foundation, eaves and entry points outside, and treat inside only where we find activity. Most customers go on a quarterly plan so the barrier stays in place all year.",
+      "bullets": [
+        "Exterior perimeter treatment",
+        "Interior spot treatments where needed",
+        "Web and nest removal from eaves",
+        "Free return visits between scheduled treatments"
+      ],
+      "icon": "bug",
+      "emergency": false
+    },
+    {
+      "slug": "rodents",
+      "name": "Rodent control",
+      "short": "Mice and rats trapped, removed and sealed out of the house.",
+      "long": "Traps take care of the mice and rats inside, but more will follow unless the gaps are closed. A mouse can squeeze through an opening about a quarter inch wide, so we check around pipes, vents, garage doors and the foundation, seal openings with metal mesh and sealant, and come back to check the traps.",
+      "bullets": [
+        "Inspection for entry points and droppings",
+        "Snap traps and tamper-resistant bait stations",
+        "Exclusion work with metal mesh and sealant",
+        "Follow-up visits to check and clear traps"
+      ],
+      "icon": "home",
+      "emergency": true
+    },
+    {
+      "slug": "stinging-insects",
+      "name": "Wasps, hornets and bees",
+      "short": "Wasp, hornet and yellow jacket nests removed from eaves, decks and the ground.",
+      "long": "Yellow jackets and hornets defend their nests hard, especially in late summer. We treat and remove nests safely, including ones inside walls and in the ground. Honey bee swarms go to a local beekeeper whenever they can be relocated.",
+      "bullets": [
+        "Paper wasp and hornet nest removal",
+        "Ground and wall yellow jacket nests",
+        "Honey bee referrals to local beekeepers",
+        "Same-day visits when a nest is near a door"
+      ],
+      "icon": "spray",
+      "emergency": true
+    },
+    {
+      "slug": "termites",
+      "name": "Termite treatment",
+      "short": "Termite inspections, liquid treatments and bait systems with renewable warranties.",
+      "long": "Subterranean termites can do damage for years before anyone sees it. We inspect the foundation, crawlspace and wood near the soil for mud tubes and damage, then recommend a liquid treatment, a bait system or both, backed by a warranty you can renew each year.",
+      "bullets": [
+        "Full-home termite inspection",
+        "Liquid soil treatment around the foundation",
+        "Bait station installation and monitoring",
+        "Annual renewable warranty"
+      ],
+      "icon": "shield",
+      "emergency": false
+    },
+    {
+      "slug": "mosquitoes",
+      "name": "Mosquito and tick control",
+      "short": "Yard treatments every few weeks from spring through fall.",
+      "long": "We treat the shady, damp places where mosquitoes rest (shrubs, under decks, along fences) and dump or treat standing water where they breed. Most programs run every 3 to 4 weeks during mosquito season.",
+      "bullets": [
+        "Barrier treatments on foliage and resting areas",
+        "Standing water checks and larvicide",
+        "Tick treatment along wood lines and tall grass",
+        "One-time treatments before outdoor events"
+      ],
+      "icon": "leaf",
+      "emergency": false
+    },
+    {
+      "slug": "bed-bugs",
+      "name": "Bed bug treatment",
+      "short": "Heat or product treatment, with a follow-up inspection to confirm they're gone.",
+      "long": "Bed bugs hide in mattress seams, furniture joints and wall gaps, so treatment has to be thorough. We confirm it's bed bugs, treat with heat, products or both, and come back to check. You get a prep checklist before the visit, because how the room is prepared matters.",
+      "bullets": [
+        "Inspection and identification",
+        "Whole-room heat treatment or targeted products",
+        "Prep checklist before treatment",
+        "Follow-up inspection included"
+      ],
+      "icon": "thermometer",
+      "emergency": false
+    },
+    {
+      "slug": "wdi-inspections",
+      "name": "Termite inspections for home sales",
+      "short": "Wood-destroying insect reports for buyers, sellers and lenders.",
+      "long": "Many lenders and buyers need a wood-destroying insect (WDI) report before closing. We inspect the home, fill out the standard form used in your state and send it to you, your agent and the lender, usually within a day of the inspection.",
+      "bullets": [
+        "NPMA-33 or your state's required WDI form",
+        "Report sent to agents and lenders",
+        "Scheduling built around closing deadlines",
+        "Treatment quote if we find activity"
+      ],
+      "icon": "check",
+      "emergency": false
+    }
+  ],
+  "process": [
+    { "title": "Inspect", "detail": "A licensed technician checks inside and out to find what you have and how it's getting in." },
+    { "title": "Treat", "detail": "We treat the problem areas and tell you what we used and how long to keep kids and pets away." },
+    { "title": "Seal and prevent", "detail": "We seal or point out entry points and the conditions that draw pests in." },
+    { "title": "Follow up", "detail": "We come back on schedule, and in between if the pests do." }
+  ],
+  "trust": {
+    "certifications": [
+      "NPMA QualityPro Certified",
+      "NPMA GreenPro Certified",
+      "NPMA Member",
+      "State Certified Pesticide Applicator",
+      "Board Certified Entomologist (ESA)"
+    ],
+    "license_label": "State pest control license #",
+    "guarantees": [
+      "Free return visits between scheduled treatments",
+      "Termite warranties renewable year to year",
+      "If pests come back within 30 days of a one-time treatment, we retreat at no charge",
+      "We tell you every product we apply"
+    ],
+    "badges_hint": "A state pest control license and certified applicator credentials are required, so show the license number. QualityPro and GreenPro from NPMA are the main voluntary credentials homeowners can look up. NPMA and state association membership and BBB accreditation also help. The certifications listed are examples (NPMA is the National Pest Management Association, ESA the Entomological Society of America); keep only the ones the business holds."
+  },
+  "faqs": [
+    {
+      "q": "Are the treatments safe for my kids and pets?",
+      "a": "We use EPA-registered products and apply them according to the label, which is the law. For most exterior treatments, keep kids and pets off treated areas until they dry, usually an hour or two. Before we leave, we tell you what we used and any steps to take."
+    },
+    {
+      "q": "How much does pest control cost?",
+      "a": "The first visit usually costs more than follow-ups because it includes a full inspection and a heavier treatment. Ongoing quarterly service for an average home commonly runs $100 to $300 per visit. Termites, bed bugs and rodent exclusion are priced by the job after we inspect."
+    },
+    {
+      "q": "Why quarterly service instead of one treatment?",
+      "a": "Exterior treatments break down over a few months from sun and rain, and new pests keep arriving from outside. Quarterly visits keep the barrier in place. For a one-time problem, like a single wasp nest, a one-time visit is fine."
+    },
+    {
+      "q": "Do I need to leave the house during treatment?",
+      "a": "For most general pest treatments, no. For bed bug heat treatments and some flea or roach treatments, you'll need to be out for a few hours, and we'll tell you ahead of time."
+    },
+    {
+      "q": "How do I know if I have termites?",
+      "a": "Look for mud tubes on the foundation, piles of discarded wings near windows in spring, wood that sounds hollow or paint that bubbles. Many homes show no signs until the damage turns up during a repair. An annual inspection is the most reliable way to catch them."
+    },
+    {
+      "q": "How long until I stop seeing bugs?",
+      "a": "You may see more pests for a week or two after a treatment as they're flushed out, then activity should drop off. If you're still seeing them after two weeks, call us and we'll come back."
+    },
+    {
+      "q": "Can you get rid of mice for good?",
+      "a": "Trapping alone won't, because new mice follow the same paths in. Sealing the entry points is what keeps them out, so exclusion work is part of every rodent job we quote."
+    },
+    {
+      "q": "Do you handle raccoons, squirrels or snakes?",
+      "a": "Wildlife removal often needs a separate state permit. We'll tell you whether we handle it in {{area}} or refer you to a licensed wildlife control company."
+    }
+  ],
+  "quote_form": {
+    "title": "Book a pest inspection",
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "phone", "label": "Phone", "type": "tel", "required": true },
+      {
+        "name": "issue",
+        "label": "What are you seeing?",
+        "type": "select",
+        "options": ["Ants or spiders", "Mice or rats", "Wasps, hornets or bees", "Termites", "Bed bugs", "Something else"],
+        "required": true
+      },
+      { "name": "zip", "label": "ZIP code", "type": "text", "required": false },
+      { "name": "details", "label": "Anything we should know?", "type": "textarea", "required": false }
+    ],
+    "promise": "We call back within 2 business hours."
+  },
+  "seasonal": [
+    "Spring termite swarm season inspections",
+    "Summer wasp, hornet and mosquito control",
+    "Fall rodent sealing before mice move indoors"
+  ],
+  "about_default": "{{name}} has handled pest control for homes and businesses in {{city}} for {{years}} years. Our licensed technicians inspect before they treat, tell you exactly what they apply and seal the gaps pests use to get in.",
+  "photo_subjects": {
+    "hero": "A technician in uniform treating the foundation of a house with a backpack sprayer, tidy yard around",
+    "work": [
+      "Technician sealing a gap around a pipe with metal mesh",
+      "Tamper-resistant bait station beside a foundation",
+      "Wasp nest under an eave before removal",
+      "Termite mud tubes on a foundation wall during an inspection",
+      "Technician inspecting a crawlspace with a flashlight"
+    ],
+    "team": "Technicians in uniform beside service trucks with their equipment"
+  },
+  "keywords": [
+    "pest control {{city}}",
+    "exterminator {{city}}",
+    "termite inspection {{city}}",
+    "termite treatment {{city}}",
+    "mouse removal {{city}}",
+    "wasp nest removal {{city}}",
+    "bed bug treatment {{city}}",
+    "mosquito control {{city}}",
+    "WDI inspection {{city}}",
+    "rodent control {{area}}"
+  ],
+  "palette_hint": "Forest green and clean white with a warm yellow accent."
+}

@@ -1,0 +1,20 @@
+{
+  "style": "market-fresh",
+  "business": {
+    "name": "Tidewell Home Cleaning",
+    "trade": "cleaning",
+    "city": "Raleigh",
+    "region": "NC",
+    "areas": [
+      "Raleigh",
+      "Cary",
+      "Apex",
+      "Wake Forest",
+      "Garner",
+      "Morrisville"
+    ],
+    "phone": "(919) 555-0176",
+    "hours": "Mon to Sat 8am to 6pm"
+  },
+  "copy": {}
+}

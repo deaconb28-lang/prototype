@@ -1,0 +1,97 @@
+{
+  "id": "wide-stance",
+  "name": "Wide Stance",
+  "summary": "Modern contractor confidence: extra-wide heavy display in navy and slate, rounded photo plates, solid navy blocks.",
+  "best_for": [
+    "remodeling",
+    "garage-doors",
+    "roofing",
+    "hvac"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Archivo",
+      "google": "Archivo:wdth,wght@62..125,400..900"
+    }
+  },
+  "tokens": {
+    "--bg": "#ffffff",
+    "--surface": "#ffffff",
+    "--surface-2": "#f1f3f7",
+    "--ink": "#0f1e3d",
+    "--ink-2": "#56617a",
+    "--line": "#e1e5ec",
+    "--line-strong": "#b9c1cf",
+    "--accent": "#0f1e3d",
+    "--accent-hover": "#1d3460",
+    "--accent-ink": "#ffffff",
+    "--accent-text": "#0f1e3d",
+    "--accent-2": "#fbefd6",
+    "--dark": "#0f1e3d",
+    "--dark-ink": "#ffffff",
+    "--dark-ink-2": "#b8c2d6",
+    "--dark-line": "rgba(255,255,255,.16)",
+    "--banner-bg": "#e8b04a",
+    "--banner-ink": "#0f1e3d",
+    "--font-display": "'Archivo', system-ui, sans-serif",
+    "--font-body": "'Archivo', system-ui, sans-serif",
+    "--font-mono": "'Archivo', system-ui, sans-serif",
+    "--display-weight": "800",
+    "--display-tracking": "-0.035em",
+    "--display-leading": "0.95",
+    "--h1": "clamp(2.8rem, 5.8vw, 5.2rem)",
+    "--h2": "clamp(2rem, 3.8vw, 3.3rem)",
+    "--h3": "1.3rem",
+    "--eyebrow-size": ".78rem",
+    "--eyebrow-tracking": ".08em",
+    "--eyebrow-weight": "700",
+    "--eyebrow-color": "#56617a",
+    "--radius": "20px",
+    "--radius-lg": "26px",
+    "--radius-sm": "10px",
+    "--btn-radius": "999px",
+    "--logo-radius": "10px",
+    "--logo-weight": "800",
+    "--logo-size": "1.3rem",
+    "--em-style": "normal",
+    "--em-color": "#7c8699",
+    "--card-border": "1px solid var(--line)",
+    "--star": "#e8b04a",
+    "--accent-on-dark": "#e8b04a",
+    "--quote-weight": "700",
+    "--scrim": "linear-gradient(180deg, rgba(8,15,32,.1) 0%, rgba(8,15,32,.78) 100%)"
+  },
+  "variants": {
+    "nav": "bar",
+    "hero": "split",
+    "services": "tiles",
+    "process": "row",
+    "gallery": "grid",
+    "reviews": "cards",
+    "faq": "twocol",
+    "cta": "band",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "Framer (ASMOB property agency)",
+      "url": "https://mobbin.com/screens/7209c5ef-6a08-464b-9fb1-99b70cc8e836",
+      "what": "Extended heavy headline with navy/slate two-tone, 'Premium real estate · Est. 2009' pill, rounded kitchen photo, stat trio, navy pill with arrow."
+    },
+    {
+      "site": "Framer (ASMOB full page)",
+      "url": "https://mobbin.com/screens/0c01164b-7e51-4a3b-8041-63faefddc25c",
+      "what": "Portfolio bento grid mixing rounded photos with a navy number tile, small caps 'THE PORTFOLIO' label, wide headline."
+    },
+    {
+      "site": "Framer (ASMOB studio)",
+      "url": "https://mobbin.com/screens/6480d8b3-21e2-45da-aaa8-aec75d5ecc56",
+      "what": "Navy rounded hero card beside the headline and a full-width navy band with heavy white statement + two-column body."
+    },
+    {
+      "site": "Dropbox (About)",
+      "url": "https://mobbin.com/sites/sections/ac95d839-283d-419d-b52e-b989384af714",
+      "what": "Wide geometric display in a solid dark panel beside a full-height photo; shows the extended face working on dark."
+    }
+  ]
+}

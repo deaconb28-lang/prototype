@@ -1,0 +1,20 @@
+{
+  "style": "blueprint-spec",
+  "business": {
+    "name": "Northpoint Heating & Air",
+    "trade": "hvac",
+    "city": "Columbus",
+    "region": "OH",
+    "areas": [
+      "Columbus",
+      "Dublin",
+      "Westerville",
+      "Hilliard",
+      "Grove City",
+      "Gahanna"
+    ],
+    "phone": "(614) 555-0117",
+    "hours": "Mon to Fri 7am to 6pm"
+  },
+  "copy": {}
+}
