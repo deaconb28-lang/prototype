@@ -1,0 +1,114 @@
+{
+  "id": "nocturne-premium",
+  "name": "Nocturne Premium",
+  "summary": "Near-black, an old-style serif with an italic turn, hairlines and warm brass light. For high-ticket work that should feel like a private studio.",
+  "best_for": [
+    "remodeling",
+    "electrical",
+    "landscaping",
+    "garage-doors"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Cormorant Garamond",
+      "google": "Cormorant+Garamond:ital,wght@0,500;0,600;1,500"
+    },
+    "body": {
+      "family": "Geist",
+      "google": "Geist:wght@300;400;500"
+    },
+    "mono": {
+      "family": "Geist Mono",
+      "google": "Geist+Mono:wght@400"
+    }
+  },
+  "tokens": {
+    "--bg": "#0c0c0d",
+    "--surface": "#17171a",
+    "--surface-2": "#121214",
+    "--ink": "#f3f1ec",
+    "--ink-2": "#a19d95",
+    "--line": "rgba(243,241,236,.12)",
+    "--line-strong": "rgba(243,241,236,.28)",
+    "--accent": "#c8893e",
+    "--accent-hover": "#d89b52",
+    "--accent-ink": "#0c0c0d",
+    "--accent-text": "#d9a15c",
+    "--accent-2": "rgba(200,137,62,.16)",
+    "--dark": "#000000",
+    "--dark-ink": "#f3f1ec",
+    "--dark-ink-2": "#a19d95",
+    "--dark-line": "rgba(243,241,236,.12)",
+    "--footer-bg": "#08080a",
+    "--banner-bg": "#17171a",
+    "--banner-ink": "#f3f1ec",
+    "--utility-bg": "#000",
+    "--font-display": "'Cormorant Garamond', Garamond, serif",
+    "--font-body": "'Geist', system-ui, sans-serif",
+    "--font-mono": "'Geist Mono', ui-monospace, monospace",
+    "--display-weight": "500",
+    "--display-tracking": "-0.01em",
+    "--display-leading": "1.0",
+    "--h1": "clamp(3.2rem, 6.6vw, 6.2rem)",
+    "--h2": "clamp(2.4rem, 4.4vw, 3.9rem)",
+    "--h3": "1.6rem",
+    "--h1-page": "clamp(2.8rem, 5.4vw, 4.8rem)",
+    "--eyebrow-font": "'Geist Mono', monospace",
+    "--eyebrow-size": ".7rem",
+    "--eyebrow-tracking": ".16em",
+    "--eyebrow-weight": "400",
+    "--eyebrow-color": "#d9a15c",
+    "--radius": "8px",
+    "--radius-lg": "10px",
+    "--radius-sm": "6px",
+    "--btn-radius": "999px",
+    "--pill-radius": "999px",
+    "--logo-radius": "50%",
+    "--logo-weight": "600",
+    "--logo-size": "1.5rem",
+    "--logo-mark-bg": "transparent",
+    "--logo-mark-ink": "#d9a15c",
+    "--quote-font": "'Cormorant Garamond', serif",
+    "--quote-weight": "500",
+    "--star": "#c8893e",
+    "--accent-on-dark": "#d9a15c",
+    "--card-border": "1px solid rgba(243,241,236,.12)",
+    "--input-bg": "#0c0c0d",
+    "--map-filter": "grayscale(1) invert(.92) contrast(.9)",
+    "--scrim": "radial-gradient(120% 90% at 50% 40%, rgba(0,0,0,.2) 0%, rgba(0,0,0,.75) 100%)",
+    "--img-filter": "saturate(.85)"
+  },
+  "variants": {
+    "nav": "pill",
+    "hero": "fullbleed",
+    "services": "split",
+    "process": "row",
+    "gallery": "grid",
+    "reviews": "quote",
+    "faq": "twocol",
+    "cta": "card",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "Linear (Method page)",
+      "url": "https://mobbin.com/sites/sections/66f59864-ae93-419b-89c9-e53fbb46a3f3",
+      "what": "Large white serif centered on near-black, small caps eyebrow, hairline Venn circles with hatched intersection as the only ornament."
+    },
+    {
+      "site": "Origin",
+      "url": "https://mobbin.com/sites/sections/b447e3fe-cbd4-419e-964d-2e207d4be48e",
+      "what": "Serif headline with an italic first word, mono caps nav in dark boxed pills, bone-white CTA."
+    },
+    {
+      "site": "Superpower",
+      "url": "https://mobbin.com/sites/sections/7c1e2d1c-3200-4d81-b4ef-b00ae9bfb5fb",
+      "what": "Silhouette against an amber glow, left-aligned headline, three-up stat row split by vertical hairlines."
+    },
+    {
+      "site": "Shade",
+      "url": "https://mobbin.com/sites/sections/651bd3f4-025e-459d-9e96-fe4c8499922f",
+      "what": "Dark text panel beside a full-height photo, mono breadcrumb eyebrow, monochrome logo row."
+    }
+  ]
+}

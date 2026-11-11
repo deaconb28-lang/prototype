@@ -1,0 +1,251 @@
+{
+  "section": "trust",
+  "description": "Trust bars, logo strips, certifications and badges, stat rows and guarantees: the quick, checkable reasons a homeowner can let this company into their house. Ranges from a one-line rating + supplier logos under the hero to a full credentials grid or a signed guarantee.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "solar company trust badges section",
+    "company stats section with key numbers",
+    "satisfaction guarantee section",
+    "construction company certifications and awards section"
+  ],
+  "references": [
+    {
+      "id": "mobbin:061f9977-70ff-4ac3-8fbb-68e932262551",
+      "site": "Windsurf",
+      "url": "https://mobbin.com/sites/sections/061f9977-70ff-4ac3-8fbb-68e932262551",
+      "pattern": "cert-grid",
+      "layout": "Centred light heading on a deep plum band, then a 3×3 grid of cream cards (~200×80, ~2px radius, ~10px gaps). Each card has a badge or logo (~48px) on the left, then a bold title, a one-line description and an underlined 'LEARN MORE →' link.",
+      "type": "Heading geometric sans light ~28px; card titles sans semibold ~12px; descriptions ~10px; link monospace caps ~8px, tracked.",
+      "color": "Band ~#5A0F45 plum; cards ~#F7EEDF cream; card text ~#2A1A22; heading ~#F3DDEA.",
+      "details": [
+        "Every badge gets a one-line plain-English explanation of what it means",
+        "Monospace 'LEARN MORE →' links give every credential a way to verify it",
+        "Logos keep their own colours but sit on identical cream tiles, so the grid stays calm",
+        "A saturated dark band makes this a distinct 'proof' moment on the page"
+      ],
+      "why_it_works": "Credentials mean nothing if visitors don't know what they are; this pairs each badge with a sentence and a link.",
+      "trade_adaptation": "'Licensed & insured (Lic. #…)', 'GAF Master Elite', 'NATE-certified technicians', 'EPA Lead-Safe', 'BBB A+', 'Angi Super Service', each with what it means for the homeowner and a link to verify.",
+      "mood": ["premium", "bold"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:ff9eda94-9b33-4a6e-9608-5ad9d921f8fa",
+      "site": "Frontify",
+      "url": "https://mobbin.com/sites/sections/ff9eda94-9b33-4a6e-9608-5ad9d921f8fa",
+      "pattern": "award-list",
+      "layout": "A tiny dot + 'Awards' label top-left, then full-width rows divided by hairlines. Each row has a large serif statement on the left ('Built In: Best places to work 2023') and a small badge thumbnail (~40px) aligned right.",
+      "type": "Serif ~30px regular, sentence case, written as 'Issuer: achievement'; label ~9px sans.",
+      "color": "Light warm grey ~#EEEDE8 ground; text ~#1B1B1B; hairlines ~#C9C8C2.",
+      "details": [
+        "The 'Issuer: what it means' colon structure makes every line self-explanatory",
+        "Badges shrink to thumbnails at the edge, so the text leads and the logos only confirm",
+        "Huge type and very few rows (four): confidence through restraint"
+      ],
+      "why_it_works": "It turns a pile of mismatched badges into a typographic list, and it still works when the badge artwork is ugly.",
+      "trade_adaptation": "'Owens Corning: Platinum Preferred Contractor', 'State of Ohio: Master Plumber #12345', 'Angi: Super Service Award 2024', 'Family-owned: since 1987'. Ideal for premium and editorial styles.",
+      "mood": ["editorial", "premium", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:10b3f9ff-98d3-4526-b4e3-bc5efeb5724c",
+      "site": "Instrument",
+      "url": "https://mobbin.com/sites/sections/10b3f9ff-98d3-4526-b4e3-bc5efeb5724c",
+      "pattern": "stat-stack",
+      "layout": "Full-bleed saturated band. Stats stack vertically as giant rows ('20 Years', '300+ Employees', '02 Offices'), each spanning ~70% of the width, with a short paragraph (~9px) in the right column. Hairlines divide the rows, and lower rows fade in opacity.",
+      "type": "Transitional serif ~72px light/regular, with number and noun on one line at the same size; supporting copy small sans ~9px.",
+      "color": "Electric blue ~#2B3FE8 ground; type ~#F2F2F2 fading to ~#8C97F0; dividers ~rgba(255,255,255,0.15).",
+      "details": [
+        "Number and noun are set together as one phrase ('20 Years') instead of a number over a label",
+        "A leading zero ('02 Offices') keeps the typographic rhythm",
+        "Each stat gets a short sentence explaining it",
+        "The progressive fade suggests rows revealing on scroll"
+      ],
+      "why_it_works": "It makes three plain facts feel monumental, and it is far more memorable than a row of four small counters.",
+      "trade_adaptation": "'38 Years', '4,200 Roofs', '1 Family', with one sentence each, on a band in the brand colour. Suits a bold or premium roofer or electrician.",
+      "mood": ["bold", "editorial", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:a11a6e80-e1c0-4d6b-8b02-6b6790b4ca8d",
+      "site": "Humble",
+      "url": "https://mobbin.com/sites/sections/a11a6e80-e1c0-4d6b-8b02-6b6790b4ca8d",
+      "pattern": "guarantee-card",
+      "layout": "One large rounded card (~24px radius, soft shadow) split in two. Left: a bold graphic (a thick orange quarter-ring) at the top, three small round badges, the heading, a two-line guarantee with the promise in bold, and a handwritten signature in white at the bottom. Right: four stacked dark tiles, each with a tiny icon, a bold title and a grey one-liner.",
+      "type": "Heading sans ~22px regular; guarantee sentence ~9px with a bold lead-in; tile titles ~10px semibold; signature as a script image.",
+      "color": "Card ~#000000; tiles ~#1F1F1F; accent ~#FF4A0A; text ~#FFFFFF and ~#8F8F8F.",
+      "details": [
+        "The guarantee is specific and measurable: 'Paid First Sprint, 100% refund if we miss'",
+        "The founder's signature sits under the promise, making someone personally accountable",
+        "Risk-reducers are split into four short tiles",
+        "One bold geometric shape does all the decorating"
+      ],
+      "why_it_works": "A guarantee only persuades when it is specific and someone signs it, and this does both in one compact, striking card.",
+      "trade_adaptation": "'If it leaks within 10 years, we fix it free.' signed by the owner; tiles: 'Upfront flat-rate pricing', 'Clean-up included', 'Licensed & insured', 'On time or $50 off'.",
+      "mood": ["bold", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:02abbff9-9fb9-4640-914a-5d53cc980d52",
+      "site": "ExpressVPN",
+      "url": "https://mobbin.com/sites/sections/02abbff9-9fb9-4640-914a-5d53cc980d52",
+      "pattern": "guarantee-seal",
+      "layout": "Full-width centred band: a circular seal (~80px) drawn as a progress-ring arc reading '30 DAY · MONEY-BACK GUARANTEE', a serif headline, a three-line explanation and an outlined pill button.",
+      "type": "Seal number serif ~28px; seal label tiny caps, tracked; headline serif ~22px; body sans ~11px.",
+      "color": "Plum ~#6E1B4F band; white text; seal ring white with a gradient fade; button outlined white.",
+      "details": [
+        "The seal is a ring arc, not a gold clip-art medallion",
+        "Plain-language terms sit right under the headline ('contact Support within 30 days and get a full refund')",
+        "Only one call to action"
+      ],
+      "why_it_works": "A self-contained, centred promise band with a custom seal is quick to scan and doesn't look like clip art.",
+      "trade_adaptation": "A '10 YEAR WORKMANSHIP WARRANTY' or '100% SATISFACTION' seal drawn in CSS, the terms in one sentence, and a 'Book your free estimate' button.",
+      "mood": ["bold", "premium"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:b6639492-77d4-4be2-9525-2eeb42d9f1e3",
+      "site": "Square",
+      "url": "https://mobbin.com/sites/sections/b6639492-77d4-4be2-9525-2eeb42d9f1e3",
+      "pattern": "promise-row",
+      "layout": "Left-aligned serif headline, then four equal columns, each with a thin line icon (~20px), a 2-3 line bold claim (~14px) and a small 'Learn more ↗' link.",
+      "type": "Headline transitional serif ~36px regular; claims sans ~14px semibold; links ~9px.",
+      "color": "White ground; black ~#111111 text and icons.",
+      "details": [
+        "The headline is human ('A little peace of mind'), not 'Why choose us'",
+        "Claims are concrete ('No surprise fees or long-term contracts required')",
+        "Line icons are drawn in the text colour, not inside colourful circles"
+      ],
+      "why_it_works": "It is the cleanest way to state three or four assurances, and the serif headline with monochrome line icons keeps it premium.",
+      "trade_adaptation": "'No surprise fees', 'Licensed, bonded & insured', '2-year labor warranty', 'We clean up after ourselves', each linking to details.",
+      "mood": ["minimal", "premium"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:6bbefa9c-f123-45bb-8ea5-b679064c8e4c",
+      "site": "Ramp",
+      "url": "https://mobbin.com/sites/sections/6bbefa9c-f123-45bb-8ea5-b679064c8e4c",
+      "pattern": "logo-strip",
+      "layout": "One slim row (~40px tall): 'G2 ★★★★★ 2,000+ reviews →' in grey on the left, six customer logos evenly spaced on the right.",
+      "type": "Small sans ~10px; logos ~14px tall.",
+      "color": "White ground; text and stars grey ~#6B6B6B; logos mostly monochrome ~#1A1A1A, with faint native colour kept on a couple.",
+      "details": [
+        "Rating and logos share one line under the hero, costing almost no vertical space",
+        "Stars are grey, not yellow",
+        "The arrow makes the rating a link"
+      ],
+      "why_it_works": "It is the most efficient trust bar: one line carrying two kinds of proof.",
+      "trade_adaptation": "'★ 4.9 · 300+ Google reviews →' on the left, manufacturer and supplier logos (Carrier, Trane, Kohler, Sherwin-Williams) in monochrome on the right, directly under the hero.",
+      "mood": ["minimal", "technical"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:c12c53bc-7559-4071-a051-ae1ef2f9a8a7",
+      "site": "Givingli",
+      "url": "https://mobbin.com/sites/sections/c12c53bc-7559-4071-a051-ae1ef2f9a8a7",
+      "pattern": "logo-strip",
+      "layout": "A centred italic caption above a single edge-to-edge row of ~9 small, evenly spaced logos.",
+      "type": "Caption italic serif ~10px; logos ~14px tall.",
+      "color": "Dark chocolate ~#2A140C ground; logos and caption tinted warm taupe ~#9C8577 at reduced opacity.",
+      "details": [
+        "Every logo is recoloured to one warm taupe, because brand-coloured logos would fight the palette",
+        "Italic serif caption 'Trusted by teams at leading companies': soft, not shouty",
+        "Dark warm brown instead of black"
+      ],
+      "why_it_works": "It shows how to make a logo strip feel premium: one monochrome tint matched to the palette, a tiny caption and plenty of air.",
+      "trade_adaptation": "For a premium remodeler or landscaper: supplier and partner logos (Marvin, Andersen, Belgard, Trex) recoloured to a warm tint on a deep brown band, captioned 'Materials we trust' in italic serif.",
+      "mood": ["premium", "warm", "editorial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:7a8c2178-cea1-4a2d-b91d-780654319e23",
+      "site": "Sana",
+      "url": "https://mobbin.com/sites/sections/7a8c2178-cea1-4a2d-b91d-780654319e23",
+      "pattern": "badge-row",
+      "layout": "A centred stack in three tiers: two compliance badges side by side with a one-line caption; a central rating emblem (logo, big stars, '4.8/5') flanked on each side by two short quotes with their own star rows; a row of five award shields.",
+      "type": "Captions sans ~10px; flanking quotes ~10px in curly quotes; score ~10px.",
+      "color": "White ground; platform red-orange ~#FF492C for the stars and emblem; text ~#333333.",
+      "details": [
+        "Two-to-four-word quotes ('Game-changing.') flank the rating like laurel leaves",
+        "The compliance badges get one explanatory sentence",
+        "All three tiers of proof sit symmetrically on one centre axis"
+      ],
+      "why_it_works": "A compact composition that combines certifications, a rating and review snippets without a single box.",
+      "trade_adaptation": "Top: 'Licensed · Insured' badges with 'Lic. #12345 · $2M liability'. Centre: Google 4.9 flanked by four two-word snippets ('Spotless work.', 'On time.'). Bottom: manufacturer certifications.",
+      "mood": ["minimal", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:1f5e7362-4fa5-4dc9-a2ca-3d5aea6d9172",
+      "site": "Oyster",
+      "url": "https://mobbin.com/sites/sections/1f5e7362-4fa5-4dc9-a2ca-3d5aea6d9172",
+      "pattern": "rating-card",
+      "layout": "A single wide white card (~460×120, ~28px radius, large soft shadow), centred. Two platform ratings sit side by side with a thin divider between them (logo on top; score + stars, or score + bar, below). A rotated green starburst sticker reading 'TOP RATED' overlaps the top-left corner.",
+      "type": "Logos ~24px; scores ~14px grey; sticker caps ~9px white bold, rotated ~-20°.",
+      "color": "White card on a white page with a ~rgba(0,0,0,0.08) shadow; sticker ~#5DAE7B; native platform colours (green ~#0CAA41, purple bar ~#7C3AED).",
+      "details": [
+        "A starburst sticker slapped on the corner at an angle: playful and hand-applied",
+        "The second metric is a progress bar instead of stars, for variety",
+        "A very large radius plus shadow makes the card feel like an object"
+      ],
+      "why_it_works": "It turns two numbers into a memorable object, and the sticker adds personality without clutter.",
+      "trade_adaptation": "Google 4.9 ★ next to 'BBB A+' or 'Nextdoor Neighborhood Fave' in one big card with a 'LOCAL FAVORITE' or 'SINCE 1987' sticker. Fits friendly and playful styles (cleaners, pest control).",
+      "mood": ["playful", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:ef0775fe-e5c9-4e69-84d8-45998572233f",
+      "site": "Rows",
+      "url": "https://mobbin.com/sites/sections/ef0775fe-e5c9-4e69-84d8-45998572233f",
+      "pattern": "stat-row",
+      "layout": "A wide team photo with a 4-column stat table attached directly beneath it: the top row of cells holds big numbers and the bottom row holds labels, all cells bordered with 1px yellow lines. Below, a separate yellow band reads 'Our Investors' with logos.",
+      "type": "Numbers rounded heavy grotesk ~26px; labels sans ~11px; sub-labels ~8px.",
+      "color": "Cream ~#FBF7EC ground; borders and band ~#FFC800 yellow; numbers aubergine ~#3B0A2C.",
+      "details": [
+        "The stats are physically attached to the team photo, like a caption table",
+        "One joke stat ('25k Gummy bears eaten') adds personality",
+        "A sub-label carries detail ('Porto & Berlin' under 'Offices')"
+      ],
+      "why_it_works": "It grounds the numbers in a real photo of the people behind them and uses a table grid instead of floating counters.",
+      "trade_adaptation": "Crew photo with a table underneath: '1987 Founded', '3 Trucks', '4,100 Jobs', '∞ Pots of coffee'. Great for friendly and rustic styles.",
+      "mood": ["friendly", "playful", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:653db52b-14dc-4863-955d-20530c71fa71",
+      "site": "Function",
+      "url": "https://mobbin.com/sites/sections/653db52b-14dc-4863-955d-20530c71fa71",
+      "pattern": "badge-row",
+      "layout": "Italic serif 'Awards' label top-left; to its right, a grid of beige tiles (~110×60, ~6px radius, three per row), each holding one award logo recoloured to a single muted brown.",
+      "type": "Label italic serif ~22px; logos keep their own lettering but are flattened to one colour.",
+      "color": "Cream ~#FDF7EC ground; tiles ~#F1E9DA; logos ~#5C5148 monochrome.",
+      "details": [
+        "Every badge is flattened to one muted colour, so wildly different logos look like a set",
+        "Uniform tiles give each badge equal weight",
+        "Label on the left, grid on the right: an asymmetric layout"
+      ],
+      "why_it_works": "It shows the key trick for trade badges, whose manufacturer artwork is often garish: flatten them to one colour on matching tiles.",
+      "trade_adaptation": "GAF, CertainTeed, BBB, Angi and HomeAdvisor badges flattened to the brand's ink colour on paper-tone tiles.",
+      "mood": ["warm", "minimal", "premium"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Explain every credential: pair each badge with a plain sentence about what it means (license number, coverage, what the certification requires) and, ideally, a link to verify it.",
+    "Flatten logos and badges to one tint that matches the palette; uniform tiles make mismatched artwork read as a set.",
+    "Fewer, bigger facts beat many small counters. '38 Years' set as one phrase beats '38+' over 'Years in business'.",
+    "Make guarantees specific and measurable, and have a named person sign them.",
+    "Put the cheapest trust (a one-line rating + monochrome logos) directly under the hero. Save the full credentials grid for lower on the page or the About page.",
+    "Ground stats in a real crew, truck or shop photo where possible.",
+    "One playful device (a sticker, a joke stat) adds personality; stacking several cheapens it."
+  ],
+  "avoid": [
+    "Rows of colourful G2-style award shields (monday.com, ClickUp, Apollo): noisy and generic",
+    "Stats with a clip-art icon above each number (Deel)",
+    "Bright-blue stat cards reading '100,000+' with carousel arrows",
+    "'Trusted by 10,000+ customers' logo walls of big brands that a local trade wouldn't plausibly serve",
+    "Vague guarantees ('Quality guaranteed!') on a gold-ribbon clip-art seal",
+    "Percentage stats with no source or date",
+    "Dark glassmorphism tiles with 99.99% SLA-style numbers, which read as dev tooling"
+  ]
+}

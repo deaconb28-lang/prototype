@@ -1,0 +1,5 @@
+node_modules/
+.deslop/
+sites/
+*.log
+.DS_Store

@@ -1,0 +1,22 @@
+{
+  "style": "jobsite-industrial",
+  "business": {
+    "name": "Fieldwire Electric",
+    "trade": "electrical",
+    "city": "Fort Worth",
+    "region": "TX",
+    "areas": [
+      "Fort Worth",
+      "Arlington",
+      "Keller",
+      "Benbrook",
+      "Burleson",
+      "Haltom City"
+    ],
+    "phone": "(817) 555-0188",
+    "hours": "Mon to Sat 7am to 7pm"
+  },
+  "copy": {
+    "heroHeadline": "Panels, outlets and EV chargers. Done right the first time."
+  }
+}

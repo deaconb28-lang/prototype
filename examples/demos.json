@@ -1,0 +1,23 @@
+{
+  "_note": "Fictional demo businesses (555 numbers, made-up names) used to show each style. Regenerate with: node scripts/build-examples.mjs",
+  "demos": [
+    { "style": "cinematic-horizon", "business": { "name": "Ridgeline Roofing", "trade": "roofing", "city": "Boise", "region": "ID", "areas": ["Boise", "Meridian", "Nampa", "Eagle", "Kuna", "Star", "Caldwell", "Garden City"], "phone": "(208) 555-0142", "email": "office@ridgeline.example", "hours": "Mon to Fri 7am to 6pm, Sat 8am to noon" },
+      "copy": { "heroHeadline": "Roofs replaced in two days, *not two weeks.*", "eyebrow": "Roofing · Treasure Valley, Idaho" } },
+    { "style": "jobsite-industrial", "business": { "name": "Fieldwire Electric", "trade": "electrical", "city": "Fort Worth", "region": "TX", "areas": ["Fort Worth", "Arlington", "Keller", "Benbrook", "Burleson", "Haltom City"], "phone": "(817) 555-0188", "hours": "Mon to Sat 7am to 7pm" },
+      "copy": { "heroHeadline": "Panels, outlets and EV chargers. Done right the first time." } },
+    { "style": "blueprint-spec", "business": { "name": "Northpoint Heating & Air", "trade": "hvac", "city": "Columbus", "region": "OH", "areas": ["Columbus", "Dublin", "Westerville", "Hilliard", "Grove City", "Gahanna"], "phone": "(614) 555-0117", "hours": "Mon to Fri 7am to 6pm" } },
+    { "style": "heritage-ledger", "business": { "name": "Hollis & Sons Plumbing", "trade": "plumbing", "city": "Richmond", "region": "VA", "areas": ["Richmond", "Henrico", "Chesterfield", "Midlothian", "Mechanicsville", "Glen Allen"], "phone": "(804) 555-0163", "hours": "Mon to Fri 7:30am to 5:30pm" },
+      "copy": { "heroHeadline": "Plumbing done the *old-fashioned* way: on time, in writing, cleaned up." } },
+    { "style": "editorial-warm", "business": { "name": "Linden Street Painters", "trade": "painting", "city": "Portland", "region": "OR", "areas": ["Portland", "Beaverton", "Lake Oswego", "Milwaukie", "Tigard", "Gresham"], "phone": "(503) 555-0129", "hours": "Mon to Fri 8am to 5pm" },
+      "copy": { "heroHeadline": "Careful prep. *Clean lines.* A house that still looks good in five years." } },
+    { "style": "field-guide", "business": { "name": "Cedar Hollow Landscapes", "trade": "landscaping", "city": "Asheville", "region": "NC", "areas": ["Asheville", "Weaverville", "Black Mountain", "Fletcher", "Arden", "Candler"], "phone": "(828) 555-0151", "hours": "Mon to Fri 7am to 5pm" },
+      "copy": { "heroHeadline": "Yards built for *mountain weather*, and kept that way." } },
+    { "style": "market-fresh", "business": { "name": "Tidewell Home Cleaning", "trade": "cleaning", "city": "Raleigh", "region": "NC", "areas": ["Raleigh", "Cary", "Apex", "Wake Forest", "Garner", "Morrisville"], "phone": "(919) 555-0176", "hours": "Mon to Sat 8am to 6pm" } },
+    { "style": "poster-pop", "business": { "name": "Porchlight Pest Control", "trade": "pest-control", "city": "Tampa", "region": "FL", "areas": ["Tampa", "Brandon", "Riverview", "Temple Terrace", "Lutz", "Wesley Chapel"], "phone": "(813) 555-0134", "hours": "Mon to Sat 7am to 7pm" },
+      "copy": { "heroHeadline": "Bugs out. *Kids and pets* fine." } },
+    { "style": "nocturne-premium", "business": { "name": "Ashgrove Build Co.", "trade": "remodeling", "city": "Scottsdale", "region": "AZ", "areas": ["Scottsdale", "Paradise Valley", "Phoenix", "Tempe", "Fountain Hills", "Cave Creek"], "phone": "(480) 555-0192", "hours": "By appointment, Mon to Fri" },
+      "copy": { "heroHeadline": "Kitchens and baths, built *quietly* and on schedule." } },
+    { "style": "wide-stance", "business": { "name": "Summit Garage Door Co.", "trade": "garage-doors", "city": "Denver", "region": "CO", "areas": ["Denver", "Aurora", "Lakewood", "Littleton", "Englewood", "Wheat Ridge"], "phone": "(303) 555-0108", "hours": "Mon to Sat 7am to 8pm" },
+      "copy": { "heroHeadline": "Broken spring at 7am? *Fixed by 10.*" } }
+  ]
+}

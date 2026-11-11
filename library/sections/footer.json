@@ -1,0 +1,251 @@
+{
+  "section": "footer",
+  "description": "The page's last screen: how to reach the business (phone first), when it's open, where it works, a final trust reminder (license, founding year, rating) and a brand sign-off. For trades it's a working contact card, not a sitemap.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "footer with contact details and locations",
+    "footer with large call to action and phone number",
+    "local shop footer with address, opening hours and map"
+  ],
+  "references": [
+    {
+      "id": "mobbin:23a43fc2-e616-4b49-945c-4a0dd97df268",
+      "site": "Mother Design",
+      "url": "https://mobbin.com/sites/sections/23a43fc2-e616-4b49-945c-4a0dd97df268",
+      "pattern": "big-wordmark",
+      "layout": "A wordmark (~150px) spanning the full width at the top, a hairline beneath it, then a grid: two office columns (city name with live local time and a weather icon, address, email) and, behind a vertical hairline on the right, a newsletter signup. Tiny utility text is pinned to the bottom corners.",
+      "type": "Wordmark neo-grotesk regular ~150px with tight tracking; body sans ~8px; times in monospace ('09 09 (GMT-4)').",
+      "color": "White ~#FFFFFF and black ~#000000; emails in grey ~#8A8A8A.",
+      "details": [
+        "Each city shows its live local time and a weather glyph",
+        "The wordmark is sized to exactly fill the width",
+        "A thin vertical rule separates contact info from signup",
+        "A tiny tagline at bottom-left ('Mother Design has a soul')"
+      ],
+      "why_it_works": "A massive wordmark over a functional grid is a staple of premium footers, and the live time makes the offices feel open and alive.",
+      "trade_adaptation": "Business name across the full width; under it a live 'Open now · closes 6pm' status beside the address, a 24/7 emergency line and the service-area towns.",
+      "mood": ["minimal", "editorial", "bold"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:59327bcc-6028-4dbc-9beb-3ba7cc935191",
+      "site": "United Carriers",
+      "url": "https://mobbin.com/sites/sections/59327bcc-6028-4dbc-9beb-3ba7cc935191",
+      "pattern": "columns",
+      "layout": "A dense grid on white: tagline top-left, three nav columns, a secure-payments block on the right and a scrolling marquee of industries. Then a contact row: a B&W photo on the left; head office with a 'Direction on Google' link, email, hotline, office hours and an 'Operating across' list; and a dotted world map with location pins on the right. A giant dot-matrix wordmark runs along the very bottom.",
+      "type": "Labels monospace caps ~7px tracked; values sans ~10px; marquee ~18px light grey; dot-matrix wordmark ~70px.",
+      "color": "White ~#FFFFFF; text ~#111111; labels ~#777777; marquee ~#C8C8C8; map dots ~#D0D0D0 with navy pins ~#1A2A6C.",
+      "details": [
+        "'Direction on Google' with a turn-arrow glyph sits right under the address",
+        "Hours and hotline each get their own labelled cell",
+        "A dotted map with pins shows where the company works",
+        "Monospace micro-labels ('HEAD OFFICE', 'HOTLINE', 'OFFICE HOURS') structure the dense information"
+      ],
+      "why_it_works": "It shows how to fit everything a local customer needs (address, directions, phone, hours, coverage) into an orderly grid.",
+      "trade_adaptation": "Swap the world map for a dotted county map with pins on service towns; 'HOTLINE' becomes '24/7 EMERGENCY'; use a B&W photo of the shop or yard.",
+      "mood": ["technical", "industrial", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:6ecba422-fe26-482b-8225-8e24ec959d84",
+      "site": "Monte",
+      "url": "https://mobbin.com/sites/sections/6ecba422-fe26-482b-8225-8e24ec959d84",
+      "pattern": "big-contact",
+      "layout": "Three centred columns with all-caps headings, 'CONTACT', 'OPENING HOURS' and 'FIND US', each with centred caps details beneath (the hours include a full holiday schedule) and an 'I NEED A REAL MAP →' link. Below sits a hand-drawn line illustration with curved text, and a tiny monospace copyright and credit in the bottom corners.",
+      "type": "Headings condensed sans caps ~18px; details ~8px caps; illustration caption in curved caps.",
+      "color": "Terracotta ~#B5432A ground; text ~#FDF3E7; illustration lines ~#5A1C10.",
+      "details": [
+        "Holiday hours spelled out line by line",
+        "Link copy with humour: 'I NEED A REAL MAP →'",
+        "A hand-drawn illustration with a curved tagline gives a signature sign-off",
+        "Just three headings, exactly what a local customer looks for"
+      ],
+      "why_it_works": "It answers the three local-business questions (how do I reach you, when, where) in a warm, branded way.",
+      "trade_adaptation": "'CALL / HOURS / SERVICE AREA' columns with emergency and holiday hours, and a line drawing of a house or van with the curved tagline 'Keeping Tulsa warm since 1987'.",
+      "mood": ["warm", "rustic", "friendly"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:9ee9d990-cbe1-40fe-b2ca-03ae743e3f0a",
+      "site": "Little Amps Coffee",
+      "url": "https://mobbin.com/sites/sections/9ee9d990-cbe1-40fe-b2ca-03ae743e3f0a",
+      "pattern": "framed-card",
+      "layout": "A red outer frame (~8px margin) around a cream inner card. Inside: a chunky serif wordmark with a small illustration on the left, nav columns in the middle, an embedded playlist card on the right, and a 'VISIT US' tag with two addresses and email/social at bottom-left. Below the card, on the red: an illustrated mascot with a 'FOLLOW US ON THE GRAM' speech bubble, a strip of square photos and a tiny copyright bar.",
+      "type": "Wordmark soft display serif ~40px; labels monospace caps ~7px inside a dark tag; body ~9px.",
+      "color": "Frame ~#C8341A; card ~#F3E9DD; wordmark and text ~#4A1F14; tag ~#4A1F14 with cream text.",
+      "details": [
+        "A card inside a coloured frame",
+        "A small dark label tag ('VISIT US') above the addresses",
+        "A strip of real shop and community photos",
+        "An illustrated mascot with a speech bubble"
+      ],
+      "why_it_works": "A local-shop footer full of personality and real photos; the frame makes it feel like a printed menu.",
+      "trade_adaptation": "Replace the playlist with a 'Recent jobs' photo strip; tag 'COME SEE THE SHOWROOM' or 'NOW SERVING'; the mascot can be an illustration of the van. Rustic and friendly styles.",
+      "mood": ["warm", "rustic", "playful"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:e0b0a006-0495-4969-ab1a-5b35acc33e8d",
+      "site": "Graza",
+      "url": "https://mobbin.com/sites/sections/e0b0a006-0495-4969-ab1a-5b35acc33e8d",
+      "pattern": "big-wordmark",
+      "layout": "Top area: a friendly one-liner and an outlined email field with a small green submit button on the left; three link columns on the right, behind a dotted vertical rule; dotted horizontal rules; a legal line. Bottom: an enormous wavy display wordmark spanning the full width.",
+      "type": "Body in a typewriter-like serif ~11px; wordmark heavy, wobbly display face ~150px.",
+      "color": "Peach ~#F6E3D3; text and wordmark olive ~#3D4430; submit button lime ~#B6E36A.",
+      "details": [
+        "Dotted rules instead of solid hairlines",
+        "The wordmark is in a characterful display face, so the footer becomes the brand moment",
+        "Friendly copy: 'Friends let friends know about fresh products and content.'"
+      ],
+      "why_it_works": "A strong brand finish with a warm palette and characterful type; easy to template with any display face.",
+      "trade_adaptation": "A painter or landscaper: the business name huge in a characterful serif, an earthy palette, and 'Neighbours tell neighbours' above a phone or email field.",
+      "mood": ["warm", "bold", "rustic"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:1262461a-ee8b-472e-9cf1-001b0de70548",
+      "site": "Touchy Coffee",
+      "url": "https://mobbin.com/sites/sections/1262461a-ee8b-472e-9cf1-001b0de70548",
+      "pattern": "label-grid",
+      "layout": "Six centred blocks in a 3×2 grid, each with a very widely letter-spaced caps label over short caps content. Hand-drawn ovals loop around the Location and Contact blocks. A script wordmark is centred below, and two black pill buttons flank a legal line.",
+      "type": "Monospace caps ~9px; labels with extremely wide tracking; wordmark italic script ~36px.",
+      "color": "Pink ~#F4C2D7; text and ovals ~#000000.",
+      "details": [
+        "Hand-drawn ovals circle the two most important blocks",
+        "Ultra-wide tracked labels act as decoration",
+        "A script wordmark as the sign-off"
+      ],
+      "why_it_works": "It shows how a hand-drawn emphasis mark can steer attention to the contact info inside an otherwise uniform grid.",
+      "trade_adaptation": "Circle the phone number and service area with a marker-style oval. Suits playful cleaning or pest-control brands.",
+      "mood": ["playful", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:d33c835f-2d6e-4ce1-b827-23703ef3a607",
+      "site": "Complex Law",
+      "url": "https://mobbin.com/sites/sections/d33c835f-2d6e-4ce1-b827-23703ef3a607",
+      "pattern": "columns",
+      "layout": "Two halves split by a vertical hairline, on warm off-white with faint grid lines in the margins. Left: logo, an 'Established in 1988…' paragraph, the registered office address, a regulatory line and a row of three accreditation badges including a review score. Right: two link columns, a policies list, and a newsletter field with a button. Bottom bar: copyright with registration numbers, and social icons.",
+      "type": "Sans ~10px; column headings serif ~12px.",
+      "color": "Off-white ~#FBF8F4; text ~#1F2A33; teal accent ~#1F7A7A; input fill ~#DFF1F1 with a dashed border.",
+      "details": [
+        "The blurb opens with the founding year",
+        "Regulatory and registration numbers appear in the footer as trust",
+        "Accreditation badges and the review score are repeated in the footer",
+        "Dashed-outline inputs and buttons match the rest of the site"
+      ],
+      "why_it_works": "The footer becomes a final trust checkpoint (year, license, badges, rating) without looking cluttered.",
+      "trade_adaptation": "'Family-owned since 1988', 'Licensed & insured · Lic. #ROC-123456', BBB and manufacturer badges and the Google rating, plus service links, with a quote-request field instead of a newsletter.",
+      "mood": ["warm", "minimal", "editorial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:f1844604-7696-4970-b30e-43a7669e9ee1",
+      "site": "In Common With",
+      "url": "https://mobbin.com/sites/sections/f1844604-7696-4970-b30e-43a7669e9ee1",
+      "pattern": "columns",
+      "layout": "Columns topped with hairlines. The brand name sits on the left; then email and phone; then two location columns, each with name, address and hours ('Tuesday – Saturday, 11am – 6pm') plus a 'Book an Appointment' or 'Learn More' link. A second tier has the newsletter on the left and link columns on the right; copyright and credit sit at the bottom.",
+      "type": "Sans ~9px; brand name ~11px semibold.",
+      "color": "Off-white ~#FBFAF8; text and hairlines maroon ~#5A1A1A.",
+      "details": [
+        "Hours sit directly under each address",
+        "Each location has its own action link ('Book an Appointment')",
+        "One ink colour (maroon) for everything, rules included"
+      ],
+      "why_it_works": "The cleanest multi-location format, and the single ink colour makes it feel designed.",
+      "trade_adaptation": "'Showroom' and 'Shop & warehouse' columns with hours and 'Book a design visit'; the ink colour is the brand accent.",
+      "mood": ["minimal", "editorial", "premium"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:5a5e734d-0b06-4545-8131-5e421c4560be",
+      "site": "The Leap",
+      "url": "https://mobbin.com/sites/sections/5a5e734d-0b06-4545-8131-5e421c4560be",
+      "pattern": "big-contact",
+      "layout": "A dark CTA band with a two-line serif headline, a one-line prompt and a pill button, crossed by a thick gradient ribbon. Below it a light footer: a stacked logo on the left, a large caps link list (~16px) in the middle, and a big serif 'Sign up to our newsletter' with a pill input and attached button on the right.",
+      "type": "Headline serif ~36px; links caps grotesk ~16px; newsletter heading serif ~28px.",
+      "color": "CTA band chocolate ~#3A1A12; button and accent lime ~#E6F75A; footer ~#E9E7E4; text ~#3A1A12.",
+      "details": [
+        "A final CTA band comes directly before the footer",
+        "Footer links are set large (~16px) rather than as tiny columns",
+        "Input and button merged into one pill"
+      ],
+      "why_it_works": "It ends the page with one clear action and large, easy-to-tap links.",
+      "trade_adaptation": "A 'Need it fixed today? / Call (555) 123-4567' band, then large links: Services · Service area · Reviews · Financing.",
+      "mood": ["bold", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:b1136f34-c19f-422b-84e5-5082f3690e3f",
+      "site": "Slush",
+      "url": "https://mobbin.com/sites/sections/b1136f34-c19f-422b-84e5-5082f3690e3f",
+      "pattern": "bento",
+      "layout": "A bento of rounded blocks on black. Top: a yellow newsletter block and a blue support block. Middle: a full-width marquee row of alternating coloured pills with a huge condensed 'GET SLUSH' and a logo circle. Bottom: 2×2 white social-icon tiles on the left, and a green block with a condensed italic slogan, a link list and the legal line.",
+      "type": "Condensed heavy grotesk caps ~60px in the marquee; slogan condensed italic ~22px; links caps ~11px.",
+      "color": "Black ~#000000 gutters; blocks yellow ~#FFD84D, blue ~#3E8BFF, orange ~#FF5A1F, green ~#43D693, purple ~#5A3FE0; white tiles.",
+      "details": [
+        "Each block is a different saturated colour, all with the same ~16px radius",
+        "Giant social icons on white tiles",
+        "A marquee of the brand name as the sign-off"
+      ],
+      "why_it_works": "A loud, energetic footer for a bold style; the blocks keep dense content organised.",
+      "trade_adaptation": "A bold brand (junk removal, pest control, garage doors): blocks for 'Call now', 'Book online' and 'Service area', with a marquee of the business name.",
+      "mood": ["bold", "playful"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:8fe7fadd-1c8b-4a4a-b171-4e7470e0f640",
+      "site": "OpenTable",
+      "url": "https://mobbin.com/sites/sections/8fe7fadd-1c8b-4a4a-b171-4e7470e0f640",
+      "pattern": "columns",
+      "layout": "A gradient CTA band ('call to get the full picture') with a 'CALL (866) 951-7154' button, then a dark footer with four link columns and a right column that reads 'Need help deciding…? Give us a call at' followed by the phone number in large bold type (~18px), social icons, and centred legal links.",
+      "type": "Sans; column headings caps ~10px; phone number ~18px semibold.",
+      "color": "Band gradient from navy ~#1F1640 to red ~#D9534F; footer ~#2D333F; text ~#D5D8DE; phone number ~#FFFFFF.",
+      "details": [
+        "The phone number is the largest text in the footer",
+        "The phone number appears inside the button label itself ('CALL (866) …')",
+        "A friendly lead-in sentence comes before the number"
+      ],
+      "why_it_works": "For call-driven businesses the phone number should be the hero of the footer, and this shows that hierarchy.",
+      "trade_adaptation": "For every trade: 'Not sure what you need? Give us a call' with a big tap-to-call number, plus an emergency line if they work 24/7.",
+      "mood": ["friendly"],
+      "quality": 3
+    },
+    {
+      "id": "mobbin:992f9ad7-8eee-45ec-b239-517165480706",
+      "site": "ISO Meet",
+      "url": "https://mobbin.com/sites/sections/992f9ad7-8eee-45ec-b239-517165480706",
+      "pattern": "minimal",
+      "layout": "A single slim footer: a small logo and a one-line origin note on the left; two short link groups ('Sitemap', 'Email') on the right; a hairline; then a bottom line with '©2026 ISO Meet. Made with ♥ in Texas' on the left and 'Follow us' with one icon on the right.",
+      "type": "Sans ~9px grey; group headings ~11px semibold.",
+      "color": "White; text ~#6B6B6B; headings ~#111111.",
+      "details": [
+        "'Made with ♥ in Texas' puts local pride in the legal line",
+        "An origin note: 'built by people who've lived it'",
+        "Only what's needed, nothing more"
+      ],
+      "why_it_works": "A good model for secondary pages or very small businesses, and the local-pride line is a small human touch.",
+      "trade_adaptation": "'© 2026 Henderson Plumbing · Family-owned in Boise since 1994 · Lic. #PL-1234'.",
+      "mood": ["minimal", "friendly"],
+      "quality": 3
+    }
+  ],
+  "takeaways": [
+    "For a trade, the footer's job is phone, hours and service area. Give each a labelled, prominent cell, and make the phone number the largest text.",
+    "Put a directions link under the address and hours under each location, and spell out emergency and holiday hours.",
+    "Finish on a brand moment: a full-width wordmark or one characterful display word.",
+    "Repeat trust in the footer: founding year, license number, a couple of flattened badges and the rating.",
+    "Use one ink colour or one accent, and prefer hairlines or dotted rules to boxes.",
+    "Place a final CTA band ('Call now' / 'Get a free quote') directly above the footer.",
+    "Add one human line or mark ('Family-owned in X since Y', a local illustration, a mascot)."
+  ],
+  "avoid": [
+    "SaaS mega-footers with 5-6 columns of product and resource links (Ramp, Notion, Slack)",
+    "App-store badges, cookie-preference toggles and language selectors on a local trade site",
+    "A newsletter signup as the main footer action instead of call or quote",
+    "Paragraphs of legal disclaimer text",
+    "A generic row of social icons as the only contact method",
+    "Tiny grey-on-grey text for the phone number and address"
+  ]
+}

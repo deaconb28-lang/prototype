@@ -1,0 +1,21 @@
+/* Blueprint Spec: guide lines, bracketed buttons, spec-sheet type */
+.style-blueprint-spec::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background: linear-gradient(var(--line), var(--line)) calc(50% - min(600px, 50vw) + var(--gutter) - 16px) 0 / 1px 100% no-repeat,
+              linear-gradient(var(--line), var(--line)) calc(50% + min(600px, 50vw) - var(--gutter) + 16px) 0 / 1px 100% no-repeat; }
+.style-blueprint-spec h1, .style-blueprint-spec h2, .style-blueprint-spec .svc-name, .style-blueprint-spec .logo-name, .style-blueprint-spec .footer-phone, .style-blueprint-spec .contact-phone, .style-blueprint-spec .form-title { font-stretch: 87.5%; }
+.style-blueprint-spec .btn::before { content: "["; opacity: .6; }
+.style-blueprint-spec .btn::after { content: "]"; opacity: .6; }
+.style-blueprint-spec .btn .icon { display: none; }
+.style-blueprint-spec .eyebrow::before { content: "// "; opacity: .55; }
+.style-blueprint-spec h3 { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .01em; font-weight: 600; }
+.style-blueprint-spec .svc-name { font-size: clamp(1.05rem, 1.7vw, 1.4rem); }
+.style-blueprint-spec .svc-list li { border-top-style: dashed; }
+.style-blueprint-spec .hero-card { font-family: var(--font-mono); font-size: .85rem; border-radius: 2px; border: 1px solid var(--ink); box-shadow: none; }
+.style-blueprint-spec .hero-split .hero-photo { aspect-ratio: 1 / 1; border: 1px solid var(--ink); }
+.style-blueprint-spec .trust strong, .style-blueprint-spec .faq-list summary { font-family: var(--font-mono); text-transform: uppercase; font-size: .95rem; letter-spacing: .02em; }
+.style-blueprint-spec .trust { border-color: var(--ink); }
+.style-blueprint-spec .step-num::before { content: "STEP "; }
+.style-blueprint-spec .facts strong { font-family: var(--font-mono); }
+.style-blueprint-spec .footer-phone { font-size: clamp(2rem, 5.4vw, 4.2rem); }
+.style-blueprint-spec .g-item figcaption { right: auto; background: var(--ink); color: #fff; text-shadow: none; padding: 5px 8px; font-family: var(--font-mono); text-transform: uppercase; font-size: .72rem; }
+.style-blueprint-spec .map iframe { filter: grayscale(1) contrast(1.1); }

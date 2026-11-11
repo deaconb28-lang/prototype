@@ -1,0 +1,19 @@
+/* Market Fresh: tinted cards, hairline-framed split hero, lime pill */
+.style-market-fresh .hero-split { border-bottom: 1px solid var(--line); }
+.style-market-fresh .hero-split .hero-photo { aspect-ratio: 5 / 5.2; }
+.style-market-fresh .svc-cards .card { background: var(--surface-2); }
+.style-market-fresh .svc-cards .card:hover { border-color: var(--ink); }
+.style-market-fresh .svc-cards .svc-icon { width: 44px; height: 44px; padding: 10px; border-radius: 50%; background: var(--surface); }
+.style-market-fresh .review-cards .card { background: var(--surface); border-color: var(--line); }
+.style-market-fresh .trust { background: var(--surface); }
+.style-market-fresh .btn-secondary { border-color: var(--ink); }
+.style-market-fresh .tone-dark .btn-secondary { border-color: rgba(255,255,255,.5); }
+.style-market-fresh .eyebrow { display: inline-block; padding: 5px 10px; border-radius: 999px; background: var(--accent-2); }
+.style-market-fresh .tone-dark .eyebrow { background: rgba(255,255,255,.12); }
+.style-market-fresh .cta-band { background: var(--dark); --fg: var(--dark-ink); --fg-2: var(--dark-ink-2); }
+.style-market-fresh .cta-band .btn-inverse { background: var(--accent); color: var(--accent-ink); }
+.style-market-fresh .cta-band .btn-ghost { border-color: rgba(255,255,255,.4); }
+.style-market-fresh .site-footer { background: #0a2e23; }
+.style-market-fresh .footer-phone { color: var(--accent); }
+.style-market-fresh .faq-list details { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0 22px; margin-bottom: 10px; }
+.style-market-fresh .faq-list { border: 0; }

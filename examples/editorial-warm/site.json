@@ -1,0 +1,22 @@
+{
+  "style": "editorial-warm",
+  "business": {
+    "name": "Linden Street Painters",
+    "trade": "painting",
+    "city": "Portland",
+    "region": "OR",
+    "areas": [
+      "Portland",
+      "Beaverton",
+      "Lake Oswego",
+      "Milwaukie",
+      "Tigard",
+      "Gresham"
+    ],
+    "phone": "(503) 555-0129",
+    "hours": "Mon to Fri 8am to 5pm"
+  },
+  "copy": {
+    "heroHeadline": "Careful prep. *Clean lines.* A house that still looks good in five years."
+  }
+}

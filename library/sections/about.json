@@ -1,0 +1,252 @@
+{
+  "section": "about",
+  "description": "About, story, owner and team sections: who will actually show up at the house. Puts a named owner and real crew in front, tells a short, specific origin story and states what the business stands for.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "family business story section",
+    "construction company about section",
+    "team section for a small business",
+    "founder letter section with portrait and signature",
+    "company values section"
+  ],
+  "references": [
+    {
+      "id": "mobbin:3eb52aa7-420a-4211-ba9b-5793316410d6",
+      "site": "Ada",
+      "url": "https://mobbin.com/sites/sections/3eb52aa7-420a-4211-ba9b-5793316410d6",
+      "pattern": "owner-letter",
+      "layout": "A narrow centred column (~260px measure) under a two-line centred headline, 'a letter from / our [photo] CEO', with a small pill-shaped portrait (~48×28) sitting inline between the words. Body paragraphs ~10px; halfway down, a large pull-quote (~20px) breaks out to a wider measure; it ends with a handwritten signature, a tiny flag and 'Proudly Canadian'.",
+      "type": "Headline geometric sans ~34px regular, all lowercase; body sans ~10px at ~1.5 leading; pull-quote ~20px regular, centred.",
+      "color": "Off-white ~#FBFBFB; text ~#111111; the small flag red ~#D52B1E is the only colour.",
+      "details": [
+        "A pill portrait set inline in the headline, so the face and the words read as one",
+        "The lowercase headline gives a personal, unpretentious voice",
+        "The pull-quote widens past the body measure mid-letter",
+        "Script signature followed by a local-pride line with a tiny flag"
+      ],
+      "why_it_works": "The letter format makes the owner accountable and human, and the inline portrait is a crafted, memorable move that costs nothing to build.",
+      "trade_adaptation": "'a letter from / our [Mike's face] owner' for a family plumbing company, signed, ending 'Proudly serving Dayton since 1994'.",
+      "mood": ["minimal", "warm", "editorial"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:f9e88898-1aaf-4896-99aa-982f2c1106ca",
+      "site": "Waabi",
+      "url": "https://mobbin.com/sites/sections/f9e88898-1aaf-4896-99aa-982f2c1106ca",
+      "pattern": "owner-portrait",
+      "layout": "A full-bleed photo (~16px radius) of the founder leaning, arms crossed, against a branded vehicle. A short quote (~12px serif) with name and title sits top-right in the soft sky area of the photo.",
+      "type": "Quote serif ~13px white; name ~8px bold; title ~8px regular.",
+      "color": "Natural daylight photo with a warm grade; text ~#FFFFFF over the soft, blurred sky.",
+      "details": [
+        "The owner is photographed with the company vehicle and its logo, so the brand is in the scene instead of in a badge",
+        "The quote sits in empty space in the photo, with no overlay box",
+        "Shallow depth of field keeps the background soft enough for the text"
+      ],
+      "why_it_works": "It is the most adaptable image a trade has: owner, truck, logo, daylight. Placing the text in the photo's empty space feels editorial.",
+      "trade_adaptation": "Owner leaning on the wrapped service van in a driveway; quote 'I still answer the phone myself.', Mike Torres, Owner. Hero of the About page.",
+      "mood": ["editorial", "premium", "industrial"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:6e966c2d-2168-4487-9ce4-52afa2ffe3a2",
+      "site": "Sketch",
+      "url": "https://mobbin.com/sites/sections/6e966c2d-2168-4487-9ce4-52afa2ffe3a2",
+      "pattern": "owner-portrait",
+      "layout": "Centred headline and subline, then two columns. Left: three stats in handwriting-style numerals with sketchy circles and underlines and small grey pill labels, followed by four short paragraphs. Right: a polaroid-style photo (~8px white border, ~3° rotation, soft shadow) of the two founders, with a handwritten 'Emanuel & Pieter' and a hand-drawn arrow pointing at them.",
+      "type": "Headline sans ~26px semibold; body ~11px; numerals and annotation in a marker/handwriting face ~36px; pill labels ~7px caps.",
+      "color": "Light grey page ~#F6F6F6; handwriting and doodles amber ~#E8A33D; text ~#2A2A2A; pills ~#E4E4E4.",
+      "details": [
+        "A hand-drawn annotation names the people in the photo",
+        "A slightly rotated print with a white border and a shadow",
+        "One surprising stat ('0 offices') adds personality",
+        "Doodled circles and sparks around the numbers"
+      ],
+      "why_it_works": "The annotations and tilted print make the founders feel like real people in a scrapbook, while the layout stays orderly.",
+      "trade_adaptation": "A polaroid of 'Dave & his son Luke' with a marker arrow; stats '36 years', '2 generations', '0 subcontractors'. Great for friendly and rustic styles.",
+      "mood": ["friendly", "playful", "warm"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:67e11461-af20-4b7e-8e9a-8f0cdc669a8d",
+      "site": "incident.io",
+      "url": "https://mobbin.com/sites/sections/67e11461-af20-4b7e-8e9a-8f0cdc669a8d",
+      "pattern": "owner-letter",
+      "layout": "Asymmetric. The serif title 'A note from the founders' sits top-left (~20px), the letter runs in a right-hand column (~45% width), and below it a small rotated photo of the founders on a sofa sits beside several handwritten signatures scattered loosely.",
+      "type": "Title serif ~20px regular; body sans ~11px at ~1.55 leading.",
+      "color": "White ground; text ~#1D1D1D; the photo supplies the colour (red sofa, navy wall).",
+      "details": [
+        "Several signatures scattered and slightly overlapping: everyone signed",
+        "The photo is tilted a couple of degrees with a thin white border",
+        "The letter's origin story names a concrete place ('rented a room in an old fire station')"
+      ],
+      "why_it_works": "A short letter, a specific origin detail and real signatures make a credible About section that is easy to fill.",
+      "trade_adaptation": "'A note from the Hendersons' signed by both spouses; origin line: 'started with one van and a ladder in 1998'.",
+      "mood": ["editorial", "warm", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:8691b8cf-86d0-4134-b528-d806561b518b",
+      "site": "Savor",
+      "url": "https://mobbin.com/sites/sections/8691b8cf-86d0-4134-b528-d806561b518b",
+      "pattern": "story-split",
+      "layout": "The left half holds a huge two-line serif headline, 'Who / we are', with the second line indented; the right half holds two short paragraphs (~11px). Below, candid team photos are scattered at different sizes and offsets, bleeding off the bottom.",
+      "type": "High-contrast display serif ~80px regular at ~0.95 leading; body sans ~11px.",
+      "color": "Butter cream ~#FEF8E8; headline and body deep maroon ~#3A0E0E.",
+      "details": [
+        "The indented second line gives the headline a staggered, editorial shape",
+        "The headline takes half the width while the copy is a narrow column, a big contrast in scale",
+        "Candid, mid-conversation photos rather than posed headshots",
+        "The copy mentions life outside work ('parents of humans, pets, and plants')"
+      ],
+      "why_it_works": "Pure typographic confidence. It makes a tiny company feel established without inventing stats.",
+      "trade_adaptation": "'Who / we are' or 'Since / 1972' for a family painter or landscaper, with candid crew photos scattered below.",
+      "mood": ["editorial", "warm", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:6fa84ca9-e84b-4df6-8523-8e899b880d6e",
+      "site": "Dropbox",
+      "url": "https://mobbin.com/sites/sections/6fa84ca9-e84b-4df6-8523-8e899b880d6e",
+      "pattern": "story-split",
+      "layout": "A 50/50 split. Left: a warm off-white panel with a tiny eyebrow, a large wide-set headline over two lines (~30px), a short paragraph and a single button at the bottom. Right: a full-bleed photo of the family (two parents and two kids) in front of a brick wall.",
+      "type": "Wide/extended grotesk headline ~30px regular; body ~11px; eyebrow ~9px.",
+      "color": "Panel ~#F5F2EE; text ~#1E1919; button ~#0061FE.",
+      "details": [
+        "The headline 'Two businesses, one family, all together' makes the family the story",
+        "The photo bleeds to the section edge with no radius and no frame",
+        "The button is pinned to the bottom of the text panel, lining up with the photo's bottom edge"
+      ],
+      "why_it_works": "The plainest family-business layout that works: a real family photo, one strong line, one action.",
+      "trade_adaptation": "'Three generations, one phone number.' with a family photo on the shop steps; button 'Meet the crew'.",
+      "mood": ["warm", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:431e7ab9-5f19-40bb-b552-504c79ea0e16",
+      "site": "incident.io",
+      "url": "https://mobbin.com/sites/sections/431e7ab9-5f19-40bb-b552-504c79ea0e16",
+      "pattern": "team-grid",
+      "layout": "Left-aligned serif 'Meet the team', then a horizontal row of tall cards (~200×300, ~6px radius). Each is a full-bleed portrait of someone seated and relaxed in a real space, with name and role bottom-left over a subtle gradient. One card in the row is a quote instead of a person.",
+      "type": "Title serif ~20px; name and role serif ~11px in white.",
+      "color": "White page; warm-toned photos; bottom gradient ~rgba(0,0,0,0.35).",
+      "details": [
+        "People sit in real spaces, laughing or mid-thought, instead of standing against white backgrounds",
+        "Name and role in a small serif at bottom-left",
+        "A quote card placed among the portraits breaks the rhythm"
+      ],
+      "why_it_works": "It shows how to make team photos feel warm and premium, and the format scales from 3 to 20 people.",
+      "trade_adaptation": "Crew members on the tailgate, in the shop, on a job site; cards read 'Carlos · Lead installer, 12 yrs'. Slot one customer quote card into the row.",
+      "mood": ["warm", "editorial", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:ef9a104a-185e-4bb6-ad68-03ab36f29420",
+      "site": "Mother Design",
+      "url": "https://mobbin.com/sites/sections/ef9a104a-185e-4bb6-ad68-03ab36f29420",
+      "pattern": "team-grid",
+      "layout": "A small label and a witty subline top-left, then an 8-column grid of portraits with identical crops (~95×105), each with name and role/city on two small lines beneath. The first row is right-aligned, leaving whitespace at top-left.",
+      "type": "Sans ~8px; name bold, role regular grey.",
+      "color": "White ground; the photos are vintage childhood snapshots in faded film colour and black-and-white.",
+      "details": [
+        "Every team member appears as a vintage childhood or young-adult photo, one concept that ties mismatched photos together",
+        "The subline 'Everybody, and their mother.' is a play on the company name",
+        "A uniform crop ratio keeps the grid tidy despite the varied sources"
+      ],
+      "why_it_works": "A single photo concept turns a generic grid into a story, and it is easy to copy with old family photos.",
+      "trade_adaptation": "Multi-generation business: show 'then' photos (Grandpa's first truck, 1974) alongside today's crew, all with the same crop, under an 'Est. 1974' subline.",
+      "mood": ["warm", "playful", "rustic"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:1d822f31-3963-417c-afeb-3c5deb144cfc",
+      "site": "Analogue Agency",
+      "url": "https://mobbin.com/sites/sections/1d822f31-3963-417c-afeb-3c5deb144cfc",
+      "pattern": "team-list",
+      "layout": "Two columns divided by a single vertical rule. Left: a large statement (~22px) whose last word is grey. Right: a vertical roster where each row has a square headshot (~86px, ~6px radius, grey backdrop), the name with tiny blue language-pill tags, the role in grey, and a one-line description aligned to the bottom of the photo.",
+      "type": "Grotesk; statement ~22px medium; names ~11px semibold; role ~11px grey; description ~7px.",
+      "color": "Light grey ~#EBEBEB; text ~#111111; secondary ~#8A8A8A; pills ~#1D4ED8 with white text.",
+      "details": [
+        "Tiny pill tags beside each name show the languages spoken",
+        "The statement's last word is grey ('familial bond'), giving a two-tone headline",
+        "Each description sits on the photo's bottom line, so every row reads as one unit"
+      ],
+      "why_it_works": "A roster that scales, with small tags that are genuinely useful to customers.",
+      "trade_adaptation": "Pills like 'ES' (speaks Spanish), 'Master Electrician', 'EPA 608'; a one-liner such as 'Handles all our heat-pump installs.'",
+      "mood": ["minimal", "technical"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:0e5b994c-eb04-49a5-b9f7-ac55b9e3041c",
+      "site": "Mews",
+      "url": "https://mobbin.com/sites/sections/0e5b994c-eb04-49a5-b9f7-ac55b9e3041c",
+      "pattern": "values-list",
+      "layout": "Two columns. Left: a tiny caps eyebrow, a bold heading (~22px), a cluster of images (a black booklet cover reading 'HUMAN FIRST' plus two photos) and a 'DOWNLOAD … (PDF)' pill button. Right: numbered rows divided by hairlines, each with a bold value (~15px), a one-line explanation and a small right-aligned index '/ 01'.",
+      "type": "Heading grotesk bold ~22px; values ~15px bold; body ~10px; indices ~8px.",
+      "color": "White ground; text ~#111111; hairlines ~#E2E2E2; booklet black with white condensed type.",
+      "details": [
+        "The values are packaged as a named, downloadable document ('The Mews Constitution')",
+        "Slash-number indices ('/ 01') aligned right",
+        "Values written as two-part phrases ('Listen deeply, act boldly')"
+      ],
+      "why_it_works": "It treats values as a real document the business stands behind, and the list format is calm and easy to scan.",
+      "trade_adaptation": "'The Henderson Promise' as a downloadable PDF: '/01 Show up when we say', '/02 Protect your home (boot covers, drop cloths)', '/03 Price in writing before we start'.",
+      "mood": ["editorial", "minimal", "technical"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:5f8eea35-5f0d-4d96-a38f-c5232ddc2897",
+      "site": "Clay",
+      "url": "https://mobbin.com/sites/sections/5f8eea35-5f0d-4d96-a38f-c5232ddc2897",
+      "pattern": "signature-wall",
+      "layout": "A full-bleed black section with ~10 white handwritten signatures scattered loosely across the upper two-thirds at varied sizes, and a two-line centred serif sentence beneath.",
+      "type": "Serif ~16px regular, centred, light grey.",
+      "color": "Black ~#000000; signatures ~#FFFFFF; sentence ~#D6D6D6.",
+      "details": [
+        "The whole team's signatures stand in for photos or logos",
+        "The line reads: 'We believe in creating work that we're proud to sign our name on.'",
+        "Signatures vary in scale and angle, giving an organic composition"
+      ],
+      "why_it_works": "It states pride in the work literally, which fits trades perfectly, where a craftsman signs off a job.",
+      "trade_adaptation": "Every crew member's signature above 'Every job gets signed off by the person who did it.' Strong for industrial and premium styles.",
+      "mood": ["premium", "editorial", "bold"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:19c349e1-ff13-40ce-96af-26ea0ccb4248",
+      "site": "Yellowbird",
+      "url": "https://mobbin.com/sites/sections/19c349e1-ff13-40ce-96af-26ea0ccb4248",
+      "pattern": "owner-portrait",
+      "layout": "A centred paragraph (~14px) at the top; below it, a landscape candid photo of the two founders clinking bottles, framed with a thick black outline and ~16px radius and slightly rotated. Bubbly hand-lettered 'cheers!' overlaps the photo's bottom edge, and a monospace sign-off is centred beneath.",
+      "type": "Paragraph grotesk ~14px medium; custom bubbly outlined lettering ~50px; sign-off monospace ~8px.",
+      "color": "Saturated yellow ~#FFE53D ground; black ~#111111 outlines and text; lettering filled yellow with a black outline.",
+      "details": [
+        "A hand-lettered word breaks out of the photo frame",
+        "The sign-off 'Smooches, Erin & George / Co-Founders & Partners' in monospace is warm and specific",
+        "A thick black outline makes the photo look like a sticker"
+      ],
+      "why_it_works": "A joyful, personal sign-off, showing how one custom word can carry a brand's personality.",
+      "trade_adaptation": "For a friendly cleaning or pest-control brand: owner photo with hand-lettered 'thanks!', signed 'See you soon, Rosa & the crew'.",
+      "mood": ["playful", "bold", "friendly"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Put a named owner in front: a real face, a real name, a real signature. Letters and sign-offs ('Stay dry, Mike') beat corporate mission statements.",
+    "Use environmental portraits (with the truck, in the shop, on the job), not white-background headshots.",
+    "Specific origin details (a place, a year, the first vehicle) make the story believable.",
+    "A big typographic statement next to a narrow body column is the cheapest way to look premium.",
+    "Add one crafted, hand-made touch per section: a signature, a handwritten annotation or a tilted print.",
+    "For teams, use a uniform crop and one unifying concept, and add useful tags (languages, licenses, years on the job) instead of LinkedIn icons.",
+    "Present values as a short numbered list or a named promise document the business stands behind."
+  ],
+  "avoid": [
+    "Grids of identical circular headshots with LinkedIn icons (Origin, Slash, Coda)",
+    "Generic value cards with emoji or icon circles ('Customer First', 'Integrity', 'Excellence') (Workable, HoneyBook)",
+    "A big group photo inside a carousel with dots (Customer.io)",
+    "Press-room boilerplate blocks ('Short description', 'Full boilerplate')",
+    "Team cards styled as browser windows or UI mockups (Daydream): SaaS cosplay",
+    "Stock imagery of a diverse team high-fiving in an office",
+    "Huge vanity stats (team size, countries) where a small trade would be better served by years, jobs and generations"
+  ]
+}

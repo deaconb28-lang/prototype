@@ -1,0 +1,101 @@
+{
+  "id": "market-fresh",
+  "name": "Market Fresh",
+  "summary": "Fresh and dependable: cream page, forest-green ink, sage bands, hairlines and a lime pill. Like a good neighborhood grocer.",
+  "best_for": [
+    "cleaning",
+    "landscaping",
+    "pest-control",
+    "plumbing"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Lexend",
+      "google": "Lexend:wght@500;600;700"
+    },
+    "body": {
+      "family": "Figtree",
+      "google": "Figtree:wght@400;500;600;700"
+    }
+  },
+  "tokens": {
+    "--bg": "#f7f6ef",
+    "--surface": "#ffffff",
+    "--surface-2": "#dce6d8",
+    "--ink": "#0e3b2e",
+    "--ink-2": "#4b5d55",
+    "--line": "#c9d3c6",
+    "--line-strong": "#9fb0a3",
+    "--accent": "#d6f25c",
+    "--accent-hover": "#c7e646",
+    "--accent-ink": "#0e3b2e",
+    "--accent-text": "#0e5a43",
+    "--accent-2": "#eef8c4",
+    "--dark": "#0e3b2e",
+    "--dark-ink": "#f7f6ef",
+    "--dark-ink-2": "#c4d2ca",
+    "--dark-line": "rgba(247,246,239,.18)",
+    "--banner-bg": "#0e3b2e",
+    "--banner-ink": "#f7f6ef",
+    "--font-display": "'Lexend', system-ui, sans-serif",
+    "--font-body": "'Figtree', system-ui, sans-serif",
+    "--font-mono": "'Figtree', system-ui, sans-serif",
+    "--display-weight": "600",
+    "--display-tracking": "-0.025em",
+    "--display-leading": "1.05",
+    "--h1": "clamp(2.6rem, 5vw, 4.3rem)",
+    "--h2": "clamp(1.9rem, 3.2vw, 2.7rem)",
+    "--h3": "1.25rem",
+    "--eyebrow-size": ".74rem",
+    "--eyebrow-tracking": ".1em",
+    "--eyebrow-weight": "700",
+    "--eyebrow-color": "#0e5a43",
+    "--radius": "18px",
+    "--radius-lg": "22px",
+    "--radius-sm": "10px",
+    "--btn-radius": "999px",
+    "--logo-radius": "999px",
+    "--logo-mark-bg": "#0e3b2e",
+    "--logo-mark-ink": "#d6f25c",
+    "--card-border": "1px solid transparent",
+    "--quote-font": "'Figtree', sans-serif",
+    "--quote-weight": "500",
+    "--star": "#0e5a43",
+    "--accent-on-dark": "#d6f25c",
+    "--input-bg": "#ffffff",
+    "--scrim": "linear-gradient(180deg, rgba(5,30,22,.15) 0%, rgba(5,30,22,.78) 100%)"
+  },
+  "variants": {
+    "nav": "bar",
+    "hero": "split",
+    "services": "cards",
+    "process": "row",
+    "gallery": "grid",
+    "reviews": "cards",
+    "faq": "stack",
+    "cta": "band",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "sweetgreen (menu)",
+      "url": "https://mobbin.com/screens/9d03a449-7ba8-45da-bc74-ef71e61440f8",
+      "what": "Cream page, tinted rounded cards, uppercase tracked eyebrows, price + spec line, pill tab filter and small warning tag."
+    },
+    {
+      "site": "sweetgreen (home)",
+      "url": "https://mobbin.com/screens/aa44d43b-0c4d-45ed-a6a0-5bd336fd4d68",
+      "what": "Split hero divided by hairlines, wide bold sans headline in forest green, lime pill CTA, sage band below."
+    },
+    {
+      "site": "Care.com (HomePay)",
+      "url": "https://mobbin.com/screens/8840c427-54f4-4dbd-b6ee-67ca77e81584",
+      "what": "Beige hero band, dark green outlined price card with corner value tag, phone consult line under the headline, green pill CTA."
+    },
+    {
+      "site": "Customer.io",
+      "url": "https://mobbin.com/sites/sections/c74125df-8280-4579-9289-6255600499f1",
+      "what": "Deep green ink headline on white, dark green pill with outline glow, row of check-mark microcopy under CTAs."
+    }
+  ]
+}

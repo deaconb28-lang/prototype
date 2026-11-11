@@ -1,0 +1,114 @@
+{
+  "id": "blueprint-spec",
+  "name": "Blueprint Spec",
+  "summary": "A technical spec sheet: monospace caps, bracketed buttons, guide lines and spec lists. For trades that sell precision.",
+  "best_for": [
+    "electrical",
+    "hvac",
+    "plumbing",
+    "garage-doors"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Martian Mono",
+      "google": "Martian+Mono:wdth,wght@75..112.5,400..700"
+    },
+    "body": {
+      "family": "IBM Plex Sans",
+      "google": "IBM+Plex+Sans:wght@400;500;600"
+    },
+    "mono": {
+      "family": "IBM Plex Mono",
+      "google": "IBM+Plex+Mono:wght@400;500;600"
+    }
+  },
+  "tokens": {
+    "--bg": "#eef0ec",
+    "--surface": "#ffffff",
+    "--surface-2": "#e3e6e0",
+    "--ink": "#15171a",
+    "--ink-2": "#545a62",
+    "--line": "#cdd2ca",
+    "--line-strong": "#15171a",
+    "--accent": "#2450f0",
+    "--accent-hover": "#1a3fd0",
+    "--accent-ink": "#ffffff",
+    "--accent-text": "#1f45d6",
+    "--accent-2": "#dde5ff",
+    "--dark": "#15171a",
+    "--dark-ink": "#eef0ec",
+    "--dark-ink-2": "#b3b8bf",
+    "--dark-line": "rgba(238,240,236,.18)",
+    "--banner-bg": "#15171a",
+    "--banner-ink": "#eef0ec",
+    "--utility-bg": "#15171a",
+    "--font-display": "'Martian Mono', ui-monospace, monospace",
+    "--font-body": "'IBM Plex Sans', system-ui, sans-serif",
+    "--font-mono": "'IBM Plex Mono', ui-monospace, monospace",
+    "--display-weight": "600",
+    "--display-case": "uppercase",
+    "--display-tracking": "-0.03em",
+    "--display-leading": "1.02",
+    "--h1": "clamp(2.2rem, 4.6vw, 4rem)",
+    "--h1-xl": "clamp(2.6rem, 6vw, 5rem)",
+    "--h2": "clamp(1.6rem, 2.8vw, 2.4rem)",
+    "--h3": "1.05rem",
+    "--h1-page": "clamp(2rem, 4vw, 3.2rem)",
+    "--eyebrow-font": "'IBM Plex Mono', monospace",
+    "--eyebrow-size": ".74rem",
+    "--eyebrow-tracking": ".06em",
+    "--eyebrow-weight": "500",
+    "--radius": "2px",
+    "--radius-lg": "2px",
+    "--radius-sm": "2px",
+    "--btn-radius": "2px",
+    "--logo-radius": "2px",
+    "--logo-weight": "600",
+    "--logo-size": "1rem",
+    "--logo-case": "uppercase",
+    "--logo-tracking": "-0.02em",
+    "--btn-font": "'IBM Plex Mono', monospace",
+    "--btn-case": "uppercase",
+    "--btn-tracking": ".02em",
+    "--btn-weight": "600",
+    "--card-border": "1px solid var(--line-strong)",
+    "--quote-font": "'IBM Plex Sans', sans-serif",
+    "--quote-weight": "400",
+    "--star": "#2450f0",
+    "--accent-on-dark": "#8aa4ff",
+    "--scrim": "linear-gradient(180deg, rgba(10,12,16,.2) 0%, rgba(10,12,16,.8) 100%)"
+  },
+  "variants": {
+    "nav": "utility",
+    "hero": "split",
+    "services": "list",
+    "process": "row",
+    "gallery": "grid",
+    "reviews": "cards",
+    "faq": "twocol",
+    "cta": "band",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "Superpower (hoodie page)",
+      "url": "https://mobbin.com/sites/sections/57a1e1f4-c526-4fcf-be1d-6ec3bbec1753",
+      "what": "Typewriter mono caps headline, bracketed black buttons, corner spec blocks, footnote marker [1] and right-aligned spec list."
+    },
+    {
+      "site": "Atlas",
+      "url": "https://mobbin.com/sites/sections/2f379c3d-dfcb-4eb2-8a2f-d01cc298f5f5",
+      "what": "Charcoal page with thin vertical guide lines, outlined boxed nav, macro photo of copper coils, catalog thumbnail strip. Very direct cue for electricians."
+    },
+    {
+      "site": "Clockwise",
+      "url": "https://mobbin.com/sites/sections/ff439432-5975-41e1-a742-02370e3ad477",
+      "what": "Left-margin time ruler with tick marks framing stacked panels: a scheduling/appointments motif."
+    },
+    {
+      "site": "LangChain",
+      "url": "https://mobbin.com/screens/b59685a4-716e-40e4-96ce-b5ce02c8841b",
+      "what": "Monospace body and nav, process diagram drawn as thin curved lines meeting at pill labels."
+    }
+  ]
+}

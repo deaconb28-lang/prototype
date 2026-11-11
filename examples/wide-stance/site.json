@@ -1,0 +1,22 @@
+{
+  "style": "wide-stance",
+  "business": {
+    "name": "Summit Garage Door Co.",
+    "trade": "garage-doors",
+    "city": "Denver",
+    "region": "CO",
+    "areas": [
+      "Denver",
+      "Aurora",
+      "Lakewood",
+      "Littleton",
+      "Englewood",
+      "Wheat Ridge"
+    ],
+    "phone": "(303) 555-0108",
+    "hours": "Mon to Sat 7am to 8pm"
+  },
+  "copy": {
+    "heroHeadline": "Broken spring at 7am? *Fixed by 10.*"
+  }
+}

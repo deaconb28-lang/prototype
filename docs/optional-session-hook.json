@@ -1,0 +1,13 @@
+{
+  "_note": "Optional. Copy the \"hooks\" block into .claude/settings.json (project) or ~/.claude/settings.json to inject the toolkit status before Claude's first reply. Without it, CLAUDE.md tells Claude to run scripts/status.mjs itself.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          { "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/scripts/status.mjs\" --hook", "timeout": 20 }
+        ]
+      }
+    ]
+  }
+}

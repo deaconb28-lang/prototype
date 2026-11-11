@@ -1,0 +1,264 @@
+{
+  "section": "gallery",
+  "description": "Shows finished jobs so a homeowner can judge quality before calling: project portfolios, single-job case studies, before/after comparisons and progress sequences. On a trade site it is the main proof section, so photos lead and every job says what was done and where.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "project portfolio section",
+    "architecture firm projects gallery",
+    "before and after comparison section",
+    "before and after image comparison slider",
+    "case study section with project photos and results",
+    "construction and renovation company recent projects section",
+    "home renovation before and after photos section"
+  ],
+  "references": [
+    {
+      "id": "mobbin:7c3edb84-022f-4919-a1db-88f42afdc7ce",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/7c3edb84-022f-4919-a1db-88f42afdc7ce",
+      "pattern": "case-study-hero",
+      "layout": "Full-bleed project photo (~100vw x ~70vh) with the project name centered on it in white. Directly below, a solid peach band split roughly 1/3 + 2/3: the left column holds four short metadata lines (Category / Conducted / Location / Involvement), the right column a large intro paragraph (~4 lines). No cards, no buttons in view.",
+      "type": "Title in an ultra-condensed grotesk (Bebas/Druk-like), uppercase, ~56px, tight tracking. Intro paragraph sans ~20px regular, line-height ~1.35. Metadata sans ~12px regular as plain 'Label: value' lines.",
+      "color": "Photo-driven top; white title; peach band ~#fde0d2; text ~#111. Site utility bar above is signal yellow ~#ffe000.",
+      "details": [
+        "Metadata written as plain 'Category: Hotel / Conducted: 2023 / Location: Palma' lines with no icons",
+        "Huge size jump between the ~12px metadata and the ~20px intro creates hierarchy without bold",
+        "Title sits directly on a mid-tone photo with no gradient scrim",
+        "Peach band color is pulled from the warm stone in the photo"
+      ],
+      "why_it_works": "It treats one job like a magazine feature. The metadata answers what, when and where in two seconds, and the intro paragraph tells the story.",
+      "trade_adaptation": "Single-job page for a remodeler or roofer: photo of the finished kitchen or roof, title 'HOLLIS AVE KITCHEN', meta lines 'Service: Full remodel / Completed: May 2025 / Location: Westfield / Duration: 6 weeks', intro paragraph in the owner's words about the problem and the fix.",
+      "mood": ["bold", "editorial", "industrial"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:6db670d9-394c-47ce-8963-900f20f3fb75",
+      "site": "Hims",
+      "url": "https://mobbin.com/sites/sections/6db670d9-394c-47ce-8963-900f20f3fb75",
+      "pattern": "before-after-pairs",
+      "layout": "Centered header: tiny grey pill 'Featured reviews', then a 2-line heading (~30px) whose second line is in a tan accent. Below, a horizontal carousel of pale grey cards (~220px wide, ~16px radius) that bleed off both viewport edges. Each card: amber result pill at top, two side-by-side photos (~80x120, ~8px radius) captioned 'Month 0' / 'Month 7' underneath, then a centered 4-5 line quote.",
+      "type": "Geometric sans. Heading ~30px regular, line 2 recolored. Result pill ~9px medium. Photo captions ~10px grey. Quote ~14px regular, centered, curly quotes.",
+      "color": "White page; cards ~#f4f4f4; pill fill amber ~#f6c27a with dark brown text ~#5a3b00; accent heading line tan ~#c98a4b; body ~#222.",
+      "details": [
+        "Result pill states the outcome with a timeframe ('34 lbs lost in 7 months')",
+        "Photos labeled with time stamps instead of the words Before/After",
+        "Cards cropped at both viewport edges signal swipe without arrows",
+        "Quote sits under the photos so the evidence comes first"
+      ],
+      "why_it_works": "Three kinds of proof in one card: paired photos, a quantified result and a human quote. The time labels make the change feel real rather than staged.",
+      "trade_adaptation": "Painter, cleaner, landscaper or roofer: pill 'Full tear-off in 3 days', photos labeled 'Day 1' / 'Day 3' (or 'Before' / 'After'), homeowner quote and town underneath. Photos must be shot from the same angle for the pairing to read.",
+      "mood": ["friendly", "warm"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:005afd6c-c2e6-4b81-8b19-b0453d4871df",
+      "site": "Contra",
+      "url": "https://mobbin.com/sites/sections/005afd6c-c2e6-4b81-8b19-b0453d4871df",
+      "pattern": "case-study-cards",
+      "layout": "3x2 grid, ~16px gutters, ~48px between rows. Each card is an image tile (~3:2, ~10px radius) with a white uppercase micro-label overlaid top-left ('SAVED $30K+', '10+ CLIENT PROJECTS', '700+ PROJECTS'), and a 2-3 line headline sentence below the tile. No buttons; the whole card is the link.",
+      "type": "Headline sans medium ~15px, line-height ~1.3, black. Overlay labels in a mono-ish uppercase ~10px with ~0.08em tracking.",
+      "color": "White page; tiles mix photography with flat fills (black ~#000, sage ~#5c8a5a, navy gradient); labels white; headlines ~#111.",
+      "details": [
+        "The metric is the eyebrow: result first, story second",
+        "Headlines are 'How X did Y' sentences, not project titles",
+        "No 'Read more' link; the card itself is clickable",
+        "Overlay label sits on the image corner with no backing chip"
+      ],
+      "why_it_works": "Leading with a number turns each project into evidence, and the sentence headline tells you why to click.",
+      "trade_adaptation": "Roofer or HVAC grid of job photos with overlay labels like '2-DAY TEAR-OFF', '$0 CHANGE ORDERS', '40-YR WARRANTY'; headline 'How the Delgados stopped a 30-year leak before winter'. Use real job photos only; skip the logo-on-color tiles.",
+      "mood": ["bold", "minimal"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:ab65e620-d6d1-4ad0-b400-d7d414d83e55",
+      "site": "Mother Design",
+      "url": "https://mobbin.com/sites/sections/ab65e620-d6d1-4ad0-b400-d7d414d83e55",
+      "pattern": "masonry",
+      "layout": "Wide grid with deliberately mixed tile sizes per row: row 1 = one large landscape tile (~half width) + two small; row 2 = small square, large centered landscape, small; row 3 = large + two small. Tiles share a top line per row but bottoms vary. Tiny control bar above: 'View: Image / List' toggle and 'Filter by: Categories (16)'. Each tile has a two-line caption under it.",
+      "type": "Neo-grotesk (Helvetica-like) at small sizes only: client name ~12px medium black, tagline ~11px regular grey. No section heading; images carry it.",
+      "color": "White ~#fff, text ~#111, taglines ~#777. All color comes from the photography.",
+      "details": [
+        "Image/List view toggle gives a text index of the same work",
+        "Category count in parentheses '(16)'",
+        "Row gaps (~60px) are much larger than gutters (~16px), so rows read as spreads",
+        "Captions are always one line: name plus a short tagline"
+      ],
+      "why_it_works": "Tile size does the ranking: the strongest job gets the biggest tile. It looks curated rather than templated.",
+      "trade_adaptation": "Remodeler or roofer portfolio: hero job in the large tile, detail shots (flashing, tile work, trim) in small tiles; caption 'Cedar shake re-roof, Maplewood'; filters by service (Roofing / Gutters / Siding); List view as a job log.",
+      "mood": ["editorial", "minimal", "premium"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:933958ee-3d23-4692-bcb7-650e850a84ee",
+      "site": "Pentagram",
+      "url": "https://mobbin.com/sites/sections/933958ee-3d23-4692-bcb7-650e850a84ee",
+      "pattern": "captioned-grid",
+      "layout": "Uniform 3-column grid, ~16px gutters, ~3:2 landscape images with square corners; caption block under each image (bold title + 1-3 line description); ~50px between rows. A full-width-ish pale grey 'Load more +' bar (~370px wide, ~28px tall) centered below the grid.",
+      "type": "Sans (Graphik-like). Title ~13px medium ~#1a1a1a; description ~12px regular ~#6b6b6b, line-height ~1.35. Button label ~10px.",
+      "color": "White page, near-black titles ~#1a1a1a, grey descriptions ~#6b6b6b, load-more fill ~#ececec.",
+      "details": [
+        "Each description says what was done in one sentence",
+        "No cards, borders or shadows: the image edge is the grid",
+        "Understated 'Load more +' instead of a loud CTA",
+        "Consistent image ratio keeps the grid calm even with busy photos"
+      ],
+      "why_it_works": "Disciplined and photo-first. The restraint makes ordinary work look expensive.",
+      "trade_adaptation": "Painter or remodeler project grid: 'Victorian exterior repaint' + 'Full prep, three-color scheme, 9 days.' Load more for dozens of jobs without a separate page.",
+      "mood": ["minimal", "editorial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:05811dd7-a07a-41ae-9fa7-192b8eede1b1",
+      "site": "Instrument",
+      "url": "https://mobbin.com/sites/sections/05811dd7-a07a-41ae-9fa7-192b8eede1b1",
+      "pattern": "featured-plus-grid",
+      "layout": "Hairline at top, then a control row: 'FILTER:' + pills (ALL filled black; BRAND / MARKETING / PRODUCT grey) on the left, 'DISPLAY:' STACK/GRID toggle on the right. A 2-line statement headline spans the width. Below, a featured image card (~65% width, ~16px radius) on the left and a smaller card (~33%) on the right with caption: client ~11px, 2-line headline ~15px, hashtag tag.",
+      "type": "Statement in a narrow serif (~36px regular, tight tracking). Captions neutral sans; filter labels and tags in mono uppercase ~9px.",
+      "color": "White ~#fff; active pill ~#111 with white text; inactive pills ~#e8e8e8; text ~#111 / ~#666.",
+      "details": [
+        "A sentence about the work replaces the 'Our Work' heading",
+        "Tags written as '#MARKETING' in mono",
+        "Stack/Grid display toggle",
+        "Rounded corners (~16px) only on images, never on text blocks"
+      ],
+      "why_it_works": "One big featured job plus a smaller supporting one gives the section a lead story, and the serif statement sets the voice.",
+      "trade_adaptation": "Landscaper: statement 'Gardens built to outlast the people who planted them.' Featured card = biggest backyard install; filters Hardscape / Planting / Irrigation.",
+      "mood": ["editorial", "premium"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:280c1a2d-41d4-4495-a4bd-816763c93ad3",
+      "site": "Locomotive",
+      "url": "https://mobbin.com/sites/sections/280c1a2d-41d4-4495-a4bd-816763c93ad3",
+      "pattern": "project-index",
+      "layout": "Text-only index. Top-left 'All projects' with a superscript count (43); top-right a 4-line intro paragraph. Below, a 3-column list with no rules: project name (~50% width), sector, 'City, Country'. Rows ~20px tall with ~6px spacing; 10+ rows visible.",
+      "type": "Neo-grotesk ~14px regular for everything, one weight; superscript count ~8px.",
+      "color": "White ~#fff and black ~#111 only.",
+      "details": [
+        "Superscript project count next to the label",
+        "No images, borders or icons; reads like a ledger",
+        "Location column on every row",
+        "Columns align to the same grid as the intro paragraph above"
+      ],
+      "why_it_works": "Volume is the proof. A long, plain list of real jobs and places reads more confident than a few hero shots.",
+      "trade_adaptation": "Plumber or electrician 'Job log': 'Tankless water heater install / Plumbing / Cranford, NJ'. 40+ rows prove local track record; each row can link to photos. Pairs well with a photo grid above.",
+      "mood": ["minimal", "technical"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:ceab4ab4-d046-4356-bde4-32acd9781fa8",
+      "site": "Vucko",
+      "url": "https://mobbin.com/sites/sections/ceab4ab4-d046-4356-bde4-32acd9781fa8",
+      "pattern": "carousel",
+      "layout": "Horizontal rail of near-square tiles (~250x280, ~4px radius, ~12px gaps); first tile cut at the left edge, last at the right. Two-line caption under each: project name, then (client) in parentheses. Footer row: 'Clients - 2013/2024' left, '(Scroll)' right. Header shows the studio's city and local time.",
+      "type": "Neutral grotesk ~11px regular black for captions and footer; nav ~11px.",
+      "color": "White page, near-black text ~#111, full-saturation imagery.",
+      "details": [
+        "Parenthetical '(Scroll)' hint instead of arrow buttons",
+        "Local time and city in the header ('Toronto, Canada 4:50 am')",
+        "Client name in parentheses on the second caption line",
+        "Tiles bleed off both edges to imply more"
+      ],
+      "why_it_works": "Low chrome lets the images carry the section; the place-and-time detail quietly says 'we are local and open'.",
+      "trade_adaptation": "Electrician or HVAC: rail of recent installs captioned 'Panel upgrade (Hendricks residence)'; header line 'Westfield, NJ 7:42 am, crews out now'.",
+      "mood": ["minimal", "editorial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:a50e0b6f-4565-45ae-a5f0-64b2b5ea09e6",
+      "site": "KÖPPEN",
+      "url": "https://mobbin.com/sites/sections/a50e0b6f-4565-45ae-a5f0-64b2b5ea09e6",
+      "pattern": "progress-filmstrip",
+      "layout": "Large photo on the left (~40% width, ~400px tall) with an italic caption beneath. To its right, a filmstrip of ~7 small thumbnails (~60x75) bottom-aligned to the main image's baseline, each with a year label below (2023, 2024, 2025, 2026). Top-right counter '1 / 12' and 'NEXT'.",
+      "type": "Small sans ~9px for labels and counter; caption italic ~9px.",
+      "color": "Warm off-white ~#fbf8ee page, black text ~#111, natural photo colors.",
+      "details": [
+        "Date stamps under thumbnails turn photos into a timeline",
+        "Thumbnails share the main image's bottom edge",
+        "Plain '1 / 12' counter instead of dots",
+        "Italic caption describes what the photo shows"
+      ],
+      "why_it_works": "A sequence of dated photos tells a story of progress, which is exactly what a renovation is.",
+      "trade_adaptation": "Job progress gallery: main photo = finished roof or kitchen; filmstrip labeled 'Day 1 tear-off', 'Day 2 decking', 'Day 3 shingles', 'Final walkthrough'. Counter shows photo count.",
+      "mood": ["editorial", "rustic", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:157b5e88-a7e2-421e-9c34-ecc77a982245",
+      "site": "Farm Minerals",
+      "url": "https://mobbin.com/sites/sections/157b5e88-a7e2-421e-9c34-ecc77a982245",
+      "pattern": "case-study-cards",
+      "layout": "Solid olive field, full-bleed. Three photo cards (~150x160, ~4px radius) placed in a staggered, non-grid arrangement. Each card has a square badge top-left with a big number ('8 T/HA', '56 T/HA', '↑27.5%'), and bottom-left a white title ('Wheat') plus a tiny uppercase result caption.",
+      "type": "Sans throughout. Badge numbers ~22px medium white with unit underneath ~10px; titles ~14px; captions uppercase ~7px, tracked.",
+      "color": "Olive field ~#5b6f35; badges a lighter olive ~#6f8a3c; white text; natural photo colors.",
+      "details": [
+        "Badge color matches the background, so cards look cut out of the field",
+        "Staggered placement instead of a grid",
+        "Uppercase micro-captions carry real figures and dates",
+        "Arrow glyph in the metric ('↑27.5%') signals improvement"
+      ],
+      "why_it_works": "Organic placement plus hard numbers feels both handmade and credible.",
+      "trade_adaptation": "Landscaper or lawn care on a deep green field: cards 'Lawn renovation, 90% coverage in 6 wks', 'Drainage regrade, zero standing water', with a square badge for the number.",
+      "mood": ["rustic", "warm", "bold"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:6733adc0-959f-4d37-afec-0977605d2d9d",
+      "site": "Kinfolk",
+      "url": "https://mobbin.com/sites/sections/6733adc0-959f-4d37-afec-0977605d2d9d",
+      "pattern": "masonry",
+      "layout": "Tall single-project spread. Photos (~4:5 and ~3:2 mixed) staggered left and right in a 2-column offset rhythm with ~40px vertical offsets. The serif title sits in the empty top-right column instead of above the photos. Each photo has a tiny caption under it.",
+      "type": "Serif ~16px light for the 2-line title; captions sans ~7px grey ('Photo: Emanuel Bougot').",
+      "color": "White page, black type, warm wood and neutral interior photography.",
+      "details": [
+        "Photo credit and subject in each caption",
+        "Title fills a gap in the stagger rather than taking its own row",
+        "No two photos share a top edge",
+        "Lots of white space; the photos breathe"
+      ],
+      "why_it_works": "Magazine pacing makes one project feel like a story, which suits craft trades with detail work.",
+      "trade_adaptation": "Single-project page for a carpenter or remodeler: staggered shots of built-ins with captions 'Walnut built-ins, living room' and a serif title 'The Hollis Street library' in the gap.",
+      "mood": ["editorial", "premium", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:43585819-3447-41fd-9e82-9576bbda6025",
+      "site": "Daylight",
+      "url": "https://mobbin.com/sites/sections/43585819-3447-41fd-9e82-9576bbda6025",
+      "pattern": "photo-quote-cards",
+      "layout": "Deep blue band. Mono eyebrow 'WHAT HOMEOWNERS SAY' top-left, serif headline below ('Real homes. Real savings.'). Three equal portrait cards (~210x320, ~10px radius), each a photo of the customer's house with a frosted-glass panel covering ~85% of it, holding a large quote and 'Name, Town' at the bottom.",
+      "type": "Transitional serif for headline (~36px light) and quotes (~20px light), white. Eyebrow mono uppercase ~8px. Attribution sans ~9px.",
+      "color": "Royal blue ~#2b4aa0 band; white text; frosted panels ~rgba(255,255,255,0.15) with background blur.",
+      "details": [
+        "The customer's own house is the background of each quote",
+        "Frosted glass keeps the house visible behind the words",
+        "Attribution includes town and state ('Norwood, MA')",
+        "Mono eyebrow vs serif headline pairing"
+      ],
+      "why_it_works": "Joins project photo and review in one object: proof the house exists and the owner is happy.",
+      "trade_adaptation": "Roofing, solar or HVAC: photo of the actual finished roof behind 'Our energy bill dropped 30%', signed 'Sarah M., Cranford'. Works as a bridge between gallery and testimonials.",
+      "mood": ["premium", "warm", "editorial"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Photos lead and captions stay short: what was done + where (+ when). One line beats a paragraph; ~11-13px captions under images with no card chrome.",
+    "Rank work by size: one featured job larger than the rest (mixed tile sizes or a featured card + smaller card) instead of a uniform grid of equals.",
+    "Put a result on the card: an overlay eyebrow or pill with a number and timeframe ('2-DAY TEAR-OFF', 'Restored in 3 days').",
+    "Before/after works best as paired photos from the same angle, labeled with time ('Day 1' / 'Day 3'), plus a result pill and a homeowner quote.",
+    "Every project names its town. Location metadata is both trust and local SEO, and it is what homeowners scan for.",
+    "Give volume a home: a plain text job index or List view proves track record without 40 photos.",
+    "Single-job pages: full-bleed finished photo, then a metadata band (Service / Completed / Location / Duration) and an intro paragraph.",
+    "Keep chrome minimal: ~16px gutters, ~48-64px row gaps, no shadows or borders; color comes from photos or one full-bleed brand band."
+  ],
+  "avoid": [
+    "Generic 3-column cards with drop shadows, a stock photo, a pink/blue headline and a 'Read case study >' link on every card (Toggl Track, Superhuman, Voiceflow style).",
+    "Logo-on-gradient or 'Brand VS Brand' tiles instead of real photos of the work (Kajabi comparisons, Contra's logo tiles).",
+    "3D arc, fanned or stacked-deck carousels (Inkwell) that hide the photos and break on phones.",
+    "Dark, scroll-jacked, drag-to-explore galleries with hover-only titles (Studio Freight, Freshman): unreadable for a homeowner on a phone.",
+    "Text-only 'Before / With us' columns with ✕ and ✓ bullets (V7, Cake Equity, Contractbook): SaaS shorthand; trades need photo pairs.",
+    "Lazy-loaded galleries that render blank without JS (several results captured as empty grey frames).",
+    "Purple-glow gradients and blurred 'unlock' metrics as decoration."
+  ]
+}

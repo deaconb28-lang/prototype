@@ -1,0 +1,104 @@
+{
+  "id": "editorial-warm",
+  "name": "Editorial Warmth",
+  "summary": "Small-press magazine. Light serif with one italic word, cream paper, terracotta, photos inset like printed plates.",
+  "best_for": [
+    "painting",
+    "remodeling",
+    "landscaping",
+    "cleaning"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Instrument Serif",
+      "google": "Instrument+Serif:ital@0;1"
+    },
+    "body": {
+      "family": "Instrument Sans",
+      "google": "Instrument+Sans:wght@400;500;600"
+    },
+    "mono": {
+      "family": "DM Mono",
+      "google": "DM+Mono:wght@400;500"
+    }
+  },
+  "tokens": {
+    "--bg": "#f6efe4",
+    "--surface": "#fbf6ee",
+    "--surface-2": "#efe5d6",
+    "--ink": "#1e1a16",
+    "--ink-2": "#5f564b",
+    "--line": "#d9cdbb",
+    "--line-strong": "#bfb09a",
+    "--accent": "#a4532f",
+    "--accent-hover": "#8c4426",
+    "--accent-ink": "#fbf6ee",
+    "--accent-text": "#94482a",
+    "--accent-2": "#f0dccd",
+    "--dark": "#1e1a16",
+    "--dark-ink": "#f6efe4",
+    "--dark-ink-2": "#cdbfac",
+    "--dark-line": "rgba(246,239,228,.16)",
+    "--banner-bg": "#1e1a16",
+    "--banner-ink": "#f6efe4",
+    "--font-display": "'Instrument Serif', Georgia, serif",
+    "--font-body": "'Instrument Sans', system-ui, sans-serif",
+    "--font-mono": "'DM Mono', ui-monospace, monospace",
+    "--display-weight": "400",
+    "--display-tracking": "-0.012em",
+    "--display-leading": "1.0",
+    "--h1": "clamp(3rem, 6vw, 5.4rem)",
+    "--h2": "clamp(2.3rem, 4vw, 3.6rem)",
+    "--h3": "1.55rem",
+    "--h1-page": "clamp(2.6rem, 5vw, 4.4rem)",
+    "--eyebrow-font": "'DM Mono', monospace",
+    "--eyebrow-size": ".72rem",
+    "--eyebrow-tracking": ".14em",
+    "--eyebrow-weight": "500",
+    "--radius": "14px",
+    "--radius-lg": "18px",
+    "--radius-sm": "8px",
+    "--btn-radius": "999px",
+    "--logo-radius": "999px",
+    "--logo-weight": "400",
+    "--logo-size": "1.55rem",
+    "--em-color": "#6e3b5e",
+    "--quote-font": "'Instrument Serif', serif",
+    "--card-border": "1px solid var(--line)",
+    "--star": "#a4532f",
+    "--scrim": "linear-gradient(180deg, rgba(20,14,8,.1) 0%, rgba(20,14,8,.25) 45%, rgba(20,14,8,.8) 100%)"
+  },
+  "variants": {
+    "nav": "bar",
+    "hero": "split",
+    "services": "list",
+    "process": "row",
+    "gallery": "grid",
+    "reviews": "quote",
+    "faq": "twocol",
+    "cta": "card",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "Claude (ASMobbin studio page)",
+      "url": "https://mobbin.com/screens/be5c2b80-ce16-4bf3-b237-5e6e29577bd2",
+      "what": "Condensed light serif with an italic plum accent word, mono numbered section labels, stat trio with mono captions, crop-mark corners on the image card, cream paper throughout."
+    },
+    {
+      "site": "Squarespace (culinary template)",
+      "url": "https://mobbin.com/screens/6f2641ba-4b70-4aad-b0f8-db81e7cddbe2",
+      "what": "Photo inset with margin on a warm greige page, soft wedge serif set large across the photo, serif wordmark and pill CTA in terracotta."
+    },
+    {
+      "site": "Replit (ASCoffee design)",
+      "url": "https://mobbin.com/screens/2a4a9113-02e6-43a4-a8c8-eb56cc293e48",
+      "what": "Two-tone serif headline (ink + terracotta), arch-topped hero photo with a floating detail card, dark trust strip along the hero's bottom edge."
+    },
+    {
+      "site": "Hims",
+      "url": "https://mobbin.com/screens/c19b2bf7-004c-4f5a-b444-df6fd524b20c",
+      "what": "Tan-over-black two-tone headline on cream, tan check circles in the bullet list, rounded photo mosaic on the right."
+    }
+  ]
+}

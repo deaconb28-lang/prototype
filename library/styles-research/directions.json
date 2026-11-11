@@ -1,0 +1,509 @@
+{
+  "collected_at": "2026-11-11",
+  "source": "Mobbin MCP (search_screens, search_sections). Mobbin page links and written observations only; no images or expiring image links.",
+  "queries": [
+    "search_screens: solar company homepage (deep mode, no results)",
+    "search_screens: solar energy company landing page (standard mode)",
+    "search_screens: home services company homepage",
+    "search_screens: construction company homepage (no results)",
+    "search_screens: architecture firm homepage",
+    "search_screens: real estate agency homepage",
+    "search_screens: landscape architecture studio homepage",
+    "search_screens: furniture brand homepage",
+    "search_screens: home insurance homepage",
+    "search_screens: interior design studio homepage",
+    "search_screens: outdoor gear brand homepage",
+    "search_screens: local restaurant homepage",
+    "search_screens: moving company homepage",
+    "search_screens: car repair homepage",
+    "search_screens: electric utility homepage",
+    "search_screens: cleaning service homepage",
+    "search_screens: Jobber homepage",
+    "search_sections: hero section with full-bleed photography and serif headline",
+    "search_sections: hero section with bold condensed uppercase headline",
+    "search_sections: dark premium hero section with thin lines and photography",
+    "search_sections: playful hero section with bright color blocks and rounded shapes",
+    "search_sections: hero section with classic serif typography on cream background for an established company"
+  ],
+  "directions": [
+    {
+      "id": "editorial-warm",
+      "name": "Editorial Warmth",
+      "summary": "A small-press magazine feel: light condensed serif with one italic word, warm cream paper, terracotta accents and photos that sit inset like printed plates.",
+      "best_for_trades": ["painting", "remodeling", "landscaping", "cleaning"],
+      "typography": {
+        "display": "Light, slightly condensed transitional serif with a true italic used for one accent word per headline. Google: Instrument Serif (400 + italic); alt Newsreader (opsz 72, wght 300).",
+        "body": "Quiet humanist/grotesk sans at 16-17px. Google: Instrument Sans 400/500.",
+        "details": "Headlines sentence case, 56-80px, tracking -0.01em, line-height 1.0-1.05. Eyebrows and stat captions in DM Mono 11px uppercase, tracking +0.12em, often prefixed with a section number ('02 · Services'). Stats in the display serif at 32-40px over mono captions."
+      },
+      "palette": {
+        "background": "~#F6EFE4",
+        "surface": "~#EFE5D6",
+        "ink": "~#1E1A16",
+        "muted": "~#6F6559",
+        "accent": "~#B8673F",
+        "accent_2": "~#6E3B5E",
+        "notes": "Cream page, no pure white anywhere. Terracotta carries the CTA and the second line of a two-tone headline; plum (or terracotta) only on the italic accent word. Dark ink pill button rather than a colored one for the primary CTA."
+      },
+      "shape": "Image plates with 16-20px radius or an arch-topped crop; buttons as 999px pills; 1px hairline rules (~#D9CDBB) between sections instead of colored bands; no drop shadows except a very soft one under a single floating card.",
+      "layout_personality": "Asymmetric split hero (text 5 cols, image 6-7 cols) or a photo inset with page margin all round and the headline set over it. Generous whitespace (120-160px section padding), left-aligned text, numbered section headers that run as a rule + label + headline line.",
+      "imagery": "Warm, naturally lit, slightly desaturated photos of finished rooms, materials and hands at work; shot close with shallow depth. Inset with margin rather than full bleed.",
+      "signature_details": [
+        "Two-tone headline: first line ink, second line terracotta (or one italic word in plum)",
+        "Section numbering in mono ('01 · About', '02 · Pricing') sitting on a hairline rule",
+        "Crop marks / corner ticks on the hero image card and a tiny mono caption like 'Job 014 · Kitchen'",
+        "Stat trio with serif numerals and mono uppercase captions, separated by a hairline above",
+        "Arch-topped or inset photo plate with a small floating detail card overlapping its edge"
+      ],
+      "references": [
+        { "site": "Claude (ASMobbin studio page)", "url": "https://mobbin.com/screens/be5c2b80-ce16-4bf3-b237-5e6e29577bd2", "what": "Condensed light serif with an italic plum accent word, mono numbered section labels, stat trio with mono captions, crop-mark corners on the image card, cream paper throughout." },
+        { "site": "Squarespace (culinary template)", "url": "https://mobbin.com/screens/6f2641ba-4b70-4aad-b0f8-db81e7cddbe2", "what": "Photo inset with margin on a warm greige page, soft wedge serif set large across the photo, serif wordmark and pill CTA in terracotta." },
+        { "site": "Replit (ASCoffee design)", "url": "https://mobbin.com/screens/2a4a9113-02e6-43a4-a8c8-eb56cc293e48", "what": "Two-tone serif headline (ink + terracotta), arch-topped hero photo with a floating detail card, dark trust strip along the hero's bottom edge." },
+        { "site": "Hims", "url": "https://mobbin.com/screens/c19b2bf7-004c-4f5a-b444-df6fd524b20c", "what": "Tan-over-black two-tone headline on cream, tan check circles in the bullet list, rounded photo mosaic on the right." }
+      ]
+    },
+    {
+      "id": "cinematic-horizon",
+      "name": "Cinematic Horizon",
+      "summary": "Big-sky, full-viewport landscape or aerial photography with a calm white serif headline centered in the light, like an opening film still.",
+      "best_for_trades": ["roofing", "landscaping", "electrical", "hvac"],
+      "typography": {
+        "display": "Sharp, light transitional serif, high contrast but sturdy. Google: Newsreader (opsz 72, wght 300-400); alt Source Serif 4 Display 300.",
+        "body": "Neutral grotesk at 16-18px, light on dark photo. Google: Hanken Grotesk 400.",
+        "details": "Hero headline 60-88px centered, sentence case, tracking -0.02em. One mono eyebrow above it in Fragment Mono 11px uppercase, tracking +0.18em, white at 70% opacity. Body under the headline max 46ch, centered."
+      },
+      "palette": {
+        "background": "~#0F1720",
+        "surface": "~#F5F3EE",
+        "ink": "~#FFFFFF",
+        "muted": "~#C9CCD1",
+        "accent": "~#F2601F",
+        "accent_2": "~#1D2B3A",
+        "notes": "The photo is the palette: dusk blues, warm roof terracotta, green hills. A 20-40% charcoal gradient from the top and bottom keeps type legible. One saturated accent (orange) only on the primary CTA in the nav. Sections below the hero switch to a light warm surface with dark ink."
+      },
+      "shape": "Floating nav as a white rounded-rect pill (12px radius) inset 16px from the top; buttons 999px pills, one solid, one ghost with 1px white outline; content panels below with 12px radius; no hard borders.",
+      "layout_personality": "Full-viewport hero, everything centered on one axis. Low density: headline, one line of body, two buttons. Below the fold, alternate a calm light section with another edge-to-edge photo band. Section transitions sometimes fade the photo into the page color instead of a hard edge.",
+      "imagery": "Aerial drone shots of neighborhoods and rooflines, wide landscapes at golden hour or blue hour, misty valleys; minimal people. Color graded warm highlights / cool shadows.",
+      "signature_details": [
+        "Detached white nav pill floating over the photo with the only orange button on the page",
+        "Mono uppercase eyebrow ('THE SERVICE AREA') centered above a light serif headline",
+        "Photo bottom edge dissolving into the page color via a soft gradient",
+        "Ghost button with 1px white outline paired with a solid one",
+        "Second full-bleed photo band mid-page carrying a single quote or number"
+      ],
+      "references": [
+        { "site": "Daylight", "url": "https://mobbin.com/sites/sections/f9f781dc-03d5-4372-bd1e-56415d63a1bf", "what": "Aerial dusk photo of suburban rooftops, light white serif centered, mono eyebrow, floating white nav pill with a single orange CTA. Closest existing match to a solar/roofing hero." },
+        { "site": "Frontify", "url": "https://mobbin.com/sites/sections/2d1eac14-3056-4a94-b927-adecc9d3526f", "what": "Thin serif across a deep-blue sky photo; black solid pill + white-outline ghost pill pairing." },
+        { "site": "Paraform", "url": "https://mobbin.com/sites/sections/f8ae1344-754c-4efa-9563-604a5d7306ff", "what": "Photo that fades into the page background through a misty gradient, serif headline sitting on the fade." },
+        { "site": "Lightship", "url": "https://mobbin.com/sites/sections/a5fa6838-ff45-42cc-8e90-b513fd69a5e7", "what": "Edge-to-edge winding-road landscape with a centered headline and a translucent dark pill CTA." }
+      ]
+    },
+    {
+      "id": "jobsite-industrial",
+      "name": "Jobsite Industrial",
+      "summary": "Tall condensed caps, concrete and black, hi-vis yellow and safety orange: built like signage on a work truck or a tool catalog.",
+      "best_for_trades": ["roofing", "garage-doors", "electrical", "hvac", "plumbing"],
+      "typography": {
+        "display": "Heavy condensed grotesk, all caps. Google: Big Shoulders Display 800-900; alt Anton.",
+        "body": "Sturdy grotesk at 16px. Google: Barlow 400/500.",
+        "details": "Display 72-140px, uppercase, tracking 0 to -0.01em, line-height 0.9. Labels, nav and buttons in Barlow Condensed 600 uppercase 13-14px, tracking +0.06em. Numbers (phone, license, years) set in the display face."
+      },
+      "palette": {
+        "background": "~#F2EFE8",
+        "surface": "~#111111",
+        "ink": "~#111111",
+        "muted": "~#6B6862",
+        "accent": "~#FFC72C",
+        "accent_2": "~#FF5A1F",
+        "notes": "Warm concrete page with full-width black bands. Hi-vis yellow for CTA fills and highlight bars; safety orange only for the urgent action (emergency call, nav CTA). Never more than two accents; photos are allowed to be gritty."
+      },
+      "shape": "Square corners everywhere (0-2px radius). Buttons are rectangles with a long arrow glyph. 2px solid black rules; white rectangular label boxes laid over photos; optional diagonal hazard-stripe strip as a divider.",
+      "layout_personality": "Dense and confident. Left-aligned giant headline that may run edge to edge, a photo triptych band, and stacked full-width bands alternating concrete and black. Service list as a numbered spec table rather than cards.",
+      "imagery": "Real crews, trucks, ladders, tools and materials in daylight; high contrast, slightly gritty. Product-style cutouts of equipment (a condenser, a door panel) on flat concrete backgrounds.",
+      "signature_details": [
+        "White rectangular caption boxes stamped directly on photos ('STORM DAMAGE' / 'Fast fix in one visit')",
+        "Square outline buttons with a long horizontal arrow (⟶)",
+        "Single safety-orange block button in the nav for the phone number",
+        "Mono-weight condensed tags like 'EST. 1998 · LIC #12345' in the hero corner",
+        "Thin vertical hairline dropping from the hero CTA toward the next section"
+      ],
+      "references": [
+        { "site": "Zipline", "url": "https://mobbin.com/sites/sections/239e376b-3d62-411f-8e41-7b5378aace0c", "what": "Ultra-condensed heavy black caps on warm cream with a product cutout and lots of empty space." },
+        { "site": "adidas", "url": "https://mobbin.com/screens/cd7c632e-7f3d-48a6-bc09-2f2e3e932e43", "what": "Condensed caps in white label boxes laid over photos, square buttons with long arrows, black/white triptych photo band." },
+        { "site": "Superpower", "url": "https://mobbin.com/sites/sections/40a6f62d-7080-47e4-b4b9-25f25c41b2ee", "what": "Black field, one orange-red square CTA in the nav, mono caps nav, white square button, thin vertical line dropping from the CTA." },
+        { "site": "Base44 (Urban Kinetic design)", "url": "https://mobbin.com/screens/02d79412-1248-4190-b6df-b1061d4cbdc2", "what": "Gritty dark photo, condensed caps display, single hi-vis block CTA, tracked mono tags, vertical 'SCROLL DOWN' rail text, segmented tab filter." }
+      ]
+    },
+    {
+      "id": "poster-pop",
+      "name": "Poster Pop",
+      "summary": "Loud, warm and friendly: giant colored condensed headline on cream, sticker shapes, cobalt pills, like a screen-printed neighborhood poster.",
+      "best_for_trades": ["cleaning", "pest-control", "painting", "plumbing"],
+      "typography": {
+        "display": "Chunky condensed grotesk with personality (ink traps, tight counters), all caps or title case. Google: Bricolage Grotesque (wdth 75, wght 800); alt Big Shoulders Display 900.",
+        "body": "Friendly geometric-humanist sans at 16-17px. Google: Onest 400/500.",
+        "details": "Display 96-160px, line-height 0.88, tracking -0.01em, set in the accent color (not black). May be slightly rotated (-4 to -6deg) or skewed. Buttons and nav in Onest 600 sentence case."
+      },
+      "palette": {
+        "background": "~#F3EDE0",
+        "surface": "~#FFFFFF",
+        "ink": "~#1A1F3A",
+        "muted": "~#5E6070",
+        "accent": "~#FF4A1C",
+        "accent_2": "~#2457F5",
+        "notes": "Cream page; the headline itself is the color (tomato orange). Cobalt blue for the secondary pill buttons and links; navy ink for body. Optional third pop (teal ~#3CC7B8 or sunflower ~#FFC93C) used only in stickers."
+      },
+      "shape": "Fully rounded pills for nav and buttons; hero panel as a big rounded rectangle (24-32px) inset from the page; sticker shapes with a white 4px keyline and soft shadow; offset solid-color block behind photos.",
+      "layout_personality": "Headline-first hero taking 60% width, stacked tight; supporting copy and CTA in a narrow right column or below. Elements overlap: stickers sit across headline letters, photos have an offset color block behind them. Medium density, playful asymmetry.",
+      "imagery": "Bright, real people photos cut out or framed, combined with flat illustrated stickers (sun, bug, droplet, sparkle). Illustration can be overlaid on the photo as in a collage.",
+      "signature_details": [
+        "Giant colored condensed headline that bleeds to the left margin, sometimes skewed",
+        "Sticker badges with white keylines placed across the headline (sun, sparkle, droplet)",
+        "Photo with a solid cobalt offset block behind it",
+        "Trust row under CTAs: small icon + bold number + label ('2.5M+ jobs done')",
+        "White pill nav cluster floating top-right with one solid orange pill"
+      ],
+      "references": [
+        { "site": "Maxima Therapy", "url": "https://mobbin.com/sites/sections/198e731d-6209-49b3-b74c-e360a3d1ed72", "what": "Huge orange condensed caps stacked down the left on cream, keylined sticker illustrations over the type, white pill nav, cobalt pill CTA." },
+        { "site": "Airtasker", "url": "https://mobbin.com/screens/3f0f1fb8-b6d6-43b7-8d19-3b4253d3b6f3", "what": "Skewed condensed navy headline 'GET MORE DONE' inside a rounded cream panel, illustrated cobalt boxes collaged onto a photo, offset navy block, trust stat row." },
+        { "site": "Later", "url": "https://mobbin.com/screens/13f77350-a788-4f4b-81dc-de9a5b5400e2", "what": "Heavy black wide grotesk headline, single orange CTA, chamfered/angled photo crop instead of rounded corners." },
+        { "site": "Figma", "url": "https://mobbin.com/sites/sections/ca825e99-08b1-42f7-afde-ab3790f9978a", "what": "Flat geometric sticker shapes in a clashing warm palette framing a single black label CTA." }
+      ]
+    },
+    {
+      "id": "swiss-grid",
+      "name": "Swiss Grid",
+      "summary": "White page, black neo-grotesk set huge and tight on a visible grid, with a red registration mark as the only color: precise and quietly expensive.",
+      "best_for_trades": ["electrical", "remodeling", "hvac", "garage-doors"],
+      "typography": {
+        "display": "Neo-grotesk, bold to extra-bold, mixed-case or caps. Google: Schibsted Grotesk 700-800; alt Archivo 700.",
+        "body": "Same family at 400, 17-20px, used for a large 'mission' paragraph as well as normal copy.",
+        "details": "Display 96-180px, tracking -0.045em, line-height 0.9, often edge to edge. Micro labels in JetBrains Mono 10-11px uppercase (nav, coordinates, local time, '(Scroll)'). Large lead paragraph at 28-32px with -0.02em tracking and a hanging indent."
+      },
+      "palette": {
+        "background": "~#FFFFFF",
+        "surface": "~#F3F3F1",
+        "ink": "~#0B0B0B",
+        "muted": "~#8B8B8B",
+        "accent": "~#FF3B1F",
+        "accent_2": null,
+        "notes": "Monochrome. Signal red appears only as '+' registration marks, a small square CTA and link hovers (under 2% of the surface). No tinted backgrounds except a single light grey surface for forms."
+      },
+      "shape": "0 radius. 1px black or #E2E2E2 rules; '+' crosshair marks at grid intersections; square buttons with an attached square arrow box.",
+      "layout_personality": "12-column grid made visible through alignment and crosshairs. Headline top-left spanning the full width; small meta (city, local time, license) in the nav row; mission paragraph starting at column 7. Long vertical rhythm, very few elements per screen, index-style numbered service lists.",
+      "imagery": "Sparse. Black-and-white or cool, flat-lit architectural detail photos (switch plates, ductwork, stair rails) cropped square; never stock smiles.",
+      "signature_details": [
+        "Red '+' crosshairs marking grid corners",
+        "Nav row with live local time / city ('Toronto 4:31 am') and '(Scroll)' cue",
+        "Square red CTA with a separate square arrow cell",
+        "Indented first line on the big mission paragraph with a tiny mono label in the indent",
+        "Footer meta row: '©2026 / Terms / IG / LI' in mono"
+      ],
+      "references": [
+        { "site": "Vucko", "url": "https://mobbin.com/sites/sections/3191f4b2-b313-40d2-98da-1b66cfb00880", "what": "Heavy tight grotesk caps on white, location + local time in the nav, '(Scroll)' cue bottom-right, two-tone grey/black intro paragraph." },
+        { "site": "The Performance Lab", "url": "https://mobbin.com/sites/sections/d31d7694-19de-4c09-9a50-4856dc4fd284", "what": "Edge-to-edge caps headline, red crosshair registration marks, mission paragraph on the right half with mono label in its indent, square red CTA + arrow cell." },
+        { "site": "Studio Freight", "url": "https://mobbin.com/sites/sections/37214c10-d891-48bc-a46e-6050033671b4", "what": "Staggered giant caps lines with indents, tiny mono nav in the corners, footer meta row; shows how far scale contrast can go." }
+      ]
+    },
+    {
+      "id": "blueprint-spec",
+      "name": "Blueprint Spec",
+      "summary": "A technical spec sheet: monospace caps, bracketed buttons, guide lines, footnotes and measurements, for trades that sell precision.",
+      "best_for_trades": ["electrical", "hvac", "plumbing", "garage-doors"],
+      "typography": {
+        "display": "Condensed or regular monospace in caps, typewriter feel. Google: Martian Mono (wdth 75-87, wght 500-600); alt IBM Plex Mono 500.",
+        "body": "Technical grotesk at 15-16px. Google: IBM Plex Sans 400.",
+        "details": "Display 56-96px uppercase, tracking -0.02em. All labels, nav, buttons and numbers in IBM Plex Mono 11-12px uppercase, tracking +0.04em. Footnote markers [1] and units (BTU, AMP, PSI) set as superscripts."
+      },
+      "palette": {
+        "background": "~#EEF0EC",
+        "surface": "~#FFFFFF",
+        "ink": "~#15171A",
+        "muted": "~#6C7178",
+        "accent": "~#2450F0",
+        "accent_2": "~#C2693A",
+        "notes": "Cool drafting-paper grey with black ink. Blueprint blue for links, active states and diagram lines; copper only in photography and a single highlight (wire / pipe). A dark variant flips to charcoal ~#16181B with the same accents."
+      },
+      "shape": "Square or 2-4px radius; 1px outlined boxes for nav items and buttons; thin vertical guide lines running the full page height; tick-mark rulers along a margin; dashed leader lines connecting labels to photo details.",
+      "layout_personality": "Engineering-drawing layout: content in a framed center column between guide lines, small spec blocks pinned to corners (left: 'Designed & installed in Austin, TX'; right: '100% licensed / 0 subcontractors'). Process shown as a line diagram with pill labels. Medium density, everything labelled.",
+      "imagery": "Macro detail shots of craft: copper windings, panel breakers, pipe joints, duct seams; neutral color grade; presented with a thumbnail strip like a parts catalog.",
+      "signature_details": [
+        "Bracketed text buttons: [BOOK SERVICE] [CALL 24/7]",
+        "Footnote markers [1] in the hero with the footnote set in mono at the page bottom",
+        "Full-height hairline guide lines and a tick-mark ruler down the left margin",
+        "Spec list with right-aligned values ('Response time ...... 60 MIN')",
+        "Process diagram: thin curved lines branching to pill labels (Inspect / Quote / Install / Test)"
+      ],
+      "references": [
+        { "site": "Superpower (hoodie page)", "url": "https://mobbin.com/sites/sections/57a1e1f4-c526-4fcf-be1d-6ec3bbec1753", "what": "Typewriter mono caps headline, bracketed black buttons, corner spec blocks, footnote marker [1] and right-aligned spec list." },
+        { "site": "Atlas", "url": "https://mobbin.com/sites/sections/2f379c3d-dfcb-4eb2-8a2f-d01cc298f5f5", "what": "Charcoal page with thin vertical guide lines, outlined boxed nav, macro photo of copper coils, catalog thumbnail strip. Very direct cue for electricians." },
+        { "site": "Clockwise", "url": "https://mobbin.com/sites/sections/ff439432-5975-41e1-a742-02370e3ad477", "what": "Left-margin time ruler with tick marks framing stacked panels: a scheduling/appointments motif." },
+        { "site": "LangChain", "url": "https://mobbin.com/screens/b59685a4-716e-40e4-96ce-b5ce02c8841b", "what": "Monospace body and nav, process diagram drawn as thin curved lines meeting at pill labels." }
+      ]
+    },
+    {
+      "id": "nocturne-premium",
+      "name": "Nocturne Premium",
+      "summary": "Near-black, refined serif with an italic turn, hairline geometry and warm low light: for high-ticket jobs that want to feel like a private studio.",
+      "best_for_trades": ["remodeling", "electrical", "landscaping", "garage-doors"],
+      "typography": {
+        "display": "Elegant old-style serif with a beautiful italic. Google: Cormorant Garamond 500-600 (italic for one word); alt Libre Caslon Display.",
+        "body": "Light grotesk at 15-16px in muted grey. Google: Geist 300/400.",
+        "details": "Display 64-104px, centered or left, tracking -0.01em, line-height 1.0. Nav and eyebrows in Geist Mono 11px uppercase, tracking +0.14em. Body copy at 60% white."
+      },
+      "palette": {
+        "background": "~#0C0C0D",
+        "surface": "~#17171A",
+        "ink": "~#F3F1EC",
+        "muted": "~#8D8A84",
+        "accent": "~#C8893E",
+        "accent_2": null,
+        "notes": "Black and bone white with a single warm brass/amber used as light (a glow behind a photo, a hairline, a hover), never as a big fill. Primary button is bone white with black text."
+      },
+      "shape": "Hairline 1px rules at 12% white; small 6-8px radius on buttons or full pills; thin outlined circles/arcs as decoration; dark boxed nav items; no shadows, only glow.",
+      "layout_personality": "Very low density: one statement per screen, centered serif headline, generous black space. Split sections with dark text panel beside a full-height photo. Stat row at hero bottom separated by vertical hairlines.",
+      "imagery": "Moody, low-key photography: lit kitchens at night, landscape lighting, a single warm lamp; silhouettes against amber light. Black-and-white for portraits.",
+      "signature_details": [
+        "One italic word in the serif headline ('Revolutionizing wealth...' pattern)",
+        "Hairline geometric drawing (overlapping circles, hatched intersection) below the hero",
+        "Warm amber radial glow behind a silhouette photo",
+        "Stat row with vertical hairline separators along the bottom of the hero",
+        "Mono breadcrumb eyebrow ('SERVICES / OUTDOOR LIGHTING')"
+      ],
+      "references": [
+        { "site": "Linear (Method page)", "url": "https://mobbin.com/sites/sections/66f59864-ae93-419b-89c9-e53fbb46a3f3", "what": "Large white serif centered on near-black, small caps eyebrow, hairline Venn circles with hatched intersection as the only ornament." },
+        { "site": "Origin", "url": "https://mobbin.com/sites/sections/b447e3fe-cbd4-419e-964d-2e207d4be48e", "what": "Serif headline with an italic first word, mono caps nav in dark boxed pills, bone-white CTA." },
+        { "site": "Superpower", "url": "https://mobbin.com/sites/sections/7c1e2d1c-3200-4d81-b4ef-b00ae9bfb5fb", "what": "Silhouette against an amber glow, left-aligned headline, three-up stat row split by vertical hairlines." },
+        { "site": "Shade", "url": "https://mobbin.com/sites/sections/651bd3f4-025e-459d-9e96-fe4c8499922f", "what": "Dark text panel beside a full-height photo, mono breadcrumb eyebrow, monochrome logo row." }
+      ]
+    },
+    {
+      "id": "field-guide",
+      "name": "Field Guide",
+      "summary": "Deep olive and moss fields, soft serif headlines and big landscape imagery, with an orange trail-marker accent: the outdoors as a printed guidebook.",
+      "best_for_trades": ["landscaping", "pest-control", "roofing", "painting"],
+      "typography": {
+        "display": "Soft, slightly wonky old-style serif at light-regular weight. Google: Fraunces (opsz 144, wght 300-400, SOFT 50); alt Young Serif.",
+        "body": "Plain humanist sans at 16-17px. Google: Work Sans 400.",
+        "details": "Display 56-88px sentence case, tracking -0.015em, centered on color fields or left on photos. Nav and eyebrows in Antonio (condensed) 600 uppercase 12-13px, tracking +0.12em; used also for coordinates/area tags ('ZONE 7B · TRAVIS COUNTY')."
+      },
+      "palette": {
+        "background": "~#3F4A2A",
+        "surface": "~#E2E6D8",
+        "ink": "~#F4F1E6",
+        "muted": "~#B7BCA6",
+        "accent": "~#E07B39",
+        "accent_2": "~#59563F",
+        "notes": "Hero and key bands on deep olive with cream type; content sections on pale sage with olive ink. Trail-orange only for the primary CTA and map pins. Secondary button is a muted olive-grey fill, not outlined."
+      },
+      "shape": "Square-to-slight (0-4px) radius on buttons; rectangular photos with no radius; organic topographic blob or contour-line shape partly behind the nav; list rows separated by 1px hairlines with a right arrow.",
+      "layout_personality": "Centered serif statement on a solid green field, followed by a wide landscape photo or full-bleed hero with condensed caps. Service areas or projects as hairline list rows (name / place / region / →). Calm, medium-low density.",
+      "imagery": "Wide landscapes, lawns, gardens, tree canopies and misty hills; natural color with slightly lifted shadows. Real crews in the field shown small in the frame.",
+      "signature_details": [
+        "Topographic contour blob tucked behind the logo/nav",
+        "List rows like a trail index: Project · Neighborhood · County · → on hairlines",
+        "Condensed caps area tags and coordinates as eyebrows",
+        "Orange triangular play/arrow glyph inside the CTA",
+        "Spaced-caps wordmark (F A I R E style) in the nav"
+      ],
+      "references": [
+        { "site": "Felt", "url": "https://mobbin.com/screens/e2654dc8-2394-4706-bdfd-05a7b0113d7b", "what": "Deep olive hero, light serif centered in cream, orange CTA with arrow glyph + muted olive secondary, topographic shape behind the nav, caps nav." },
+        { "site": "Escape Cafe", "url": "https://mobbin.com/sites/sections/458fe700-42b9-4932-83fc-4f7ceb6db9a8", "what": "Mountain landscape hero with centered condensed caps, vertical rail text on the right edge, hairline list rows with origin / region / country / arrow." },
+        { "site": "Faire", "url": "https://mobbin.com/sites/sections/ac343cc9-a6d2-493a-a8d5-2543ab1db130", "what": "Olive-brown band with light white serif centered, spaced-caps wordmark, then a full-width photo of a small business at work." },
+        { "site": "Face Formula", "url": "https://mobbin.com/sites/sections/7446404d-31fb-4f96-9f65-2a8752d7abf6", "what": "Pale sage page, condensed serif in slate, spaced-caps nav, mono 'WELCOME TO' label beside an inset misty landscape photo." }
+      ]
+    },
+    {
+      "id": "market-fresh",
+      "name": "Market Fresh",
+      "summary": "Fresh and dependable: cream page, forest-green ink, sage tint bands, hairline borders and a lime pill, like a good neighborhood grocer.",
+      "best_for_trades": ["cleaning", "landscaping", "pest-control", "plumbing"],
+      "typography": {
+        "display": "Wide, friendly geometric sans at bold weight. Google: Lexend 600-700; alt Gabarito 700.",
+        "body": "Clean humanist sans at 16px. Google: Figtree 400/500.",
+        "details": "Headlines 40-64px, tracking -0.02em, sentence case. Small eyebrows in Figtree 600 11-12px uppercase, tracking +0.08em ('NEW', 'SAME-WEEK SERVICE'). Prices and specs in tabular figures with uppercase units ('$149   2 HRS')."
+      },
+      "palette": {
+        "background": "~#F7F6EF",
+        "surface": "~#DCE6D8",
+        "ink": "~#0E3B2E",
+        "muted": "~#5F6B63",
+        "accent": "~#D6F25C",
+        "accent_2": "~#0E5A43",
+        "notes": "Forest green is the brand ink (logo, headings, primary dark buttons). Sage tint for alternating bands and cards. Lime pill reserved for the single most important action. Tiny pink-red tag (~#F3D5CF bg / ~#B5442F text) for warnings like 'Pets: use caution'."
+      },
+      "shape": "Cards 16-20px radius on a tinted surface (no shadow); pill buttons; full-width 1px hairline rules (~#C9D3C6) dividing hero halves and bands; pill tabs for category filters.",
+      "layout_personality": "Split hero: text panel left, edge-to-edge photo right, divided by hairlines top and bottom. Service menu as a 3-4 column card grid with eyebrow, name, short description, price/duration. Category pill tabs above lists. Medium density, very scannable.",
+      "imagery": "Bright, true-color photos of hands at work and clean results; overhead shots of tools/products on surfaces; no heavy grading.",
+      "signature_details": [
+        "Lime pill CTA on cream with forest-green text",
+        "Tinted service cards with tracked uppercase eyebrow and price + duration line",
+        "Pill tab filter row ('Lawn · Gardens · Trees · Irrigation')",
+        "Hairline-framed split hero with a phone line under the CTA ('Questions? Call (555) 273-3356')",
+        "Dark green outlined price card with a small lime 'Great value' corner tag"
+      ],
+      "references": [
+        { "site": "sweetgreen (menu)", "url": "https://mobbin.com/screens/9d03a449-7ba8-45da-bc74-ef71e61440f8", "what": "Cream page, tinted rounded cards, uppercase tracked eyebrows, price + spec line, pill tab filter and small warning tag." },
+        { "site": "sweetgreen (home)", "url": "https://mobbin.com/screens/aa44d43b-0c4d-45ed-a6a0-5bd336fd4d68", "what": "Split hero divided by hairlines, wide bold sans headline in forest green, lime pill CTA, sage band below." },
+        { "site": "Care.com (HomePay)", "url": "https://mobbin.com/screens/8840c427-54f4-4dbd-b6ee-67ca77e81584", "what": "Beige hero band, dark green outlined price card with corner value tag, phone consult line under the headline, green pill CTA." },
+        { "site": "Customer.io", "url": "https://mobbin.com/sites/sections/c74125df-8280-4579-9289-6255600499f1", "what": "Deep green ink headline on white, dark green pill with outline glow, row of check-mark microcopy under CTAs." }
+      ]
+    },
+    {
+      "id": "soft-rounded",
+      "name": "Soft Rounded",
+      "summary": "Gentle and reassuring: blush, peach and butter color fields, big rounded cards, a soft serif headline and dark-cocoa ink.",
+      "best_for_trades": ["cleaning", "pest-control", "plumbing", "hvac"],
+      "typography": {
+        "display": "Soft, rounded-terminal serif, regular-to-semibold. Google: Young Serif 400; alt Fraunces (SOFT 100, wght 500).",
+        "body": "Rounded-feeling humanist sans at 16-17px. Google: Nunito Sans 400/600.",
+        "details": "Headlines 40-64px sentence case, tracking -0.01em, centered inside color cards. Body 16-17px with 1.6 line-height. Category words colored inside headings ('Drain cleaning', 'Water heaters' with the second word tinted)."
+      },
+      "palette": {
+        "background": "~#FAF6F1",
+        "surface": "~#F7B9A1",
+        "ink": "~#3A1E16",
+        "muted": "~#7D665E",
+        "accent": "~#2F5BEA",
+        "accent_2": "~#F3D98B",
+        "notes": "Warm off-white page with large peach/salmon, blush (~#F6E3E0) and butter fields as section backgrounds. Cocoa-brown ink and cocoa pill buttons inside color cards; a friendly blue pill for the main page CTA."
+      },
+      "shape": "Generous radii: cards 24-32px, photos 20-24px, buttons full pills. Soft cloud/blob shapes behind photos; curved wave dividers between bands instead of straight edges; no hard borders.",
+      "layout_personality": "Content floats in big rounded color cards on an off-white page. Hero: left text with check-list bullets, right a layered pair of rounded photos with blobs. Service grid as large rounded tiles with an object/illustration and arrow. Medium density, centered CTA cards.",
+      "imagery": "Smiling, natural-light photos of people at home; simple line-drawn characters for empty states and CTAs; soft-shadow product/object cutouts on tiles.",
+      "signature_details": [
+        "Salmon rounded CTA card with a tiny line-drawn character above a serif headline",
+        "Layered rounded photos with a soft cloud blob peeking from behind",
+        "Wave-shaped band divider",
+        "Rounded service tiles with a two-color title and a corner arrow",
+        "Pill 'Popular' tag inside the first tile"
+      ],
+      "references": [
+        { "site": "hilos", "url": "https://mobbin.com/sites/sections/9f21c452-90e9-4937-873d-cd97a4af194e", "what": "Salmon rounded card on off-white, soft serif headline in cocoa, line-drawn character, cocoa pill button." },
+        { "site": "Hims", "url": "https://mobbin.com/screens/493fe125-d01d-4fb6-992a-76d09283685c", "what": "Cream rounded tiles with two-color titles, soft-shadow object cutouts, 'Popular' pill, two-tone headline." },
+        { "site": "Headspace", "url": "https://mobbin.com/screens/9ed811c7-c0a0-448e-b781-ccd93a1f7dcb", "what": "Blush band, layered rounded photos with cloud blobs, check-list bullets, big blue pill CTA." },
+        { "site": "Duolingo", "url": "https://mobbin.com/sites/sections/829de679-eda6-4820-b3b9-009507a1c8d0", "what": "Rounded heavy sans, wave-shaped divider between the green band and white page, chunky rounded button." }
+      ]
+    },
+    {
+      "id": "heritage-ledger",
+      "name": "Heritage Ledger",
+      "summary": "Established and trustworthy: classic book serif in oxblood-brown on paper, ledger rules, mono figures, a signature script and torn-document details.",
+      "best_for_trades": ["roofing", "plumbing", "remodeling", "hvac"],
+      "typography": {
+        "display": "Classic old-style / Caslon-type serif, regular weight. Google: Libre Caslon Display (headlines) with Libre Caslon Text for subheads.",
+        "body": "Classic American gothic sans at 16-17px. Google: Libre Franklin 400; or a serif body in Libre Caslon Text for long copy.",
+        "details": "Headlines 48-76px, sentence case, tracking -0.01em, centered or left. Figures (years, license numbers, invoice-style tables) in Courier Prime 12-13px. One handwritten eyebrow per page in a signature script (Google: Homemade Apple or Caveat), rotated -2deg."
+      },
+      "palette": {
+        "background": "~#FBF7F1",
+        "surface": "~#F0E7DA",
+        "ink": "~#2A1A14",
+        "muted": "~#7A6A5E",
+        "accent": "~#7A2E22",
+        "accent_2": "~#23324D",
+        "notes": "Paper white and ledger tan, espresso ink, oxblood for buttons and rules; deep navy as an optional heritage alternate for the footer, badges and 'Est.' seal. Never bright colors."
+      },
+      "shape": "2-4px radius buttons (nearly square) in oxblood or espresso; ledger tables with 1px rules (~#D8CBBB); torn/deckled paper edges on document fragments; small circular engraved-style emblem or seal.",
+      "layout_personality": "Centered serif headline over a two-column body (a letter-like paragraph left, a short statement right). Proof shown as document fragments: invoice/warranty excerpts, ledger tables, signed notes. Narrow measure, generous margins, slow rhythm.",
+      "imagery": "Portraits of the owner/family cut out over torn paper, black-and-white archive shots of the first truck or shop, engraved/etched illustrations of tools or the house.",
+      "signature_details": [
+        "Ledger table fragment with mono figures pinned to the hero corner ('Since 1987 · 12,400 roofs')",
+        "Torn-paper warranty or invoice excerpt behind a cutout portrait",
+        "Handwritten script eyebrow ('For homeowners in Westchester')",
+        "Engraved coin/seal emblem with founding year",
+        "Didone-style wordmark with an em dash ('A— BUREAU' pattern) and a short attributed quote"
+      ],
+      "references": [
+        { "site": "Amperos", "url": "https://mobbin.com/sites/sections/7730614f-a372-4c59-b08a-afb9eab5637f", "what": "Espresso classic serif centered on paper, ledger table with mono figures, torn-paper document fragment, engraved coin cutout, two-column letter-like body." },
+        { "site": "Amperos", "url": "https://mobbin.com/sites/sections/d3a0d720-0baa-4e7a-aeac-4ff17681e8dc", "what": "Handwritten script eyebrow above the serif headline, cutout portrait on torn paper with handwritten letter, near-square dark brown buttons." },
+        { "site": "Readymag (A—BUREAU template)", "url": "https://mobbin.com/screens/0ecd2806-16a3-4fd2-ae48-0a2c11a4526f", "what": "Didone caps wordmark with em dash, single narrow column on warm paper, attributed quote, plain architectural photo." }
+      ]
+    },
+    {
+      "id": "wide-stance",
+      "name": "Wide Stance",
+      "summary": "Modern contractor confidence: extra-wide heavy display in navy and slate, rounded photo plates, solid navy blocks and hard numbers.",
+      "best_for_trades": ["remodeling", "garage-doors", "roofing", "hvac"],
+      "typography": {
+        "display": "Extended (wide) heavy grotesk. Google: Archivo (wdth 125, wght 800-900); alt Unbounded 700.",
+        "body": "Neutral modern sans at 16px. Google: Manrope 400/500.",
+        "details": "Display 64-96px, lowercase or sentence case, tracking -0.02em, line-height 0.95; second half of the headline in slate grey. Stats in the extended face at 28-36px with Manrope 13px labels. Small 'Est. 2009' pill badge with a location pin above the headline."
+      },
+      "palette": {
+        "background": "~#FFFFFF",
+        "surface": "~#0F1E3D",
+        "ink": "~#0F1E3D",
+        "muted": "~#7C8699",
+        "accent": "~#0F1E3D",
+        "accent_2": "~#E8B04A",
+        "notes": "White page, navy as both ink and the solid block color (full-width bands, stat tiles, primary pill button). Slate for the second headline line and secondary text. A warm brass/amber may mark one highlight (rating stars, active tab)."
+      },
+      "shape": "Photo plates 20-28px radius; navy pill buttons with an arrow-up-right glyph; outlined white pill for secondary; navy rounded stat tiles inside the photo grid; no shadows.",
+      "layout_personality": "Two-column hero: big stacked wide headline left, tall rounded photo right, stat trio under the CTAs. Portfolio as a bento grid mixing photos with a navy number tile. Full-width navy band with a heavy white statement left and two-column body right.",
+      "imagery": "Clean, bright, architectural photos of finished interiors and exteriors (kitchens, garages, facades) with warm wood tones against cool neutrals.",
+      "signature_details": [
+        "Two-tone wide headline: navy first lines, slate last lines",
+        "Navy stat tile ('32 projects across the metro') sitting inside the photo grid",
+        "'Est. 2009' pill with location pin above the headline",
+        "Arrow-up-right glyph in every pill button",
+        "Full-width navy manifesto band with heavy white headline and two-column copy"
+      ],
+      "references": [
+        { "site": "Framer (ASMOB property agency)", "url": "https://mobbin.com/screens/7209c5ef-6a08-464b-9fb1-99b70cc8e836", "what": "Extended heavy headline with navy/slate two-tone, 'Premium real estate · Est. 2009' pill, rounded kitchen photo, stat trio, navy pill with arrow." },
+        { "site": "Framer (ASMOB full page)", "url": "https://mobbin.com/screens/0c01164b-7e51-4a3b-8041-63faefddc25c", "what": "Portfolio bento grid mixing rounded photos with a navy number tile, small caps 'THE PORTFOLIO' label, wide headline." },
+        { "site": "Framer (ASMOB studio)", "url": "https://mobbin.com/screens/6480d8b3-21e2-45da-aaa8-aec75d5ecc56", "what": "Navy rounded hero card beside the headline and a full-width navy band with heavy white statement + two-column body." },
+        { "site": "Dropbox (About)", "url": "https://mobbin.com/sites/sections/ac95d839-283d-419d-b52e-b989384af714", "what": "Wide geometric display in a solid dark panel beside a full-height photo; shows the extended face working on dark." }
+      ]
+    },
+    {
+      "id": "workshop-craft",
+      "name": "Workshop Craft",
+      "summary": "Rugged and hand-made: chunky slab serif on grainy kraft paper, torn edges, stitched borders and real crew photos with name tags.",
+      "best_for_trades": ["roofing", "remodeling", "painting", "landscaping", "garage-doors"],
+      "typography": {
+        "display": "Chunky slab or soft heavy serif. Google: Zilla Slab 700; alt Bitter 800.",
+        "body": "Plain workhorse grotesk at 16-17px. Google: Public Sans 400/500.",
+        "details": "Headlines 48-80px, sentence case or lowercase, tracking -0.01em, tight line-height. Stamp labels in Zilla Slab 600 uppercase 12px tracking +0.1em. Photo name tags in Public Sans 600 12px."
+      },
+      "palette": {
+        "background": "~#EFE6D6",
+        "surface": "~#E2D3BB",
+        "ink": "~#2B2118",
+        "muted": "~#7C6A55",
+        "accent": "~#B4532A",
+        "accent_2": "~#2F4A3A",
+        "notes": "Kraft/oatmeal paper with a subtle film-grain or paper texture (2-4% noise). Tobacco-brown ink, rust for CTAs, pine green for framed color panels and the footer. Colors feel dyed, not digital."
+      },
+      "shape": "Torn/deckled paper edge where a text panel meets a photo; dashed 'stitched' 2px borders around feature panels; framed color panels with a cream border (8-12px) inside the page; 4-6px radius buttons; no glossy shadows.",
+      "layout_personality": "Half-and-half hero: textured paper panel with headline and form left, full-height real crew photo right joined by a torn edge. Feature panels look like patches or labels. Medium density, slightly irregular but aligned.",
+      "imagery": "Unretouched real tradespeople on the job and in their trucks, tools and materials, warm documentary color; every photo can carry a caption tag with the person's name, company and town.",
+      "signature_details": [
+        "Torn paper edge between the text panel and the hero photo",
+        "Caption tag on photos: name / business / town with a pin icon",
+        "Dashed stitched border around a colored feature panel",
+        "Cream-framed pine-green panel holding a chunky serif statement",
+        "Film-grain texture over flat color fields and the wordmark"
+      ],
+      "references": [
+        { "site": "Jobber", "url": "https://mobbin.com/screens/5caf38e8-9ff8-4885-b262-cf345deea5e6", "what": "Paper-textured left panel with a torn edge into a real electrician-in-his-van photo, caption tag with name / company / city, heavy dark headline, lime CTA." },
+        { "site": "Urban Outfitters", "url": "https://mobbin.com/screens/d7c15651-4f21-49e1-bbf5-26aa046140a4", "what": "Stitched dashed border inside a lilac color panel, mono caps subhead, condensed caps wordmark, small square label buttons on photos." },
+        { "site": "Koto (Seasoned)", "url": "https://mobbin.com/sites/sections/c2512198-ddc8-43aa-bac7-2a47cd359aac", "what": "Chunky retro serif wordmark over a flat color field with visible film grain." },
+        { "site": "Taxi Studio", "url": "https://mobbin.com/sites/sections/3b23d88e-7a88-4b9a-ae14-cf88225e5936", "what": "Green panel framed by a cream border with a chunky bookish serif in white and a small mascot in the corner." }
+      ]
+    }
+  ],
+  "avoid": [
+    "Centered hero with one headline word in an indigo/violet gradient or solid #4F46E5, a 'Get Started' + outlined 'Learn More' pair, and three white icon cards below (Codecademy 'CleanSite' sample: https://mobbin.com/screens/df3ee09d-a526-4c1a-b1e7-c37323e300d8)",
+    "Pastel service cards with emoji icons and a colored top border on each card (Claude 'software solutions' sample: https://mobbin.com/screens/9c95667d-9530-4a4b-a50f-3c1eed7d1975)",
+    "Lavender-to-pink mesh gradient washes behind a search bar or headline (Fresha-style); they read as SaaS, not trade",
+    "Dark dotted-grid backgrounds with glowing cards and gradient text (AI-builder aesthetic seen in Lovable / Better Stack results)",
+    "A generic icon pill badge (star icon + 'New...', pin icon + 'Premium ... · Est.') above every headline on every page; use once, with real content",
+    "Default stat trio ('1,200+ / $2.4B / 4.9/5') under every hero regardless of whether the numbers are real",
+    "Stock handshake or laptop photo under a 50% black overlay with thin white centered sans (QuickBooks-style)",
+    "Glassmorphism frosted panels and floating 3D clay objects/isometric illustrations (Maze-style) for a trade business",
+    "Everything rounded-2xl with soft grey drop shadows and alternating white / gray-50 bands; no rules, no texture, no color commitment",
+    "Inter/Poppins/Montserrat at 600 for every heading with a blue #2563EB pill; no typographic voice",
+    "Symmetric 3-column 'Why choose us' grid with shield/clock/thumbs-up icons repeated on every page"
+  ]
+}

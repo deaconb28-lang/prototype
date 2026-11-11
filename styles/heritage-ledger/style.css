@@ -1,0 +1,15 @@
+/* Heritage Ledger: seal mark, ledger rules, typewriter figures */
+.style-heritage-ledger .logo-mark { background: transparent; color: var(--accent); border: 1.5px solid var(--accent); box-shadow: inset 0 0 0 3px var(--bg), inset 0 0 0 4px var(--accent); }
+.style-heritage-ledger .site-footer .logo-mark { color: var(--dark-ink); border-color: var(--dark-ink); box-shadow: inset 0 0 0 3px var(--dark), inset 0 0 0 4px var(--dark-ink); }
+.style-heritage-ledger .hero-split .hero-photo { aspect-ratio: 4 / 5; }
+.style-heritage-ledger .hero-card { border: 1px dashed var(--line-strong); border-radius: 2px; background: var(--surface); font-family: var(--font-mono); box-shadow: 6px 6px 0 var(--surface-2); }
+.style-heritage-ledger .hero-card strong { font-family: var(--font-body); }
+.style-heritage-ledger .svc-list { border-bottom: 3px double var(--line-strong); }
+.style-heritage-ledger .svc-list li:first-child { border-top: 3px double var(--line-strong); }
+.style-heritage-ledger .svc-num { font-family: var(--font-mono); color: var(--accent); }
+.style-heritage-ledger .trust strong { font-family: 'Libre Caslon Text', Georgia, serif; font-weight: 400; font-size: 1.1rem; }
+.style-heritage-ledger .big-quote blockquote p { font-style: italic; }
+.style-heritage-ledger .facts strong { font-family: var(--font-mono); font-weight: 700; }
+.style-heritage-ledger .section-head h2 { max-width: 18ch; }
+.style-heritage-ledger .faq-list summary { font-family: 'Libre Caslon Text', Georgia, serif; font-weight: 400; font-size: 1.15rem; }
+.style-heritage-ledger .contact-dl dt, .style-heritage-ledger .footer-h, .style-heritage-ledger .footer-kicker { font-family: var(--font-mono); letter-spacing: .06em; }

@@ -1,0 +1,29 @@
+{
+  "name": "prototype",
+  "displayName": "Prototype: websites for trades",
+  "version": "1.1.0",
+  "description": "Instant, honest, beautiful websites for roofers and other local trades (/prototype), a 100-indicator slop audit with before/after review (/deslopify), 10 styles x 10 trade packs, a design reference library, and Vercel deploys.",
+  "author": {
+    "name": "deaconb28-lang",
+    "url": "https://github.com/deaconb28-lang"
+  },
+  "homepage": "https://github.com/deaconb28-lang/prototype",
+  "repository": "https://github.com/deaconb28-lang/prototype",
+  "license": "MIT",
+  "keywords": [
+    "website",
+    "prototype",
+    "roofing",
+    "contractor",
+    "small business",
+    "design",
+    "audit",
+    "ai slop",
+    "vercel",
+    "local seo"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "skills": [
+    "./.claude/skills/"
+  ]
+}

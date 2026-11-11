@@ -1,0 +1,923 @@
+{
+ "version": 1,
+ "weights": {
+  "high": 5,
+  "medium": 2.5,
+  "low": 1
+ },
+ "categories": {
+  "copy": "Copy and voice",
+  "type": "Typography",
+  "color": "Color",
+  "layout": "Layout",
+  "imagery": "Imagery",
+  "decoration": "Icons and decoration",
+  "components": "Components",
+  "motion": "Motion",
+  "trust": "Trust and honesty",
+  "conversion": "Trade conversion",
+  "tech": "Accessibility and technical"
+ },
+ "indicators": [
+  {
+   "id": "C01",
+   "category": "copy",
+   "name": "AI hype vocabulary",
+   "severity": "high",
+   "check": "auto",
+   "why": "Words like elevate, unlock, seamless, cutting-edge and top-notch are the first thing people now associate with machine-written sites. They say nothing a homeowner can check.",
+   "fix": "Replace each with the concrete fact behind it: a timeline, a material, a warranty term, a town."
+  },
+  {
+   "id": "C02",
+   "category": "copy",
+   "name": "Em dash overload",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Frequent em dashes have become a tell of generated copy, especially in headlines and short marketing lines.",
+   "fix": "Use periods, commas or parentheses. Keep at most one em dash per page, if any."
+  },
+  {
+   "id": "C03",
+   "category": "copy",
+   "name": "'Welcome to [Business]' opener",
+   "severity": "medium",
+   "check": "auto",
+   "why": "A welcome line wastes the most valuable words on the page.",
+   "fix": "Lead with what you do, where, and how fast: 'Roof repairs in Boise, usually same week.'"
+  },
+  {
+   "id": "C04",
+   "category": "copy",
+   "name": "Exclamation marks in headings",
+   "severity": "low",
+   "check": "auto",
+   "why": "Shouting headlines read as low-trust advertising.",
+   "fix": "Remove the exclamation mark and make the sentence itself stronger."
+  },
+  {
+   "id": "C05",
+   "category": "copy",
+   "name": "Emoji in headings, buttons or bullets",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Emoji in UI copy is a strong vibe-coded tell and looks unprofessional for trades.",
+   "fix": "Remove the emoji. Use a real icon sparingly, or nothing."
+  },
+  {
+   "id": "C06",
+   "category": "copy",
+   "name": "Generic CTA labels",
+   "severity": "medium",
+   "check": "auto",
+   "why": "'Get Started', 'Learn More', 'Submit' and 'Click here' don't tell a homeowner what happens next.",
+   "fix": "Name the outcome: 'Get a free inspection', 'Book a repair', 'Call (208) 555-0142'."
+  },
+  {
+   "id": "C07",
+   "category": "copy",
+   "name": "'Whether you're X or Y' construction",
+   "severity": "low",
+   "check": "auto",
+   "why": "A stock rhetorical frame common in generated copy.",
+   "fix": "Say who you serve directly: 'Homes and small shops across Kent County.'"
+  },
+  {
+   "id": "C08",
+   "category": "copy",
+   "name": "Three-word slogan triplet",
+   "severity": "medium",
+   "check": "auto",
+   "why": "'Fast. Reliable. Affordable.' is the default tagline of every template.",
+   "fix": "Replace with one specific promise you can keep."
+  },
+  {
+   "id": "C09",
+   "category": "copy",
+   "name": "Lorem ipsum or template placeholders",
+   "severity": "high",
+   "check": "auto",
+   "why": "Leftover placeholder text ('Lorem ipsum', '[Company Name]', '{{city}}', 'Your text here') signals an unfinished template.",
+   "fix": "Write the real copy or remove the block."
+  },
+  {
+   "id": "C10",
+   "category": "copy",
+   "name": "Unbacked superlatives",
+   "severity": "medium",
+   "check": "auto",
+   "why": "'Best in town', '#1', 'highest quality' and 'unmatched' claim things the page can't prove.",
+   "fix": "Swap for proof: review count with source, years in business, a warranty term."
+  },
+  {
+   "id": "C11",
+   "category": "copy",
+   "name": "Corporate jargon",
+   "severity": "low",
+   "check": "auto",
+   "why": "'Solutions', 'leverage', 'utilize', 'synergy' and 'comprehensive' make a local trade sound like a software vendor.",
+   "fix": "Use plain trade language: 'repairs', 'we install', 'we fix'."
+  },
+  {
+   "id": "C12",
+   "category": "copy",
+   "name": "Hero doesn't say what or where",
+   "severity": "high",
+   "check": "auto",
+   "why": "If the first screen doesn't name the trade and the town, visitors and Google both have to guess.",
+   "fix": "Put the service and the city in the headline, eyebrow or first sentence."
+  },
+  {
+   "id": "C13",
+   "category": "copy",
+   "name": "Rhetorical question headlines",
+   "severity": "low",
+   "check": "auto",
+   "why": "'Looking for a reliable contractor?' is filler that delays the answer.",
+   "fix": "State the answer as the headline."
+  },
+  {
+   "id": "C14",
+   "category": "copy",
+   "name": "Overlong hero subheading",
+   "severity": "low",
+   "check": "auto",
+   "why": "Subheads over ~35 words get skipped on mobile.",
+   "fix": "Cut to one or two sentences: what, where, what happens next."
+  },
+  {
+   "id": "C15",
+   "category": "copy",
+   "name": "Company-centric copy",
+   "severity": "low",
+   "check": "auto",
+   "why": "Copy that is mostly 'we/our' and rarely 'you/your' reads as a brochure, not help.",
+   "fix": "Rewrite key sentences around the homeowner's problem and outcome."
+  },
+  {
+   "id": "C16",
+   "category": "copy",
+   "name": "Title Case On Every Heading",
+   "severity": "low",
+   "check": "auto",
+   "why": "Title-cased sentences read as auto-generated and are harder to scan.",
+   "fix": "Use sentence case for headings longer than four words."
+  },
+  {
+   "id": "C17",
+   "category": "copy",
+   "name": "Generic section titles",
+   "severity": "medium",
+   "check": "auto",
+   "why": "'Our Services', 'Why Choose Us', 'What Our Clients Say' appear on every template.",
+   "fix": "Make titles specific: 'Roofing services in Boise', 'What Meridian homeowners say'."
+  },
+  {
+   "id": "C18",
+   "category": "copy",
+   "name": "Fake urgency",
+   "severity": "medium",
+   "check": "auto",
+   "why": "'Act now', 'Limited time', countdown timers on a trade site erode trust.",
+   "fix": "Use real, dated offers only, or none."
+  },
+  {
+   "id": "T01",
+   "category": "type",
+   "name": "Default AI font stack",
+   "severity": "high",
+   "check": "auto",
+   "why": "Inter, Poppins, Montserrat, Roboto, Open Sans or Lato as the only typeface is the default output of most generators.",
+   "fix": "Pick a display face with character (see styles/) and pair it with a quiet body face."
+  },
+  {
+   "id": "T02",
+   "category": "type",
+   "name": "Weak type hierarchy",
+   "severity": "medium",
+   "check": "auto",
+   "why": "When the main heading is less than ~2.2x the body size, nothing leads the eye.",
+   "fix": "Scale the H1 up (clamp 2.6-5rem) and tighten its line-height."
+  },
+  {
+   "id": "T03",
+   "category": "type",
+   "name": "Gradient text",
+   "severity": "high",
+   "check": "auto",
+   "why": "Gradient-filled headline words are the signature of AI landing pages.",
+   "fix": "Use a solid ink color; mark emphasis with an italic or a second color instead."
+  },
+  {
+   "id": "T04",
+   "category": "type",
+   "name": "Small body text",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Body text under 16px is hard to read, especially for older homeowners on phones.",
+   "fix": "Set body to 16-18px."
+  },
+  {
+   "id": "T05",
+   "category": "type",
+   "name": "Overlong line length",
+   "severity": "low",
+   "check": "auto",
+   "why": "Paragraphs wider than ~90 characters tire the eye.",
+   "fix": "Cap text measure around 60-75ch."
+  },
+  {
+   "id": "T06",
+   "category": "type",
+   "name": "Centered long paragraphs",
+   "severity": "low",
+   "check": "auto",
+   "why": "Centered text longer than three lines is hard to read.",
+   "fix": "Left-align body paragraphs; center only short statements."
+  },
+  {
+   "id": "T07",
+   "category": "type",
+   "name": "Pill badge above every headline",
+   "severity": "medium",
+   "check": "visual",
+   "why": "A small icon pill ('New', 'Rated #1') above the H1 is a template reflex.",
+   "fix": "Remove it, or replace with a plain eyebrow carrying real info (trade and town)."
+  },
+  {
+   "id": "T08",
+   "category": "type",
+   "name": "Too many font families",
+   "severity": "low",
+   "check": "auto",
+   "why": "More than three loaded families looks undecided and slows the page.",
+   "fix": "Use one display and one body family (plus an optional mono)."
+  },
+  {
+   "id": "T09",
+   "category": "type",
+   "name": "Cramped or airy body leading",
+   "severity": "low",
+   "check": "auto",
+   "why": "Body line-height under 1.35 or over 1.9 hurts reading.",
+   "fix": "Set body line-height around 1.5-1.65."
+  },
+  {
+   "id": "K01",
+   "category": "color",
+   "name": "Purple/indigo gradients",
+   "severity": "high",
+   "check": "auto",
+   "why": "Indigo-to-violet gradients are the house style of generated SaaS pages and look wrong for trades.",
+   "fix": "Commit to a palette from the trade's world (see styles/) with one accent."
+  },
+  {
+   "id": "K02",
+   "category": "color",
+   "name": "Default framework blue",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Tailwind blue (#2563eb/#3b82f6) as the brand color says 'unstyled template'.",
+   "fix": "Choose a brand accent deliberately and use it consistently."
+  },
+  {
+   "id": "K03",
+   "category": "color",
+   "name": "Mesh blobs and glowing orbs",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Blurred gradient blobs behind content are pure decoration with an AI look.",
+   "fix": "Remove them. Let photography and type carry the page."
+  },
+  {
+   "id": "K04",
+   "category": "color",
+   "name": "Low-contrast text",
+   "severity": "high",
+   "check": "auto",
+   "why": "Text below WCAG AA contrast (4.5:1, or 3:1 for large text) is unreadable outdoors on a phone.",
+   "fix": "Darken text or lighten backgrounds until AA passes."
+  },
+  {
+   "id": "K05",
+   "category": "color",
+   "name": "No color commitment",
+   "severity": "low",
+   "check": "visual",
+   "why": "Black on white with grey-50 bands and no brand color feels anonymous.",
+   "fix": "Introduce a paper tone or brand color field and one accent."
+  },
+  {
+   "id": "K06",
+   "category": "color",
+   "name": "Too many accent colors",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Buttons and links in more than three saturated colors make the page noisy.",
+   "fix": "One primary accent for actions; one optional secondary."
+  },
+  {
+   "id": "K07",
+   "category": "color",
+   "name": "AI-builder dark aesthetic",
+   "severity": "medium",
+   "check": "visual",
+   "why": "Black background, dotted grid, glowing gradient borders: the look of AI tools, not a local business.",
+   "fix": "Use a real dark palette with texture from photos, or go light."
+  },
+  {
+   "id": "L01",
+   "category": "layout",
+   "name": "Generic centered hero",
+   "severity": "medium",
+   "check": "visual",
+   "why": "Centered headline, subline and two buttons over nothing is the default template hero.",
+   "fix": "Use a hero with a real photo, a form or a strong editorial headline; show proof under the CTA."
+  },
+  {
+   "id": "L02",
+   "category": "layout",
+   "name": "Three identical icon cards",
+   "severity": "high",
+   "check": "auto",
+   "why": "A row of three cards, each an icon in a tinted square plus a title and two grey lines, is the most recognisable template block.",
+   "fix": "Use a numbered list, photo tiles or a split list with real service detail."
+  },
+  {
+   "id": "L03",
+   "category": "layout",
+   "name": "Monotonous section rhythm",
+   "severity": "medium",
+   "check": "visual",
+   "why": "Every section built the same way (centered H2, subtitle, grid) makes the page feel generated.",
+   "fix": "Vary layouts: split, list, full-bleed photo, quote."
+  },
+  {
+   "id": "L04",
+   "category": "layout",
+   "name": "Alternating grey bands only",
+   "severity": "low",
+   "check": "visual",
+   "why": "White/grey-50 alternation as the only separation is a template default.",
+   "fix": "Use rules, color fields or photography to separate sections."
+  },
+  {
+   "id": "L05",
+   "category": "layout",
+   "name": "Rounded-and-shadowed everything",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Large radius plus soft drop shadow on every element is the stock component-library look.",
+   "fix": "Pick a shape language: crisp corners, or rounded without shadows, and apply it consistently."
+  },
+  {
+   "id": "L06",
+   "category": "layout",
+   "name": "Round-number stat counters",
+   "severity": "high",
+   "check": "auto",
+   "why": "'500+ projects, 10+ years, 100% satisfaction' rows are usually invented and always generic.",
+   "fix": "Show only real, specific numbers with a source, or remove the row."
+  },
+  {
+   "id": "L07",
+   "category": "layout",
+   "name": "'Trusted by' logo cloud",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Grey brand logos under the hero are a SaaS pattern; for a local trade they're often fake.",
+   "fix": "Replace with real certifications, review sources or local affiliations."
+  },
+  {
+   "id": "L08",
+   "category": "layout",
+   "name": "Horizontal scroll on mobile",
+   "severity": "high",
+   "check": "auto",
+   "why": "Content wider than the phone screen breaks the page.",
+   "fix": "Find the overflowing element and constrain it (max-width: 100%, wrap, grid minmax)."
+  },
+  {
+   "id": "L09",
+   "category": "layout",
+   "name": "Too many hero actions",
+   "severity": "low",
+   "check": "auto",
+   "why": "More than two buttons in the hero splits attention.",
+   "fix": "One primary action plus the phone number."
+  },
+  {
+   "id": "I01",
+   "category": "imagery",
+   "name": "Only stock photography",
+   "severity": "high",
+   "check": "auto",
+   "why": "Stock or generated photos everywhere tell visitors the business has nothing to show.",
+   "fix": "Use real job, crew and before/after photos. Label any placeholder until replaced."
+  },
+  {
+   "id": "I02",
+   "category": "imagery",
+   "name": "AI image tells",
+   "severity": "high",
+   "check": "visual",
+   "why": "Warped hands, gibberish signage, plastic skin, impossible roofs and tools are instantly noticed.",
+   "fix": "Replace with real photos, or carefully chosen real stock."
+  },
+  {
+   "id": "I03",
+   "category": "imagery",
+   "name": "Cheesy stock poses",
+   "severity": "medium",
+   "check": "visual",
+   "why": "Thumbs-up, handshakes, hard-hat-pointing-at-clipboard and headset agents read as fake.",
+   "fix": "Use candid work photos: hands, tools, materials, the finished result."
+  },
+  {
+   "id": "I04",
+   "category": "imagery",
+   "name": "Muddy dark overlay",
+   "severity": "low",
+   "check": "visual",
+   "why": "A heavy black overlay on the hero kills the photo.",
+   "fix": "Use a directional gradient where the text sits and let the rest of the photo breathe."
+  },
+  {
+   "id": "I05",
+   "category": "imagery",
+   "name": "3D clay or isometric illustrations",
+   "severity": "medium",
+   "check": "visual",
+   "why": "Clay renders and isometric scenes are SaaS decoration, not trade.",
+   "fix": "Use photography."
+  },
+  {
+   "id": "I06",
+   "category": "imagery",
+   "name": "Images without dimensions",
+   "severity": "low",
+   "check": "auto",
+   "why": "Images without width/height attributes cause layout shift while loading.",
+   "fix": "Add width and height (or aspect-ratio)."
+  },
+  {
+   "id": "I07",
+   "category": "imagery",
+   "name": "Oversized images",
+   "severity": "low",
+   "check": "auto",
+   "why": "Images several times larger than their display size waste mobile data.",
+   "fix": "Serve responsive sizes with srcset."
+  },
+  {
+   "id": "I08",
+   "category": "imagery",
+   "name": "Missing alt text",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Images without alt text fail accessibility and lose local SEO context.",
+   "fix": "Describe the job: 'New architectural shingle roof on a two-story home in Meridian'."
+  },
+  {
+   "id": "I09",
+   "category": "imagery",
+   "name": "Generic AI logo",
+   "severity": "low",
+   "check": "visual",
+   "why": "An icon-plus-name logo in a default font looks auto-generated.",
+   "fix": "Use the business's real logo, or a typographic wordmark in the display face."
+  },
+  {
+   "id": "D01",
+   "category": "decoration",
+   "name": "Sparkle and magic icons",
+   "severity": "high",
+   "check": "auto",
+   "why": "Sparkles and magic wands mean 'AI'. They make no sense on a trade site.",
+   "fix": "Remove them."
+  },
+  {
+   "id": "D02",
+   "category": "decoration",
+   "name": "Icons in tinted squircles",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Every card with an icon inside a pastel rounded square is the component-library default.",
+   "fix": "Drop the tinted container; use icons sparingly or not at all."
+  },
+  {
+   "id": "D03",
+   "category": "decoration",
+   "name": "Emoji bullets",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Lists that start with check, wrench or house emoji look like a chat message, not a business.",
+   "fix": "Use plain bullets, numbers or a consistent check icon."
+  },
+  {
+   "id": "D04",
+   "category": "decoration",
+   "name": "Glassmorphism",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Frosted translucent cards are decoration borrowed from app UIs.",
+   "fix": "Use solid surfaces."
+  },
+  {
+   "id": "D05",
+   "category": "decoration",
+   "name": "Decorative blobs, waves and dots",
+   "severity": "low",
+   "check": "visual",
+   "why": "Shapes that don't relate to the business add noise.",
+   "fix": "Remove, or replace with a motif from the trade (e.g. contour lines for landscaping)."
+  },
+  {
+   "id": "D06",
+   "category": "decoration",
+   "name": "Checkmark lists everywhere",
+   "severity": "low",
+   "check": "auto",
+   "why": "More than four checklists on a page turns every claim into the same shape.",
+   "fix": "Keep checklists for what's included; write the rest as sentences."
+  },
+  {
+   "id": "D07",
+   "category": "decoration",
+   "name": "Gradient or glowing borders",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Animated or gradient borders and neon glows are AI-tool styling.",
+   "fix": "Use a solid 1px rule or no border."
+  },
+  {
+   "id": "D08",
+   "category": "decoration",
+   "name": "Shadows on everything",
+   "severity": "low",
+   "check": "auto",
+   "why": "Heavy drop shadows on most elements flatten hierarchy.",
+   "fix": "Reserve shadow for one floating element at most."
+  },
+  {
+   "id": "X01",
+   "category": "components",
+   "name": "SaaS pricing tiers",
+   "severity": "medium",
+   "check": "auto",
+   "why": "'Basic / Pro / Enterprise' monthly tiers don't fit quote-based trades.",
+   "fix": "Show price ranges, what affects price and financing, or a free estimate."
+  },
+  {
+   "id": "X02",
+   "category": "components",
+   "name": "FAQ answers that dodge",
+   "severity": "low",
+   "check": "visual",
+   "why": "'Contact us for details' answers waste the FAQ.",
+   "fix": "Answer honestly with ranges, timelines and conditions."
+  },
+  {
+   "id": "X03",
+   "category": "components",
+   "name": "Anonymous testimonials",
+   "severity": "high",
+   "check": "auto",
+   "why": "Quotes with no name, town or source (or with stock avatars) read as invented.",
+   "fix": "Use real reviews with first name, town and source (Google, Facebook, Yelp)."
+  },
+  {
+   "id": "X04",
+   "category": "components",
+   "name": "Auto-rotating carousel",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Sliders hide content and are rarely read past the first slide.",
+   "fix": "Show the best items statically."
+  },
+  {
+   "id": "X05",
+   "category": "components",
+   "name": "Long quote form",
+   "severity": "medium",
+   "check": "auto",
+   "why": "More than six fields cuts quote requests.",
+   "fix": "Ask for name, phone, what's needed, ZIP and optional details."
+  },
+  {
+   "id": "X06",
+   "category": "components",
+   "name": "Placeholder-only form fields",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Fields with no visible label lose their prompt as soon as you type.",
+   "fix": "Add visible labels."
+  },
+  {
+   "id": "X07",
+   "category": "components",
+   "name": "Newsletter signup",
+   "severity": "low",
+   "check": "auto",
+   "why": "Homeowners don't subscribe to a roofer's newsletter; the box adds clutter.",
+   "fix": "Remove, or replace with a seasonal reminder signup only if it is real."
+  },
+  {
+   "id": "X08",
+   "category": "components",
+   "name": "Chat bubble covers the call button",
+   "severity": "low",
+   "check": "visual",
+   "why": "Floating widgets that overlap the mobile call bar block the main action.",
+   "fix": "Move or remove the widget on mobile."
+  },
+  {
+   "id": "X09",
+   "category": "components",
+   "name": "Dead or placeholder links",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Links (and social icons) pointing to '#' or javascript:void make the site feel fake.",
+   "fix": "Point every link somewhere real or remove it."
+  },
+  {
+   "id": "X10",
+   "category": "components",
+   "name": "Popups on load",
+   "severity": "low",
+   "check": "auto",
+   "why": "Modals or banners covering the screen on load block the phone number.",
+   "fix": "Remove load popups; keep cookie notices small."
+  },
+  {
+   "id": "M01",
+   "category": "motion",
+   "name": "Everything fades up on scroll",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Scroll-reveal on every block is the signature of generated sites and hides content from slow devices.",
+   "fix": "Remove reveal animations, or keep one subtle one."
+  },
+  {
+   "id": "M02",
+   "category": "motion",
+   "name": "Infinite marquee",
+   "severity": "low",
+   "check": "auto",
+   "why": "Scrolling ticker strips of logos or words are decoration with no information.",
+   "fix": "Replace with a static row of real proof."
+  },
+  {
+   "id": "M03",
+   "category": "motion",
+   "name": "Ignores reduced motion",
+   "severity": "low",
+   "check": "auto",
+   "why": "Animations that ignore prefers-reduced-motion can make people sick.",
+   "fix": "Wrap animations in a prefers-reduced-motion check."
+  },
+  {
+   "id": "M04",
+   "category": "motion",
+   "name": "Rotating or typewriter headline",
+   "severity": "medium",
+   "check": "visual",
+   "why": "Animated headline words delay the one sentence that matters.",
+   "fix": "Use a static headline."
+  },
+  {
+   "id": "H01",
+   "category": "trust",
+   "name": "Unverifiable big numbers",
+   "severity": "high",
+   "check": "auto",
+   "why": "'10,000+ happy customers', '99% satisfaction', '#1 rated' with no source look invented, and often are.",
+   "fix": "Use real numbers with a source and date, or remove them."
+  },
+  {
+   "id": "H02",
+   "category": "trust",
+   "name": "Ratings without a source",
+   "severity": "high",
+   "check": "auto",
+   "why": "A star rating with no review count or platform is meaningless.",
+   "fix": "Show '4.8 from 212 Google reviews' with a link."
+  },
+  {
+   "id": "H03",
+   "category": "trust",
+   "name": "Testimonials that read as generated",
+   "severity": "medium",
+   "check": "visual",
+   "why": "Generic praise ('Amazing service, highly recommend') with no specifics sounds fake.",
+   "fix": "Use real reviews that mention the job, the town and what happened."
+  },
+  {
+   "id": "H04",
+   "category": "trust",
+   "name": "Unbacked badges",
+   "severity": "medium",
+   "check": "auto",
+   "why": "'Award-winning' or 'Certified' with no issuer reads as filler.",
+   "fix": "Name the issuer and the year, or remove it."
+  },
+  {
+   "id": "H05",
+   "category": "trust",
+   "name": "No license, insurance or location",
+   "severity": "high",
+   "check": "auto",
+   "why": "Trades are expected to show a license number, insurance and a real location.",
+   "fix": "Add the license number, 'Licensed and insured', and an address or service area."
+  },
+  {
+   "id": "H06",
+   "category": "trust",
+   "name": "Stale copyright year",
+   "severity": "low",
+   "check": "auto",
+   "why": "An old copyright year suggests the business may be closed.",
+   "fix": "Use the current year (generate it)."
+  },
+  {
+   "id": "H07",
+   "category": "trust",
+   "name": "Placeholder content left live",
+   "severity": "high",
+   "check": "auto",
+   "why": "Sample reviews, stock-photo tags, example.com emails and 555 numbers must not ship.",
+   "fix": "Replace every sample with the business's real info before launch."
+  },
+  {
+   "id": "V01",
+   "category": "conversion",
+   "name": "Phone not visible on first screen",
+   "severity": "high",
+   "check": "auto",
+   "why": "Most trade customers call. The number must be on the first screen, on phones too.",
+   "fix": "Put the number in the header and the hero."
+  },
+  {
+   "id": "V02",
+   "category": "conversion",
+   "name": "Phone not click-to-call",
+   "severity": "high",
+   "check": "auto",
+   "why": "A phone number that isn't a tel: link forces people to copy it.",
+   "fix": "Wrap every phone number in a tel: link."
+  },
+  {
+   "id": "V03",
+   "category": "conversion",
+   "name": "No quote action above the fold",
+   "severity": "high",
+   "check": "auto",
+   "why": "Without a free estimate/quote action on the first screen, people bounce.",
+   "fix": "Add one primary action to the hero linking to a short form."
+  },
+  {
+   "id": "V04",
+   "category": "conversion",
+   "name": "No service area",
+   "severity": "high",
+   "check": "auto",
+   "why": "Visitors need to know you come to their town, and Google needs it for local search.",
+   "fix": "List the towns you serve on the home page and on a service-area page."
+  },
+  {
+   "id": "V05",
+   "category": "conversion",
+   "name": "No sticky call bar on mobile",
+   "severity": "medium",
+   "check": "auto",
+   "why": "On phones the call and quote actions should always be one tap away.",
+   "fix": "Add a fixed bottom bar with Call and Free quote."
+  },
+  {
+   "id": "V06",
+   "category": "conversion",
+   "name": "No 'what happens next' promise",
+   "severity": "low",
+   "check": "auto",
+   "why": "Forms convert better when they say when you'll hear back.",
+   "fix": "Add a line like 'We call back within 2 business hours.'"
+  },
+  {
+   "id": "V07",
+   "category": "conversion",
+   "name": "Vague services",
+   "severity": "medium",
+   "check": "visual",
+   "why": "'Residential and commercial solutions' doesn't tell people if you do their job.",
+   "fix": "List specific services, each with what's included."
+  },
+  {
+   "id": "V08",
+   "category": "conversion",
+   "name": "Emergency trade without an emergency path",
+   "severity": "medium",
+   "check": "visual",
+   "why": "Plumbers, roofers, HVAC and electricians get urgent calls; the site should route them.",
+   "fix": "Add an emergency line or banner if the business takes urgent work."
+  },
+  {
+   "id": "V09",
+   "category": "conversion",
+   "name": "No hours",
+   "severity": "low",
+   "check": "auto",
+   "why": "Hours tell callers when someone will pick up.",
+   "fix": "Show hours in the header, footer and contact page."
+  },
+  {
+   "id": "V10",
+   "category": "conversion",
+   "name": "Contact page is only a form",
+   "severity": "medium",
+   "check": "auto",
+   "why": "A contact page without phone, hours and area makes people wonder if anyone is there.",
+   "fix": "Add phone, hours, service area and address next to the form."
+  },
+  {
+   "id": "S01",
+   "category": "tech",
+   "name": "Focus outlines removed",
+   "severity": "medium",
+   "check": "auto",
+   "why": "outline: none without a replacement makes the site unusable by keyboard.",
+   "fix": "Add a visible :focus-visible style."
+  },
+  {
+   "id": "S02",
+   "category": "tech",
+   "name": "Small tap targets",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Links and buttons smaller than 24px fail WCAG 2.2 AA and are hard to tap with work gloves or a thumb.",
+   "fix": "Make interactive targets at least 24x24px (ideally 44x44px) on mobile."
+  },
+  {
+   "id": "S03",
+   "category": "tech",
+   "name": "Heading structure broken",
+   "severity": "low",
+   "check": "auto",
+   "why": "Missing or multiple H1s confuse screen readers and search engines.",
+   "fix": "One H1 per page, then H2s in order."
+  },
+  {
+   "id": "S04",
+   "category": "tech",
+   "name": "Missing or generic page titles",
+   "severity": "high",
+   "check": "auto",
+   "why": "Titles like 'Home', 'React App' or the same title on every page hurt search and tabs.",
+   "fix": "Title each page: 'Roof repair in Boise, ID | Ridgeline Roofing'."
+  },
+  {
+   "id": "S05",
+   "category": "tech",
+   "name": "Missing meta description",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Without one, Google writes its own snippet from random page text.",
+   "fix": "Add a 140-160 character description with the service and town."
+  },
+  {
+   "id": "S06",
+   "category": "tech",
+   "name": "No LocalBusiness schema",
+   "severity": "medium",
+   "check": "auto",
+   "why": "Structured data helps Google show hours, area and ratings.",
+   "fix": "Add JSON-LD with the right LocalBusiness subtype (e.g. RoofingContractor)."
+  },
+  {
+   "id": "S07",
+   "category": "tech",
+   "name": "Heavy JavaScript for a brochure site",
+   "severity": "low",
+   "check": "auto",
+   "why": "Hundreds of KB of JS for static content slows phones on job sites.",
+   "fix": "Ship static HTML and CSS; keep JS minimal."
+  },
+  {
+   "id": "S08",
+   "category": "tech",
+   "name": "No viewport meta",
+   "severity": "high",
+   "check": "auto",
+   "why": "Without it, phones render the desktop layout zoomed out.",
+   "fix": "Add <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">."
+  },
+  {
+   "id": "S09",
+   "category": "tech",
+   "name": "Default framework favicon",
+   "severity": "low",
+   "check": "auto",
+   "why": "A Vite/React/Next logo in the browser tab says 'template'.",
+   "fix": "Use the business mark or initial as the favicon."
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "roofing",
+  "name": "Roofing",
+  "noun": "roofer",
+  "schema_type": "RoofingContractor",
+  "emergency": {
+    "enabled": true,
+    "label": "Storm damage or an active leak?",
+    "detail": "We tarp same day across {{area}} so the rain stays out while we sort out the repair."
+  },
+  "financing": true,
+  "maintenance_plan": { "enabled": false, "name": null, "pitch": null },
+  "hero": {
+    "headlines": [
+      "Roofs replaced in two days, not two weeks.",
+      "Leaks found and fixed by roofers who work in {{city}} every day.",
+      "A straight answer on your roof, with photos to back it up.",
+      "Repair it if we can. Replace it only if we have to.",
+      "Storm damage in {{area}}? We tarp today and help with the claim."
+    ],
+    "subheads": [
+      "We get on the roof, photograph what we find and give you a written price before any work starts.",
+      "Most full replacements take one to three days, with the yard cleaned and swept for nails every night.",
+      "Licensed and insured crews, a written workmanship warranty and one contact from estimate to final walk-through."
+    ],
+    "primary_cta": "Get a free inspection",
+    "secondary_cta": "Call {{phone}}"
+  },
+  "services": [
+    {
+      "slug": "roof-repair",
+      "name": "Roof repair",
+      "short": "Leaks, missing shingles and worn flashing fixed before they turn into rot.",
+      "long": "Most leaks start at flashing, vents or a few lifted shingles, not the whole roof. We trace the water back to where it gets in, fix that spot and show you before and after photos. If a repair won't last, we'll tell you that too.",
+      "bullets": [
+        "Leak tracing from the attic and the roof surface",
+        "Shingle, flashing, pipe boot and vent replacement",
+        "Closest available match to your existing shingles",
+        "Before and after photos with every repair"
+      ],
+      "icon": "roof",
+      "emergency": true
+    },
+    {
+      "slug": "roof-replacement",
+      "name": "Roof replacement",
+      "short": "Full tear-off and new roof, usually finished in one to three days.",
+      "long": "We strip the old roof down to the deck, replace any soft or rotted boards and install a complete system: underlayment, ice and water shield, flashing, vents and shingles. The price you sign is the price you pay unless we find rotted decking, and that is priced per sheet in your contract.",
+      "bullets": [
+        "Architectural asphalt shingles, metal and synthetic options",
+        "Ice and water shield in valleys and along the eaves",
+        "Rotted decking replaced at a per-sheet price set up front",
+        "Magnetic nail sweep and full cleanup every day"
+      ],
+      "icon": "home",
+      "emergency": false
+    },
+    {
+      "slug": "storm-damage",
+      "name": "Storm damage and insurance claims",
+      "short": "Hail and wind damage documented, tarped and repaired, with help on your claim.",
+      "long": "After a storm we inspect, photograph every damaged area and tarp anything open to the weather. If it looks like a claim, we'll meet your adjuster on the roof and walk them through what we found. You pay your deductible; we don't waive it or hide it in the price.",
+      "bullets": [
+        "Same-day tarping for open roofs",
+        "Photo report of hail and wind damage",
+        "We meet your adjuster on site",
+        "Repair or replacement once the claim is approved"
+      ],
+      "icon": "shield",
+      "emergency": true
+    },
+    {
+      "slug": "roof-inspection",
+      "name": "Roof inspection",
+      "short": "A full roof check with photos and a written report.",
+      "long": "We check shingles, flashing, vents, gutters and the attic for signs of leaks or poor ventilation. You get a photo report that says what's fine, what to keep an eye on and what needs fixing now. Buyers and sellers can get the same report during a home sale.",
+      "bullets": [
+        "Shingle, flashing and sealant condition",
+        "Attic check for moisture, daylight and ventilation",
+        "Estimated remaining life of the roof",
+        "Written report you can share with an insurer or buyer"
+      ],
+      "icon": "ladder",
+      "emergency": false
+    },
+    {
+      "slug": "gutters",
+      "name": "Gutters and downspouts",
+      "short": "New gutters formed to length on site, plus guards, repairs and cleaning.",
+      "long": "We form aluminum gutters on site from one continuous piece per run, so the only joints are at the corners. Downspouts are sized and placed to move water away from your foundation, and we can add guards if trees keep filling them.",
+      "bullets": [
+        "5 and 6 inch aluminum gutters in common colors",
+        "Downspout extensions to carry water away from the foundation",
+        "Gutter guards for homes under heavy trees",
+        "Repairs for sagging, leaking or pulled-away sections"
+      ],
+      "icon": "gutter",
+      "emergency": false
+    },
+    {
+      "slug": "flat-roofing",
+      "name": "Flat and low-slope roofs",
+      "short": "TPO, EPDM and modified bitumen for porches, additions and small commercial buildings.",
+      "long": "Shingles aren't made for roofs with little or no pitch, and that's where a lot of leaks start. We install and repair single-ply membranes and modified bitumen on porches, additions, garages and small commercial buildings.",
+      "bullets": [
+        "TPO and EPDM single-ply membranes",
+        "Modified bitumen for small low-slope sections",
+        "Tapered insulation to move water off and stop ponding",
+        "Repairs and coatings to extend an older membrane"
+      ],
+      "icon": "tools",
+      "emergency": false
+    },
+    {
+      "slug": "skylights-chimneys",
+      "name": "Skylights, chimneys and flashing",
+      "short": "Skylight and chimney leaks fixed at the flashing, where they usually start.",
+      "long": "Skylights and chimneys are the most common places for a roof to leak, and caulk alone won't hold for long. We replace step and counter flashing, install new flashing kits, or swap out old skylights while the roof is being done.",
+      "bullets": [
+        "Step and counter flashing on chimneys",
+        "Skylight flashing kits and full skylight replacement",
+        "Crickets built behind wide chimneys to shed water",
+        "Pipe boots and vent flashing replaced"
+      ],
+      "icon": "window",
+      "emergency": false
+    }
+  ],
+  "process": [
+    { "title": "Free inspection", "detail": "We look at the roof and the attic, take photos and explain what we found in plain terms." },
+    { "title": "Written estimate", "detail": "You get an itemized price, the materials we'd use and a start date, with no pressure to sign that day." },
+    { "title": "Install", "detail": "Most replacements take one to three days, and we cover your plants and clean up every night." },
+    { "title": "Final walk-through", "detail": "We walk the job with you, sweep for nails one last time and hand over your warranty paperwork." }
+  ],
+  "trust": {
+    "certifications": [
+      "GAF Certified Contractor",
+      "Owens Corning Preferred Contractor",
+      "CertainTeed ShingleMaster",
+      "NRCA ProCertified Installer",
+      "HAAG Certified Inspector"
+    ],
+    "license_label": "State roofing license #",
+    "guarantees": [
+      "Workmanship warranty: 10 years, in writing",
+      "Manufacturer shingle warranty registered in your name",
+      "Written price before work starts; rotted decking is the only possible add-on, priced per sheet up front",
+      "If a repair we made leaks, we come back and fix it at no charge"
+    ],
+    "badges_hint": "Manufacturer certifications (GAF, Owens Corning, CertainTeed) carry the most weight because they let the roofer offer longer system warranties. NRCA or state roofing association membership, BBB accreditation and a HAAG inspector credential for storm work also help. Show the license number near the footer. The certifications listed are examples; keep only the ones the business holds, and swap in the higher tier when it applies (GAF Master Elite, Owens Corning Platinum Preferred, CertainTeed SELECT ShingleMaster)."
+  },
+  "faqs": [
+    {
+      "q": "How much does a new roof cost?",
+      "a": "It depends mostly on the size and pitch of the roof, how many layers come off and the material. National cost data puts most asphalt shingle replacements between about $6,000 and $14,000, with large, steep or metal roofs running higher. We give you a written, itemized price after the inspection, and it doesn't change unless we find rotted decking."
+    },
+    {
+      "q": "Can you repair my roof, or does it need replacing?",
+      "a": "Many leaks come from flashing or a cracked pipe boot, and a repair fixes them. Most repairs land between $400 and $1,800. If the shingles are curling, shedding granules or past about 20 years old, repairs start to become money spent twice, and we'll show you photos so you can judge for yourself."
+    },
+    {
+      "q": "How long does a roof replacement take?",
+      "a": "Most homes take one to three days once materials are delivered. Weather can move the start date, and we won't tear off a roof with rain in the forecast. You don't need to be home, but someone should be reachable by phone."
+    },
+    {
+      "q": "Will my homeowners insurance pay for it?",
+      "a": "Insurance usually covers sudden damage from hail, wind or a fallen tree, not wear and age. We document the damage with photos and can meet your adjuster on the roof. You are responsible for your deductible, and in many states it's illegal for a roofer to waive it."
+    },
+    {
+      "q": "Can you put new shingles over my old ones?",
+      "a": "Some building codes allow one overlay, but we almost always recommend a tear-off. Going over the old layer hides rotted decking, adds weight and can shorten the life of the new shingles. Some manufacturers also won't offer their longest warranties on an overlay."
+    },
+    {
+      "q": "Do I need a permit?",
+      "a": "Most cities and counties require a permit for a full replacement, and some require one for larger repairs. We pull the permit, schedule the inspection and include the cost in your estimate."
+    },
+    {
+      "q": "What warranty do I get?",
+      "a": "Two warranties. The manufacturer covers the shingles, and we cover our installation with a written workmanship warranty. If you choose a full manufacturer system, extended coverage may be available, and we register it for you."
+    },
+    {
+      "q": "What happens to my yard and driveway?",
+      "a": "We cover plants and AC units with tarps, put boards under the dumpster to protect the driveway and park it where you want it. At the end of every day, we run a magnetic sweeper over the yard and driveway for nails."
+    }
+  ],
+  "quote_form": {
+    "title": "Get a free roof inspection",
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "phone", "label": "Phone", "type": "tel", "required": true },
+      {
+        "name": "issue",
+        "label": "What do you need?",
+        "type": "select",
+        "options": ["Leak repair", "Storm damage", "Full replacement", "Inspection", "Gutters", "Something else"],
+        "required": true
+      },
+      { "name": "zip", "label": "ZIP code", "type": "text", "required": false },
+      { "name": "details", "label": "Anything we should know?", "type": "textarea", "required": false }
+    ],
+    "promise": "We call back within 2 business hours."
+  },
+  "seasonal": [
+    "Spring storm season inspections",
+    "Fall roof and gutter checks before leaves and snow",
+    "Winter ice dam and leak repairs"
+  ],
+  "about_default": "{{name}} has been repairing and replacing roofs in {{city}} for {{years}} years. We inspect before we quote, show you photos of what we find and put the price in writing. When the job is done, we clean up and walk it with you.",
+  "photo_subjects": {
+    "hero": "A crew installing architectural shingles on a two-story house on a clear day, roofers in harnesses, neighborhood visible behind",
+    "work": [
+      "Close-up of new step flashing at a chimney",
+      "Before and after of a full tear-off and replacement",
+      "Ice and water shield going down in a valley",
+      "Hail hits circled in chalk during an inspection",
+      "New gutters and downspouts on a finished roof",
+      "Dumpster on boards and tarps over plants at a tidy job site"
+    ],
+    "team": "The crew standing by a company truck with ladders on the rack, in work clothes"
+  },
+  "keywords": [
+    "roofer {{city}}",
+    "roof repair {{city}}",
+    "roof replacement {{city}}",
+    "roof leak repair {{city}}",
+    "storm damage roof repair {{city}}",
+    "hail damage roof inspection {{city}}",
+    "roofing contractor {{area}}",
+    "new roof cost {{city}}",
+    "gutter installation {{city}}",
+    "flat roof repair {{city}}"
+  ],
+  "palette_hint": "Charcoal and slate grays from shingles, with a weathered copper or safety-orange accent."
+}

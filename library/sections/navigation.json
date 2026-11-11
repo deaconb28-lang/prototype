@@ -1,0 +1,229 @@
+{
+  "section": "navigation",
+  "description": "Header, nav bar and top utility bar. On a trade site it has to show the phone number and the main action (call / book / estimate) at all times, and can carry hours, service area and licence or audience switches without crowding the logo.",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "website header with top utility bar showing phone number and hours",
+    "home services company navigation header",
+    "restaurant website header with location and opening hours",
+    "navigation bar with phone number and call now button"
+  ],
+  "references": [
+    {
+      "id": "mobbin:2f083c6a-8cf1-40af-823b-bee1ce8f419a",
+      "site": "Monte",
+      "url": "https://mobbin.com/sites/sections/2f083c6a-8cf1-40af-823b-bee1ce8f419a",
+      "pattern": "centered-logo",
+      "layout": "No bar or borders. Three items sit on the hero color: 'MENU' top-left, a lowercase serif wordmark centered, 'BOOK A TABLE' top-right. Further down, the hero flanks carry live info on one baseline: 'OPEN TODAY TIL 1:30PM' on the left and 'NEWCASTLE 28°C' on the right, either side of a line illustration with curved text.",
+      "type": "Sans small caps ~11px, tracked ~+8%. Serif lowercase wordmark ~22px. Flank labels match the nav labels exactly.",
+      "color": "Terracotta ~#B9412A background, cream ~#F6E7D7 type, oxblood ~#6E1E14 line illustration.",
+      "details": [
+        "Live hours ('open today til…') and city/weather treated as nav-level information",
+        "Only three nav items; the full menu hides behind 'MENU'",
+        "Hours and location mirror the nav corners, so the layout feels symmetrical and intentional"
+      ],
+      "why_it_works": "It shows hours and location can be the most elegant thing on the page instead of a gray utility strip.",
+      "trade_adaptation": "'MENU · [logo] · BOOK A VISIT', with flanks 'ON CALL TODAY TIL 8PM' / 'SERVING SPOKANE VALLEY'. Swap weather for 'Lic. #EL-20418'.",
+      "mood": ["warm", "editorial", "rustic"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:52ad00dc-133b-4d95-8b9a-c3c7bde88887",
+      "site": "Yellowbird",
+      "url": "https://mobbin.com/sites/sections/52ad00dc-133b-4d95-8b9a-c3c7bde88887",
+      "pattern": "centered-logo",
+      "layout": "A thin black strip (~18px) with a tiny centered offer line. Below it a nav row ruled top and bottom with ~1.5px black lines: three big links left, the mascot logo centered, three big links right. The hero continues on the same yellow.",
+      "type": "Grotesk caps, regular, ~16px, generous letter and word spacing. The strip text is ~9px caps.",
+      "color": "Yellow ~#FFE94A, black ~#111111 rules and type, black strip with white text.",
+      "details": [
+        "Rules above and below the nav make it read like a newspaper masthead",
+        "Links are large enough to work as a design element",
+        "Symmetrical 3 + logo + 3 composition"
+      ],
+      "why_it_works": "Big, confident links and printed-style rules give strong brand presence with no logo bar or shadows.",
+      "trade_adaptation": "Painter or landscaper: 'SERVICES · ABOUT · AREAS · [logo] · REVIEWS · FAQ · CALL', strip 'Free estimates within 48 hours'.",
+      "mood": ["playful", "bold", "friendly"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:20db4fde-5843-481a-9907-f12cd851e211",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/20db4fde-5843-481a-9907-f12cd851e211",
+      "pattern": "utility-bar-plus-nav",
+      "layout": "A yellow utility bar (~22px) with three slots: tagline left, offer center, language right. Below it a white nav (~36px): square logo left, two link groups (services cluster left-center, projects/segments centered), 'About Us / Contact' and a square-cornered filled tan 'Book a meeting' button right.",
+      "type": "Sans regular ~11-12px throughout, sentence case.",
+      "color": "Utility yellow ~#FFE000, white bar, ink ~#111111, tan button ~#C8C1AD.",
+      "details": [
+        "The three-slot utility bar works like a mini information architecture",
+        "Links are grouped by intent with real gaps between the groups",
+        "The button has zero radius, matching the industrial brand"
+      ],
+      "why_it_works": "The utility bar carries the hook (price, credentials) so the main nav can stay calm.",
+      "trade_adaptation": "Utility bar: 'Licensed & insured · Lic #12345' | 'Spring AC tune-up $89' | '(555) 012-3456'. Nav button 'Book a visit'.",
+      "mood": ["industrial", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:73650e69-1da8-4db5-844f-8b4fea591c24",
+      "site": "OpenTable",
+      "url": "https://mobbin.com/sites/sections/73650e69-1da8-4db5-844f-8b4fea591c24",
+      "pattern": "utility-bar-plus-nav",
+      "layout": "A light gray utility bar (~18px) with right-aligned secondary links. Below it a white nav: logo left, then a location selector right beside the logo (pin icon + 'New York / Tri-State Area ▾'); right side holds a filled 'Sign up', an outline 'Sign in' and a search icon. A breadcrumb row follows.",
+      "type": "Sans ~12-13px. Location selector in medium weight with a chevron.",
+      "color": "Gray ~#F1F1F1 utility bar, white nav, teal button ~#2E7D9A, brand red ~#DA3743.",
+      "details": [
+        "The location selector next to the logo turns geography into navigation",
+        "Utility bar holds audience links ('For Businesses')",
+        "The main bar stays minimal"
+      ],
+      "why_it_works": "A location chip beside the logo is the clearest way to say 'we serve your area' and it scales to multi-city operators.",
+      "trade_adaptation": "'📍 Serving: Greater Denver ▾' beside the logo (opens a service-area list). Utility bar: 'For contractors · Careers · Financing'.",
+      "mood": ["friendly", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:b955d30d-fd93-4b0d-99df-857e6aa81c91",
+      "site": "Klarna",
+      "url": "https://mobbin.com/sites/sections/b955d30d-fd93-4b0d-99df-857e6aa81c91",
+      "pattern": "utility-bar-plus-nav",
+      "layout": "Tiny audience tabs above the nav ('For shoppers' bold and active, 'For business' gray). The nav row has a wordmark left, 3 links, and on the right a round search icon and a black pill 'Sign in' with a person icon.",
+      "type": "Sans ~11-12px for the tabs (active one bold), ~13px for links. Bold wordmark.",
+      "color": "White, ink ~#17120F, black pill.",
+      "details": [
+        "The audience switch is tabs, not a dropdown",
+        "The pill CTA carries a small icon",
+        "Very light chrome above a dark hero"
+      ],
+      "why_it_works": "It splits two audiences cleanly without adding a menu.",
+      "trade_adaptation": "'Residential | Commercial' tabs above the nav for electricians, cleaners and pest control, each switching services and the CTA ('Book a visit' vs 'Request a site survey').",
+      "mood": ["minimal", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:570d1933-5cc4-430a-9d4a-8cf67b35403f",
+      "site": "Superpower",
+      "url": "https://mobbin.com/sites/sections/570d1933-5cc4-430a-9d4a-8cf67b35403f",
+      "pattern": "floating-pill",
+      "layout": "A dark translucent full-radius pill (~90% width, ~36px tall) floats over an inset hero image that itself has ~16px radius. Links left, wordmark centered, 'Login' text and an orange pill CTA right.",
+      "type": "Sans ~11-12px white. Wordmark ~16px medium.",
+      "color": "Pill ~rgba(10,20,25,0.85), white text, orange CTA ~#FF5A1F against a teal-blue photo.",
+      "details": [
+        "Centered wordmark inside the pill",
+        "The hero is inset with rounded corners, so the pill reads as an object on a card",
+        "One saturated color (the CTA)"
+      ],
+      "why_it_works": "The pill stays legible over any photo and gives a premium, app-like frame.",
+      "trade_adaptation": "'Services · Reviews · Areas · About | [logo] | (555) 012-3456 · [Book now]' over a rounded job-site hero.",
+      "mood": ["premium", "bold"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:08b1da0a-e784-4a8c-8d23-0359ff00b023",
+      "site": "T1 Energy",
+      "url": "https://mobbin.com/sites/sections/08b1da0a-e784-4a8c-8d23-0359ff00b023",
+      "pattern": "floating-pill",
+      "layout": "A blocky white wordmark sits free top-left on a full-bleed solar-field photo. A right-aligned dark-gray translucent pill holds 4 links and a nested white 'CONTACT' chip. Nothing else is in the header.",
+      "type": "Sans ~10px for links, chip label in caps.",
+      "color": "Pill ~rgba(60,60,60,0.7), white chip, ochre/brown landscape photo.",
+      "details": [
+        "The CTA is nested inside the pill as a white chip",
+        "The logo stays outside the pill, so there are two separate anchors",
+        "Compact footprint keeps the landscape dominant"
+      ],
+      "why_it_works": "It is compact, clearly hierarchical and lets industrial photography breathe.",
+      "trade_adaptation": "Solar or roofing: logo left on the photo, pill 'Services · Projects · About · [CALL NOW]'.",
+      "mood": ["industrial", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:27e89820-52c7-4f54-9c8c-fd56dc60e428",
+      "site": "MindMarket",
+      "url": "https://mobbin.com/sites/sections/27e89820-52c7-4f54-9c8c-fd56dc60e428",
+      "pattern": "floating-pill",
+      "layout": "Two separate white rounded rectangles float on a green background. The wide one holds logo, links and a green circular menu button. The small one, to its right, holds 'Get a quote' and a round avatar of a real person.",
+      "type": "Sans ~12px medium, dark ink.",
+      "color": "White pills, green ~#7ED957 background and menu dot, ink ~#222222.",
+      "details": [
+        "The CTA gets its own pill with a human face",
+        "The gap between pills separates browsing from acting",
+        "The hamburger is a colored circle, not three gray lines"
+      ],
+      "why_it_works": "A face on the quote button says a real person will answer, which matters for service businesses.",
+      "trade_adaptation": "Quote pill with the owner's headshot: 'Talk to Mike' or 'Get a quote from Dana', next to the main nav pill.",
+      "mood": ["friendly", "playful"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:62984214-7e41-43f6-b3fe-4ada5446fc18",
+      "site": "Frontify",
+      "url": "https://mobbin.com/sites/sections/62984214-7e41-43f6-b3fe-4ada5446fc18",
+      "pattern": "floating-pill",
+      "layout": "Two white rounded cards float at the top corners of a full-bleed sky photo. The left card holds logo and 3 dropdown links; the right card holds 'Pricing', language, an outline 'Login' and a black pill 'Book demo'. The center stays open to the photo.",
+      "type": "Sans ~11-12px medium.",
+      "color": "White cards, black pill, deep blue dusk sky with warm rock.",
+      "details": [
+        "Split cards leave the center of the photo free for the headline",
+        "Browse on the left, act on the right",
+        "Small radius (~6px) on the cards, full radius on the buttons"
+      ],
+      "why_it_works": "Clear separation of intents, and it never covers the subject of the photo.",
+      "trade_adaptation": "Left 'Logo · Services · Areas · About', right '(555) 012-3456 · [Free estimate]' over a landscape or exterior photo.",
+      "mood": ["premium", "minimal"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:117819d3-b992-4d33-b55e-9bdd2832e850",
+      "site": "In Common With",
+      "url": "https://mobbin.com/sites/sections/117819d3-b992-4d33-b55e-9bdd2832e850",
+      "pattern": "transparent-over-hero",
+      "layout": "No bar. Links float directly on a full-bleed warm interior photo. A primary group ('Shop Collections Showroom', ~13px) sits center-left; a secondary group ('Info Trade Search', ~10px) sits center-right; 'Sign In Cart (0)' at the far right. The brand name is small, mid-left inside the photo, with a tiny tagline bottom-left.",
+      "type": "Sans medium, white. Two sizes signal hierarchy (~13px primary, ~10px secondary).",
+      "color": "White text on a warm wood and cream photo (~#C9A57A, ~#E8DCC8).",
+      "details": [
+        "Link size, not color or weight, carries the hierarchy",
+        "The logo leaves the top-left corner and lives in the composition",
+        "The photo is chosen with a calm top band so white text reads"
+      ],
+      "why_it_works": "It is photography-first. The nav steps back like a gallery caption.",
+      "trade_adaptation": "High-end remodeler or cabinetmaker: 'Kitchens Baths Additions' as the primary group, 'Process Reviews Contact' as the secondary group, over a finished-kitchen photo.",
+      "mood": ["premium", "editorial", "warm"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:082e8338-c62d-4080-a4a0-a5a8a8caa6ac",
+      "site": "Waka Waka",
+      "url": "https://mobbin.com/sites/sections/082e8338-c62d-4080-a4a0-a5a8a8caa6ac",
+      "pattern": "solid-bar",
+      "layout": "A thin bar on a warm gray background: small caps name left, comma-separated nav words centered ('Furniture, Index, Studio'), and 'LOS ANGELES, CA 03:12 ●' right with a live clock and dot. A giant wordmark fills the screen below.",
+      "type": "Grotesk caps ~9px for the corners, ~14px sentence case for the centered nav.",
+      "color": "Warm gray ~#ECE8E1, ink ~#222222, black status dot.",
+      "details": [
+        "The nav is written as a comma-separated phrase, not a row of buttons",
+        "City plus live local time signals a real place",
+        "Status dot implies 'open now'"
+      ],
+      "why_it_works": "Minimal and editorial, and the city/clock corner gives local presence for free.",
+      "trade_adaptation": "'PINE ROOFING · Services, Projects, Contact · BEND, OR 7:42 AM ● OPEN' (dot turns gray after hours, linking to the emergency line).",
+      "mood": ["minimal", "editorial"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Make phone, hours and service area part of the header system, but style them. Use the nav flanks (Monte), a three-slot utility bar (YLLW) or a city/clock corner (Waka Waka), not a cramped gray strip of icons.",
+    "Give the header exactly one primary action, visually distinct (filled pill or chip) and rightmost. Everything else is plain text.",
+    "Over photography, float the nav (a full pill, split corner cards, or a pill holding a nested CTA chip) instead of laying a dark gradient across the top.",
+    "Put a location selector or 'Serving X' label beside the logo. Local is the selling point.",
+    "When a trade has two audiences, use tabs above the nav (Residential | Commercial) rather than a dropdown.",
+    "Keep to five links or fewer. Small caps at 11-12px with tracking feel crafted; big caps links with printed rules feel bold.",
+    "A human face on the CTA (avatar in the quote pill) signals that a real person answers."
+  ],
+  "avoid": [
+    "Mega-menus with icon-and-description dropdown panels (Intercom, Mixpanel, Grammarly). Small businesses have 5-8 pages.",
+    "Glassy translucent pills with low contrast over busy imagery (Analogue). They become unreadable.",
+    "Three or more competing buttons in the bar (Log in + Sign up + Get a demo + Contact sales).",
+    "Default SaaS bar: logo, 5 chevron dropdowns, 'Contact sales', gradient 'Get started' (Linear, Mixpanel, Calendly).",
+    "Rainbow or gradient CTA pills and gradient top borders (Speakeasy, Clay).",
+    "Hamburger-only navigation on desktop that hides the phone number."
+  ]
+}

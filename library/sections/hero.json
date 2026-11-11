@@ -1,0 +1,258 @@
+{
+  "section": "hero",
+  "description": "The first screen of a trade website. In about three seconds it has to say who the business is, where it works, why it can be trusted, and give the one next step (call, book or get a quote).",
+  "source": "Mobbin MCP (search_sections)",
+  "collected_at": "2026-11-11",
+  "queries": [
+    "home services hero section",
+    "construction company hero section",
+    "hero section with quote request form",
+    "architecture firm hero section",
+    "real estate hero section",
+    "landscape design studio hero section"
+  ],
+  "references": [
+    {
+      "id": "mobbin:f9f781dc-03d5-4372-bd1e-56415d63a1bf",
+      "site": "Daylight",
+      "url": "https://mobbin.com/sites/sections/f9f781dc-03d5-4372-bd1e-56415d63a1bf",
+      "pattern": "fullbleed-photo",
+      "layout": "Full-bleed aerial dusk photo of a hillside subdivision with winding streets and rooftops. A small white floating pill nav (~520px wide) sits top-center: logo, 4 links and an orange 'Get started' button. Content is a centered stack at ~40% of the height: a tiny mono kicker, a 2-line headline and 2 lines of body. The hero has no buttons of its own; the only CTA is in the nav.",
+      "type": "Transitional text serif (Tiempos / GT Super feel), regular weight, ~56px, 2 lines, leading ~1.05, slightly negative tracking, sentence case. Kicker is monospace ~10px uppercase with wide tracking ('THE DAYLIGHT NETWORK'). Body is sans ~14px at ~85% white.",
+      "color": "Photo graded warm and dark, with extra darkening behind the text block. Text ~#FFFFFF. The CTA is an orange gradient ~#F2542D to ~#FF7A1A, the only saturated color on the screen.",
+      "details": [
+        "Mono kicker above a serif headline mixes technical and editorial voices",
+        "Darkening is local to the text block, so the photo edges keep their detail",
+        "Leaving buttons out of the hero reads as confident; the nav pill carries the action",
+        "The subject is the customer's neighbourhood, not the product"
+      ],
+      "why_it_works": "It shows the place the customer lives, so the business reads as part of the community instead of a vendor. Serif plus restraint makes it feel premium without being cold.",
+      "trade_adaptation": "Roofer or solar installer: drone shot of local rooftops at golden hour, kicker 'LICENSED ROOFING · SINCE 1998', headline 'Every roof in Maple Ridge, looked after.', with the phone/estimate button inside the floating nav pill.",
+      "mood": ["premium", "editorial", "warm"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:19d48f9c-20f5-4d4e-84a8-a0abfcf2133c",
+      "site": "Samara",
+      "url": "https://mobbin.com/sites/sections/19d48f9c-20f5-4d4e-84a8-a0abfcf2133c",
+      "pattern": "fullbleed-photo",
+      "layout": "Black nav (light wordmark left, centered links, blue 'Design yours' pill right) flows into a black announcement band with one centered sentence and a red-orange pill. Below is a full-bleed photo of a small backyard home in hilly scrubland. A giant ultra-thin product name 'XL10' (~180px) sits centered in the sky. To its left is a 2-line tagline (~22px); to its right a 3-line spec sentence and a small white 'Learn more →' pill. Together they make a three-column band over the sky.",
+      "type": "Neo-grotesk throughout. The display word is weight ~200 at ~180px with tight tracking. Copy is light/300 at ~20-22px. No bold anywhere on the screen.",
+      "color": "Black ~#000000 header band, white type, red-orange alert CTA ~#FF4A1C, blue nav pill ~#1E88F5. The photo is natural sage, ochre and sky blue.",
+      "details": [
+        "The sky is used as the type canvas, so the building stays unobstructed",
+        "Specs are written as a sentence: 'Two bedrooms, two baths. 950 square feet.'",
+        "The announcement band is welded to the nav, so they read as one header block",
+        "The thin display weight makes a huge word feel elegant instead of loud"
+      ],
+      "why_it_works": "A single huge, thin word gives drama without shouting, and the flanking copy carries the concrete facts. It shows that a hero can be both premium and specific.",
+      "trade_adaptation": "Garage-door company: house photo with the door installed, giant thin model name 'CARRIAGE 9' in the sky, left 'Quiet, insulated, built here.', right '16×7 ft. R-18 insulation. Installed in a day.' + 'See styles →'.",
+      "mood": ["premium", "minimal", "technical"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:2c48bf0b-3622-44fc-8fb1-76ff63d17cbb",
+      "site": "Airtasker",
+      "url": "https://mobbin.com/sites/sections/2c48bf0b-3622-44fc-8fb1-76ff63d17cbb",
+      "pattern": "form-card",
+      "layout": "Rounded (~16px) photo panel inset ~48px from the page edges, showing a tradesperson at work (a seamstress at a machine). Left: 3-line headline, 2-line subhead and an inline review row. Right: a white card (~280px wide, ~14px radius) with a bold question, 5 checkmarked service lines, '… or anything else', a full-width pill button and microcopy. Below the hero is a 5-column benefit strip with line icons and 2-line captions.",
+      "type": "Headline in a condensed grotesk, bold, ~48px, white, leading ~1.0, sentence case ('Find trusted alterations services near you'). Card heading navy bold ~16px. Body and list are sans ~13px.",
+      "color": "Royal blue ~#2B5BE8 for the button, checks and logo. Navy ~#0F1F5C for card text. White card on a warm photo, with blue organic shapes painted over the bottom edge of the photo.",
+      "details": [
+        "The checklist names actual services with 'near you' phrasing (good for local SEO)",
+        "Reassurance microcopy sits under the button: 'It only takes 2 minutes. And it's free.'",
+        "A rating line ('Excellent rating – 4.5/5 (9200+ reviews)') sits directly under the headline",
+        "Benefit strip includes 'Same day or next day service at no extra cost'"
+      ],
+      "why_it_works": "The most trade-native layout found. The hero is the lead form, but the card looks like a friendly menu of services rather than a form, and proof sits next to the promise.",
+      "trade_adaptation": "Plumber: photo of a tech under a sink. Headline 'Find a licensed plumber in Tacoma today'. Card: 'What needs fixing?' with Leaks & drips / Water heaters / Clogged drains / Sump pumps / Repipes, button 'Get my free quote →', and 'Takes 60 seconds. No obligation.'",
+      "mood": ["friendly", "bold"],
+      "quality": 5
+    },
+    {
+      "id": "mobbin:e65538de-469a-47f1-ab76-acfe43328bb4",
+      "site": "T1 Energy",
+      "url": "https://mobbin.com/sites/sections/e65538de-469a-47f1-ab76-acfe43328bb4",
+      "pattern": "collage",
+      "layout": "White page with a heavy blocky wordmark top-left and a gray pill nav top-right holding a white 'CONTACT' chip. A left-aligned 2-line headline sits small (~30px) near the top. Below it is an asymmetric collage of two top-aligned photos with very large radius (~32px): a big facade with an embossed logo (~58% width) and a smaller photo (~28%) of a worker in a white hard hat and navy coveralls looking over a solar field.",
+      "type": "Neutral grotesk, light/regular, ~30px. Two-tone by color, not weight: line 1 in black, line 2 ('from Austin, Texas') in light gray.",
+      "color": "White ~#FFFFFF, ink ~#111111, second line ~#BDBDBD. Photos are cool and slightly desaturated (gray sky, dry grass).",
+      "details": [
+        "The location is part of the headline, set in gray as a quiet second line",
+        "Photos of different sizes are top-aligned with generous gaps",
+        "Very round corners soften the industrial subject",
+        "There is no button in the hero; the contact chip in the nav does that job"
+      ],
+      "why_it_works": "Restraint: the headline is small and the real photography does the selling. Naming the city in the headline grounds the brand.",
+      "trade_adaptation": "Electrician or solar installer: 'Wiring homes for what's next / from Boise, Idaho', with a crew member in branded gear on a roof and a finished panel or service-panel install.",
+      "mood": ["minimal", "industrial", "premium"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:bcc69c0a-d540-4630-ab2a-b9635edd0283",
+      "site": "Waabi",
+      "url": "https://mobbin.com/sites/sections/bcc69c0a-d540-4630-ab2a-b9635edd0283",
+      "pattern": "fullbleed-photo",
+      "layout": "Full-bleed still of a highway interchange with a branded truck crossing. A tiny white pill nav (~170px: logo, 'Home', hamburger) is centered at the top. A huge left-aligned 2-line headline sits in the sky band. A 2-line subline is anchored bottom-left.",
+      "type": "Soft-serif display, regular, ~72px, leading ~1.0: 'Built to think. / Born to haul.' Subline is sans ~18px, white.",
+      "color": "Natural photo: sage-gray sky ~#9FB0A8, greens and concrete. White text with no overlay, because the sky is mid-tone.",
+      "details": [
+        "Two short parallel sentences with the same rhythm",
+        "Headline placed where the photo is calm (sky), copy where the ground is busy",
+        "The nav shrinks to a token pill so the photo dominates",
+        "The branded vehicle in the shot works as a logo"
+      ],
+      "why_it_works": "A parallel-sentence headline over a working vehicle feels credible and industrial without gritty clichés.",
+      "trade_adaptation": "HVAC or plumbing: wrapped service van on a leafy residential street, 'Booked by noon. / Fixed by dinner.', subline 'Same-day service across Greater Columbus.'",
+      "mood": ["bold", "industrial", "editorial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:20db4fde-5843-481a-9907-f12cd851e211",
+      "site": "YLLW",
+      "url": "https://mobbin.com/sites/sections/20db4fde-5843-481a-9907-f12cd851e211",
+      "pattern": "fullbleed-photo",
+      "layout": "Yellow utility bar with three slots (tagline / price offer / language). White nav with grouped links and a square-cornered tan 'Book a meeting' button. Full-bleed warehouse-aisle photo with strong one-point perspective. The centered headline sits at the vanishing point. Translucent sub-category tabs sit top-center. The next slide's title peeks at the right edge. Body copy with a solid white and an outline button sits bottom-right; square arrow buttons sit bottom-left.",
+      "type": "Condensed grotesk caps (Antonio / Druk feel), ~56px, white, tight tracking ('REUSE FOR REAL'). Body sans ~14px. Nav sans ~12px.",
+      "color": "Utility yellow ~#FFE000, tan button ~#C9C2AE, white. The photo is industrial red racking, gray concrete and cardboard tones.",
+      "details": [
+        "The perspective lines of the photo point at the headline",
+        "Square buttons, no radius, matching the industrial subject",
+        "The peeking next-slide label hints at a carousel without dots",
+        "The utility bar carries a price hook ('from 49kr/m²')"
+      ],
+      "why_it_works": "It handles an industrial subject with editorial restraint. The condensed caps and the photo geometry do all the work.",
+      "trade_adaptation": "Remodeler or garage-door company: workshop or job-site perspective shot, 'BUILT RIGHT. BUILT LOCAL.', utility bar 'Free in-home estimates · Financing from $89/mo · (555) 012-3456'.",
+      "mood": ["industrial", "bold"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:9f8681c4-e918-4037-b76d-1fea2cdc85b7",
+      "site": "Heron AI",
+      "url": "https://mobbin.com/sites/sections/9f8681c4-e918-4037-b76d-1fea2cdc85b7",
+      "pattern": "editorial-type",
+      "layout": "Off-white paper with hairline grid lines and crosshair registration marks. The nav is a row of bordered cells (logo, 4 links, red 'CONTACT US →' cell). A detailed ink drawing of a modern concrete house with bare trees is centered, with two small red square annotation markers and a coordinate readout. Bottom band split into cells: a giant headline left, body in the middle, red 'DISCOVER MORE' right. A mono benefit ticker runs underneath.",
+      "type": "Headline in heavy grotesk caps, ~44px, 2 lines, tight leading. Nav, labels and ticker in monospace ~10px caps. Body sans ~12px.",
+      "color": "Paper ~#F1F0EA, ink ~#1A1A1A, hairlines ~#D8D6CC, a single spot red ~#E8402A for markers and CTA.",
+      "details": [
+        "Drafting-table metaphor: grid, crosshairs, coordinates",
+        "One spot color used only for annotations and the CTA",
+        "A line drawing instead of a photo gives a timeless, crafted feel",
+        "Ticker of benefits separated by ◎ glyphs"
+      ],
+      "why_it_works": "It feels authoritative and handmade at the same time, like plans on a builder's table.",
+      "trade_adaptation": "Builder, remodeler or architectural roofer: an SVG line drawing of the house type they work on, headline 'WE BUILD ADDITIONS THAT LOOK ORIGINAL', ticker 'LICENSED ◎ BONDED ◎ INSURED ◎ 10-YR WORKMANSHIP WARRANTY'.",
+      "mood": ["technical", "editorial", "industrial"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:4dcd9b44-680f-448a-bbbb-ef8a5fdfc7b8",
+      "site": "Samara",
+      "url": "https://mobbin.com/sites/sections/4dcd9b44-680f-448a-bbbb-ef8a5fdfc7b8",
+      "pattern": "editorial-type",
+      "layout": "White page. A huge left-aligned headline paragraph runs 4 lines, with small cut-out product photos (~80px wide) inserted inline in place of words. Below: a 2-line subline whose second line is gray, then a tiny gray link line for visitors outside the service area.",
+      "type": "Neo-grotesk regular/light, ~44px, tight tracking, leading ~1.05. Subline ~18px. Fallback link ~11px.",
+      "color": "White ~#FFFFFF, ink ~#111111, secondary gray ~#9A9A9A. The only color comes from the inline product photos.",
+      "details": [
+        "Inline images act as nouns in the sentence",
+        "Availability is said quietly in gray: 'Available now in California.'",
+        "Out-of-area fallback: 'Not in California? Tell us where to build next ›'"
+      ],
+      "why_it_works": "The product photos become punctuation, and the service-area limit is handled gracefully instead of hidden.",
+      "trade_adaptation": "Landscaper: 'Patios [img], retaining walls [img] and lawns [img] built to last in Bend.' + 'Not in our area? Tell us where you are.'",
+      "mood": ["minimal", "editorial", "premium"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:42aaad97-8c45-41d3-be1e-c4b9b9654332",
+      "site": "Büro",
+      "url": "https://mobbin.com/sites/sections/42aaad97-8c45-41d3-be1e-c4b9b9654332",
+      "pattern": "fullbleed-photo",
+      "layout": "Full-bleed black-and-white photo of a 9-person team in matching black tees, posed in a white studio with strings radiating overhead. A 3-line headline is set over the top third of the photo, indented on line 1. Tiny corner labels sit on the top edge: city left, '&' center, city right.",
+      "type": "Grotesk regular, ~40px, black on the light photo. Corner labels ~11px. An inline glyph sits in the headline.",
+      "color": "Monochrome: white studio ~#EDEDED, black clothing, ink ~#111111.",
+      "details": [
+        "Locations as corner labels, like a print masthead",
+        "Black-and-white unifies mismatched people and clothing",
+        "The headline overlaps the photo instead of sitting above it"
+      ],
+      "why_it_works": "For a service business the crew is the product. A confident group photo builds more trust than any icon.",
+      "trade_adaptation": "Electrician or plumbing crew in uniform, black-and-white. Corners 'Serving Dayton' / 'Since 1987'. Headline 'We're the Miller brothers. Twelve electricians, one phone number.'",
+      "mood": ["editorial", "friendly", "bold"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:6eba99cc-fda4-4362-8e25-11183c0fb552",
+      "site": "Amperos",
+      "url": "https://mobbin.com/sites/sections/6eba99cc-fda4-4362-8e25-11183c0fb552",
+      "pattern": "collage",
+      "layout": "Light page. A small kicker sits above a left-aligned 2-line serif headline, followed by two buttons (dark filled, light outline). Below is a centered cut-out portrait of a professional with a torn-paper bottom edge, flanked by layered fragments: a stat card ('Recovery rate +18.7%' with a mini area chart and '2,865 claims processed'), a scanned form, a lavender signed letter and a paper airplane.",
+      "type": "Text serif (Tiempos feel), regular, ~44px. Kicker sans ~11px. Stat card mixes a serif number ~22px with sans labels.",
+      "color": "Off-white ~#FBFAF8, dark brown button ~#3B1F14, lavender ~#B9A6F5, kraft ~#C8A27A, natural skin and olive jacket.",
+      "details": [
+        "Torn-paper edges and real document textures",
+        "The stat card overlaps the portrait, so proof touches the person",
+        "Secondary CTA is a calculator ('Calculate your ROI')"
+      ],
+      "why_it_works": "A collage of person plus paperwork plus a number tells a whole trust story in one image.",
+      "trade_adaptation": "Pest control or HVAC: cut-out of a technician with a 'Homes treated this year: 1,240' card, a fragment of an inspection report and a warranty card. Secondary CTA 'Estimate my cost'.",
+      "mood": ["warm", "editorial", "premium"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:5f102176-119f-4b67-b224-49ca9d2e2b44",
+      "site": "Fauna Robotics",
+      "url": "https://mobbin.com/sites/sections/5f102176-119f-4b67-b224-49ca9d2e2b44",
+      "pattern": "contained-photo",
+      "layout": "Cream background. Top-right: a light beige pill holding the nav links (active link in orange), with a separate orange 'Request Robot' pill beside it. A centered 2-line headline (~40px) sits above a wide (~95%) photo with ~24px radius of a real workshop (pegboard, bench power supplies, red parts bins, fluorescent tubes) and a person at work.",
+      "type": "Grotesk medium, ~40px, tight tracking, leading ~1.1. Line 1 is a list of three adjectives: 'Capable, safe, fun.'",
+      "color": "Cream ~#F8EEE4, ink ~#1C1C1C, orange ~#FF5A36 used only for the CTA and the active link.",
+      "details": [
+        "An unstaged, cluttered workshop photo reads as honest",
+        "The CTA pill is separated from the nav pill",
+        "Three-adjective first line, then a plain statement"
+      ],
+      "why_it_works": "A real workspace plus a warm cream/orange palette feels human and capable without looking like stock.",
+      "trade_adaptation": "Any trade: a shop or van-interior photo of tools in use, headline 'Licensed, tidy, on time. / Plumbing for Tulsa.', orange 'Book a visit' pill.",
+      "mood": ["warm", "friendly"],
+      "quality": 4
+    },
+    {
+      "id": "mobbin:3d371462-eede-464f-9512-2ecc9a3e008a",
+      "site": "Daylight",
+      "url": "https://mobbin.com/sites/sections/3d371462-eede-464f-9512-2ecc9a3e008a",
+      "pattern": "fullbleed-photo",
+      "layout": "Full-bleed sunset photo (orange sky fading to black hills, a pale sun disc) with a floating white pill nav. Top-left: mono kicker and a 2-line serif headline. Bottom: a row of three yellow cards, each with a mono step label, separated by › chevrons, holding short bullet lists.",
+      "type": "Serif regular, ~52px, white. Step labels in mono ~10px caps ('01 — SCOPE', '02 — INSTALL', '03 — POWER ON'). List items sans ~12px.",
+      "color": "Orange-to-black photo, cards ~#FFCF40, card ink ~#3A2A00, white headline.",
+      "details": [
+        "Numbered mono labels with em dashes",
+        "Chevrons between cards imply sequence",
+        "Includes a timeline line: 'Typical timeline: 12–14 weeks from contract to activation'"
+      ],
+      "why_it_works": "Putting the process in the hero answers 'what happens next?' before the visitor has to ask.",
+      "trade_adaptation": "Roofer: '01 — INSPECT / 02 — QUOTE / 03 — INSTALL' cards over a dusk rooftop photo, with 'Most roofs replaced in 2 days' in card 3.",
+      "mood": ["warm", "premium", "editorial"],
+      "quality": 4
+    }
+  ],
+  "takeaways": [
+    "Show the customer's world or the crew, not generic stock: an aerial of the neighbourhood (Daylight), a real workshop (Fauna), a crew portrait (Büro), a worker in PPE (T1). The photo is the trust signal.",
+    "Put the headline in a calm part of the photo (sky, vanishing point, plain wall) instead of dark-overlaying the whole image.",
+    "Let one display face carry the hero. Choose either a refined serif at regular weight (Daylight, Waabi, Amperos) or condensed caps (YLLW, Heron, Airtasker), not a default bold geometric sans.",
+    "Name the place: 'from Austin, Texas', corner city labels, 'near you'. A local business should say its town in the first screen.",
+    "Put proof right next to the promise: a rating line under the headline, a stat card, a checklist of services, 'takes 2 minutes' microcopy.",
+    "Use one specific primary action. It can live in the nav pill. Secondary actions are quiet outlines or text links.",
+    "Small mono kickers, numbered step labels ('01 —') and hairline rules add a crafted, technical layer cheaply.",
+    "Contained photos get generous radius (16-32px) and page margins; full-bleed is only worth it when the photo is strong and has calm space."
+  ],
+  "avoid": [
+    "Centered headline on a purple/indigo gradient with nested glowing frames or blob shapes (Mixpanel, the HubSpot services blob).",
+    "Product-UI screenshots or dashboards stacked in the hero (Vanta, Maze, Kastle). Trades have no UI to show.",
+    "Multicolor gradient text in the headline (Contra 'Independent experts').",
+    "Abstract 3D renders, AI-art landscapes or glass objects with no link to the work (Unseen Studio, Anima, Save.design, Kastle spiral).",
+    "Long 6-10 field enterprise lead forms in the hero (15Five, Calm, ClassPass, Headspace). They read as paperwork, not service.",
+    "Stock 'diverse team laughing at laptop' or hands-in-arch photos with a vague 'Learn more' (Zendesk, Vanta video tile).",
+    "Two equal-weight buttons under a centered headline on an empty light background (Cursor, Airbnb apartments)."
+  ]
+}

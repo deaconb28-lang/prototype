@@ -1,0 +1,120 @@
+{
+  "id": "jobsite-industrial",
+  "name": "Jobsite Industrial",
+  "summary": "Tall condensed caps, concrete and black, hi-vis yellow. Built like signage on a work truck.",
+  "best_for": [
+    "roofing",
+    "garage-doors",
+    "electrical",
+    "hvac",
+    "plumbing"
+  ],
+  "fonts": {
+    "display": {
+      "family": "Big Shoulders Display",
+      "google": "Big+Shoulders+Display:wght@700;800;900"
+    },
+    "body": {
+      "family": "Barlow",
+      "google": "Barlow:wght@400;500;600;700"
+    },
+    "label": {
+      "family": "Barlow Condensed",
+      "google": "Barlow+Condensed:wght@600;700"
+    }
+  },
+  "tokens": {
+    "--bg": "#f2efe8",
+    "--surface": "#ffffff",
+    "--surface-2": "#e7e3da",
+    "--ink": "#111111",
+    "--ink-2": "#55524c",
+    "--line": "#d6d1c6",
+    "--line-strong": "#111111",
+    "--accent": "#ffc72c",
+    "--accent-hover": "#f5b800",
+    "--accent-ink": "#111111",
+    "--accent-text": "#8a5a00",
+    "--accent-2": "#ffe9a8",
+    "--dark": "#111111",
+    "--dark-ink": "#f2efe8",
+    "--dark-ink-2": "#bdb8ad",
+    "--dark-line": "rgba(242,239,232,.18)",
+    "--banner-bg": "#ff5a1f",
+    "--banner-ink": "#111111",
+    "--font-display": "'Big Shoulders Display', 'Arial Narrow', sans-serif",
+    "--font-body": "'Barlow', system-ui, sans-serif",
+    "--font-mono": "'Barlow Condensed', sans-serif",
+    "--display-weight": "800",
+    "--display-case": "uppercase",
+    "--display-tracking": "-0.005em",
+    "--display-leading": "0.9",
+    "--h1": "clamp(3.2rem, 7.4vw, 6.6rem)",
+    "--h1-xl": "clamp(3.6rem, 10vw, 9rem)",
+    "--h2": "clamp(2.4rem, 4.6vw, 4rem)",
+    "--h3": "1.6rem",
+    "--h1-page": "clamp(2.8rem, 6vw, 5rem)",
+    "--eyebrow-font": "'Barlow Condensed', sans-serif",
+    "--eyebrow-size": ".95rem",
+    "--eyebrow-tracking": ".08em",
+    "--eyebrow-weight": "700",
+    "--eyebrow-color": "var(--ink)",
+    "--radius": "0px",
+    "--radius-lg": "0px",
+    "--radius-sm": "0px",
+    "--btn-radius": "0px",
+    "--card-border": "2px solid var(--ink)",
+    "--btn-font": "'Barlow Condensed', sans-serif",
+    "--btn-case": "uppercase",
+    "--btn-tracking": ".06em",
+    "--btn-weight": "700",
+    "--logo-font": "'Big Shoulders Display', sans-serif",
+    "--logo-weight": "900",
+    "--logo-size": "1.6rem",
+    "--logo-case": "uppercase",
+    "--logo-radius": "0px",
+    "--logo-tracking": "0",
+    "--step-font": "'Big Shoulders Display', sans-serif",
+    "--step-size": "2.6rem",
+    "--quote-font": "'Barlow', sans-serif",
+    "--quote-weight": "600",
+    "--star": "#111111",
+    "--utility-bg": "#111111",
+    "--accent-on-dark": "#ffc72c",
+    "--scrim": "linear-gradient(90deg, rgba(10,10,10,.86) 0%, rgba(10,10,10,.62) 45%, rgba(10,10,10,.2) 100%)",
+    "--img-filter": "saturate(.9) contrast(1.05)"
+  },
+  "variants": {
+    "nav": "utility",
+    "hero": "form",
+    "services": "list",
+    "process": "row",
+    "gallery": "grid",
+    "reviews": "cards",
+    "faq": "twocol",
+    "cta": "band",
+    "footer": "big"
+  },
+  "references": [
+    {
+      "site": "Zipline",
+      "url": "https://mobbin.com/sites/sections/239e376b-3d62-411f-8e41-7b5378aace0c",
+      "what": "Ultra-condensed heavy black caps on warm cream with a product cutout and lots of empty space."
+    },
+    {
+      "site": "adidas",
+      "url": "https://mobbin.com/screens/cd7c632e-7f3d-48a6-bc09-2f2e3e932e43",
+      "what": "Condensed caps in white label boxes laid over photos, square buttons with long arrows, black/white triptych photo band."
+    },
+    {
+      "site": "Superpower",
+      "url": "https://mobbin.com/sites/sections/40a6f62d-7080-47e4-b4b9-25f25c41b2ee",
+      "what": "Black field, one orange-red square CTA in the nav, mono caps nav, white square button, thin vertical line dropping from the CTA."
+    },
+    {
+      "site": "Base44 (Urban Kinetic design)",
+      "url": "https://mobbin.com/screens/02d79412-1248-4190-b6df-b1061d4cbdc2",
+      "what": "Gritty dark photo, condensed caps display, single hi-vis block CTA, tracked mono tags, vertical 'SCROLL DOWN' rail text, segmented tab filter."
+    }
+  ]
+}

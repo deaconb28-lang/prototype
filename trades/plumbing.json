@@ -1,0 +1,249 @@
+{
+  "id": "plumbing",
+  "name": "Plumbing",
+  "noun": "plumber",
+  "schema_type": "Plumber",
+  "emergency": {
+    "enabled": true,
+    "label": "Burst pipe, sewage backup or no water?",
+    "detail": "Shut off the main water valve, then call. We take emergency calls across {{area}}, nights and weekends included."
+  },
+  "financing": true,
+  "maintenance_plan": {
+    "enabled": true,
+    "name": "Home plumbing plan",
+    "pitch": "One visit a year to flush the water heater, test the shutoff valves, check for slow leaks and look over your drains, plus priority scheduling and a discount on repairs."
+  },
+  "hero": {
+    "headlines": [
+      "Plumbers who show up in the window we give you.",
+      "Clogged drain or leaking pipe in {{city}}? We can fix it today.",
+      "A flat price, in writing, before we pick up a wrench.",
+      "New water heater installed in one visit, old one hauled away."
+    ],
+    "subheads": [
+      "We find the problem, give you a flat price for the fix and don't start until you say yes.",
+      "Drains, leaks, water heaters and sewer lines for homes across {{area}}, from licensed plumbers.",
+      "Our trucks carry the common parts, so most repairs are finished in one visit."
+    ],
+    "primary_cta": "Book a plumber",
+    "secondary_cta": "Call {{phone}}"
+  },
+  "services": [
+    {
+      "slug": "drain-cleaning",
+      "name": "Drain cleaning",
+      "short": "Slow and clogged sinks, tubs, toilets and main lines cleared.",
+      "long": "We clear the clog with a cable machine or a hydro-jetter depending on what's in the line, then run water to make sure it drains the way it should. If the same drain keeps backing up, we can run a camera to see whether it's roots, grease or a broken pipe.",
+      "bullets": [
+        "Kitchen, bath, laundry and floor drains",
+        "Main line clearing from the cleanout",
+        "Hydro-jetting for grease and heavy buildup",
+        "Camera inspection when clogs keep coming back"
+      ],
+      "icon": "pipe",
+      "emergency": false
+    },
+    {
+      "slug": "leak-repair",
+      "name": "Leak and pipe repair",
+      "short": "Burst pipes, pinhole leaks and dripping fittings found and fixed.",
+      "long": "A small leak inside a wall can do more damage than a burst pipe you can see. We find the source, repair or replace the damaged section and tell you if the rest of that pipe is likely to fail the same way.",
+      "bullets": [
+        "Copper, PEX, CPVC and galvanized pipe repair",
+        "Shutoff valve replacement",
+        "Frozen and burst pipe repair",
+        "Leak detection in walls, ceilings and slabs"
+      ],
+      "icon": "droplet",
+      "emergency": true
+    },
+    {
+      "slug": "water-heaters",
+      "name": "Water heaters",
+      "short": "Tank and tankless water heaters repaired or replaced, usually in one visit.",
+      "long": "Most tank water heaters last 8 to 12 years. If yours is leaking or running out of hot water, we'll tell you whether a repair makes sense or a replacement is the better spend. Most tank swaps are done the same day, and we haul the old one away.",
+      "bullets": [
+        "Gas and electric tank heaters, 40 to 80 gallons",
+        "Tankless installs, including gas line and venting changes",
+        "Expansion tanks and other code-required parts",
+        "Permit and haul-away included in the price"
+      ],
+      "icon": "heater",
+      "emergency": false
+    },
+    {
+      "slug": "toilets-faucets",
+      "name": "Toilets, faucets and disposals",
+      "short": "Running toilets, dripping faucets and jammed disposals repaired or replaced.",
+      "long": "These are small jobs, but they waste water and money when they're left alone. We repair what can be repaired and install new fixtures, whether you bought them or want us to supply them.",
+      "bullets": [
+        "Toilet repair and replacement",
+        "Kitchen and bath faucet installs",
+        "Garbage disposal repair and replacement",
+        "Shower valve and cartridge replacement"
+      ],
+      "icon": "wrench",
+      "emergency": false
+    },
+    {
+      "slug": "sewer-line",
+      "name": "Sewer line repair",
+      "short": "Camera inspections, root clearing and sewer line repair or replacement.",
+      "long": "Gurgling drains, sewage smells or backups in the lowest drain in the house usually point to the main sewer line. We run a camera down the line, show you the video and give you options from a spot repair to full replacement, including trenchless methods where the line allows.",
+      "bullets": [
+        "Video camera inspection with a recording you keep",
+        "Root cutting and hydro-jetting",
+        "Spot repairs and full line replacement",
+        "Trenchless lining or pipe bursting where it fits"
+      ],
+      "icon": "shovel",
+      "emergency": false
+    },
+    {
+      "slug": "sump-pumps",
+      "name": "Sump pumps",
+      "short": "Sump pumps installed, replaced and backed up so the basement stays dry.",
+      "long": "A sump pump only matters if it works during the worst storm of the year. We install and replace pumps, check the float and check valve, and add a battery backup so it keeps running when the power goes out.",
+      "bullets": [
+        "Primary pump replacement",
+        "Battery and water-powered backup pumps",
+        "Check valves and discharge lines",
+        "High-water alarms"
+      ],
+      "icon": "drain",
+      "emergency": false
+    },
+    {
+      "slug": "gas-lines",
+      "name": "Gas lines",
+      "short": "Gas lines run for ranges, dryers, grills and generators, then pressure-tested.",
+      "long": "Gas work needs a licensed plumber and, in most places, a permit and an inspection. We run new lines, add shutoff valves and pressure-test every connection before the gas goes back on.",
+      "bullets": [
+        "New lines for ranges, dryers, fireplaces and grills",
+        "Generator and pool heater hookups",
+        "Pressure testing and leak checks",
+        "Permit and inspection scheduled for you"
+      ],
+      "icon": "flame",
+      "emergency": false
+    },
+    {
+      "slug": "repiping",
+      "name": "Whole-house repiping",
+      "short": "Old galvanized or failing pipes replaced with PEX or copper.",
+      "long": "Low water pressure, rusty water or leaks popping up in different places can mean the pipes themselves are worn out. We repipe with PEX or copper, open as little drywall as we can and can patch the openings when we're done.",
+      "bullets": [
+        "PEX or copper supply lines",
+        "Most homes done in two to five days",
+        "Water back on at the end of each day where possible",
+        "Drywall patching available"
+      ],
+      "icon": "tools",
+      "emergency": false
+    }
+  ],
+  "process": [
+    { "title": "Call or book online", "detail": "Tell us what's going on and we'll give you an arrival window." },
+    { "title": "Diagnose and price", "detail": "The plumber finds the problem and gives you a flat price for the fix before any work starts." },
+    { "title": "Fix it", "detail": "Most repairs are done in the same visit with parts from the truck." },
+    { "title": "Test and clean up", "detail": "We test the repair, clean the work area and walk you through what we did." }
+  ],
+  "trust": {
+    "certifications": [
+      "Licensed Master Plumber",
+      "PHCC Member",
+      "ASSE 5110 Certified Backflow Tester",
+      "Factory-Trained Tankless Installer (Rinnai, Navien)"
+    ],
+    "license_label": "State plumbing license #",
+    "guarantees": [
+      "Flat price quoted before work starts",
+      "Repairs guaranteed for 1 year, parts and labor",
+      "Water heater installs: 1 year labor, plus the manufacturer's tank warranty",
+      "Floors protected with drop cloths and shoe covers"
+    ],
+    "badges_hint": "A visible state plumbing license number matters most. PHCC membership, BBB accreditation, backflow tester certification and factory training on tankless brands also help. List local utility or water district contractor programs if the business is enrolled. The certifications listed are examples (PHCC is the Plumbing-Heating-Cooling Contractors Association; ASSE 5110 is issued through ASSE International); keep only the ones the business holds."
+  },
+  "faqs": [
+    {
+      "q": "How much does a plumber cost?",
+      "a": "It depends on the job. Clearing a single drain usually runs $150 to $450, and replacing a standard tank water heater usually runs $1,500 to $3,500 installed. We give you a flat price before we start, so you aren't watching the clock."
+    },
+    {
+      "q": "Do you charge a trip or diagnostic fee?",
+      "a": "We tell you the service call fee on the phone before we come out, so there are no surprises. Ask us whether it goes toward the repair if you go ahead with the work."
+    },
+    {
+      "q": "What should I do while I wait for you?",
+      "a": "Turn off the water at the main shutoff (often in the basement, garage or near the water meter) or at the small valve under the fixture. If water is near outlets or appliances, shut off power to that area. Move what you can out of the way and take photos for insurance."
+    },
+    {
+      "q": "I smell gas. What should I do?",
+      "a": "Leave the house first. Don't flip switches or use your phone inside. Call your gas utility or 911 from outside, and once they've made it safe, we can find and fix the leak."
+    },
+    {
+      "q": "Should I repair or replace my water heater?",
+      "a": "If the tank itself is leaking, it needs replacing. If it's a thermostat, element, gas valve or igniter and the heater is under about 8 years old, a repair usually makes sense. Past 10 to 12 years, replacement is often the better spend."
+    },
+    {
+      "q": "Is a slow drain worth calling about?",
+      "a": "One slow drain is usually a local clog. Several slow drains at once, gurgling, or water coming up in a tub or floor drain usually means the main line, and that's worth a call before it backs up into the house."
+    },
+    {
+      "q": "Do you need a permit?",
+      "a": "Water heater replacements, gas lines, sewer work and repiping usually need a permit and an inspection. We pull the permit and include it in your price. Small repairs like faucets and drain clearing usually don't need one."
+    },
+    {
+      "q": "Do you guarantee your work?",
+      "a": "Yes. Repairs are covered for one year on parts and labor, and new fixtures and water heaters also carry the manufacturer's warranty. If something we fixed fails, call us and we come back."
+    }
+  ],
+  "quote_form": {
+    "title": "Book a plumber",
+    "fields": [
+      { "name": "name", "label": "Name", "type": "text", "required": true },
+      { "name": "phone", "label": "Phone", "type": "tel", "required": true },
+      {
+        "name": "issue",
+        "label": "What's going on?",
+        "type": "select",
+        "options": ["Clogged drain", "Leak or burst pipe", "Water heater", "Toilet or faucet", "Sewer line", "Something else"],
+        "required": true
+      },
+      { "name": "zip", "label": "ZIP code", "type": "text", "required": false },
+      { "name": "details", "label": "Anything we should know?", "type": "textarea", "required": false }
+    ],
+    "promise": "We call back within 1 business hour. For an emergency, call {{phone}}."
+  },
+  "seasonal": [
+    "Winter pipe freeze prevention and outdoor faucet shutoff",
+    "Spring sump pump checks before the heavy rains",
+    "Holiday kitchen drain and disposal calls"
+  ],
+  "about_default": "{{name}} has handled plumbing for homes in {{city}} for {{years}} years. We give you a flat price before the work starts, keep our trucks stocked so most jobs finish in one visit and clean up before we leave.",
+  "photo_subjects": {
+    "hero": "A plumber working under a kitchen sink with a work light, tools laid out on a drop cloth",
+    "work": [
+      "New water heater with an expansion tank and clean copper connections",
+      "Sewer camera monitor showing a root intrusion",
+      "PEX repipe with neat, strapped runs",
+      "Sump pump with battery backup in a basement pit",
+      "Hydro-jetter hose running into an outdoor cleanout"
+    ],
+    "team": "Plumbers beside a marked service van with the back doors open, showing organized parts bins"
+  },
+  "keywords": [
+    "plumber {{city}}",
+    "emergency plumber {{city}}",
+    "drain cleaning {{city}}",
+    "water heater replacement {{city}}",
+    "leak repair {{city}}",
+    "sewer line repair {{city}}",
+    "tankless water heater installation {{city}}",
+    "sump pump installation {{city}}",
+    "gas line installation {{city}}",
+    "plumbing company {{area}}"
+  ],
+  "palette_hint": "Deep navy and clean white with a bright water-blue accent."
+}
